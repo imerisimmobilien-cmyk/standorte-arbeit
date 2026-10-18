@@ -840,22 +840,21 @@
   "miete": 9.92,
   "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 1.934, homeday 2.000, miete-aktuell 1.674, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
   "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 9,82, miete-aktuell 9,91, miet-check 10,03. homeday 7,8 (nur daneben).",
-  "score": "gelb",
+  "score": "gruen",
   "prognose": {
-   "wert_pct": null,
+   "wert_pct": 3.4,
    "basisjahr": 2024,
    "zieljahr": 2045,
    "ebene": "Gemeinde",
-   "quelle": "nicht abgerufen"
+   "quelle": "Statistisches Landesamt BW, GENESIS 12421-0006, Basis 2023, Hauptvariante mit Wanderung: 15629 auf 16163 Einwohner (https://daten.statistik-bw.de/genesisonline/online?operation=table&code=12421-0006)"
   },
   "mpb": false,
   "kappung": 20,
   "arbeitgeber": null,
-  "fazit": "Baiersbronn hat 15.465 Einwohner und liegt bei 1.869 €/m² Kauf und 9,92 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2045 liegt bei keine Angabe, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "fazit": "Baiersbronn hat 15.465 Einwohner und liegt bei 1.869 €/m² Kauf und 9,92 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2045 liegt bei +3,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
   "offen": [
    "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
-   "Prognose nicht abrufbar",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]

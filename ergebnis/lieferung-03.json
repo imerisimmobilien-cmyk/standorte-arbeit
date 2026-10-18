@@ -386,23 +386,22 @@
   "miete": 11.1,
   "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 2.929, homeday 3.050, miete-aktuell 3.109, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 11,31, miete-aktuell 10,88. homeday 8,9 (nur daneben).",
-  "score": "gelb",
+  "score": "gruen",
   "prognose": {
-   "wert_pct": null,
+   "wert_pct": 3.4,
    "basisjahr": 2024,
    "zieljahr": 2045,
    "ebene": "Gemeinde",
-   "quelle": "nicht abgerufen"
+   "quelle": "Statistisches Landesamt BW, GENESIS 12421-0006, Basis 2023, Hauptvariante mit Wanderung: 12012 auf 12416 Einwohner (https://daten.statistik-bw.de/genesisonline/online?operation=table&code=12421-0006)"
   },
   "mpb": false,
   "kappung": 20,
   "arbeitgeber": null,
-  "fazit": "Hemsbach hat 11.915 Einwohner und liegt bei 3.029 €/m² Kauf und 11,10 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2045 liegt bei keine Angabe, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "fazit": "Hemsbach hat 11.915 Einwohner und liegt bei 3.029 €/m² Kauf und 11,10 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2045 liegt bei +3,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
   "offen": [
    "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
    "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
-   "Prognose nicht abrufbar",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
