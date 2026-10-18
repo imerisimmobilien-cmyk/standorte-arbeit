@@ -1342,11 +1342,11 @@
   "land": "Bayern",
   "ags": "09373156",
   "einwohner": 5872,
-  "kauf": 2390,
+  "kauf": 2950,
   "miete": 10.38,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.479, Gutachterausschuss Bayern (Kreiswert) 3.300 (Wiederverkäufe ETW 2025). homeday 2.600 (nicht gewertet: mehr als 50 % über der nächsten Quelle). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.600, Gutachterausschuss Bayern (Kreiswert) 3.300 (Wiederverkäufe ETW 2025). miete-aktuell 1.479 (nicht gewertet: unter 60 % des Medians der übrigen Quellen). Ort/PLZ geprüft: homeday.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,07, miet-check 10,70. homeday 7,9 (nur daneben).",
-  "score": "gruen",
+  "score": "gelb",
   "prognose": {
    "wert_pct": -3.1,
    "basisjahr": 2024,
@@ -1357,11 +1357,11 @@
   "mpb": false,
   "kappung": 20,
   "arbeitgeber": null,
-  "fazit": "Pyrbaum hat 5.872 Einwohner und liegt bei 2.390 €/m² Kauf und 10,38 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei -3,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "fazit": "Pyrbaum hat 5.872 Einwohner und liegt bei 2.950 €/m² Kauf und 10,38 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei -3,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Kauf homeday 2.600 nicht gewertet: mehr als 50 % über der nächsten Quelle",
+   "Kauf miete-aktuell 1.479 nicht gewertet: unter 60 % des Medians der übrigen Quellen",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
