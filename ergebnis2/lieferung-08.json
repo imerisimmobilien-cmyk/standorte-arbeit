@@ -7,7 +7,7 @@
   "einwohner": 3181,
   "kauf": 2961,
   "miete": 10.46,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.550, miete-aktuell 3.233, Gutachterausschuss Bayern (Kreiswert) 3.100 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.550, miete-aktuell 3.233, Gutachterausschuss Bayern (Kreiswert) 3.100 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,56, miet-check 11,36. homeday 8,7 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -24,7 +24,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -37,7 +36,7 @@
   "einwohner": 3181,
   "kauf": 3178,
   "miete": 11.26,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.300, miete-aktuell 3.057, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.300, miete-aktuell 3.057, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,07, miet-check 12,45. homeday 8,7 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -54,7 +53,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Prognose nicht abrufbar",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
@@ -67,11 +65,11 @@
   "land": "Baden-Württemberg",
   "ags": "08337118",
   "einwohner": 3167,
-  "kauf": 2524,
+  "kauf": 2697,
   "miete": 9.82,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.350, miete-aktuell 2.697, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
-  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,14, miet-check 11,49. homeday 11,9 (nur daneben).",
-  "score": "gruen",
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.697, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,14, miet-check 11,49.",
+  "score": "gelb",
   "prognose": {
    "wert_pct": 4.3,
    "basisjahr": 2024,
@@ -82,12 +80,13 @@
   "mpb": false,
   "kappung": 20,
   "arbeitgeber": null,
-  "fazit": "Weilheim hat 3.167 Einwohner und liegt bei 2.524 €/m² Kauf und 9,82 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2045 liegt bei +4,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "fazit": "Weilheim hat 3.167 Einwohner und liegt bei 2.697 €/m² Kauf und 9,82 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2045 liegt bei +4,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -100,7 +99,7 @@
   "einwohner": 3183,
   "kauf": 3766,
   "miete": 13.95,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.800, miete-aktuell 3.897, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.800, miete-aktuell 3.897, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 14,26, miet-check 13,63. homeday 8,7 (nur daneben).",
   "score": "gruen",
   "prognose": {
@@ -117,7 +116,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -128,11 +126,11 @@
   "land": "Bayern",
   "ags": "09178142",
   "einwohner": 3125,
-  "kauf": 4293,
+  "kauf": 4032,
   "miete": 11.59,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.579, miete-aktuell 3.401, Gutachterausschuss Bayern (Kreiswert) 4.900 (Wiederverkäufe ETW 2025). homeday 3.250 (nicht gewertet: Ort nicht bestätigt und Abweichung über 25 % vom Median der geprüften Quellen, Ortsverwechslung vermutet). Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.579, homeday 3.250, miete-aktuell 3.401, Gutachterausschuss Bayern (Kreiswert) 4.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,43, miet-check 12,76. homeday 9,1 (nur daneben).",
-  "score": "rot",
+  "score": "gelb",
   "prognose": {
    "wert_pct": 1.3,
    "basisjahr": 2024,
@@ -143,10 +141,9 @@
   "mpb": false,
   "kappung": 20,
   "arbeitgeber": null,
-  "fazit": "Mauern hat 3.125 Einwohner und liegt bei 4.293 €/m² Kauf und 11,59 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +1,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel rot.",
+  "fazit": "Mauern hat 3.125 Einwohner und liegt bei 4.032 €/m² Kauf und 11,59 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +1,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
   "offen": [
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Kauf homeday 3.250 nicht gewertet: Ort nicht bestätigt und Abweichung über 25 % vom Median der geprüften Quellen, Ortsverwechslung vermutet",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -157,10 +154,10 @@
   "land": "Baden-Württemberg",
   "ags": "08315020",
   "einwohner": 3144,
-  "kauf": 2816,
+  "kauf": 2783,
   "miete": 11.76,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.850, miete-aktuell 2.783, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
-  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 11,76. homeday 8,1 (nur daneben).",
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.783, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 11,76.",
   "score": "gelb",
   "prognose": {
    "wert_pct": 1.4,
@@ -172,12 +169,12 @@
   "mpb": false,
   "kappung": 20,
   "arbeitgeber": null,
-  "fazit": "Buchenbach hat 3.144 Einwohner und liegt bei 2.816 €/m² Kauf und 11,76 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2045 liegt bei +1,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "fazit": "Buchenbach hat 3.144 Einwohner und liegt bei 2.783 €/m² Kauf und 11,76 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2045 liegt bei +1,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
@@ -192,7 +189,7 @@
   "einwohner": 3108,
   "kauf": 3346,
   "miete": 13.51,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.850, miete-aktuell 3.768, Engel & Völkers 3.364 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.400 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.850, miete-aktuell 3.768, Engel & Völkers 3.364 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.400 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 13,51. homeday 9,6 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -211,7 +208,7 @@
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday, Engel & Völkers",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -225,7 +222,7 @@
   "einwohner": 3148,
   "kauf": 4924,
   "miete": 13.95,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.950, miete-aktuell 5.023, Gutachterausschuss Bayern (Kreiswert) 4.800 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.950, miete-aktuell 5.023, Gutachterausschuss Bayern (Kreiswert) 4.800 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 12,73, miet-check 15,16. homeday 11,4 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -242,7 +239,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -255,7 +251,7 @@
   "einwohner": 3122,
   "kauf": 4167,
   "miete": 11.56,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.150, miete-aktuell 4.470, Engel & Völkers 3.749 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 4.300 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.150, miete-aktuell 4.470, Engel & Völkers 3.749 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 4.300 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 11,06, miet-check 12,06. homeday 9,3 (nur daneben).",
   "score": "rot",
   "prognose": {
@@ -273,7 +269,7 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday, Engel & Völkers",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -286,7 +282,7 @@
   "einwohner": 3170,
   "kauf": 2804,
   "miete": 10.51,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.800, miete-aktuell 2.808, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.800, miete-aktuell 2.808, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,75, miet-check 11,27. homeday 7,5 (nur daneben).",
   "score": "gruen",
   "prognose": {
@@ -303,7 +299,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -317,7 +312,7 @@
   "einwohner": 3157,
   "kauf": 2708,
   "miete": 9.92,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.800, miete-aktuell 2.617, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.800, miete-aktuell 2.617, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,06, miet-check 10,78. homeday 8,4 (nur daneben).",
   "score": "gruen",
   "prognose": {
@@ -334,7 +329,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -348,7 +342,7 @@
   "einwohner": 3132,
   "kauf": 5310,
   "miete": 12.99,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.950, miete-aktuell 5.418, Engel & Völkers 5.770 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 5.100 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.950, miete-aktuell 5.418, Engel & Völkers 5.770 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 5.100 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 12,99. homeday 10,7 (nur daneben).",
   "score": "rot",
   "prognose": {
@@ -367,7 +361,7 @@
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday, Engel & Völkers",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -381,7 +375,7 @@
   "einwohner": 3123,
   "kauf": 2791,
   "miete": 11.26,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.800, miete-aktuell 2.781, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.800, miete-aktuell 2.781, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,87, miet-check 11,65. homeday 8,9 (nur daneben).",
   "score": "gruen",
   "prognose": {
@@ -398,7 +392,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -410,9 +403,9 @@
   "land": "Bayern",
   "ags": "09780121",
   "einwohner": 3156,
-  "kauf": 4442,
+  "kauf": 4894,
   "miete": 11.51,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 5.283, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). homeday 5.800 (nicht gewertet: Ort nicht bestätigt und Abweichung über 25 % vom Median der geprüften Quellen, Ortsverwechslung vermutet). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 5.800, miete-aktuell 5.283, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 11,51. homeday 10,4 (nur daneben).",
   "score": "rot",
   "prognose": {
@@ -425,12 +418,11 @@
   "mpb": false,
   "kappung": 20,
   "arbeitgeber": null,
-  "fazit": "Fischen i.Allgäu hat 3.156 Einwohner und liegt bei 4.442 €/m² Kauf und 11,51 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +1,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel rot.",
+  "fazit": "Fischen i.Allgäu hat 3.156 Einwohner und liegt bei 4.894 €/m² Kauf und 11,51 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +1,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel rot.",
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
-   "Kauf homeday 5.800 nicht gewertet: Ort nicht bestätigt und Abweichung über 25 % vom Median der geprüften Quellen, Ortsverwechslung vermutet",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -444,7 +436,7 @@
   "einwohner": 3057,
   "kauf": 4207,
   "miete": 10.19,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.850, miete-aktuell 4.172, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.850, miete-aktuell 4.172, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 10,19. homeday 9,7 (nur daneben).",
   "score": "rot",
   "prognose": {
@@ -462,7 +454,6 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -476,7 +467,7 @@
   "einwohner": 3144,
   "kauf": 4076,
   "miete": 13.05,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.100, miete-aktuell 3.628, Engel & Völkers 4.575 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 4.000 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.100, miete-aktuell 3.628, Engel & Völkers 4.575 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 4.000 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 12,90, miet-check 13,20. homeday 10,1 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -494,7 +485,7 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday, Engel & Völkers",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -507,7 +498,7 @@
   "einwohner": 3151,
   "kauf": 5077,
   "miete": 15.56,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 5.800, miete-aktuell 5.434, Engel & Völkers 5.174 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 5.800, miete-aktuell 5.434, Engel & Völkers 5.174 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 15,93, miet-check 15,19. homeday 12,0 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -525,7 +516,7 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday, Engel & Völkers",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -538,7 +529,7 @@
   "einwohner": 3074,
   "kauf": 2572,
   "miete": 10.53,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.650, miete-aktuell 2.495, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.650, miete-aktuell 2.495, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,17, miet-check 10,89. homeday 8,5 (nur daneben).",
   "score": "gruen",
   "prognose": {
@@ -555,7 +546,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -569,7 +559,7 @@
   "einwohner": 3059,
   "kauf": 3755,
   "miete": 10.87,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.650, miete-aktuell 3.891, Engel & Völkers 4.278 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.200 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.650, miete-aktuell 3.891, Engel & Völkers 4.278 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.200 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,19, miet-check 11,55. homeday 8,6 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -587,7 +577,7 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday, Engel & Völkers",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -600,7 +590,7 @@
   "einwohner": 3072,
   "kauf": 4126,
   "miete": 13.39,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.900, miete-aktuell 4.179, Gutachterausschuss Bayern (Kreiswert) 4.300 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.900, miete-aktuell 4.179, Gutachterausschuss Bayern (Kreiswert) 4.300 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 12,14, miet-check 14,63. homeday 10,5 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -617,7 +607,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -630,7 +619,7 @@
   "einwohner": 3106,
   "kauf": 2914,
   "miete": 9.74,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.600, miete-aktuell 3.229, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.600, miete-aktuell 3.229, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,38, miet-check 10,10. homeday 8,0 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -647,7 +636,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Prognose nicht abrufbar",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
@@ -662,7 +650,7 @@
   "einwohner": 3105,
   "kauf": 3890,
   "miete": 13.02,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.750, miete-aktuell 4.030, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.750, miete-aktuell 4.030, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 12,11, miet-check 13,92. homeday 10,0 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -679,7 +667,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -693,7 +680,7 @@
   "einwohner": 3020,
   "kauf": 3783,
   "miete": 12.77,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.650, miete-aktuell 4.100, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.650, miete-aktuell 4.100, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 12,25, miet-check 13,28. homeday 10,9 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -710,7 +697,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -723,7 +709,7 @@
   "einwohner": 3061,
   "kauf": 3999,
   "miete": 10.56,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.650, miete-aktuell 4.194, Engel & Völkers 4.250 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.650, miete-aktuell 4.194, Engel & Völkers 4.250 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,44, miet-check 11,69. homeday 9,6 (nur daneben).",
   "score": "rot",
   "prognose": {
@@ -741,7 +727,7 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday, Engel & Völkers",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -754,7 +740,7 @@
   "einwohner": 3095,
   "kauf": 3965,
   "miete": 13.11,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.850, miete-aktuell 4.149, Engel & Völkers 4.263 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.850, miete-aktuell 4.149, Engel & Völkers 4.263 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 12,62, miet-check 13,60. homeday 9,7 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -772,7 +758,7 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday, Engel & Völkers",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -785,7 +771,7 @@
   "einwohner": 3056,
   "kauf": 3282,
   "miete": 9.98,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.800, miete-aktuell 3.447, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.800, miete-aktuell 3.447, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,73, miet-check 11,23. homeday 7,8 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -802,7 +788,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -815,7 +800,7 @@
   "einwohner": 3044,
   "kauf": 3231,
   "miete": 12.92,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.300, miete-aktuell 3.162, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.300, miete-aktuell 3.162, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 13,17, miet-check 12,67. homeday 9,6 (nur daneben).",
   "score": "gruen",
   "prognose": {
@@ -832,7 +817,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -846,7 +830,7 @@
   "einwohner": 3082,
   "kauf": 2815,
   "miete": 10.0,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.450, miete-aktuell 3.179, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.450, miete-aktuell 3.179, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,25, miet-check 10,75. homeday 8,8 (nur daneben).",
   "score": "gruen",
   "prognose": {
@@ -863,7 +847,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -877,7 +860,7 @@
   "einwohner": 3056,
   "kauf": 3268,
   "miete": 10.54,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.050, miete-aktuell 3.354, Gutachterausschuss Bayern (Kreiswert) 3.400 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.050, miete-aktuell 3.354, Gutachterausschuss Bayern (Kreiswert) 3.400 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,09, miet-check 10,98. homeday 8,2 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -894,7 +877,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -907,7 +889,7 @@
   "einwohner": 2999,
   "kauf": 3795,
   "miete": 11.36,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.800, miete-aktuell 3.827, Engel & Völkers 3.953 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.800, miete-aktuell 3.827, Engel & Völkers 3.953 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,31, miet-check 13,41. homeday 10,0 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -925,7 +907,7 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday, Engel & Völkers",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -938,7 +920,7 @@
   "einwohner": 3052,
   "kauf": 1808,
   "miete": 7.95,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.700, miete-aktuell 1.915, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.700, miete-aktuell 1.915, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 7,95. homeday 7,3 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -956,7 +938,6 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
@@ -971,7 +952,7 @@
   "einwohner": 3017,
   "kauf": 3554,
   "miete": 10.74,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.100, miete-aktuell 3.292, Engel & Völkers 4.225 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.100, miete-aktuell 3.292, Engel & Völkers 4.225 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,89, miet-check 11,59. homeday 10,0 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -989,7 +970,7 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday, Engel & Völkers",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -1002,7 +983,7 @@
   "einwohner": 3030,
   "kauf": 4359,
   "miete": 14.14,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.350, miete-aktuell 4.424, Engel & Völkers 4.763 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.350, miete-aktuell 4.424, Engel & Völkers 4.763 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 13,67, miet-check 14,61. homeday 9,9 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -1020,7 +1001,7 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday, Engel & Völkers",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -1033,7 +1014,7 @@
   "einwohner": 2986,
   "kauf": 3670,
   "miete": 12.21,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.450, miete-aktuell 3.891, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.450, miete-aktuell 3.891, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 12,21. homeday 9,8 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -1051,7 +1032,6 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
@@ -1066,7 +1046,7 @@
   "einwohner": 2962,
   "kauf": 2839,
   "miete": 10.27,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.650, miete-aktuell 3.029, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.650, miete-aktuell 3.029, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 10,27. homeday 8,0 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -1084,7 +1064,6 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
@@ -1099,7 +1078,7 @@
   "einwohner": 3016,
   "kauf": 3537,
   "miete": 9.91,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.950, miete-aktuell 3.062, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.950, miete-aktuell 3.062, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,91, miet-check 10,90. homeday 9,6 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -1116,7 +1095,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -1129,7 +1107,7 @@
   "einwohner": 2936,
   "kauf": 3308,
   "miete": 11.12,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.000, miete-aktuell 3.615, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.000, miete-aktuell 3.615, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,00, miet-check 12,25. homeday 8,0 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -1146,7 +1124,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -1160,7 +1137,7 @@
   "einwohner": 2958,
   "kauf": 2438,
   "miete": 9.04,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.250, miete-aktuell 2.626, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.250, miete-aktuell 2.626, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,48, miet-check 9,61. homeday 7,7 (nur daneben).",
   "score": "gruen",
   "prognose": {
@@ -1177,7 +1154,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -1191,7 +1167,7 @@
   "einwohner": 2953,
   "kauf": 3908,
   "miete": 10.98,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.800, miete-aktuell 3.607, Engel & Völkers 4.324 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.800, miete-aktuell 3.607, Engel & Völkers 4.324 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 11,24, miet-check 10,71. homeday 8,9 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -1209,7 +1185,7 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday, Engel & Völkers",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -1222,7 +1198,7 @@
   "einwohner": 2988,
   "kauf": 4011,
   "miete": 14.71,
-  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.000, miete-aktuell 4.023, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.000, miete-aktuell 4.023, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 14,84, miet-check 14,59. homeday 11,8 (nur daneben).",
   "score": "gruen",
   "prognose": {
@@ -1239,7 +1215,6 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -1253,7 +1228,7 @@
   "einwohner": 2979,
   "kauf": 1276,
   "miete": 9.08,
-  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.276, Gutachterausschuss keine Angabe. homeday 2.600 (nicht gewertet: Ort nicht bestätigt und Abweichung über 25 % vom Median der geprüften Quellen, Ortsverwechslung vermutet). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.276, Gutachterausschuss keine Angabe. homeday 2.600 (nicht gewertet: mehr als 50 % über der nächsten Quelle). Ort/PLZ geprüft: miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,49, miet-check 10,67. homeday 7,8 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -1270,7 +1245,7 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Kauf homeday 2.600 nicht gewertet: Ort nicht bestätigt und Abweichung über 25 % vom Median der geprüften Quellen, Ortsverwechslung vermutet",
+   "Kauf homeday 2.600 nicht gewertet: mehr als 50 % über der nächsten Quelle",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
@@ -1285,7 +1260,7 @@
   "einwohner": 3014,
   "kauf": 4308,
   "miete": 13.89,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.683, homeday 4.650, miete-aktuell 4.201, Gutachterausschuss Bayern (Kreiswert) 3.700 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.683, homeday 4.650, miete-aktuell 4.201, Gutachterausschuss Bayern (Kreiswert) 3.700 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 14,16, miet-check 13,63. homeday 9,7 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -1301,7 +1276,6 @@
   "fazit": "Bayerisch Gmain hat 3.014 Einwohner und liegt bei 4.308 €/m² Kauf und 13,89 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +5,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
   "offen": [
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -1314,7 +1288,7 @@
   "einwohner": 2943,
   "kauf": 4211,
   "miete": 11.07,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.300, miete-aktuell 4.365, Engel & Völkers 3.881 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 4.300 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.300, miete-aktuell 4.365, Engel & Völkers 3.881 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 4.300 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,08, miet-check 12,06. homeday 9,6 (nur daneben).",
   "score": "rot",
   "prognose": {
@@ -1332,7 +1306,7 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday, Engel & Völkers",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -1343,11 +1317,11 @@
   "land": "Bayern",
   "ags": "09475154",
   "einwohner": 9969,
-  "kauf": 2247,
+  "kauf": 1488,
   "miete": 7.15,
-  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.247, Gutachterausschuss keine Angabe. immoportal 1.525 (nicht gewertet: Ort nicht bestätigt und Abweichung über 25 % vom Median der geprüften Quellen, Ortsverwechslung vermutet); homeday 1.450 (nicht gewertet: Ort nicht bestätigt und Abweichung über 25 % vom Median der geprüften Quellen, Ortsverwechslung vermutet). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 1.525, homeday 1.450, Gutachterausschuss keine Angabe. miete-aktuell 2.247 (nicht gewertet: über 150 % des Medians der übrigen Quellen). Ort/PLZ geprüft: homeday.",
   "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 7,63, miete-aktuell 6,21, miet-check 7,62. homeday 6,1 (nur daneben).",
-  "score": "gelb",
+  "score": "gruen",
   "prognose": {
    "wert_pct": -6.7,
    "basisjahr": 2024,
@@ -1358,13 +1332,11 @@
   "mpb": false,
   "kappung": 20,
   "arbeitgeber": null,
-  "fazit": "Münchberg hat 9.969 Einwohner und liegt bei 2.247 €/m² Kauf und 7,15 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei -6,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "fazit": "Münchberg hat 9.969 Einwohner und liegt bei 1.488 €/m² Kauf und 7,15 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei -6,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
   "offen": [
-   "Kauf immoportal 1.525 nicht gewertet: Ort nicht bestätigt und Abweichung über 25 % vom Median der geprüften Quellen, Ortsverwechslung vermutet",
-   "Kauf homeday 1.450 nicht gewertet: Ort nicht bestätigt und Abweichung über 25 % vom Median der geprüften Quellen, Ortsverwechslung vermutet",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: immoportal (Miete)",
+   "Kauf miete-aktuell 2.247 nicht gewertet: über 150 % des Medians der übrigen Quellen",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: immoportal",
    "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
-   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
  },
@@ -1376,7 +1348,7 @@
   "einwohner": 9830,
   "kauf": 2591,
   "miete": 9.51,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.700, miete-aktuell 2.873, Gutachterausschuss Bayern (Kreiswert) 2.200 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.700, miete-aktuell 2.873, Gutachterausschuss Bayern (Kreiswert) 2.200 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 8,75, miete-aktuell 9,31, miet-check 10,47. homeday 7,7 (nur daneben).",
   "score": "gruen",
   "prognose": {
@@ -1392,7 +1364,6 @@
   "fazit": "Kümmersbruck hat 9.830 Einwohner und liegt bei 2.591 €/m² Kauf und 9,51 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei -3,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -1405,7 +1376,7 @@
   "einwohner": 9826,
   "kauf": 3679,
   "miete": 12.67,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.791, homeday 3.950, miete-aktuell 3.296, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.791, homeday 3.950, miete-aktuell 3.296, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
   "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 12,36, miete-aktuell 12,74, miet-check 12,92. homeday 10,7 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -1420,7 +1391,6 @@
   "arbeitgeber": null,
   "fazit": "Ilsfeld hat 9.826 Einwohner und liegt bei 3.679 €/m² Kauf und 12,67 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2045 liegt bei +4,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
   "offen": [
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -1434,7 +1404,7 @@
   "einwohner": 9857,
   "kauf": 3406,
   "miete": 11.33,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.330, homeday 3.300, miete-aktuell 3.587, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.330, homeday 3.300, miete-aktuell 3.587, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
   "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 10,60, miete-aktuell 11,08, miet-check 12,32. homeday 9,4 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -1449,7 +1419,6 @@
   "arbeitgeber": null,
   "fazit": "Goldbach hat 9.857 Einwohner und liegt bei 3.406 €/m² Kauf und 11,33 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +3,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
   "offen": [
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -1462,7 +1431,7 @@
   "einwohner": 9766,
   "kauf": 3218,
   "miete": 11.93,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.147, homeday 3.350, miete-aktuell 3.157, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.147, homeday 3.350, miete-aktuell 3.157, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
   "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 12,00, miete-aktuell 11,75, miet-check 12,04. homeday 9,7 (nur daneben).",
   "score": "gruen",
   "prognose": {
@@ -1477,7 +1446,6 @@
   "arbeitgeber": null,
   "fazit": "Plüderhausen hat 9.766 Einwohner und liegt bei 3.218 €/m² Kauf und 11,93 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2045 liegt bei +3,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
   "offen": [
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterausschuss BW: kein freier Marktbericht",
    "Kappungsgrenzenverordnung nicht gelesen, Kappung nach Auftragsregel gleiche Liste",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
@@ -1491,7 +1459,7 @@
   "einwohner": 9717,
   "kauf": 2939,
   "miete": 10.48,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.383, homeday 2.950, miete-aktuell 2.822, Gutachterausschuss Bayern (Kreiswert) 2.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.383, homeday 2.950, miete-aktuell 2.822, Gutachterausschuss Bayern (Kreiswert) 2.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 10,17, miete-aktuell 10,80. homeday 8,1 (nur daneben).",
   "score": "gruen",
   "prognose": {
@@ -1507,7 +1475,6 @@
   "fazit": "Erlenbach a.Main hat 9.717 Einwohner und liegt bei 2.939 €/m² Kauf und 10,48 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei -0,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
   "offen": [
    "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
@@ -1520,7 +1487,7 @@
   "einwohner": 9351,
   "kauf": 2856,
   "miete": 9.93,
-  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 2.910, homeday 2.850, miete-aktuell 3.063, Gutachterausschuss Bayern (Kreiswert) 2.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 2.910, homeday 2.850, miete-aktuell 3.063, Gutachterausschuss Bayern (Kreiswert) 2.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
   "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 9,71, miete-aktuell 10,00, miet-check 10,07. homeday 8,0 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -1535,7 +1502,6 @@
   "arbeitgeber": null,
   "fazit": "Miltenberg hat 9.351 Einwohner und liegt bei 2.856 €/m² Kauf und 9,93 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei -1,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
   "offen": [
-   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand nicht erhoben"
   ]
