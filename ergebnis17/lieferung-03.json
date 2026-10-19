@@ -36,7 +36,7 @@
    ]
   },
   "arbeitgeber": null,
-  "fazit": "Bezirk Pankow hat 428.900 Einwohner; Kauf und Miete werden je Ortsteil bewertet, ein eigener Bezirkswert ließ sich nicht mit zwei Portalquellen belegen, Rendite {R} % und Faktor {F} ungeprüft. Die Senatsprognose 2024 bis 2040 liegt bei +6,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel unbewertet, Ortsteile: 11 gelb, 2 rot.",
+  "fazit": "Bezirk Pankow hat 428.900 Einwohner; Kauf und Miete werden je Ortsteil bewertet, ein eigener Bezirkswert ließ sich nicht mit zwei Portalquellen belegen, Rendite {R} % und Faktor {F} ungeprüft. Die Senatsprognose 2024 bis 2040 liegt bei +6,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel unbewertet, Ortsteile: 9 gelb, 2 rot, 2 unbewertet.",
   "offen": [
    "unbewertet: Bezirkseintrag ohne eigenen Portalwert, Bewertung über die Ortsteile"
   ],
@@ -82,7 +82,7 @@
      "name": "Karow (Pankow)",
      "score": "rot",
      "kauf": 4968,
-     "miete": 13.54
+     "miete": 13.03
     },
     {
      "id": "berlin-pankow-stadtrandsiedlung-malchow",
@@ -110,7 +110,7 @@
      "name": "Buch (Pankow)",
      "score": "gelb",
      "kauf": 4566,
-     "miete": 13.75
+     "miete": 13.46
     },
     {
      "id": "berlin-pankow-franzoesisch-buchholz",
@@ -122,16 +122,16 @@
     {
      "id": "berlin-pankow-niederschoenhausen",
      "name": "Niederschönhausen (Pankow)",
-     "score": "gelb",
+     "score": "unbewertet",
      "kauf": 4100,
-     "miete": 15.8
+     "miete": null
     },
     {
      "id": "berlin-pankow-rosenthal",
      "name": "Rosenthal (Pankow)",
-     "score": "gelb",
+     "score": "unbewertet",
      "kauf": 3650,
-     "miete": 15.8
+     "miete": null
     },
     {
      "id": "berlin-pankow-wilhelmsruh",
@@ -143,7 +143,8 @@
    ],
    "ampel_ortsteile": {
     "rot": 2,
-    "gelb": 11
+    "gelb": 9,
+    "unbewertet": 2
    },
    "gutachter": {
     "kauffaelle_wohnungs_und_teileigentum_2025": 2203,
@@ -1159,9 +1160,9 @@
    "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
   },
   "kauf": 4968,
-  "miete": 13.54,
+  "miete": 13.03,
   "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.541, homeday 3.800, Gutachterausschuss Berlin (Altbezirk Weißensee) 5.563 (Mittel aller Eigentumswohnungen 2025, 162 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
-  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 13,03, miet-check 14,04. homeday 9,4 (nur daneben).",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): immoportal 13,03. homeday 9,4 (nur daneben).",
   "score": "rot",
   "prognose": {
    "wert_pct": 6.6,
@@ -1211,8 +1212,8 @@
      "quelle": "miet-check Miete",
      "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
      "wert": 14.04,
-     "ergebnis": "bestätigt",
-     "methode": "Zeile Karow der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13125) überschneiden sich mit den PLZ des Ortsteils (13125)"
+     "ergebnis": "nicht gewertet",
+     "grund": "gleicher Wert und gleiche PLZ-Liste wie Buch, PLZ-Wert und nicht ortsteilgenau"
     },
     {
      "quelle": "miete-aktuell",
@@ -1224,11 +1225,13 @@
    "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
   },
   "arbeitgeber": null,
-  "fazit": "Karow (Pankow) hat 20.149 Einwohner und liegt bei 4.968 €/m² Kauf und 13,54 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +6,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "fazit": "Karow (Pankow) hat 20.149 Einwohner und liegt bei 4.968 €/m² Kauf und 13,03 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +6,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
   "offen": [
    "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
    "Gutachterwert ist Wert des Altbezirks Weißensee, kein Ortsteilwert",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
    "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
   ],
@@ -1976,9 +1979,9 @@
    "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
   },
   "kauf": 4566,
-  "miete": 13.75,
+  "miete": 13.46,
   "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.705, homeday 3.800, Gutachterausschuss Berlin (Altbezirk Pankow) 5.194 (Mittel aller Eigentumswohnungen 2025, 540 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
-  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 13,46, miet-check 14,04. homeday 9,4 (nur daneben).",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): immoportal 13,46. homeday 9,4 (nur daneben).",
   "score": "gelb",
   "prognose": {
    "wert_pct": 6.6,
@@ -2029,8 +2032,8 @@
      "quelle": "miet-check Miete",
      "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
      "wert": 14.04,
-     "ergebnis": "bestätigt",
-     "methode": "Zeile Buch der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13125) überschneiden sich mit den PLZ des Ortsteils (13125)"
+     "ergebnis": "nicht gewertet",
+     "grund": "gleicher Wert und gleiche PLZ-Liste wie Karow, PLZ-Wert und nicht ortsteilgenau"
     },
     {
      "quelle": "miete-aktuell",
@@ -2042,11 +2045,13 @@
    "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
   },
   "arbeitgeber": null,
-  "fazit": "Buch (Pankow) hat 17.603 Einwohner und liegt bei 4.566 €/m² Kauf und 13,75 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +6,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "fazit": "Buch (Pankow) hat 17.603 Einwohner und liegt bei 4.566 €/m² Kauf und 13,46 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +6,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
   "offen": [
    "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
    "Gutachterwert ist Wert des Altbezirks Pankow, kein Ortsteilwert",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
    "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
   ],
@@ -2362,10 +2367,10 @@
    "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
   },
   "kauf": 4100,
-  "miete": 15.8,
+  "miete": null,
   "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.100, Gutachterausschuss Berlin (Altbezirk Pankow) 5.194 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
-  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 15,80. homeday 11,7 (nur daneben).",
-  "score": "gelb",
+  "mieteQuellen": "keine Angabe. homeday 11,7 (nur daneben).",
+  "score": "unbewertet",
   "prognose": {
    "wert_pct": 6.6,
    "basisjahr": 2024,
@@ -2414,8 +2419,8 @@
      "quelle": "miet-check Miete",
      "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
      "wert": 15.8,
-     "ergebnis": "bestätigt",
-     "methode": "Zeile Niederschönhausen der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13156, 13158) überschneiden sich mit den PLZ des Ortsteils (13156)"
+     "ergebnis": "nicht gewertet",
+     "grund": "gleicher Wert und gleiche PLZ-Liste wie Rosenthal, PLZ-Wert und nicht ortsteilgenau"
     },
     {
      "quelle": "miete-aktuell",
@@ -2427,12 +2432,13 @@
    "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
   },
   "arbeitgeber": null,
-  "fazit": "Niederschönhausen (Pankow) hat 33.539 Einwohner und liegt bei 4.100 €/m² Kauf und 15,80 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +6,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "fazit": "Niederschönhausen (Pankow) hat 33.539 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose: +6,6 %, Mietpreisbremse gilt (Kappung 15 %). Rendite {R} % und Faktor {F} ungeprüft.",
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
    "Gutachterwert 5.194 nicht gewertet: nur ein Portalwert vorhanden",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
@@ -2554,10 +2560,10 @@
    "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
   },
   "kauf": 3650,
-  "miete": 15.8,
+  "miete": null,
   "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.650, Gutachterausschuss Berlin (Altbezirk Pankow) 5.194 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
-  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 15,80. homeday 11,9 (nur daneben).",
-  "score": "gelb",
+  "mieteQuellen": "keine Angabe. homeday 11,9 (nur daneben).",
+  "score": "unbewertet",
   "prognose": {
    "wert_pct": 6.6,
    "basisjahr": 2024,
@@ -2604,8 +2610,8 @@
      "quelle": "miet-check Miete",
      "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
      "wert": 15.8,
-     "ergebnis": "bestätigt",
-     "methode": "Zeile Rosenthal der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13156, 13158) überschneiden sich mit den PLZ des Ortsteils (13158)"
+     "ergebnis": "nicht gewertet",
+     "grund": "gleicher Wert und gleiche PLZ-Liste wie Niederschönhausen, PLZ-Wert und nicht ortsteilgenau"
     },
     {
      "quelle": "miete-aktuell",
@@ -2617,12 +2623,13 @@
    "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
   },
   "arbeitgeber": null,
-  "fazit": "Rosenthal (Pankow) hat 10.050 Einwohner und liegt bei 3.650 €/m² Kauf und 15,80 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +6,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "fazit": "Rosenthal (Pankow) hat 10.050 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose: +6,6 %, Mietpreisbremse gilt (Kappung 15 %). Rendite {R} % und Faktor {F} ungeprüft.",
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
    "Gutachterwert 5.194 nicht gewertet: nur ein Portalwert vorhanden",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",

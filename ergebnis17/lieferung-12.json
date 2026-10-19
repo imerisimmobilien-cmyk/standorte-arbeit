@@ -36,7 +36,7 @@
    ]
   },
   "arbeitgeber": null,
-  "fazit": "Bezirk Reinickendorf hat 271.755 Einwohner; Kauf und Miete werden je Ortsteil bewertet, ein eigener Bezirkswert ließ sich nicht mit zwei Portalquellen belegen, Rendite {R} % und Faktor {F} ungeprüft. Die Senatsprognose 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel unbewertet, Ortsteile: 10 gelb, 1 rot.",
+  "fazit": "Bezirk Reinickendorf hat 271.755 Einwohner; Kauf und Miete werden je Ortsteil bewertet, ein eigener Bezirkswert ließ sich nicht mit zwei Portalquellen belegen, Rendite {R} % und Faktor {F} ungeprüft. Die Senatsprognose 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel unbewertet, Ortsteile: 8 gelb, 2 unbewertet, 1 rot.",
   "offen": [
    "unbewertet: Bezirkseintrag ohne eigenen Portalwert, Bewertung über die Ortsteile"
   ],
@@ -94,16 +94,16 @@
     {
      "id": "berlin-reinickendorf-waidmannslust",
      "name": "Waidmannslust (Reinickendorf)",
-     "score": "gelb",
+     "score": "unbewertet",
      "kauf": 3650,
-     "miete": 12.03
+     "miete": null
     },
     {
      "id": "berlin-reinickendorf-luebars",
      "name": "Lübars (Reinickendorf)",
-     "score": "gelb",
+     "score": "unbewertet",
      "kauf": 3650,
-     "miete": 12.03
+     "miete": null
     },
     {
      "id": "berlin-reinickendorf-wittenau",
@@ -128,7 +128,8 @@
     }
    ],
    "ampel_ortsteile": {
-    "gelb": 10,
+    "gelb": 8,
+    "unbewertet": 2,
     "rot": 1
    },
    "gutachter": {
@@ -1511,10 +1512,10 @@
    "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
   },
   "kauf": 3650,
-  "miete": 12.03,
+  "miete": null,
   "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.650, Gutachterausschuss Berlin (Altbezirk Reinickendorf) 3.755 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
-  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 12,03. homeday 9,7 (nur daneben).",
-  "score": "gelb",
+  "mieteQuellen": "keine Angabe. homeday 9,7 (nur daneben).",
+  "score": "unbewertet",
   "prognose": {
    "wert_pct": 1.8,
    "basisjahr": 2024,
@@ -1561,8 +1562,8 @@
      "quelle": "miet-check Miete",
      "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
      "wert": 12.03,
-     "ergebnis": "bestätigt",
-     "methode": "Zeile Waidmannslust der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13469) überschneiden sich mit den PLZ des Ortsteils (13469)"
+     "ergebnis": "nicht gewertet",
+     "grund": "gleicher Wert und gleiche PLZ-Liste wie Lübars, PLZ-Wert und nicht ortsteilgenau"
     },
     {
      "quelle": "miete-aktuell",
@@ -1574,12 +1575,13 @@
    "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
   },
   "arbeitgeber": null,
-  "fazit": "Waidmannslust (Reinickendorf) hat 11.661 Einwohner und liegt bei 3.650 €/m² Kauf und 12,03 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "fazit": "Waidmannslust (Reinickendorf) hat 11.661 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose: +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Rendite {R} % und Faktor {F} ungeprüft.",
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
    "Gutachterwert 3.755 nicht gewertet: nur ein Portalwert vorhanden",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
@@ -1711,10 +1713,10 @@
    "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
   },
   "kauf": 3650,
-  "miete": 12.03,
+  "miete": null,
   "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.650, Gutachterausschuss Berlin (Altbezirk Reinickendorf) 3.755 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
-  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 12,03. homeday 9,7 (nur daneben).",
-  "score": "gelb",
+  "mieteQuellen": "keine Angabe. homeday 9,7 (nur daneben).",
+  "score": "unbewertet",
   "prognose": {
    "wert_pct": 1.8,
    "basisjahr": 2024,
@@ -1761,8 +1763,8 @@
      "quelle": "miet-check Miete",
      "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
      "wert": 12.03,
-     "ergebnis": "bestätigt",
-     "methode": "Zeile Lübars der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13469) überschneiden sich mit den PLZ des Ortsteils (13469)"
+     "ergebnis": "nicht gewertet",
+     "grund": "gleicher Wert und gleiche PLZ-Liste wie Waidmannslust, PLZ-Wert und nicht ortsteilgenau"
     },
     {
      "quelle": "miete-aktuell",
@@ -1774,12 +1776,13 @@
    "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
   },
   "arbeitgeber": null,
-  "fazit": "Lübars (Reinickendorf) hat 5.058 Einwohner und liegt bei 3.650 €/m² Kauf und 12,03 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "fazit": "Lübars (Reinickendorf) hat 5.058 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose: +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Rendite {R} % und Faktor {F} ungeprüft.",
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
    "Gutachterwert 3.755 nicht gewertet: nur ein Portalwert vorhanden",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",

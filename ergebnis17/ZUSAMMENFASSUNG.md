@@ -17,17 +17,17 @@ Dateien: `ergebnis17/lieferung-01.json` bis `lieferung-12.json`, eine Datei je B
 |---|---|---|---|---|---|---|
 | Mitte | lieferung-01 | 6 | 0 | 3 | 2 | 1 |
 | Friedrichshain-Kreuzberg | lieferung-02 | 2 | 0 | 1 | 1 | 0 |
-| Pankow | lieferung-03 | 13 | 0 | 11 | 2 | 0 |
+| Pankow | lieferung-03 | 13 | 0 | 9 | 2 | 2 |
 | Charlottenburg-Wilmersdorf | lieferung-04 | 7 | 0 | 4 | 2 | 1 |
-| Spandau | lieferung-05 | 9 | 3 | 6 | 0 | 0 |
+| Spandau | lieferung-05 | 9 | 3 | 4 | 0 | 2 |
 | Steglitz-Zehlendorf | lieferung-06 | 8 | 0 | 6 | 1 | 1 |
 | Tempelhof-Schöneberg | lieferung-07 | 6 | 0 | 6 | 0 | 0 |
 | Neukölln | lieferung-08 | 5 | 0 | 4 | 0 | 1 |
-| Treptow-Köpenick | lieferung-09 | 15 | 9 | 5 | 1 | 0 |
+| Treptow-Köpenick | lieferung-09 | 15 | 5 | 9 | 1 | 0 |
 | Marzahn-Hellersdorf | lieferung-10 | 5 | 2 | 3 | 0 | 0 |
 | Lichtenberg | lieferung-11 | 10 | 0 | 9 | 0 | 1 |
-| Reinickendorf | lieferung-12 | 11 | 0 | 10 | 1 | 0 |
-| **Summe** | | **97** | **14** | **68** | **10** | **5** |
+| Reinickendorf | lieferung-12 | 11 | 0 | 8 | 1 | 2 |
+| **Summe** | | **97** | **10** | **66** | **10** | **11** |
 
 Die 12 Bezirkseinträge sind unbewertet. Grund: Kein Portal hat eine eindeutige Bezirksseite mit Kauf und Miete. immoportal führt keine Bezirksseiten. homeday hat für die sechs Doppelbezirke nur einen Kaufwert. Bei Mitte, Pankow, Spandau, Neukölln, Lichtenberg und Reinickendorf heißen Bezirk und Ortsteil gleich, die Seite lässt sich dort nicht dem Bezirk zuordnen. Der Bezirkseintrag listet in `stufe2` die Ampel aller seiner Ortsteile.
 
@@ -57,20 +57,35 @@ Die Regeln sind dieselben wie in ergebnis14 bis 16, gerechnet mit demselben Prog
 | homeday Miete (nur daneben) | 96 | 0 | 1 |
 | immoportal Kauf | 34 | 47 | 16 |
 | immoportal Miete | 32 | 42 | 23 |
-| miet-check Miete | 91 | 0 | 6 |
+| miet-check Miete | 79 | 12 | 6 |
 | miete-aktuell | 0 | 0 | 97 |
 
 - **immoportal:** Hat Ortsteilseiten unter `/berlin/<ortsteil>`. Viele Seiten zeigen aber exakt denselben Wert wie andere Ortsteile, zum Beispiel Friedrichshain und Kreuzberg je 6.134 €/m², Prenzlauer Berg und Pankow 5.974 €/m², Tegel, Konradshöhe, Heiligensee und Märkisches Viertel 4.283 €/m². Solche Werte gelten als nicht ortsteilgenau und sind nicht gewertet, bei beiden Ortsteilen. Das ist der Hauptgrund für die vielen dünnen Datenbasen.
 - **homeday:** Hat echte Ortsteilseiten. Nicht gewertet sind Werte gleich dem Berliner Gesamtwert (5.000 €/m²) und Umleitungen auf andere Seiten. Das betrifft Neukölln und Charlottenburg (Gesamtwert) sowie Schlachtensee (Umleitung auf Nikolassee). homeday rundet auf 50 € bzw. 0,1 €, gleiche Werte zwischen Ortsteilen sind dort normal.
-- **miet-check:** Die Einzelseiten der Ortsteile sind defekt (0,00 €, „Berlin / Dahme-Spreewald“). Gewertet ist deshalb die Zeile der miet-check-Rangliste der Berliner Stadtteile. Voraussetzung ist, dass sich die PLZ der Zeile mit den PLZ des Ortsteils überschneiden.
+- **miet-check:** Die Einzelseiten der Ortsteile sind defekt (0,00 €, „Berlin / Dahme-Spreewald“). Gewertet ist deshalb die Zeile der miet-check-Rangliste der Berliner Stadtteile. Voraussetzung ist, dass sich die PLZ der Zeile mit den PLZ des Ortsteils überschneiden. Nicht gewertet sind außerdem Zeilen, die exakt denselben Wert und dieselbe PLZ-Liste haben wie ein anderer Ortsteil. Das sind PLZ-Werte, keine Ortsteilwerte. Betroffen sind 12 Ortsteile: Karow, Buch, Niederschönhausen, Rosenthal, Gatow, Kladow, Johannisthal, Adlershof, Grünau, Schmöckwitz, Waidmannslust, Lübars.
 - **miete-aktuell:** Hat nur einen Gesamtwert für Berlin. Nach der Regel ist er nicht als Ortsteilwert eingesetzt.
-- **Datenbasis dünn:** 69 Ortsteile haben bei Kauf oder Miete nur eine Quelle, die Ampel dort ist höchstens gelb. Rot kann es trotzdem geben, wenn der Faktor über 30 liegt; das betrifft 10 Ortsteile, alle mit dünner Kaufbasis.
+- **Datenbasis dünn:** 75 Ortsteile haben bei Kauf oder Miete nur eine Quelle, die Ampel dort ist höchstens gelb. Rot kann es trotzdem geben, wenn der Faktor über 30 liegt. Von den 10 roten Ortsteilen haben 9 eine dünne Datenbasis.
 
-## Orte ohne belastbare Werte (unbewertet)
+## Orte ohne belastbare Werte (unbewertet, 11)
 
-- **Gesundbrunnen** und **Fennpfuhl:** keine gewertete Miete. immoportal fehlt oder ist doppelt, und der Ortsteil fehlt in der miet-check-Rangliste.
-- **Charlottenburg** und **Neukölln:** kein gewerteter Kaufwert. immoportal ist doppelt, und die homeday-Seite zeigt nur den Berliner Gesamtwert.
-- **Schlachtensee:** kein Portal hat eine eigene Seite für den 2020 neu gebildeten Ortsteil; homeday leitet auf Nikolassee um.
+- Gesundbrunnen (Mitte): keine gewertete Miete
+- Niederschönhausen (Pankow): keine gewertete Miete
+- Rosenthal (Pankow): keine gewertete Miete
+- Charlottenburg (Charlottenburg-Wilmersdorf): kein gewerteter Kaufwert
+- Gatow (Spandau): keine gewertete Miete
+- Kladow (Spandau): keine gewertete Miete
+- Schlachtensee (Steglitz-Zehlendorf): kein gewerteter Kaufwert, keine gewertete Miete
+- Neukölln (Neukölln): kein gewerteter Kaufwert
+- Fennpfuhl (Lichtenberg): keine gewertete Miete
+- Waidmannslust (Reinickendorf): keine gewertete Miete
+- Lübars (Reinickendorf): keine gewertete Miete
+
+Gründe:
+- Kein ortsgenauer Wert bei immoportal (doppelt oder fehlend).
+- homeday zeigt bei Neukölln und Charlottenburg nur den Berliner Gesamtwert; bei Schlachtensee leitet homeday auf Nikolassee um.
+- Kein eigener miet-check-Wert (fehlt oder ist ein PLZ-Wert).
+
+Es ist nichts aus Bezirks- oder Nachbarwerten eingesetzt.
 
 ## Wo nur der Bezirkswert genutzt ist
 
