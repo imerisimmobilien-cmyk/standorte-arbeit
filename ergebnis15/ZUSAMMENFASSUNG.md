@@ -15,7 +15,7 @@ Datei: `ergebnis15/patch-e-01.json`, Format wie ergebnis13. Ausgangsstand ist de
 - Je Ort steht in `ergebnis13` der Wert aus patch-d-01.json und in `korrekturWirkung`, ob sich durch die Korrektur etwas ändert: 26 Orte anders als ergebnis13, 33 gleich.
 - Ampelwechsel gegenüber dem Stand vor ergebnis13: 21 (unbewertet zu gelb 4, gelb zu rot 3, grün zu gelb 12, gelb zu grün 2).
 - Die sieben in der lokalen Prüfung genannten Orte (Emskirchen, Oberaurach, Mistelgau, Waischenfeld, Bodenmais, Luhe-Wildenau, Bischofsmais) bleiben mit der korrigierten Regel grün. Ihre Kaufwerte ändern sich leicht, weil die Ersatzquelle mitzählt.
-- Über alle 1300 Orte von ergebnis2 und ergebnis3 ändern sich durch die Korrektur 58 Orte in Kauf, Miete oder Ampel, gemessen am Stand nach ergebnis13. Die übrigen Orte außerhalb dieser 59 sind hier nicht als Patch geliefert. Auf Wunsch liefere ich sie nach.
+- Über alle 1300 Orte von ergebnis2 und ergebnis3 ändern sich durch die Korrektur 58 Orte in Kauf, Miete oder Ampel, gemessen am Stand nach ergebnis13. Davon liegen 32 Orte außerhalb der 59. Sie stehen in `ergebnis15/patch-e-02.json`, Ausgangsstand ist dort der Stand nach ergebnis13. Ampelwechsel dort: 13 (rot zu gelb 1, gelb zu grün 3, grün zu gelb 9).
 
 ## Ampelwechsel (gegenüber dem Stand vor ergebnis13)
 
@@ -40,3 +40,19 @@ Datei: `ergebnis15/patch-e-01.json`, Format wie ergebnis13. Ausgangsstand ist de
 - Wald (09372169, ergebnis2): grün zu gelb, Kauf 2508 zu 3016, Miete 8.97 zu 8.97 (gleich wie ergebnis13)
 - Rain (09278177, ergebnis2): unbewertet zu gelb, Kauf None zu 3191, Miete 10.77 zu 10.12 (anders als ergebnis13)
 - Schwarzach (09278187, ergebnis2): gelb zu rot, Kauf 2768 zu 3099, Miete 8.48 zu 8.48 (anders als ergebnis13)
+
+## Ampelwechsel in patch-e-02.json (gegenüber dem Stand nach ergebnis13)
+
+- Denkendorf (09176120, ergebnis2): rot zu gelb, Kauf 3813 zu 3119, Miete 9.86 zu 9.86
+- Buxheim (09176118, ergebnis2): gelb zu grün, Kauf 3669 zu 3053, Miete 11.29 zu 11.29
+- Allersberg (09576113, ergebnis2): grün zu gelb, Kauf 2546 zu 1840, Miete 10.35 zu 10.35
+- Helmbrechts (09475136, ergebnis2): gelb zu grün, Kauf 1350 zu 1239, Miete 7.11 zu 7.11
+- Ebern (09674130, ergebnis2): grün zu gelb, Kauf 2086 zu 2522, Miete 7.83 zu 7.83
+- Wernberg-Köblitz (09376150, ergebnis2): grün zu gelb, Kauf 2526 zu 2000, Miete 9.18 zu 9.18
+- Pfreimd (09376153, ergebnis2): grün zu gelb, Kauf 2359 zu 2866, Miete 9.26 zu 9.26
+- Selbitz (09475171, ergebnis2): gelb zu grün, Kauf 1400 zu 1495, Miete 7.75 zu 7.75
+- Ahorn (09473112, ergebnis2): grün zu gelb, Kauf 2269 zu 2547, Miete 8.58 zu 8.58
+- Rötz (09372154, ergebnis2): grün zu gelb, Kauf 1936 zu 2417, Miete 8.5 zu 8.5
+- Plößberg (09377146, ergebnis2): grün zu gelb, Kauf 1977 zu 1550, Miete 8.13 zu 8.13
+- Pommersfelden (09471172, ergebnis2): grün zu gelb, Kauf 2617 zu 2050, Miete 9.79 zu 9.79
+- Dornstadt (08425031, ergebnis3): grün zu gelb, Kauf 3571 zu 4199, Miete 12.69 zu 12.69
