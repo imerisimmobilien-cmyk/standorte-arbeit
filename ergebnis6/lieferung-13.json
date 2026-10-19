@@ -1,0 +1,3503 @@
+[
+ {
+  "id": "langdorf",
+  "name": "Langdorf",
+  "land": "Bayern",
+  "ags": "09276129",
+  "einwohner": 1836,
+  "kauf": 1441,
+  "miete": 8.05,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.182, Gutachterausschuss Bayern (Kreiswert) 1.700 (Wiederverkäufe ETW 2025). homeday 3.100 (nicht gewertet: über 150 % des Medians der übrigen Quellen). Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,44, miet-check 8,66. homeday 6,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -9.7,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1836 auf 1660 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09276129.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "94264",
+   "landkreis": "Regen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/langdorf",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/langdorf?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Langdorf/Langdorf/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Langdorf/Langdorf/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/langdorf_bei_regen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Langdorf hat 1.836 Einwohner und liegt bei 1.441 €/m² Kauf und 8,05 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -9,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf homeday 3.100 nicht gewertet: über 150 % des Medians der übrigen Quellen",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "hohenburg",
+  "name": "Hohenburg",
+  "land": "Bayern",
+  "ags": "09371129",
+  "einwohner": 1805,
+  "kauf": 2533,
+  "miete": 9.56,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.150, miete-aktuell 3.249, Gutachterausschuss Bayern (Kreiswert) 2.200 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,21, miet-check 8,91. homeday 5,4 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 3.7,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1805 auf 1870 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09371129.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "92277",
+   "landkreis": "Amberg-Sulzbach",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/hohenburg",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/hohenburg?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Hohenburg/Hohenburg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Hohenburg/Hohenburg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/hohenburg_oberpfalz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Hohenburg hat 1.805 Einwohner und liegt bei 2.533 €/m² Kauf und 9,56 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +3,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "dachsbach",
+  "name": "Dachsbach",
+  "land": "Bayern",
+  "ags": "09575117",
+  "einwohner": 1815,
+  "kauf": 2536,
+  "miete": 9.54,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.600, miete-aktuell 2.609, Gutachterausschuss Bayern (Kreiswert) 2.400 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,03, miet-check 10,06. homeday 6,9 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 2.1,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1815 auf 1850 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09575117.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "91462",
+   "landkreis": "Neustadt a.d.Aisch-Bad Windsheim",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/dachsbach",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/dachsbach?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Dachsbach/Dachsbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Dachsbach/Dachsbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/dachsbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/dachsbach",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Dachsbach hat 1.815 Einwohner und liegt bei 2.536 €/m² Kauf und 9,54 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +2,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "rettenbach-09372150",
+  "name": "Rettenbach",
+  "land": "Bayern",
+  "ags": "09372150",
+  "einwohner": 1788,
+  "kauf": null,
+  "miete": 9.97,
+  "kaufQuellen": "Mittel aus 0 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): Gutachterausschuss Bayern (Kreiswert) 2.000 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: keine Quelle.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 9,97. homeday 7,3 (nur daneben).",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": -0.4,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1788 auf 1780 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09372150.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "93191",
+   "landkreis": "Cham",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/rettenbach?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 2 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/rettenbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/rettenbach",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "nicht eindeutig bestätigt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Rettenbach hat 1.788 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose des Landesamts: -0,4 %, keine Mietpreisbremse (Kappung 20 %). Rendite {R} % und Faktor {F} ungeprüft.",
+  "offen": [
+   "unbewertet: Portale liefern für diese Gemeinde keine oder zu wenige belegbare Werte, keine Ersatzwerte aus Landkreis oder Nachbarorten eingesetzt",
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Ortsverwechslung bereinigt: Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/rettenbach",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "zell-im-fichtelgebirge",
+  "name": "Zell im Fichtelgebirge",
+  "land": "Bayern",
+  "ags": "09475189",
+  "einwohner": 1857,
+  "kauf": 1400,
+  "miete": 6.61,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.400, Gutachterausschuss keine Angabe. miete-aktuell 2.340 (nicht gewertet: mehr als 50 % über der nächsten Quelle). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 6,61. homeday 5,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -3.2,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1857 auf 1800 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09475189.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "95239",
+   "landkreis": "Hof",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/zell+im+fichtelgebirge",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 4 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/zell+im+fichtelgebirge?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 4 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Zell-im-Fichtelgebirge/Zell-im-Fichtelgebirge/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Zell-im-Fichtelgebirge/Zell-im-Fichtelgebirge/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Zell im Fichtelgebirge hat 1.857 Einwohner und liegt bei 1.400 €/m² Kauf und 6,61 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -3,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf miete-aktuell 2.340 nicht gewertet: mehr als 50 % über der nächsten Quelle",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "birgland",
+  "name": "Birgland",
+  "land": "Bayern",
+  "ags": "09371116",
+  "einwohner": 1828,
+  "kauf": 2547,
+  "miete": 8.75,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.500, miete-aktuell 2.942, Gutachterausschuss Bayern (Kreiswert) 2.200 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,13, miet-check 9,36. homeday 7,1 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -1.6,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1828 auf 1800 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09371116.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "92262",
+   "landkreis": "Amberg-Sulzbach",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/birgland",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/birgland?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Birgland/Birgland/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Birgland/Birgland/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/birgland/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Birgland hat 1.828 Einwohner und liegt bei 2.547 €/m² Kauf und 8,75 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -1,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "bischbrunn",
+  "name": "Bischbrunn",
+  "land": "Bayern",
+  "ags": "09677120",
+  "einwohner": 1798,
+  "kauf": 2505,
+  "miete": 9.85,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.000, miete-aktuell 3.016, Gutachterausschuss Bayern (Kreiswert) 2.500 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,38, miet-check 10,31. homeday 5,9 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 0.3,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1798 auf 1800 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09677120.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "97836",
+   "landkreis": "Main-Spessart",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/bischbrunn",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/bischbrunn?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Bischbrunn/Bischbrunn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Bischbrunn/Bischbrunn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/bischbrunn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/bischbrunn",
+     "ergebnis": "nicht bestätigt",
+     "methode": "nicht bestätigt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Bischbrunn hat 1.798 Einwohner und liegt bei 2.505 €/m² Kauf und 9,85 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +0,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "kleinkahl",
+  "name": "Kleinkahl",
+  "land": "Bayern",
+  "ags": "09671135",
+  "einwohner": 1803,
+  "kauf": 1850,
+  "miete": 9.64,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.850, Gutachterausschuss keine Angabe. miete-aktuell 3.061 (nicht gewertet: mehr als 50 % über der nächsten Quelle). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,36, miet-check 9,92. homeday 7,1 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -0.9,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1803 auf 1790 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09671135.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "63828",
+   "landkreis": "Aschaffenburg",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/kleinkahl",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/kleinkahl?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Kleinkahl/Kleinkahl/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Kleinkahl/Kleinkahl/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/kleinkahl/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/bayern/kleinkahl/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Kleinkahl hat 1.803 Einwohner und liegt bei 1.850 €/m² Kauf und 9,64 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -0,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf miete-aktuell 3.061 nicht gewertet: mehr als 50 % über der nächsten Quelle",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "weibersbrunn",
+  "name": "Weibersbrunn",
+  "land": "Bayern",
+  "ags": "09671157",
+  "einwohner": 1752,
+  "kauf": 2081,
+  "miete": 7.89,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.250, miete-aktuell 1.912, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,22, miet-check 8,57. homeday 6,5 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -6.4,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1752 auf 1640 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09671157.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "63879",
+   "landkreis": "Aschaffenburg",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/weibersbrunn",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/weibersbrunn?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Weibersbrunn/Weibersbrunn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Weibersbrunn/Weibersbrunn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/weibersbrunn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/weibersbrunn",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Weibersbrunn hat 1.752 Einwohner und liegt bei 2.081 €/m² Kauf und 7,89 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -6,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "marktsteft",
+  "name": "Marktsteft",
+  "land": "Bayern",
+  "ags": "09675149",
+  "einwohner": 1813,
+  "kauf": 2868,
+  "miete": 9.19,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.300, miete-aktuell 3.004, Gutachterausschuss Bayern (Kreiswert) 3.300 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,00, miet-check 10,38. homeday 7,3 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -4.6,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1813 auf 1730 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09675149.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "97342",
+   "landkreis": "Kitzingen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/marktsteft",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/marktsteft?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Marktsteft/Marktsteft/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Marktsteft/Marktsteft/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/marktsteft/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/marktsteft",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Marktsteft hat 1.813 Einwohner und liegt bei 2.868 €/m² Kauf und 9,19 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -4,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "markt-bibart",
+  "name": "Markt Bibart",
+  "land": "Bayern",
+  "ags": "09575144",
+  "einwohner": 1806,
+  "kauf": 2771,
+  "miete": 9.22,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.900, miete-aktuell 3.012, Gutachterausschuss Bayern (Kreiswert) 2.400 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,88, miet-check 8,56. homeday 6,6 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 3.3,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1806 auf 1870 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09575144.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "91477",
+   "landkreis": "Neustadt a.d.Aisch-Bad Windsheim",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/markt+bibart",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/markt+bibart?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Markt-Bibart/Markt-Bibart/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Markt-Bibart/Markt-Bibart/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/markt_bibart/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": [
+   {
+    "name": "EGGER Spanplattenwerk Fuchsau",
+    "beschaeftigte": "etwa 170",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Markt Bibart, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Markt Bibart hat 1.806 Einwohner und liegt bei 2.771 €/m² Kauf und 9,22 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +3,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben"
+  ]
+ },
+ {
+  "id": "solnhofen",
+  "name": "Solnhofen",
+  "land": "Bayern",
+  "ags": "09577168",
+  "einwohner": 1733,
+  "kauf": 2665,
+  "miete": 9.31,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.650, miete-aktuell 2.946, Gutachterausschuss Bayern (Kreiswert) 2.400 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,15, miet-check 9,47. homeday 7,1 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 1.4,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1733 auf 1760 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09577168.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "91807",
+   "landkreis": "Weißenburg-Gunzenhausen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/solnhofen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/solnhofen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Solnhofen/Solnhofen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Solnhofen/Solnhofen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/solnhofen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Solnhofen hat 1.733 Einwohner und liegt bei 2.665 €/m² Kauf und 9,31 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +1,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "polsingen",
+  "name": "Polsingen",
+  "land": "Bayern",
+  "ags": "09577162",
+  "einwohner": 1775,
+  "kauf": 2225,
+  "miete": 9.5,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.050, Gutachterausschuss Bayern (Kreiswert) 2.400 (Wiederverkäufe ETW 2025). miete-aktuell 3.374 (nicht gewertet: über 150 % des Medians der übrigen Quellen). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,28, miet-check 8,73. homeday 7,0 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 1.9,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1775 auf 1810 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09577162.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "91805",
+   "landkreis": "Weißenburg-Gunzenhausen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/polsingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/polsingen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Polsingen/Polsingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Polsingen/Polsingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/polsingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Polsingen hat 1.775 Einwohner und liegt bei 2.225 €/m² Kauf und 9,50 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +1,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf miete-aktuell 3.374 nicht gewertet: über 150 % des Medians der übrigen Quellen",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "fichtelberg",
+  "name": "Fichtelberg",
+  "land": "Bayern",
+  "ags": "09472138",
+  "einwohner": 1795,
+  "kauf": 2199,
+  "miete": 7.77,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.498, Gutachterausschuss Bayern (Kreiswert) 1.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,70, miet-check 7,84. homeday 5,7 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -5.4,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1795 auf 1700 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09472138.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "95686",
+   "landkreis": "Bayreuth",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/fichtelberg?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 5 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Fichtelberg/Fichtelberg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Fichtelberg/Fichtelberg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/fichtelberg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Fichtelberg hat 1.795 Einwohner und liegt bei 2.199 €/m² Kauf und 7,77 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -5,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "sulzfeld",
+  "name": "Sulzfeld",
+  "land": "Bayern",
+  "ags": "09673173",
+  "einwohner": 1751,
+  "kauf": null,
+  "miete": 8.0,
+  "kaufQuellen": "Mittel aus 0 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): Gutachterausschuss Bayern (Kreiswert) 2.100 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: keine Quelle.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miet-check 7,91, ohne-makler.net 8,09 (Ersatz).",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": -7.3,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1751 auf 1620 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09673173.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "97633",
+   "landkreis": "Rhön-Grabfeld",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/sulzfeld_am_main/",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "PLZ passt nicht zum Ort (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/bayern/sulzfeld/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miet-check Miete (richtige Seite)",
+     "pfad": "https://www.miet-check.de/mietspiegel/sulzfeld_grabfeld/",
+     "ergebnis": "bestätigt",
+     "methode": "strenge Prüfung"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Sulzfeld hat 1.751 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose des Landesamts: -7,3 %, keine Mietpreisbremse (Kappung 20 %). Rendite {R} % und Faktor {F} ungeprüft.",
+  "offen": [
+   "unbewertet: Portale liefern für diese Gemeinde keine oder zu wenige belegbare Werte, keine Ersatzwerte aus Landkreis oder Nachbarorten eingesetzt",
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Ortsverwechslung bereinigt: miet-check Miete: ersetzt, PLZ passt nicht zum Ort: https://www.miet-check.de/mietspiegel/sulzfeld_am_main/ ersetzt durch https://www.miet-check.de/mietspiegel/sulzfeld_grabfeld/",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "hafenlohr",
+  "name": "Hafenlohr",
+  "land": "Bayern",
+  "ags": "09677135",
+  "einwohner": 1759,
+  "kauf": 2653,
+  "miete": 10.14,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.250, miete-aktuell 3.208, Gutachterausschuss Bayern (Kreiswert) 2.500 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,98, miet-check 10,31. homeday 6,8 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -7.0,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1759 auf 1640 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09677135.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "97840",
+   "landkreis": "Main-Spessart",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/hafenlohr",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/hafenlohr?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Hafenlohr/Hafenlohr/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Hafenlohr/Hafenlohr/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/hafenlohr/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/hafenlohr",
+     "ergebnis": "nicht bestätigt",
+     "methode": "nicht bestätigt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Hafenlohr hat 1.759 Einwohner und liegt bei 2.653 €/m² Kauf und 10,14 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -7,0 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "roellbach",
+  "name": "Röllbach",
+  "land": "Bayern",
+  "ags": "09676151",
+  "einwohner": 1751,
+  "kauf": 2894,
+  "miete": 10.32,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.750, miete-aktuell 3.331, Gutachterausschuss Bayern (Kreiswert) 2.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,19, miet-check 10,46. homeday 7,0 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 2.7,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1751 auf 1800 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09676151.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "63934",
+   "landkreis": "Miltenberg",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/roellbach",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/roellbach?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Roellbach/Roellbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Roellbach/Roellbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/roellbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Röllbach hat 1.751 Einwohner und liegt bei 2.894 €/m² Kauf und 10,32 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +2,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "maehring",
+  "name": "Mähring",
+  "land": "Bayern",
+  "ags": "09377139",
+  "einwohner": 1785,
+  "kauf": 1839,
+  "miete": 7.01,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.800, miete-aktuell 1.818, Gutachterausschuss Bayern (Kreiswert) 1.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 7,01. homeday 6,2 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -12.8,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1785 auf 1560 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09377139.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "95695",
+   "landkreis": "Tirschenreuth",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/maehring",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/maehring?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Maehring/Maehring/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Maehring/Maehring/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Mähring hat 1.785 Einwohner und liegt bei 1.839 €/m² Kauf und 7,01 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -12,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "schwanfeld",
+  "name": "Schwanfeld",
+  "land": "Bayern",
+  "ags": "09678175",
+  "einwohner": 1749,
+  "kauf": 2170,
+  "miete": 8.5,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.850, miete-aktuell 2.460, Gutachterausschuss Bayern (Kreiswert) 2.200 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,73, miet-check 9,26. homeday 7,2 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -5.1,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1749 auf 1660 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09678175.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "97523",
+   "landkreis": "Schweinfurt",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/schwanfeld",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/schwanfeld?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Schwanfeld/Schwanfeld/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Schwanfeld/Schwanfeld/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/schwanfeld/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/schwanfeld",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Schwanfeld hat 1.749 Einwohner und liegt bei 2.170 €/m² Kauf und 8,50 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -5,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "volkenschwand",
+  "name": "Volkenschwand",
+  "land": "Bayern",
+  "ags": "09273178",
+  "einwohner": 1750,
+  "kauf": 2948,
+  "miete": 10.77,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.400, miete-aktuell 3.145, Gutachterausschuss Bayern (Kreiswert) 3.300 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,19, miet-check 11,34. homeday 9,1 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -0.7,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1750 auf 1740 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09273178.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "84106",
+   "landkreis": "Kelheim",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/volkenschwand",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/volkenschwand?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Volkenschwand/Volkenschwand/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Volkenschwand/Volkenschwand/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/volkenschwand/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Volkenschwand hat 1.750 Einwohner und liegt bei 2.948 €/m² Kauf und 10,77 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -0,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "niederalteich",
+  "name": "Niederalteich",
+  "land": "Bayern",
+  "ags": "09271138",
+  "einwohner": 1762,
+  "kauf": 2562,
+  "miete": 9.28,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.400, miete-aktuell 2.488, Gutachterausschuss Bayern (Kreiswert) 2.800 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,97, miet-check 10,58. homeday 7,3 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -1.6,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1762 auf 1730 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09271138.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "94557",
+   "landkreis": "Deggendorf",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/niederalteich",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/niederalteich?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Niederalteich/Niederalteich/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Niederalteich/Niederalteich/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/niederalteich/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Niederalteich hat 1.762 Einwohner und liegt bei 2.562 €/m² Kauf und 9,28 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -1,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "schneeberg",
+  "name": "Schneeberg",
+  "land": "Bayern",
+  "ags": "09676156",
+  "einwohner": 1762,
+  "kauf": null,
+  "miete": 7.87,
+  "kaufQuellen": "Mittel aus 0 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): Gutachterausschuss Bayern (Kreiswert) 2.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: keine Quelle.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): ohne-makler.net 7,87 (Ersatz).",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": -7.4,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1762 auf 1630 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09676156.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "63936",
+   "landkreis": "Miltenberg",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/schneeberg",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/schneeberg",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/bayern/schneeberg/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Schneeberg hat 1.762 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose des Landesamts: -7,4 %, keine Mietpreisbremse (Kappung 20 %). Rendite {R} % und Faktor {F} ungeprüft.",
+  "offen": [
+   "unbewertet: Portale liefern für diese Gemeinde keine oder zu wenige belegbare Werte, keine Ersatzwerte aus Landkreis oder Nachbarorten eingesetzt",
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Ortsverwechslung bereinigt: immoportal Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/immobilienpreise/schneeberg; immoportal Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/mietspiegel/schneeberg",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "ornbau",
+  "name": "Ornbau",
+  "land": "Bayern",
+  "ags": "09571189",
+  "einwohner": 1720,
+  "kauf": 2685,
+  "miete": 9.52,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.800, miete-aktuell 2.956, Gutachterausschuss Bayern (Kreiswert) 2.300 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,20, miet-check 9,85. homeday 6,5 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 4.5,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1720 auf 1800 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09571189.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "91737",
+   "landkreis": "Ansbach",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/ornbau",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/ornbau?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Ornbau/Ornbau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Ornbau/Ornbau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/ornbau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/ornbau",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Ornbau hat 1.720 Einwohner und liegt bei 2.685 €/m² Kauf und 9,52 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +4,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "konnersreuth",
+  "name": "Konnersreuth",
+  "land": "Bayern",
+  "ags": "09377131",
+  "einwohner": 1742,
+  "kauf": 1688,
+  "miete": 8.33,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.700, miete-aktuell 1.464, Gutachterausschuss Bayern (Kreiswert) 1.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,24, miet-check 8,42. homeday 5,8 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -0.1,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1742 auf 1740 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09377131.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "95692",
+   "landkreis": "Tirschenreuth",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/konnersreuth",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/konnersreuth?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Konnersreuth/Konnersreuth/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Konnersreuth/Konnersreuth/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/konnersreuth_oberpfalz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Konnersreuth hat 1.742 Einwohner und liegt bei 1.688 €/m² Kauf und 8,33 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -0,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "gebsattel",
+  "name": "Gebsattel",
+  "land": "Bayern",
+  "ags": "09571152",
+  "einwohner": 1738,
+  "kauf": 2650,
+  "miete": 8.55,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.850, miete-aktuell 2.799, Gutachterausschuss Bayern (Kreiswert) 2.300 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,70, miet-check 9,41. homeday 7,4 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -1.5,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1738 auf 1710 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09571152.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "91607",
+   "landkreis": "Ansbach",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/gebsattel",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/gebsattel?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Gebsattel/Gebsattel/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Gebsattel/Gebsattel/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/gebsattel/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Gebsattel hat 1.738 Einwohner und liegt bei 2.650 €/m² Kauf und 8,55 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -1,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "lisberg",
+  "name": "Lisberg",
+  "land": "Bayern",
+  "ags": "09471154",
+  "einwohner": 1722,
+  "kauf": 2649,
+  "miete": 9.14,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.400, miete-aktuell 2.948, Gutachterausschuss Bayern (Kreiswert) 2.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,11, miet-check 9,18. homeday 6,9 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -0.3,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1722 auf 1720 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09471154.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "96170",
+   "landkreis": "Bamberg",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/lisberg",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/lisberg?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Lisberg/Lisberg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Lisberg/Lisberg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/lisberg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/lisberg",
+     "ergebnis": "nicht bestätigt",
+     "methode": "nicht bestätigt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Lisberg hat 1.722 Einwohner und liegt bei 2.649 €/m² Kauf und 9,14 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -0,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "lohberg",
+  "name": "Lohberg",
+  "land": "Bayern",
+  "ags": "09372178",
+  "einwohner": 1827,
+  "kauf": 1715,
+  "miete": 6.75,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.800, miete-aktuell 1.346, Gutachterausschuss Bayern (Kreiswert) 2.000 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 6,75. homeday 6,7 (nur daneben); miet-check 11,52 (nicht gewertet: mehr als 50 % über der nächsten Quelle).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -3.0,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1827 auf 1770 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09372178.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "93470",
+   "landkreis": "Cham",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/lohberg",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/lohberg?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Lohberg/Lohberg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Lohberg/Lohberg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/lohberg_bei_lam_oberpfalz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/bayern/lohberg/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Lohberg hat 1.827 Einwohner und liegt bei 1.715 €/m² Kauf und 6,75 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -3,0 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete miet-check 11,52 nicht gewertet: mehr als 50 % über der nächsten Quelle",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "koenigstein",
+  "name": "Königstein",
+  "land": "Bayern",
+  "ags": "09371135",
+  "einwohner": 1723,
+  "kauf": 2269,
+  "miete": 7.42,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.337, Gutachterausschuss Bayern (Kreiswert) 2.200 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 6,42, miet-check 8,43.",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -4.8,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1723 auf 1640 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09371135.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "92281",
+   "landkreis": "Amberg-Sulzbach",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Koenigstein/Koenigstein/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Koenigstein/Koenigstein/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/koenigstein_oberpfalz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Königstein hat 1.723 Einwohner und liegt bei 2.269 €/m² Kauf und 7,42 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -4,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "henfenfeld",
+  "name": "Henfenfeld",
+  "land": "Bayern",
+  "ags": "09574131",
+  "einwohner": 1735,
+  "kauf": 2983,
+  "miete": 10.13,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.050, miete-aktuell 2.898, Gutachterausschuss Bayern (Kreiswert) 3.000 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,76, miet-check 11,51. homeday 8,3 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -11.4,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1735 auf 1540 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09574131.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "91239",
+   "landkreis": "Nürnberger Land",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/henfenfeld",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/henfenfeld?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Henfenfeld/Henfenfeld/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Henfenfeld/Henfenfeld/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/henfenfeld/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/henfenfeld",
+     "ergebnis": "nicht bestätigt",
+     "methode": "nicht bestätigt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Henfenfeld hat 1.735 Einwohner und liegt bei 2.983 €/m² Kauf und 10,13 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -11,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "motten",
+  "name": "Motten",
+  "land": "Bayern",
+  "ags": "09672134",
+  "einwohner": 1718,
+  "kauf": 1862,
+  "miete": 7.88,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.650, miete-aktuell 1.937, Gutachterausschuss Bayern (Kreiswert) 2.000 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,57, miet-check 8,19. homeday 5,9 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -1.4,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1718 auf 1690 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09672134.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "97786",
+   "landkreis": "Bad Kissingen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/motten",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/motten?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Motten/Motten/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Motten/Motten/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/motten/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Motten hat 1.718 Einwohner und liegt bei 1.862 €/m² Kauf und 7,88 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -1,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "michelsneukirchen",
+  "name": "Michelsneukirchen",
+  "land": "Bayern",
+  "ags": "09372142",
+  "einwohner": 1732,
+  "kauf": 2575,
+  "miete": 8.69,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.150, Gutachterausschuss Bayern (Kreiswert) 2.000 (Wiederverkäufe ETW 2025). miete-aktuell 1.140 (nicht gewertet: unter 60 % des Medians der übrigen Quellen). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,30, miet-check 9,08. homeday 5,5 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -4.2,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1732 auf 1660 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09372142.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "93185",
+   "landkreis": "Cham",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/michelsneukirchen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/michelsneukirchen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Michelsneukirchen/Michelsneukirchen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Michelsneukirchen/Michelsneukirchen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/michelsneukirchen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Michelsneukirchen hat 1.732 Einwohner und liegt bei 2.575 €/m² Kauf und 8,69 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -4,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf miete-aktuell 1.140 nicht gewertet: unter 60 % des Medians der übrigen Quellen",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "teugn",
+  "name": "Teugn",
+  "land": "Bayern",
+  "ags": "09273175",
+  "einwohner": 1731,
+  "kauf": 3091,
+  "miete": 11.09,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.550, miete-aktuell 3.422, Gutachterausschuss Bayern (Kreiswert) 3.300 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 11,18, miet-check 11,01. homeday 7,6 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 0.5,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1731 auf 1740 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09273175.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "93356",
+   "landkreis": "Kelheim",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/teugn",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/teugn?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Teugn/Teugn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Teugn/Teugn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/teugn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Teugn hat 1.731 Einwohner und liegt bei 3.091 €/m² Kauf und 11,09 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +0,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "untersteinach",
+  "name": "Untersteinach",
+  "land": "Bayern",
+  "ags": "09477159",
+  "einwohner": 1751,
+  "kauf": 707,
+  "miete": 8.48,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 707, Gutachterausschuss Bayern (Kreiswert) 1.900 (Wiederverkäufe ETW 2025, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). homeday 1.700 (nicht gewertet: mehr als 50 % über der nächsten Quelle). Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,73, miet-check 9,22. homeday 6,3 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -8.3,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1751 auf 1610 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09477159.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "95369",
+   "landkreis": "Kulmbach",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/untersteinach",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/untersteinach?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Untersteinach/Untersteinach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Untersteinach/Untersteinach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/untersteinach_bei_kulmbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/bayern/untersteinach/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/bayern/untersteinach/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Untersteinach hat 1.751 Einwohner und liegt bei 707 €/m² Kauf und 8,48 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -8,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf homeday 1.700 nicht gewertet: mehr als 50 % über der nächsten Quelle",
+   "Gutachter-Kreiswert 1.900 nicht gewertet: Abweichung über 40 % vom Median der Portalwerte",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "riedbach",
+  "name": "Riedbach",
+  "land": "Bayern",
+  "ags": "09674153",
+  "einwohner": 1729,
+  "kauf": 2038,
+  "miete": 8.55,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.500, miete-aktuell 2.613, Gutachterausschuss Bayern (Kreiswert) 2.000 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,73, miet-check 9,37. homeday 5,1 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -4.8,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1729 auf 1650 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09674153.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "97519",
+   "landkreis": "Haßberge",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/riedbach",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/riedbach?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Riedbach/Riedbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Riedbach/Riedbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/riedbach_unterfranken/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Riedbach hat 1.729 Einwohner und liegt bei 2.038 €/m² Kauf und 8,55 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -4,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "burglauer",
+  "name": "Burglauer",
+  "land": "Bayern",
+  "ags": "09673186",
+  "einwohner": 1730,
+  "kauf": 2310,
+  "miete": 7.98,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.300, miete-aktuell 2.529, Gutachterausschuss Bayern (Kreiswert) 2.100 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,14, miet-check 8,82. homeday 6,4 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 3.6,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1730 auf 1790 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09673186.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "97724",
+   "landkreis": "Rhön-Grabfeld",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/burglauer",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/burglauer?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Burglauer/Burglauer/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Burglauer/Burglauer/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/burglauer/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Burglauer hat 1.730 Einwohner und liegt bei 2.310 €/m² Kauf und 7,98 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +3,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "thiersheim",
+  "name": "Thiersheim",
+  "land": "Bayern",
+  "ags": "09479158",
+  "einwohner": 1723,
+  "kauf": 1192,
+  "miete": 7.64,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.400, miete-aktuell 984, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,17, miet-check 8,11. homeday 4,9 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -2.8,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1723 auf 1670 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09479158.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "95707",
+   "landkreis": "Wunsiedel i.Fichtelgebirge",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/thiersheim",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/thiersheim?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Thiersheim/Thiersheim/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Thiersheim/Thiersheim/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/thiersheim/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Thiersheim hat 1.723 Einwohner und liegt bei 1.192 €/m² Kauf und 7,64 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -2,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "velden",
+  "name": "Velden",
+  "land": "Bayern",
+  "ags": "09574160",
+  "einwohner": 1712,
+  "kauf": null,
+  "miete": 9.32,
+  "kaufQuellen": "Mittel aus 0 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): Gutachterausschuss Bayern (Kreiswert) 3.000 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: keine Quelle.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 9,32.",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": -1.9,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1712 auf 1680 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09574160.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "91235",
+   "landkreis": "Nürnberger Land",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/velden",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/velden",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/velden",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/velden?marketing_type=rent&property_type=apartment",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/velden_mittelfranken/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/velden",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "nicht eindeutig bestätigt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Velden hat 1.712 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose des Landesamts: -1,9 %, keine Mietpreisbremse (Kappung 20 %). Rendite {R} % und Faktor {F} ungeprüft.",
+  "offen": [
+   "unbewertet: Portale liefern für diese Gemeinde keine oder zu wenige belegbare Werte, keine Ersatzwerte aus Landkreis oder Nachbarorten eingesetzt",
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Ortsverwechslung bereinigt: immoportal Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/immobilienpreise/velden; immoportal Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/mietspiegel/velden; homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/velden; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/velden?marketing_type=rent&property_type=apartment; Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/velden",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "stulln",
+  "name": "Stulln",
+  "land": "Bayern",
+  "ags": "09376169",
+  "einwohner": 1684,
+  "kauf": 2533,
+  "miete": 10.35,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.000, miete-aktuell 3.099, Gutachterausschuss Bayern (Kreiswert) 2.500 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,88, miet-check 10,81. homeday 6,9 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 5.3,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1684 auf 1770 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09376169.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "92551",
+   "landkreis": "Schwandorf",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/stulln",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/stulln?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Stulln/Stulln/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Stulln/Stulln/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/stulln/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/stulln",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Stulln hat 1.684 Einwohner und liegt bei 2.533 €/m² Kauf und 10,35 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +5,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "patersdorf",
+  "name": "Patersdorf",
+  "land": "Bayern",
+  "ags": "09276134",
+  "einwohner": 1721,
+  "kauf": 2118,
+  "miete": 7.78,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.000, miete-aktuell 2.653, Gutachterausschuss Bayern (Kreiswert) 1.700 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,32, miet-check 7,23. homeday 5,9 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -0.2,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1721 auf 1720 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09276134.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "94265",
+   "landkreis": "Regen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/patersdorf",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/patersdorf?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Patersdorf/Patersdorf/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Patersdorf/Patersdorf/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/patersdorf_niederbayern/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Patersdorf hat 1.721 Einwohner und liegt bei 2.118 €/m² Kauf und 7,78 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -0,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "dorfprozelten",
+  "name": "Dorfprozelten",
+  "land": "Bayern",
+  "ags": "09676118",
+  "einwohner": 1710,
+  "kauf": 2796,
+  "miete": 9.46,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.993, Gutachterausschuss Bayern (Kreiswert) 2.600 (Wiederverkäufe ETW 2025). homeday 1.600 (nicht gewertet: unter 60 % des Medians der übrigen Quellen). Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,93, miet-check 10,00. homeday 6,4 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -4.2,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1710 auf 1640 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09676118.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "97904",
+   "landkreis": "Miltenberg",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/dorfprozelten",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/dorfprozelten?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Dorfprozelten/Dorfprozelten/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Dorfprozelten/Dorfprozelten/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/dorfprozelten/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Dorfprozelten hat 1.710 Einwohner und liegt bei 2.796 €/m² Kauf und 9,46 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -4,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf homeday 1.600 nicht gewertet: unter 60 % des Medians der übrigen Quellen",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "mitteleschenbach",
+  "name": "Mitteleschenbach",
+  "land": "Bayern",
+  "ags": "09571178",
+  "einwohner": 1679,
+  "kauf": 2333,
+  "miete": 9.0,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.800, miete-aktuell 2.899, Gutachterausschuss Bayern (Kreiswert) 2.300 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,72, miet-check 9,27. homeday 6,5 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 3.4,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1679 auf 1740 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09571178.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "91734",
+   "landkreis": "Ansbach",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/mitteleschenbach",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/mitteleschenbach?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Mitteleschenbach/Mitteleschenbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Mitteleschenbach/Mitteleschenbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/mitteleschenbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Mitteleschenbach hat 1.679 Einwohner und liegt bei 2.333 €/m² Kauf und 9,00 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +3,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "irchenrieth",
+  "name": "Irchenrieth",
+  "land": "Bayern",
+  "ags": "09374127",
+  "einwohner": 1676,
+  "kauf": 1800,
+  "miete": 9.89,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.800, Gutachterausschuss Bayern (Kreiswert) 1.800 (Wiederverkäufe ETW 2025). miete-aktuell 3.129 (nicht gewertet: über 150 % des Medians der übrigen Quellen). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,74, miet-check 10,04. homeday 7,8 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 15.9,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1676 auf 1940 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09374127.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "92699",
+   "landkreis": "Neustadt a.d.Waldnaab",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/irchenrieth",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/irchenrieth?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Irchenrieth/Irchenrieth/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Irchenrieth/Irchenrieth/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/irchenrieth/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Irchenrieth hat 1.676 Einwohner und liegt bei 1.800 €/m² Kauf und 9,89 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +15,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf miete-aktuell 3.129 nicht gewertet: über 150 % des Medians der übrigen Quellen",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "puechersreuth",
+  "name": "Püchersreuth",
+  "land": "Bayern",
+  "ags": "09374150",
+  "einwohner": 1701,
+  "kauf": 1775,
+  "miete": 9.47,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.750, Gutachterausschuss Bayern (Kreiswert) 1.800 (Wiederverkäufe ETW 2025). miete-aktuell 3.066 (nicht gewertet: über 150 % des Medians der übrigen Quellen). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,54, miet-check 9,41. homeday 5,6 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 9.7,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1701 auf 1870 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09374150.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "92715",
+   "landkreis": "Neustadt a.d.Waldnaab",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/puechersreuth",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/puechersreuth?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Puechersreuth/Puechersreuth/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Puechersreuth/Puechersreuth/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/puechersreuth/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Püchersreuth hat 1.701 Einwohner und liegt bei 1.775 €/m² Kauf und 9,47 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +9,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf miete-aktuell 3.066 nicht gewertet: über 150 % des Medians der übrigen Quellen",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "roettingen",
+  "name": "Röttingen",
+  "land": "Bayern",
+  "ags": "09679182",
+  "einwohner": 1681,
+  "kauf": 2769,
+  "miete": 9.25,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.350, miete-aktuell 3.157, Gutachterausschuss Bayern (Kreiswert) 2.800 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,23, miet-check 9,27. homeday 7,1 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 2.5,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1681 auf 1720 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09679182.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "97285",
+   "landkreis": "Würzburg",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/roettingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/roettingen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Roettingen/Roettingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Roettingen/Roettingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/roettingen_unterfranken/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/roettingen",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Röttingen hat 1.681 Einwohner und liegt bei 2.769 €/m² Kauf und 9,25 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +2,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "postau",
+  "name": "Postau",
+  "land": "Bayern",
+  "ags": "09274174",
+  "einwohner": 1695,
+  "kauf": 3216,
+  "miete": 10.54,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.750, miete-aktuell 3.498, Gutachterausschuss Bayern (Kreiswert) 3.400 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,31, miet-check 10,76. homeday 7,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -2.2,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1695 auf 1660 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09274174.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "84103",
+   "landkreis": "Landshut",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/postau",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/postau?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Postau/Postau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Postau/Postau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/postau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Postau hat 1.695 Einwohner und liegt bei 3.216 €/m² Kauf und 10,54 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -2,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "karsbach",
+  "name": "Karsbach",
+  "land": "Bayern",
+  "ags": "09677149",
+  "einwohner": 1703,
+  "kauf": 2300,
+  "miete": 7.3,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.100, miete-aktuell 2.302, Gutachterausschuss Bayern (Kreiswert) 2.500 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 6,50, miet-check 8,10. homeday 5,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -3.8,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1703 auf 1640 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09677149.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "97783",
+   "landkreis": "Main-Spessart",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/karsbach",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/karsbach?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Karsbach/Karsbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Karsbach/Karsbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/karsbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/karsbach",
+     "ergebnis": "nicht bestätigt",
+     "methode": "nicht bestätigt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Karsbach hat 1.703 Einwohner und liegt bei 2.300 €/m² Kauf und 7,30 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -3,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "brunn",
+  "name": "Brunn",
+  "land": "Bayern",
+  "ags": "09375122",
+  "einwohner": 1660,
+  "kauf": 3031,
+  "miete": 11.1,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.700, miete-aktuell 3.293, Gutachterausschuss Bayern (Kreiswert) 3.100 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 11,46, miet-check 10,74. homeday 8,0 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 6.5,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1660 auf 1770 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09375122.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "93164",
+   "landkreis": "Regensburg",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/brunn",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 10 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/brunn?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 10 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Brunn/Brunn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Brunn/Brunn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/brunn_kreis_regensburg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/brunn",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Brunn hat 1.660 Einwohner und liegt bei 3.031 €/m² Kauf und 11,10 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +6,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "atting",
+  "name": "Atting",
+  "land": "Bayern",
+  "ags": "09278117",
+  "einwohner": 1673,
+  "kauf": 3134,
+  "miete": 10.05,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.250, miete-aktuell 3.352, Gutachterausschuss Bayern (Kreiswert) 2.800 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,24, miet-check 10,86. homeday 8,1 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -4.3,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1673 auf 1600 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09278117.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "94348",
+   "landkreis": "Straubing-Bogen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/atting",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/atting?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Atting/Atting/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Atting/Atting/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/atting",
+     "ergebnis": "nicht bestätigt",
+     "methode": "nicht bestätigt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/atting_bei_straubing/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Atting hat 1.673 Einwohner und liegt bei 3.134 €/m² Kauf und 10,05 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -4,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "kleinlangheim",
+  "name": "Kleinlangheim",
+  "land": "Bayern",
+  "ags": "09675142",
+  "einwohner": 1642,
+  "kauf": 2268,
+  "miete": 10.43,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.250, miete-aktuell 2.287, Gutachterausschuss Bayern (Kreiswert) 3.300 (Wiederverkäufe ETW 2025, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,58, miet-check 10,28. homeday 7,0 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -6.7,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1642 auf 1530 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09675142.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "97355",
+   "landkreis": "Kitzingen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/kleinlangheim",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/kleinlangheim?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Kleinlangheim/Kleinlangheim/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Kleinlangheim/Kleinlangheim/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/kleinlangheim/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Kleinlangheim hat 1.642 Einwohner und liegt bei 2.268 €/m² Kauf und 10,43 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -6,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachter-Kreiswert 3.300 nicht gewertet: Abweichung über 40 % vom Median der Portalwerte",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "bayerbach",
+  "name": "Bayerbach",
+  "land": "Bayern",
+  "ags": "09277112",
+  "einwohner": 1674,
+  "kauf": 2360,
+  "miete": 9.1,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.400, miete-aktuell 2.079, Gutachterausschuss Bayern (Kreiswert) 2.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,96, miet-check 9,24. homeday 7,2 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 2.4,
+   "basisjahr": 2024,
+   "zieljahr": 2038,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2038: 1674 auf 1710 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09277112.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "94137",
+   "landkreis": "Rottal-Inn",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/bayerbach",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 5 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/bayerbach?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 5 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Bayerbach/Bayerbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Bayerbach/Bayerbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/bayerbach_rott/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Bayerbach hat 1.674 Einwohner und liegt bei 2.360 €/m² Kauf und 9,10 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +2,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ }
+]
