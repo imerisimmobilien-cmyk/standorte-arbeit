@@ -25,15 +25,19 @@ Kirchhofen und Norsingen sind nicht eigens bewertet. Sie haben keine eigene Port
 
 | Land | Orte | grün | gelb |
 |---|---|---|---|
-| Baden-Württemberg | 7 | 0 | 7 |
+| Baden-Württemberg | 7 | 2 | 5 |
 | Nordrhein-Westfalen | 4 | 4 | 0 |
 | Niedersachsen | 2 | 2 | 0 |
 | Bayern | 2 | 0 | 2 |
-| **Summe** | **15** | **6** | **9** |
+| **Summe** | **15** | **8** | **7** |
+
+Stand nach der Nachlieferung vom 19.10.2026, siehe unten.
 
 Rot und unbewertet kommen nicht vor.
 
 - **Grün:**
+  - Bad Urach (4,8 %, seit Nachlieferung)
+  - Blaubeuren (4,5 %, seit Nachlieferung)
   - Wolfenbüttel (5,5 %)
   - Frechen (4,5 %, Mietpreisbremse)
   - Gummersbach (5,1 %)
@@ -48,15 +52,23 @@ Rot und unbewertet kommen nicht vor.
   - Schallstadt (4,2 %)
   - Ebringen (4,0 %)
   - Pfaffenweiler (3,8 %)
-- **Gelb nur wegen fehlender Prognose:**
-  - Bad Urach (4,8 %)
-  - Blaubeuren (4,5 %)
 
-### Offener Punkt Baden-Württemberg
+### Nachlieferung Baden-Württemberg
 
-Für alle 7 BW-Orte fehlt die Prognose. Quelle wäre GENESIS-Online des Statistischen Landesamts, Tabelle 12421-0006, 2024 bis 2045. Der Werteabruf brach am 19.10.2026 bei jedem Versuch mit einem Timeout des Servers ab. Die Seite meldet selbst „Timeout!“, auch mit nur zwei Jahren in der Abfrage.
+Der Werteabruf bei GENESIS-Online BW (Tabelle 12421-0006) brach am 19.10.2026 bei jedem Versuch mit einem Server-Timeout ab. Wie lokal freigegeben, ist die Prognose deshalb aus der Ersatzquelle Bertelsmann Wegweiser Kommune, 2020 bis 2040, Gemeindewert. Die Quelle steht je Ort im Feld prognose.
 
-Nach der Regel „ohne Prognose höchstens gelb“ stehen alle 7 BW-Orte deshalb vorerst auf gelb. Das ändert nur bei Bad Urach und Blaubeuren etwas: Mit einer Prognose über -8 % würden beide grün. Ein Wiederholungsabruf läuft. Gelingt er, liefere ich die 7 BW-Orte nach.
+| Ort | Prognose | Rendite | Ampel vorher | Ampel jetzt |
+|---|---|---|---|---|
+| Bad Urach | +9,5 % | 4,8 % | gelb | grün |
+| Blaubeuren | +8,7 % | 4,5 % | gelb | grün |
+| Dossenheim | -2,8 % | 4,0 % | gelb | gelb |
+| Ehrenkirchen | +1,0 % | 3,9 % | gelb | gelb |
+| Schallstadt | +3,0 % | 4,2 % | gelb | gelb |
+| Ebringen | keine | 4,0 % | gelb | gelb |
+| Pfaffenweiler | keine | 3,8 % | gelb | gelb |
+
+- Ebringen und Pfaffenweiler stehen nicht bei Wegweiser Kommune, weil sie unter 5.000 Einwohner haben. Sie bleiben ohne Prognose und damit höchstens gelb.
+- `lieferung-01.json` ist aktualisiert. Die 7 BW-Orte stehen zusätzlich einzeln in `nachlieferung-bw-01.json`, damit sie sich lokal leicht einspielen lassen.
 
 ### Weitere Hinweise
 
@@ -135,5 +147,5 @@ Das ist nur zur Einordnung gedacht, denn hier stehen Angebotspreise gegen Kaufpr
 
 ## Noch offen
 
-- BW-Prognosen für Teil 1, siehe oben. Sie werden nachgeliefert, sobald GENESIS antwortet.
+- BW: Ebringen und Pfaffenweiler haben weiter keine Prognose.
 - Die Korrektur der Ortsprüfung für kreisfreie Städte betrifft nur Orte, deren Name mehrfach in Deutschland vorkommt. Frühere Lieferungen habe ich darauf nicht nachgeprüft.

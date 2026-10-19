@@ -1,0 +1,532 @@
+[
+ {
+  "id": "bad-urach",
+  "name": "Bad Urach",
+  "land": "Baden-Württemberg",
+  "ags": "08415078",
+  "einwohner": 12751,
+  "kauf": 2926,
+  "miete": 11.63,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 2.943, homeday 3.050, miete-aktuell 2.784, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 11,70, miete-aktuell 11,38, miet-check 11,82. homeday 9,7 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 9.5,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Bad Urach (im Landkreis Reutlingen): 12470 (2020) auf 13660 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+bad-urach+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "72574",
+   "landkreis": "Reutlingen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/bad-urach",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/bad-urach",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/bad+urach",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/bad+urach?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Bad-Urach/Bad-Urach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Bad-Urach/Bad-Urach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/bad_urach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Bad Urach hat 12.751 Einwohner und liegt bei 2.926 €/m² Kauf und 11,63 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +9,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "dossenheim",
+  "name": "Dossenheim",
+  "land": "Baden-Württemberg",
+  "ags": "08226012",
+  "einwohner": 12690,
+  "kauf": 4092,
+  "miete": 13.67,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.722, homeday 4.400, miete-aktuell 4.153, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 13,09, miete-aktuell 13,68, miet-check 14,25. homeday 11,3 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -2.8,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Dossenheim (im Rhein-Neckar-Kreis): 12570 (2020) auf 12220 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+dossenheim+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "69221",
+   "landkreis": "Rhein-Neckar-Kreis",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/dossenheim",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/dossenheim",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/dossenheim",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/dossenheim?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Dossenheim/Dossenheim/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Dossenheim/Dossenheim/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/dossenheim/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Dossenheim hat 12.690 Einwohner und liegt bei 4.092 €/m² Kauf und 13,67 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei -2,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "blaubeuren",
+  "name": "Blaubeuren",
+  "land": "Baden-Württemberg",
+  "ags": "08425020",
+  "einwohner": 12719,
+  "kauf": 3015,
+  "miete": 11.4,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.122, homeday 3.050, miete-aktuell 2.873, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 11,42, miete-aktuell 11,00, miet-check 11,79. homeday 9,2 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 8.7,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Blaubeuren (im Alb-Donau-Kreis): 12430 (2020) auf 13510 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+blaubeuren+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "89143",
+   "landkreis": "Alb-Donau-Kreis",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/blaubeuren",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/blaubeuren",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/blaubeuren",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/blaubeuren?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Blaubeuren/Blaubeuren/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Blaubeuren/Blaubeuren/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/blaubeuren/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Blaubeuren hat 12.719 Einwohner und liegt bei 3.015 €/m² Kauf und 11,40 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +8,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "ehrenkirchen",
+  "name": "Ehrenkirchen",
+  "land": "Baden-Württemberg",
+  "ags": "08315131",
+  "einwohner": 7813,
+  "kauf": 4185,
+  "miete": 13.48,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.250, miete-aktuell 4.119, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 13,14, miete-aktuell 13,53, miet-check 13,76. homeday 11,5 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 1.0,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Ehrenkirchen (im Landkreis Breisgau-Hochschwarzwald): 7630 (2020) auf 7710 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+ehrenkirchen+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "79238",
+   "landkreis": "Breisgau-Hochschwarzwald",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/ehrenkirchen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/ehrenkirchen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/ehrenkirchen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Ehrenkirchen/Ehrenkirchen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Ehrenkirchen/Ehrenkirchen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/ehrenkirchen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": [
+   {
+    "name": "Anton Hübner GmbH & Co. KG (Ortsteil Kirchhofen)",
+    "beschaeftigte": "100",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Ehrenkirchen, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Ehrenkirchen hat 7.813 Einwohner und liegt bei 4.185 €/m² Kauf und 13,48 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +1,0 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben"
+  ]
+ },
+ {
+  "id": "schallstadt",
+  "name": "Schallstadt",
+  "land": "Baden-Württemberg",
+  "ags": "08315098",
+  "einwohner": 6937,
+  "kauf": 4053,
+  "miete": 14.07,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.534, homeday 3.650, miete-aktuell 3.974, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 13,76, miete-aktuell 14,60, miet-check 13,86. homeday 11,7 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 3.0,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Schallstadt (im Landkreis Breisgau-Hochschwarzwald): 6410 (2020) auf 6600 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+schallstadt+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "79227",
+   "landkreis": "Breisgau-Hochschwarzwald",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/schallstadt",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/schallstadt",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/schallstadt",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/schallstadt?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Schallstadt/Schallstadt/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Schallstadt/Schallstadt/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/schallstadt/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Schallstadt hat 6.937 Einwohner und liegt bei 4.053 €/m² Kauf und 14,07 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +3,0 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "ebringen",
+  "name": "Ebringen",
+  "land": "Baden-Württemberg",
+  "ags": "08315028",
+  "einwohner": 2859,
+  "kauf": 4121,
+  "miete": 13.83,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.100, miete-aktuell 4.142, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 13,84, miet-check 13,82. homeday 11,3 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": null,
+   "basisjahr": 2024,
+   "zieljahr": 2045,
+   "ebene": "Gemeinde",
+   "quelle": "nicht verfügbar: GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abgebrochen; Ersatzquelle Wegweiser Kommune führt die Gemeinde nicht (nur ab 5.000 Einwohnern)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "79285",
+   "landkreis": "Breisgau-Hochschwarzwald",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/ebringen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/ebringen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Ebringen/Ebringen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Ebringen/Ebringen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/ebringen_breisgau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Ebringen hat 2.859 Einwohner und liegt bei 4.121 €/m² Kauf und 13,83 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Eine Gemeindeprognose war nicht abrufbar, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Prognose nicht verfügbar (GENESIS BW mit Server-Timeout, Wegweiser Kommune ohne Eintrag unter 5.000 Einwohnern), Ampel höchstens gelb",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "pfaffenweiler",
+  "name": "Pfaffenweiler",
+  "land": "Baden-Württemberg",
+  "ags": "08315089",
+  "einwohner": 2604,
+  "kauf": 3881,
+  "miete": 12.41,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.700, miete-aktuell 4.062, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,92, miet-check 13,90. homeday 10,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": null,
+   "basisjahr": 2024,
+   "zieljahr": 2045,
+   "ebene": "Gemeinde",
+   "quelle": "nicht verfügbar: GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abgebrochen; Ersatzquelle Wegweiser Kommune führt die Gemeinde nicht (nur ab 5.000 Einwohnern)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "79292",
+   "landkreis": "Breisgau-Hochschwarzwald",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/pfaffenweiler",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/pfaffenweiler?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Pfaffenweiler/Pfaffenweiler/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Pfaffenweiler/Pfaffenweiler/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/pfaffenweiler_breisgau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Pfaffenweiler hat 2.604 Einwohner und liegt bei 3.881 €/m² Kauf und 12,41 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Eine Gemeindeprognose war nicht abrufbar, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Prognose nicht verfügbar (GENESIS BW mit Server-Timeout, Wegweiser Kommune ohne Eintrag unter 5.000 Einwohnern), Ampel höchstens gelb",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ }
+]
