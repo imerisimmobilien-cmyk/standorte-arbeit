@@ -1,0 +1,1821 @@
+[
+ {
+  "satz": "ergebnis2",
+  "id": "babenhausen",
+  "ags": "09778115",
+  "kauf": 1833,
+  "miete": 10.62,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.833, Gutachterausschuss Bayern (Kreiswert) 3.400 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). ohne-makler.net 4.019 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,87, miet-check 10,38.",
+  "score": "gelb",
+  "fazit": "Babenhausen hat 5.669 Einwohner und liegt bei 1.833 €/m² Kauf und 10,62 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +10,0 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "ortspruefung": {
+   "plz": "87727",
+   "landkreis": "Unterallgäu",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/babenhausen",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/babenhausen",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/babenhausen",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/babenhausen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/babenhausen_schwaben/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/babenhausen",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "nicht eindeutig bestätigt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf (Pfad mit Zusatz)",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Babenhausen-Schwaben/Babenhausen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt"
+    },
+    {
+     "quelle": "miete-aktuell Miete (Pfad mit Zusatz)",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Babenhausen-Schwaben/Babenhausen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 erneut abgerufen"
+  },
+  "korrekturen": [
+   "miete-aktuell Kauf: ergänzt über Pfad mit Zusatz https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Babenhausen-Schwaben/Babenhausen/ (Wert 1833.33)",
+   "miete-aktuell Miete: ergänzt über Pfad mit Zusatz https://www.miete-aktuell.de/mietspiegel/Babenhausen-Schwaben/Babenhausen/ (Wert 10.87)"
+  ],
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Kauf ohne-makler.net 4.019 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 3.400 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "unbewertet zu gelb, Kauf None zu 1833, Miete 10.38 zu 10.62",
+  "muster": [
+   "1",
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 1833,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "isen",
+  "ags": "09177123",
+  "kauf": 4750,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.928, ohne-makler.net 5.421 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 4.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 11,94, miet-check 12,55.",
+  "score": "rot",
+  "fazit": "Isen hat 5.619 Einwohner und liegt bei 4.750 €/m² Kauf und 12,25 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +0,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel rot.",
+  "ortspruefung": {
+   "plz": "84424",
+   "landkreis": "Erding",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/isen",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "homeday leitet auf einen anderen Ort um: https://www.homeday.de/de/preisatlas/heldenstein"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/isen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "homeday leitet auf einen anderen Ort um: https://www.homeday.de/de/preisatlas/heldenstein?marketing_type=rent&property_type=apartment&map_layer=standard"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Isen/Isen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Isen/Isen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/isen_oberbayern/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/isen",
+     "ergebnis": "nicht bestätigt",
+     "methode": "nicht bestätigt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 erneut abgerufen"
+  },
+  "korrekturen": [
+   "homeday Kauf: entfernt, stille Umleitung auf https://www.homeday.de/de/preisatlas/heldenstein (Wert 3300.0)",
+   "homeday Miete: entfernt, stille Umleitung auf https://www.homeday.de/de/preisatlas/heldenstein (Wert 8.8)"
+  ],
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gelb zu rot, Kauf 4043 zu 4750, Miete 12.25 zu 12.25",
+  "muster": [
+   "2"
+  ],
+  "ergebnis13": {
+   "kauf": 3928,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "altenstadt-09775111",
+  "ags": "09775111",
+  "kauf": 3092,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): ohne-makler.net 3.092 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.100 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: ohne-makler.net.",
+  "fazit": "Altenstadt hat 5.416 Einwohner und liegt bei 3.092 €/m² Kauf und 11,47 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +7,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 3.100 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 3092,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "monheim",
+  "ags": "09779186",
+  "kauf": 3173,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.032, ohne-makler.net 3.188 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.300 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "fazit": "Monheim hat 5.450 Einwohner und liegt bei 3.173 €/m² Kauf und 10,05 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +14,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben"
+  ],
+  "ergebnis13": {
+   "kauf": 3032,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "schoenau-a-koenigssee",
+  "ags": "09172132",
+  "kauf": 4456,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 4.456, Gutachterausschuss Bayern (Kreiswert) 3.700 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: miete-aktuell.",
+  "fazit": "Schönau a.Königssee hat 5.315 Einwohner und liegt bei 4.456 €/m² Kauf und 13,72 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei -2,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 3.700 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 4456,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "oettingen-i-bay",
+  "ags": "09779197",
+  "kauf": 3050,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.050, Gutachterausschuss Bayern (Kreiswert) 3.300 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "fazit": "Oettingen i.Bay. hat 5.196 Einwohner und liegt bei 3.050 €/m² Kauf und 9,97 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +9,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 3.300 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 3050,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "bergen",
+  "ags": "09189113",
+  "kauf": 4568,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): ohne-makler.net 4.568 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.900 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: ohne-makler.net.",
+  "fazit": "Bergen hat 4.592 Einwohner und liegt bei 4.568 €/m² Kauf und 13,27 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +2,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 3.900 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 4568,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "seeon-seebruck",
+  "ags": "09189143",
+  "kauf": 5000,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 5.000, Gutachterausschuss Bayern (Kreiswert) 3.900 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "score": "rot",
+  "fazit": "Seeon-Seebruck hat 4.490 Einwohner und liegt bei 5.000 €/m² Kauf und 12,99 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +0,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 3.900 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gelb zu rot, Kauf 4450 zu 5000, Miete 12.99 zu 12.99",
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 5000,
+   "score": "rot"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "haldenwang",
+  "ags": "09780122",
+  "kauf": 3494,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.494, Gutachterausschuss Bayern (Kreiswert) 3.600 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: miete-aktuell.",
+  "score": "gelb",
+  "fazit": "Haldenwang hat 3.779 Einwohner und liegt bei 3.494 €/m² Kauf und 13,11 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +1,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 3.600 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gruen zu gelb, Kauf 3547 zu 3494, Miete 13.11 zu 13.11",
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 3494,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "bissingen",
+  "ags": "09773117",
+  "kauf": 2642,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.968, ohne-makler.net 2.357 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 2.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "fazit": "Bissingen hat 3.682 Einwohner und liegt bei 2.642 €/m² Kauf und 8,96 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +2,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ergebnis13": {
+   "kauf": 2968,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "polling-09183136",
+  "ags": "09183136",
+  "kauf": 3930,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.504, ohne-makler.net 5.187 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.100 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "fazit": "Polling hat 3.315 Einwohner und liegt bei 3.930 €/m² Kauf und 11,10 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -1,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ergebnis13": {
+   "kauf": 3504,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "oberhausen",
+  "ags": "09185150",
+  "kauf": 3448,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): ohne-makler.net 3.448 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.200 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: ohne-makler.net.",
+  "fazit": "Oberhausen hat 3.231 Einwohner und liegt bei 3.448 €/m² Kauf und 11,35 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +9,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 3.200 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 3448,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "buxheim-09778123",
+  "ags": "09778123",
+  "kauf": 3768,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.768, Gutachterausschuss Bayern (Kreiswert) 3.400 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: miete-aktuell.",
+  "score": "gelb",
+  "fazit": "Buxheim hat 3.108 Einwohner und liegt bei 3.768 €/m² Kauf und 12,94 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +10,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 3.400 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gruen zu gelb, Kauf 3584 zu 3768, Miete 12.94 zu 12.94",
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 3768,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "auerbach-i-d-opf",
+  "ags": "09371113",
+  "kauf": 1889,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.889, Gutachterausschuss Bayern (Kreiswert) 2.200 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: miete-aktuell.",
+  "score": "gelb",
+  "fazit": "Auerbach i.d.OPf. hat 8.846 Einwohner und liegt bei 1.889 €/m² Kauf und 8,04 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +1,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 2.200 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gruen zu gelb, Kauf 2044 zu 1889, Miete 8.04 zu 8.04",
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 1889,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "berg-b-neumarkt-i-d-opf",
+  "ags": "09373113",
+  "kauf": 6700,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 6.700, Gutachterausschuss Bayern (Kreiswert) 3.300 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "offen": [
+   "unbewertet: Portale liefern für diese Gemeinde keine oder zu wenige belegbare Werte, keine Ersatzwerte aus Landkreis oder Nachbarorten eingesetzt",
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 3.300 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 6700,
+   "score": "unbewertet"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "michelau-i-ofr",
+  "ags": "09478145",
+  "kauf": 2644,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.644, Gutachterausschuss Bayern (Kreiswert) 2.000 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: miete-aktuell.",
+  "fazit": "Michelau i.OFr. hat 5.995 Einwohner und liegt bei 2.644 €/m² Kauf und 8,24 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei -8,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 2.000 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben"
+  ],
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 2644,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "emskirchen",
+  "ags": "09575121",
+  "kauf": 2835,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.450, miete-aktuell 3.654, Gutachterausschuss Bayern (Kreiswert) 2.400 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "fazit": "Emskirchen hat 5.854 Einwohner und liegt bei 2.835 €/m² Kauf und 11,49 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei -0,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ergebnis13": {
+   "kauf": 2450,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "weidenberg",
+  "ags": "09472199",
+  "kauf": 1785,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.800, ohne-makler.net 1.655 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 1.900 (Wiederverkäufe ETW 2025). miete-aktuell 2.838 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday, ohne-makler.net.",
+  "fazit": "Weidenberg hat 5.864 Einwohner und liegt bei 1.785 €/m² Kauf und 9,50 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei -1,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Kauf miete-aktuell 2.838 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 1785,
+   "score": "gruen"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "altenkunstadt",
+  "ags": "09478111",
+  "kauf": 1400,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.400, Gutachterausschuss Bayern (Kreiswert) 2.000 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). miete-aktuell 2.580 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday.",
+  "score": "gelb",
+  "fazit": "Altenkunstadt hat 5.502 Einwohner und liegt bei 1.400 €/m² Kauf und 7,96 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei -3,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf miete-aktuell 2.580 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 2.000 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gruen zu gelb, Kauf 1700 zu 1400, Miete 7.96 zu 7.96",
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 1400,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "seubersdorf-i-d-opf",
+  "ags": "09373160",
+  "kauf": 3212,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.212, Gutachterausschuss Bayern (Kreiswert) 3.300 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: miete-aktuell.",
+  "fazit": "Seubersdorf i.d.OPf. hat 5.295 Einwohner und liegt bei 3.212 €/m² Kauf und 10,28 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +8,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "ortspruefung": {
+   "plz": "92358",
+   "landkreis": "Neumarkt i.d.OPf.",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/seubersdorf+i+d+opf",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "homeday leitet auf einen anderen Ort um: https://www.homeday.de/de/preisatlas/seubersdorf+i.d.+opf./seubersdorf+in+der+oberpfalz+92358"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/seubersdorf+i+d+opf?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Seubersdorf-Id-Opf/Seubersdorf-i.d.-opf./",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Seubersdorf-Id-Opf/Seubersdorf-i.d.-opf./",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/seubersdorf_in_der_oberpfalz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 erneut abgerufen"
+  },
+  "korrekturen": [
+   "homeday Kauf: entfernt, stille Umleitung auf https://www.homeday.de/de/preisatlas/seubersdorf+i.d.+opf./seubersdorf+in+der+oberpfalz+92358 (Wert 2400.0)"
+  ],
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 3.300 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "2",
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 3212,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "oberkotzau",
+  "ags": "09475158",
+  "kauf": 1338,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.350, ohne-makler.net 1.327 (Ersatz), Gutachterausschuss keine Angabe. miete-aktuell 2.435 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday, ohne-makler.net.",
+  "score": "gruen",
+  "fazit": "Oberkotzau hat 5.263 Einwohner und liegt bei 1.338 €/m² Kauf und 7,79 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei -2,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Kauf miete-aktuell 2.435 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gelb zu gruen, Kauf 1350 zu 1338, Miete 7.79 zu 7.79",
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 1612,
+   "score": "gruen"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "erbendorf",
+  "ags": "09377116",
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.900, Gutachterausschuss Bayern (Kreiswert) 1.900 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). miete-aktuell 3.361 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday.",
+  "score": "gelb",
+  "fazit": "Erbendorf hat 5.095 Einwohner und liegt bei 1.900 €/m² Kauf und 9,42 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +1,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf miete-aktuell 3.361 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 1.900 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gruen zu gelb, Kauf 1900 zu 1900, Miete 9.42 zu 9.42",
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 1900,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "windorf",
+  "ags": "09275159",
+  "kauf": 2490,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.647, ohne-makler.net 2.423 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 2.400 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "fazit": "Windorf hat 5.005 Einwohner und liegt bei 2.490 €/m² Kauf und 8,79 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +8,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ergebnis13": {
+   "kauf": 2647,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "creussen",
+  "ags": "09472127",
+  "kauf": 2529,
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.050, miete-aktuell 3.146, Engel & Völkers 3.020 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 1.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: Engel & Völkers, homeday, miete-aktuell.",
+  "fazit": "Creußen hat 4.914 Einwohner und liegt bei 2.529 €/m² Kauf und 9,82 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +1,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 2050,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "hollfeld",
+  "ags": "09472154",
+  "kauf": 1800,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.800, Gutachterausschuss Bayern (Kreiswert) 1.900 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). miete-aktuell 2.908 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday.",
+  "score": "gelb",
+  "fazit": "Hollfeld hat 4.784 Einwohner und liegt bei 1.800 €/m² Kauf und 8,37 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -2,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf miete-aktuell 2.908 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 1.900 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gruen zu gelb, Kauf 1850 zu 1800, Miete 8.37 zu 8.37",
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 1800,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "leidersbach",
+  "ags": "09676136",
+  "kauf": 3025,
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.200, miete-aktuell 3.609, ohne-makler.net 3.693 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 2.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell, ohne-makler.net.",
+  "score": "gelb",
+  "fazit": "Leidersbach hat 4.642 Einwohner und liegt bei 3.025 €/m² Kauf und 10,41 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -1,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gruen zu gelb, Kauf 2400 zu 3025, Miete 10.41 zu 10.41",
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 2992,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "lautertal",
+  "ags": "09473141",
+  "kauf": 2493,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.919, ohne-makler.net 2.659 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 1.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "fazit": "Lautertal hat 4.404 Einwohner und liegt bei 2.493 €/m² Kauf und 9,40 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +3,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ergebnis13": {
+   "kauf": 2919,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "neufahrn-i-nb",
+  "ags": "09274153",
+  "kauf": 3162,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.162, Gutachterausschuss Bayern (Kreiswert) 3.400 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: miete-aktuell.",
+  "fazit": "Neufahrn i.NB hat 4.263 Einwohner und liegt bei 3.162 €/m² Kauf und 10,06 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +14,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 3.400 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 3162,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "eching",
+  "ags": "09274124",
+  "kauf": 4193,
+  "miete": 12.82,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 4.193, Gutachterausschuss Bayern (Kreiswert) 3.400 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 12,93, miet-check 12,71.",
+  "score": "gelb",
+  "fazit": "Eching hat 4.254 Einwohner und liegt bei 4.193 €/m² Kauf und 12,82 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +5,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "ortspruefung": {
+   "plz": "84174",
+   "landkreis": "Landshut",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/eching",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/eching",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/eching",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/eching?marketing_type=rent&property_type=apartment",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/eching_niederbayern/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/eching",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "nicht eindeutig bestätigt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf (Pfad mit Zusatz)",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Eching-Niederbayern/Eching/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt"
+    },
+    {
+     "quelle": "miete-aktuell Miete (Pfad mit Zusatz)",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Eching-Niederbayern/Eching/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 erneut abgerufen"
+  },
+  "korrekturen": [
+   "miete-aktuell Kauf: ergänzt über Pfad mit Zusatz https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Eching-Niederbayern/Eching/ (Wert 4192.53)",
+   "miete-aktuell Miete: ergänzt über Pfad mit Zusatz https://www.miete-aktuell.de/mietspiegel/Eching-Niederbayern/Eching/ (Wert 12.93)"
+  ],
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 3.400 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "unbewertet zu gelb, Kauf None zu 4193, Miete 12.71 zu 12.82",
+  "muster": [
+   "1",
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 4193,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "neureichenau",
+  "ags": "09272136",
+  "kauf": 1060,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 950, ohne-makler.net 1.171 (Ersatz), Gutachterausschuss keine Angabe. miete-aktuell 2.749 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday, ohne-makler.net.",
+  "score": "gruen",
+  "fazit": "Neureichenau hat 4.238 Einwohner und liegt bei 1.060 €/m² Kauf und 8,20 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -0,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Kauf miete-aktuell 2.749 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gelb zu gruen, Kauf 950 zu 1060, Miete 8.2 zu 8.2",
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 1060,
+   "score": "gruen"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "simbach",
+  "ags": "09279135",
+  "kauf": 2189,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.189, Gutachterausschuss Bayern (Kreiswert) 2.800 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: miete-aktuell.",
+  "fazit": "Simbach hat 4.197 Einwohner und liegt bei 2.189 €/m² Kauf und 8,79 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +4,0 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 2.800 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 2189,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "pressath",
+  "ags": "09374149",
+  "kauf": 2630,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.223, Engel & Völkers 2.868 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 1.800 (Wiederverkäufe ETW 2025). homeday 1.500 (nicht gewertet: unter 60 % des Medians der übrigen Portalquellen). Ort/PLZ geprüft: Engel & Völkers, miete-aktuell.",
+  "fazit": "Pressath hat 4.217 Einwohner und liegt bei 2.630 €/m² Kauf und 10,18 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -4,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
+   "Kauf homeday 1.500 nicht gewertet: unter 60 % des Medians der übrigen Portalquellen",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 2630,
+   "score": "gruen"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "buergstadt",
+  "ags": "09676116",
+  "kauf": 2851,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.007, Engel & Völkers 2.946 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 2.600 (Wiederverkäufe ETW 2025). homeday 1.100 (nicht gewertet: unter 60 % des Medians der übrigen Portalquellen). Ort/PLZ geprüft: Engel & Völkers, miete-aktuell.",
+  "fazit": "Bürgstadt hat 4.193 Einwohner und liegt bei 2.851 €/m² Kauf und 10,29 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -0,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
+   "Kauf homeday 1.100 nicht gewertet: unter 60 % des Medians der übrigen Portalquellen",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 2851,
+   "score": "gruen"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "oberaurach",
+  "ags": "09674159",
+  "kauf": 1581,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.500, ohne-makler.net 1.242 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 2.000 (Wiederverkäufe ETW 2025). miete-aktuell 2.728 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday, ohne-makler.net.",
+  "fazit": "Oberaurach hat 4.053 Einwohner und liegt bei 1.581 €/m² Kauf und 8,02 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -4,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Kauf miete-aktuell 2.728 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 1500,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "falkenberg",
+  "ags": "09277119",
+  "kauf": 2700,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.891, ohne-makler.net 2.608 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 2.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "fazit": "Falkenberg hat 3.921 Einwohner und liegt bei 2.700 €/m² Kauf und 9,25 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +5,0 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ergebnis13": {
+   "kauf": 2891,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "spiegelau",
+  "ags": "09272149",
+  "kauf": 2073,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.450, miete-aktuell 2.412, ohne-makler.net 2.356 (Ersatz), Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell, ohne-makler.net.",
+  "fazit": "Spiegelau hat 3.890 Einwohner und liegt bei 2.073 €/m² Kauf und 7,29 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -1,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 2073,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "eschau",
+  "ags": "09676123",
+  "kauf": 3036,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.414, ohne-makler.net 3.093 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 2.600 (Wiederverkäufe ETW 2025). homeday 1.900 (nicht gewertet: unter 60 % des Medians der übrigen Portalquellen). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "score": "gelb",
+  "fazit": "Eschau hat 3.915 Einwohner und liegt bei 3.036 €/m² Kauf und 9,50 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +4,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Kauf homeday 1.900 nicht gewertet: unter 60 % des Medians der übrigen Portalquellen",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gruen zu gelb, Kauf 2250 zu 3036, Miete 9.5 zu 9.5",
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 1900,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "mistelgau",
+  "ags": "09472167",
+  "kauf": 2246,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.950, miete-aktuell 2.889, Gutachterausschuss Bayern (Kreiswert) 1.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "fazit": "Mistelgau hat 3.832 Einwohner und liegt bei 2.246 €/m² Kauf und 10,41 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +0,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ergebnis13": {
+   "kauf": 1950,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "tann",
+  "ags": "09277148",
+  "kauf": 2686,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.700, ohne-makler.net 2.759 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 2.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "fazit": "Tann hat 3.813 Einwohner und liegt bei 2.686 €/m² Kauf und 8,31 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +8,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ergebnis13": {
+   "kauf": 2700,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "rohr",
+  "ags": "09576142",
+  "kauf": 1400,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.400, Gutachterausschuss Bayern (Kreiswert) 3.000 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). miete-aktuell 3.380 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday.",
+  "fazit": "Rohr hat 3.733 Einwohner und liegt bei 1.400 €/m² Kauf und 10,50 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -2,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf miete-aktuell 3.380 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 3.000 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 3380,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "breitenbrunn",
+  "ags": "09373115",
+  "kauf": 2945,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.084, ohne-makler.net 2.451 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.300 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "fazit": "Breitenbrunn hat 3.702 Einwohner und liegt bei 2.945 €/m² Kauf und 9,14 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +6,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ergebnis13": {
+   "kauf": 3084,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "bodenmais",
+  "ags": "09276117",
+  "kauf": 2281,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.200, miete-aktuell 2.942, Gutachterausschuss Bayern (Kreiswert) 1.700 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "fazit": "Bodenmais hat 3.641 Einwohner und liegt bei 2.281 €/m² Kauf und 9,56 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -2,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ergebnis13": {
+   "kauf": 2200,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "koenigsberg-i-bay",
+  "ags": "09674164",
+  "kauf": 2050,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.050, Gutachterausschuss Bayern (Kreiswert) 2.000 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "fazit": "Königsberg i.Bay. hat 3.543 Einwohner und liegt bei 2.050 €/m² Kauf und 9,19 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -1,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 2.000 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben"
+  ],
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 2050,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "luhe-wildenau",
+  "ags": "09374133",
+  "kauf": 2306,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.100, miete-aktuell 3.017, Gutachterausschuss Bayern (Kreiswert) 1.800 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "fazit": "Luhe-Wildenau hat 3.419 Einwohner und liegt bei 2.306 €/m² Kauf und 9,23 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -1,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ergebnis13": {
+   "kauf": 2100,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "falkenstein",
+  "ags": "09372125",
+  "kauf": 1140,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.140, Gutachterausschuss Bayern (Kreiswert) 2.000 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). ohne-makler.net 2.241 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "score": "gelb",
+  "fazit": "Falkenstein hat 3.398 Einwohner und liegt bei 1.140 €/m² Kauf und 9,85 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -0,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Kauf ohne-makler.net 2.241 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 2.000 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gruen zu gelb, Kauf 1570 zu 1140, Miete 9.85 zu 9.85",
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 1140,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "wasserlosen",
+  "ags": "09678192",
+  "kauf": 2494,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.544, Engel & Völkers 2.737 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 2.200 (Wiederverkäufe ETW 2025). homeday 1.400 (nicht gewertet: unter 60 % des Medians der übrigen Portalquellen). Ort/PLZ geprüft: Engel & Völkers, miete-aktuell.",
+  "fazit": "Wasserlosen hat 3.425 Einwohner und liegt bei 2.494 €/m² Kauf und 7,98 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -2,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
+   "Kauf homeday 1.400 nicht gewertet: unter 60 % des Medians der übrigen Portalquellen",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 2494,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "bischofsmais",
+  "ags": "09276116",
+  "kauf": 1748,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.850, ohne-makler.net 1.693 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 1.700 (Wiederverkäufe ETW 2025). miete-aktuell 2.874 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday, ohne-makler.net.",
+  "fazit": "Bischofsmais hat 3.331 Einwohner und liegt bei 1.748 €/m² Kauf und 8,47 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +0,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Kauf miete-aktuell 2.874 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 1850,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "steinwiesen",
+  "ags": "09476177",
+  "kauf": 1862,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.800, Engel & Völkers 1.923 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 2.300 (Wiederverkäufe ETW 2025, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). miete-aktuell 708 (nicht gewertet: unter 60 % des Medians der übrigen Portalquellen). Ort/PLZ geprüft: Engel & Völkers, homeday.",
+  "fazit": "Steinwiesen hat 3.297 Einwohner und liegt bei 1.862 €/m² Kauf und 7,15 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -8,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
+   "Kauf miete-aktuell 708 nicht gewertet: unter 60 % des Medians der übrigen Portalquellen",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
+   "Gutachter-Kreiswert 2.300 nicht gewertet: Abweichung über 40 % vom Median der Portalwerte",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 1862,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "rinchnach",
+  "ags": "09276139",
+  "kauf": 1182,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.182, Gutachterausschuss Bayern (Kreiswert) 1.700 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). homeday 3.350 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: miete-aktuell.",
+  "score": "gelb",
+  "fazit": "Rinchnach hat 3.111 Einwohner und liegt bei 1.182 €/m² Kauf und 8,23 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -2,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf homeday 3.350 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 1.700 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gruen zu gelb, Kauf 1441 zu 1182, Miete 8.23 zu 8.23",
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 1182,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "schmidgaden",
+  "ags": "09376159",
+  "kauf": 1950,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.950, Gutachterausschuss Bayern (Kreiswert) 2.500 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). miete-aktuell 3.376 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday.",
+  "score": "gelb",
+  "fazit": "Schmidgaden hat 3.103 Einwohner und liegt bei 1.950 €/m² Kauf und 10,54 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +6,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf miete-aktuell 3.376 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 2.500 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gruen zu gelb, Kauf 2225 zu 1950, Miete 10.54 zu 10.54",
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 1950,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "weidhausen-b-coburg",
+  "ags": "09473174",
+  "kauf": 2196,
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.600, miete-aktuell 2.826, Engel & Völkers 2.456 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 1.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: Engel & Völkers, homeday, miete-aktuell.",
+  "fazit": "Weidhausen b.Coburg hat 3.128 Einwohner und liegt bei 2.196 €/m² Kauf und 8,91 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -5,0 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 2196,
+   "score": "gruen"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "schorndorf",
+  "ags": "09372158",
+  "kauf": 2181,
+  "miete": 8.73,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.181, Gutachterausschuss Bayern (Kreiswert) 2.000 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,47, miet-check 9,00.",
+  "score": "gelb",
+  "fazit": "Schorndorf hat 3.031 Einwohner und liegt bei 2.181 €/m² Kauf und 8,73 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +15,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "ortspruefung": {
+   "plz": "93489",
+   "landkreis": "Cham",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/schorndorf",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/schorndorf",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/schorndorf_oberpfalz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "ohne-makler.net Miete (neu)",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/bayern/schorndorf/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf (Pfad mit Zusatz)",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Schorndorf-Oberpfalz/Schorndorf/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt"
+    },
+    {
+     "quelle": "miete-aktuell Miete (Pfad mit Zusatz)",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Schorndorf-Oberpfalz/Schorndorf/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 erneut abgerufen"
+  },
+  "korrekturen": [
+   "miete-aktuell Kauf: ergänzt über Pfad mit Zusatz https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Schorndorf-Oberpfalz/Schorndorf/ (Wert 2180.89)",
+   "miete-aktuell Miete: ergänzt über Pfad mit Zusatz https://www.miete-aktuell.de/mietspiegel/Schorndorf-Oberpfalz/Schorndorf/ (Wert 8.47)"
+  ],
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 2.000 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "unbewertet zu gelb, Kauf None zu 2181, Miete 9.2 zu 8.73",
+  "muster": [
+   "1",
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 2181,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "kirchenlamitz",
+  "ags": "09479129",
+  "kauf": 1153,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.250, ohne-makler.net 1.056 (Ersatz), Gutachterausschuss keine Angabe. miete-aktuell 2.142 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday, ohne-makler.net.",
+  "fazit": "Kirchenlamitz hat 3.122 Einwohner und liegt bei 1.153 €/m² Kauf und 6,47 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -10,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Kauf miete-aktuell 2.142 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 1698,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "wald",
+  "ags": "09372169",
+  "kauf": 3016,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.016, Gutachterausschuss Bayern (Kreiswert) 2.000 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: miete-aktuell.",
+  "score": "gelb",
+  "fazit": "Wald hat 2.991 Einwohner und liegt bei 3.016 €/m² Kauf und 8,97 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +9,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 2.000 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gruen zu gelb, Kauf 2508 zu 3016, Miete 8.97 zu 8.97",
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 3016,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "gleich wie ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "stadtsteinach",
+  "ags": "09477156",
+  "kauf": 1977,
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.450, miete-aktuell 2.597, ohne-makler.net 1.959 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 1.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell, ohne-makler.net.",
+  "fazit": "Stadtsteinach hat 2.983 Einwohner und liegt bei 1.977 €/m² Kauf und 8,36 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -2,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "4"
+  ],
+  "ergebnis13": {
+   "kauf": 2033,
+   "score": "gruen"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "steinbach-a-wald",
+  "ags": "09476175",
+  "kauf": 1250,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.250, Gutachterausschuss Bayern (Kreiswert) 2.300 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). miete-aktuell 2.191 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday.",
+  "fazit": "Steinbach a.Wald hat 3.047 Einwohner und liegt bei 1.250 €/m² Kauf und 6,72 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -6,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf miete-aktuell 2.191 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 2.300 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "muster": [
+   "3"
+  ],
+  "ergebnis13": {
+   "kauf": 2191,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "rain-09278177",
+  "ags": "09278177",
+  "kauf": 3191,
+  "miete": 10.12,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.355, ohne-makler.net 3.417 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 2.800 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,46, miet-check 10,77.",
+  "score": "gelb",
+  "fazit": "Rain hat 2.969 Einwohner und liegt bei 3.191 €/m² Kauf und 10,12 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +9,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "ortspruefung": {
+   "plz": "94369",
+   "landkreis": "Straubing-Bogen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/rain",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/rain",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/rain",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/rain?marketing_type=rent&property_type=apartment",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/rain_niederbayern/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf (Pfad mit Zusatz)",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Rain-Niederbayern/Rain/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt"
+    },
+    {
+     "quelle": "miete-aktuell Miete (Pfad mit Zusatz)",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Rain-Niederbayern/Rain/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 erneut abgerufen"
+  },
+  "korrekturen": [
+   "miete-aktuell Kauf: ergänzt über Pfad mit Zusatz https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Rain-Niederbayern/Rain/ (Wert 3355.3)",
+   "miete-aktuell Miete: ergänzt über Pfad mit Zusatz https://www.miete-aktuell.de/mietspiegel/Rain-Niederbayern/Rain/ (Wert 9.46)"
+  ],
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "unbewertet zu gelb, Kauf None zu 3191, Miete 10.77 zu 10.12",
+  "muster": [
+   "1"
+  ],
+  "ergebnis13": {
+   "kauf": 3355,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "waischenfeld",
+  "ags": "09472197",
+  "kauf": 2314,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.050, miete-aktuell 2.991, Gutachterausschuss Bayern (Kreiswert) 1.900 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "fazit": "Waischenfeld hat 2.989 Einwohner und liegt bei 2.314 €/m² Kauf und 8,54 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -5,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ergebnis13": {
+   "kauf": 2050,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ },
+ {
+  "satz": "ergebnis2",
+  "id": "schwarzach",
+  "ags": "09278187",
+  "kauf": 3099,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.736, ohne-makler.net 3.760 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 2.800 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "score": "rot",
+  "fazit": "Schwarzach hat 2.940 Einwohner und liegt bei 3.099 €/m² Kauf und 8,48 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +8,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ],
+  "ampelNeu": "gelb zu rot, Kauf 2768 zu 3099, Miete 8.48 zu 8.48",
+  "ergebnis13": {
+   "kauf": 2736,
+   "score": "gelb"
+  },
+  "korrekturWirkung": "anders als ergebnis13"
+ }
+]
