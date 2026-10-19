@@ -298,11 +298,11 @@
   "land": "Bayern",
   "ags": "09777182",
   "einwohner": 1937,
-  "kauf": 3032,
+  "kauf": 2619,
   "miete": 10.27,
-  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.032, Gutachterausschuss Bayern (Kreiswert) 3.900 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.032, ohne-makler.net 2.206 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.900 (Wiederverkäufe ETW 2025, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,53, miet-check 12,00.",
-  "score": "gelb",
+  "score": "gruen",
   "prognose": {
    "wert_pct": 5.1,
    "basisjahr": 2024,
@@ -347,19 +347,31 @@
      "pfad": "https://www.miet-check.de/mietspiegel/westendorf_bei_kaufbeuren/",
      "ergebnis": "bestätigt",
      "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/bayern/westendorf/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/bayern/westendorf/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
     }
    ],
    "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
   },
   "arbeitgeber": null,
-  "fazit": "Westendorf hat 1.937 Einwohner und liegt bei 3.032 €/m² Kauf und 10,27 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +5,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "fazit": "Westendorf hat 1.937 Einwohner und liegt bei 2.619 €/m² Kauf und 10,27 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +5,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
-   "Gutachterwert 3.900 nicht gewertet: nur ein Portalwert vorhanden",
-   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachter-Kreiswert 3.900 nicht gewertet: Abweichung über 40 % vom Median der Portalwerte",
    "Ortsverwechslung bereinigt: homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/westendorf; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/westendorf?marketing_type=rent&property_type=apartment",
    "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
   ]
@@ -718,7 +730,7 @@
   "einwohner": 1941,
   "kauf": 1725,
   "miete": 9.36,
-  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.725, Gutachterausschuss Bayern (Kreiswert) 3.400 (Wiederverkäufe ETW 2025, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). homeday 2.900 (nicht gewertet: mehr als 50 % über der nächsten Quelle). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.725, Gutachterausschuss Bayern (Kreiswert) 3.400 (Wiederverkäufe ETW 2025, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). homeday 2.900 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,78, miet-check 9,93. homeday 7,4 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -774,7 +786,7 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Kauf homeday 2.900 nicht gewertet: mehr als 50 % über der nächsten Quelle",
+   "Kauf homeday 2.900 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
    "Gutachter-Kreiswert 3.400 nicht gewertet: Abweichung über 40 % vom Median der Portalwerte",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
@@ -1291,7 +1303,7 @@
   "einwohner": 1898,
   "kauf": 1833,
   "miete": 10.01,
-  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.833, Gutachterausschuss Bayern (Kreiswert) 3.400 (Wiederverkäufe ETW 2025, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). homeday 2.750 (nicht gewertet: mehr als 50 % über der nächsten Quelle). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.833, Gutachterausschuss Bayern (Kreiswert) 3.400 (Wiederverkäufe ETW 2025, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). homeday 2.750 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,63, miet-check 10,39. homeday 8,4 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -1344,12 +1356,6 @@
      "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/kettershausen",
      "ergebnis": "nicht bestätigt",
      "methode": "nicht bestätigt"
-    },
-    {
-     "quelle": "ohne-makler.net Miete",
-     "pfad": "https://www.ohne-makler.net/mietspiegel/bayern/kettershausen/",
-     "ergebnis": "bestätigt",
-     "methode": "Landkreis auf der Seite genannt"
     }
    ],
    "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
@@ -1359,7 +1365,7 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Kauf homeday 2.750 nicht gewertet: mehr als 50 % über der nächsten Quelle",
+   "Kauf homeday 2.750 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
    "Gutachter-Kreiswert 3.400 nicht gewertet: Abweichung über 40 % vom Median der Portalwerte",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
@@ -1441,7 +1447,7 @@
   "einwohner": 1830,
   "kauf": 3736,
   "miete": 11.15,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.750, ohne-makler.net 4.058 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.400 (Wiederverkäufe ETW 2025). miete-aktuell 6.306 (nicht gewertet: über 150 % des Medians der übrigen Quellen). Ort/PLZ geprüft: homeday, ohne-makler.net.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.750, ohne-makler.net 4.058 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.400 (Wiederverkäufe ETW 2025). miete-aktuell 6.306 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday, ohne-makler.net.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,42, miet-check 11,88. homeday 10,7 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -1516,7 +1522,7 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
-   "Kauf miete-aktuell 6.306 nicht gewertet: über 150 % des Medians der übrigen Quellen",
+   "Kauf miete-aktuell 6.306 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
    "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
@@ -1795,12 +1801,6 @@
      "pfad": "https://www.miet-check.de/mietspiegel/brunnen_bei_schrobenhausen/",
      "ergebnis": "bestätigt",
      "methode": "PLZ passt"
-    },
-    {
-     "quelle": "ohne-makler.net Miete",
-     "pfad": "https://www.ohne-makler.net/mietspiegel/bayern/brunnen/",
-     "ergebnis": "bestätigt",
-     "methode": "Landkreis auf der Seite genannt"
     }
    ],
    "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
