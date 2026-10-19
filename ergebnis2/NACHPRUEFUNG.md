@@ -1,6 +1,6 @@
 # Nachprüfung Block 05 (alt zu neu)
 
-Alt: erste Fassung mit dem Stand vor den sechs Korrekturen von 2Alltag. Neu: aktuelle Dateien in `ergebnis2/` mit allen sechs Korrekturen (miete-aktuell-Pfade, miet-check-Pfade, Ortsprüfung weder zu streng noch zu locker, Ausreißerregel 60 % und 150 % des Medians, Rendite auf eine Nachkommastelle gerundet, ab 4,25 % grün). Alle 1000 Orte wurden neu abgerufen, die Prognosen sind vollständig.
+Alt: jeweils die erste ausgelieferte Fassung einer Lieferung (ein Teil davon entstand schon mit einzelnen der Korrekturen). Neu: aktuelle Dateien in `ergebnis2/` mit allen sechs Korrekturen (miete-aktuell-Pfade, miet-check-Pfade, Ortsprüfung weder zu streng noch zu locker, Ausreißerregel 60 % und 150 % des Medians, Rendite auf eine Nachkommastelle gerundet, ab 4,25 % grün). Alle 1000 Orte wurden neu abgerufen, die Prognosen sind vollständig.
 
 Geändert (Kauf, Miete oder Ampel): 83 von 1000 Orten. Ampelwechsel: 57.
 
