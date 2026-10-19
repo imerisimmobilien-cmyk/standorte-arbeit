@@ -1,0 +1,2476 @@
+[
+ {
+  "id": "berlin-bezirk-reinickendorf",
+  "name": "Bezirk Reinickendorf",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Reinickendorf",
+  "einwohner": 271755,
+  "koordinate": {
+   "lat": 52.595673,
+   "lon": 13.291331,
+   "art": "Schwerpunkt der Bezirksfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Bezirksschlüssel, Stand 19.10.2026"
+  },
+  "kauf": null,
+  "miete": null,
+  "kaufQuellen": "keine Angabe: kein eindeutiger Bezirkswert mit mindestens zwei Portalquellen; bewertet sind die Ortsteile.",
+  "mieteQuellen": "keine Angabe: kein eindeutiger Bezirkswert; bewertet sind die Ortsteile.",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": 1.8,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Reinickendorf: 274 Tsd. (2024) auf 279 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "quellen": [
+    {
+     "quelle": "alle Portale",
+     "hinweis": "Bezirk und Ortsteil heißen beide Reinickendorf; die Portalseite ist nicht eindeutig dem Bezirk zuzuordnen, deshalb kein Bezirkswert"
+    }
+   ]
+  },
+  "arbeitgeber": null,
+  "fazit": "Bezirk Reinickendorf hat 271.755 Einwohner; Kauf und Miete werden je Ortsteil bewertet, ein eigener Bezirkswert ließ sich nicht mit zwei Portalquellen belegen, Rendite {R} % und Faktor {F} ungeprüft. Die Senatsprognose 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel unbewertet, Ortsteile: 10 gelb, 1 rot.",
+  "offen": [
+   "unbewertet: Bezirkseintrag ohne eigenen Portalwert, Bewertung über die Ortsteile"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 271755,
+    "stichtag": "31.12.2025",
+    "vor5": 266123,
+    "entwicklung_5_jahre_prozent": 2.1,
+    "quelle": "Amt für Statistik Berlin-Brandenburg"
+   },
+   "ortsteile": [
+    {
+     "id": "berlin-reinickendorf-reinickendorf",
+     "name": "Reinickendorf (Reinickendorf)",
+     "score": "gelb",
+     "kauf": 3800,
+     "miete": 13.28
+    },
+    {
+     "id": "berlin-reinickendorf-tegel",
+     "name": "Tegel (Reinickendorf)",
+     "score": "gelb",
+     "kauf": 3850,
+     "miete": 14.9
+    },
+    {
+     "id": "berlin-reinickendorf-konradshoehe",
+     "name": "Konradshöhe (Reinickendorf)",
+     "score": "gelb",
+     "kauf": 4150,
+     "miete": 17.28
+    },
+    {
+     "id": "berlin-reinickendorf-heiligensee",
+     "name": "Heiligensee (Reinickendorf)",
+     "score": "gelb",
+     "kauf": 3800,
+     "miete": 16.57
+    },
+    {
+     "id": "berlin-reinickendorf-frohnau",
+     "name": "Frohnau (Reinickendorf)",
+     "score": "gelb",
+     "kauf": 4300,
+     "miete": 15.35
+    },
+    {
+     "id": "berlin-reinickendorf-hermsdorf",
+     "name": "Hermsdorf (Reinickendorf)",
+     "score": "gelb",
+     "kauf": 4100,
+     "miete": 15.84
+    },
+    {
+     "id": "berlin-reinickendorf-waidmannslust",
+     "name": "Waidmannslust (Reinickendorf)",
+     "score": "gelb",
+     "kauf": 3650,
+     "miete": 12.03
+    },
+    {
+     "id": "berlin-reinickendorf-luebars",
+     "name": "Lübars (Reinickendorf)",
+     "score": "gelb",
+     "kauf": 3650,
+     "miete": 12.03
+    },
+    {
+     "id": "berlin-reinickendorf-wittenau",
+     "name": "Wittenau (Reinickendorf)",
+     "score": "gelb",
+     "kauf": 3550,
+     "miete": 12.01
+    },
+    {
+     "id": "berlin-reinickendorf-maerkisches-viertel",
+     "name": "Märkisches Viertel (Reinickendorf)",
+     "score": "rot",
+     "kauf": 3500,
+     "miete": 8.88
+    },
+    {
+     "id": "berlin-reinickendorf-borsigwalde",
+     "name": "Borsigwalde (Reinickendorf)",
+     "score": "gelb",
+     "kauf": 3650,
+     "miete": 13.77
+    }
+   ],
+   "ampel_ortsteile": {
+    "gelb": 10,
+    "rot": 1
+   },
+   "gutachter": {
+    "kauffaelle_wohnungs_und_teileigentum_2025": 845,
+    "altbezirke": [
+     "Reinickendorf"
+    ],
+    "preis_bezirk": null,
+    "grund": "Der Marktbericht weist Preise nur je Altbezirk aus (siehe Ortsteile), keinen amtlichen Bezirkswert",
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf"
+   },
+   "erhaltungsgebiete_anzahl": 2,
+   "leerstand": {
+    "quote_prozent": 2.0,
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 1.8,
+    "basis_2024": 274000,
+    "ziel_2040": 279000,
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "neubau": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1767,
+    "fertiggestellte_wohnungen": 120
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   }
+  }
+ },
+ {
+  "id": "berlin-reinickendorf-reinickendorf",
+  "name": "Reinickendorf (Reinickendorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Reinickendorf",
+  "ortsteil_nr": "1201",
+  "einwohner": 86061,
+  "koordinate": {
+   "lat": 52.571721,
+   "lon": 13.345239,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 3800,
+  "miete": 13.28,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.800, Gutachterausschuss Berlin (Altbezirk Reinickendorf) 3.755 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 13,28. homeday 11,4 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 1.8,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Reinickendorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Reinickendorf: 274 Tsd. (2024) auf 279 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "13403",
+    "13407",
+    "13409"
+   ],
+   "plz_haupt": "13407",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/reinickendorf",
+     "wert": 4283.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Tegel, Konradshöhe, Heiligensee, Frohnau, Hermsdorf, Wittenau, Märkisches Viertel, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/reinickendorf",
+     "wert": 12.79,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Tegel, Heiligensee, Frohnau, Wittenau, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/reinickendorf",
+     "wert": 3800.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/reinickendorf?marketing_type=rent&property_type=apartment",
+     "wert": 11.4,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 13.28,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Reinickendorf der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13403, 13405, 13407, 13409, 13437, 13469, 13509) überschneiden sich mit den PLZ des Ortsteils (13403, 13407, 13409)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Reinickendorf (Reinickendorf) hat 86.061 Einwohner und liegt bei 3.800 €/m² Kauf und 13,28 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 3.755 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 86061,
+    "stichtag": "31.12.2025",
+    "vor5": 83972,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 2.5,
+    "stand_30_06_2026": 86136,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3755,
+    "gebiet": "Altbezirk Reinickendorf",
+    "jahr": 2025,
+    "kauffaelle": 539,
+    "spanne": "2.262 bis 5.528",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 845,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 2,
+    "gebiete": [
+     {
+      "schluessel": "EM1201",
+      "name": "Letteplatz",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 932
+     },
+     {
+      "schluessel": "EM1202",
+      "name": "Scharnweberstraße/Klixstraße",
+      "anteil_im_ortsteil": 0.929,
+      "adressen_im_ortsteil": 630
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.0,
+    "ebene": "Bezirk Reinickendorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 1.8,
+    "basis_2024": 274000,
+    "ziel_2040": 279000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 10,
+    "status_klassen_anzahl": {
+     "niedrig": 5,
+     "mittel": 3,
+     "sehr niedrig": 2
+    },
+    "einwohneranteil_prozent": {
+     "niedrig": 53.4,
+     "mittel": 23.7,
+     "sehr niedrig": 22.9
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Alt-Reinickendorf",
+      "linien": [
+       "S25"
+      ]
+     },
+     {
+      "name": "Eichborndamm",
+      "linien": [
+       "S25"
+      ]
+     },
+     {
+      "name": "Franz-Neumann-Platz",
+      "linien": [
+       "U8"
+      ]
+     },
+     {
+      "name": "Karl-Bonhoeffer-Nervenklinik",
+      "linien": [
+       "S25",
+       "U8"
+      ]
+     },
+     {
+      "name": "Kurt-Schumacher-Platz",
+      "linien": [
+       "U6"
+      ]
+     },
+     {
+      "name": "Lindauer Allee",
+      "linien": [
+       "U8"
+      ]
+     },
+     {
+      "name": "Otisstraße",
+      "linien": [
+       "U6"
+      ],
+      "hinweis": "Im VBB-GTFS (Stand 15.10.2026) derzeit kein U-/S-Bahn-Verkehr, nur Ersatzverkehr der Linie(n) U6; Koordinate = Mittel der Ersatz-/Bushaltepositionen"
+     },
+     {
+      "name": "Paracelsus-Bad",
+      "linien": [
+       "U8"
+      ]
+     },
+     {
+      "name": "Residenzstr.",
+      "linien": [
+       "U8"
+      ]
+     },
+     {
+      "name": "Scharnweberstr.",
+      "linien": [
+       "U6"
+      ],
+      "hinweis": "Im VBB-GTFS (Stand 15.10.2026) derzeit kein U-/S-Bahn-Verkehr, nur Ersatzverkehr der Linie(n) U6; Koordinate = Mittel der Ersatz-/Bushaltepositionen"
+     },
+     {
+      "name": "Schönholz",
+      "linien": [
+       "S1",
+       "S25",
+       "S26",
+       "S85"
+      ]
+     },
+     {
+      "name": "Wilhelmsruh",
+      "linien": [
+       "S1",
+       "S25",
+       "S26",
+       "S85"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1767,
+    "fertiggestellte_wohnungen": 120,
+    "ebene": "Bezirk Reinickendorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 2 soziale(s) Erhaltungsgebiet(e) mit rund 1.562 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 76,3 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-reinickendorf-tegel",
+  "name": "Tegel (Reinickendorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Reinickendorf",
+  "ortsteil_nr": "1202",
+  "einwohner": 38453,
+  "koordinate": {
+   "lat": 52.581652,
+   "lon": 13.269988,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 3850,
+  "miete": 14.9,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.850, Gutachterausschuss Berlin (Altbezirk Reinickendorf) 3.755 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 14,90. homeday 10,7 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 1.8,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Reinickendorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Reinickendorf: 274 Tsd. (2024) auf 279 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "13405",
+    "13503",
+    "13505",
+    "13507",
+    "13509",
+    "13599",
+    "13629"
+   ],
+   "plz_haupt": "13507",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/tegel",
+     "wert": 4283.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Reinickendorf, Konradshöhe, Heiligensee, Frohnau, Hermsdorf, Wittenau, Märkisches Viertel, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/tegel",
+     "wert": 12.79,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Reinickendorf, Heiligensee, Frohnau, Wittenau, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/tegel",
+     "wert": 3850.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/tegel?marketing_type=rent&property_type=apartment",
+     "wert": 10.7,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 14.9,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Tegel der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13403, 13405, 13503, 13505, 13507, 13509, 13599, 13629) überschneiden sich mit den PLZ des Ortsteils (13405, 13503, 13505, 13507, 13509, 13599, 13629)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Tegel (Reinickendorf) hat 38.453 Einwohner und liegt bei 3.850 €/m² Kauf und 14,90 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 3.755 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 38453,
+    "stichtag": "31.12.2025",
+    "vor5": 36764,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 4.6,
+    "stand_30_06_2026": 37607,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3755,
+    "gebiet": "Altbezirk Reinickendorf",
+    "jahr": 2025,
+    "kauffaelle": 539,
+    "spanne": "2.262 bis 5.528",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 845,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.0,
+    "ebene": "Bezirk Reinickendorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 1.8,
+    "basis_2024": 274000,
+    "ziel_2040": 279000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 7,
+    "status_klassen_anzahl": {
+     "nicht berechnet": 1,
+     "mittel": 3,
+     "niedrig": 1,
+     "hoch": 2
+    },
+    "einwohneranteil_prozent": {
+     "nicht berechnet": 0.6,
+     "mittel": 56.1,
+     "niedrig": 16.5,
+     "hoch": 26.8
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Alt-Tegel",
+      "linien": [
+       "U6"
+      ],
+      "hinweis": "Im VBB-GTFS (Stand 15.10.2026) derzeit kein U-/S-Bahn-Verkehr, nur Ersatzverkehr der Linie(n) U6; Koordinate = Mittel der Ersatz-/Bushaltepositionen"
+     },
+     {
+      "name": "Borsigwerke",
+      "linien": [
+       "U6"
+      ],
+      "hinweis": "Im VBB-GTFS (Stand 15.10.2026) derzeit kein U-/S-Bahn-Verkehr, nur Ersatzverkehr der Linie(n) U6; Koordinate = Mittel der Ersatz-/Bushaltepositionen"
+     },
+     {
+      "name": "Holzhauser Str.",
+      "linien": [
+       "U6"
+      ],
+      "hinweis": "Im VBB-GTFS (Stand 15.10.2026) derzeit kein U-/S-Bahn-Verkehr, nur Ersatzverkehr der Linie(n) U6; Koordinate = Mittel der Ersatz-/Bushaltepositionen"
+     },
+     {
+      "name": "Tegel",
+      "linien": [
+       "S25"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1767,
+    "fertiggestellte_wohnungen": 120,
+    "ebene": "Bezirk Reinickendorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 16,5 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 26,8 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-reinickendorf-konradshoehe",
+  "name": "Konradshöhe (Reinickendorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Reinickendorf",
+  "ortsteil_nr": "1203",
+  "einwohner": 6109,
+  "koordinate": {
+   "lat": 52.581845,
+   "lon": 13.226143,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4150,
+  "miete": 17.28,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.150, Gutachterausschuss Berlin (Altbezirk Reinickendorf) 3.755 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 17,28. homeday 11,3 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 1.8,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Reinickendorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Reinickendorf: 274 Tsd. (2024) auf 279 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "13505"
+   ],
+   "plz_haupt": "13505",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/konradshoehe",
+     "wert": 4283.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Reinickendorf, Tegel, Heiligensee, Frohnau, Hermsdorf, Wittenau, Märkisches Viertel, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/konradshoehe",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/konradsh%C3%B6he",
+     "wert": 4150.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/konradsh%C3%B6he?marketing_type=rent&property_type=apartment",
+     "wert": 11.3,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 17.28,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Konradshöhe der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13505) überschneiden sich mit den PLZ des Ortsteils (13505)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Konradshöhe (Reinickendorf) hat 6.109 Einwohner und liegt bei 4.150 €/m² Kauf und 17,28 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 3.755 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 6109,
+    "stichtag": "31.12.2025",
+    "vor5": 6011,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 1.6,
+    "stand_30_06_2026": 6075,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3755,
+    "gebiet": "Altbezirk Reinickendorf",
+    "jahr": 2025,
+    "kauffaelle": 539,
+    "spanne": "2.262 bis 5.528",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 845,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.0,
+    "ebene": "Bezirk Reinickendorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 1.8,
+    "basis_2024": 274000,
+    "ziel_2040": 279000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 1,
+    "status_klassen_anzahl": {
+     "hoch": 1
+    },
+    "einwohneranteil_prozent": {
+     "hoch": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": false,
+    "bahnhoefe": [],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1767,
+    "fertiggestellte_wohnungen": 120,
+    "ebene": "Bezirk Reinickendorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 100,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-reinickendorf-heiligensee",
+  "name": "Heiligensee (Reinickendorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Reinickendorf",
+  "ortsteil_nr": "1204",
+  "einwohner": 17887,
+  "koordinate": {
+   "lat": 52.612456,
+   "lon": 13.233424,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 3800,
+  "miete": 16.57,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.800, Gutachterausschuss Berlin (Altbezirk Reinickendorf) 3.755 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 16,57. homeday 11,4 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 1.8,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Reinickendorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Reinickendorf: 274 Tsd. (2024) auf 279 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "13503"
+   ],
+   "plz_haupt": "13503",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/heiligensee",
+     "wert": 4283.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Reinickendorf, Tegel, Konradshöhe, Frohnau, Hermsdorf, Wittenau, Märkisches Viertel, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/heiligensee",
+     "wert": 12.79,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Reinickendorf, Tegel, Frohnau, Wittenau, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/heiligensee",
+     "wert": 3800.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/heiligensee?marketing_type=rent&property_type=apartment",
+     "wert": 11.4,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 16.57,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Heiligensee der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13503, 13505) überschneiden sich mit den PLZ des Ortsteils (13503)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Heiligensee (Reinickendorf) hat 17.887 Einwohner und liegt bei 3.800 €/m² Kauf und 16,57 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 3.755 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 17887,
+    "stichtag": "31.12.2025",
+    "vor5": 18099,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": -1.2,
+    "stand_30_06_2026": 17832,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3755,
+    "gebiet": "Altbezirk Reinickendorf",
+    "jahr": 2025,
+    "kauffaelle": 539,
+    "spanne": "2.262 bis 5.528",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 845,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.0,
+    "ebene": "Bezirk Reinickendorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 1.8,
+    "basis_2024": 274000,
+    "ziel_2040": 279000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 2,
+    "status_klassen_anzahl": {
+     "hoch": 2
+    },
+    "einwohneranteil_prozent": {
+     "hoch": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Heiligensee",
+      "linien": [
+       "S25"
+      ]
+     },
+     {
+      "name": "Schulzendorf",
+      "linien": [
+       "S25"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1767,
+    "fertiggestellte_wohnungen": 120,
+    "ebene": "Bezirk Reinickendorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 100,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-reinickendorf-frohnau",
+  "name": "Frohnau (Reinickendorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Reinickendorf",
+  "ortsteil_nr": "1205",
+  "einwohner": 16309,
+  "koordinate": {
+   "lat": 52.640148,
+   "lon": 13.28935,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4300,
+  "miete": 15.35,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.300, Gutachterausschuss Berlin (Altbezirk Reinickendorf) 3.755 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 15,35. homeday 10,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 1.8,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Reinickendorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Reinickendorf: 274 Tsd. (2024) auf 279 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "13465"
+   ],
+   "plz_haupt": "13465",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/frohnau",
+     "wert": 4283.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Reinickendorf, Tegel, Konradshöhe, Heiligensee, Hermsdorf, Wittenau, Märkisches Viertel, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/frohnau",
+     "wert": 12.79,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Reinickendorf, Tegel, Heiligensee, Wittenau, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/frohnau",
+     "wert": 4300.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/frohnau?marketing_type=rent&property_type=apartment",
+     "wert": 10.8,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 15.35,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Frohnau der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13465) überschneiden sich mit den PLZ des Ortsteils (13465)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Frohnau (Reinickendorf) hat 16.309 Einwohner und liegt bei 4.300 €/m² Kauf und 15,35 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 3.755 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 16309,
+    "stichtag": "31.12.2025",
+    "vor5": 16689,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": -2.3,
+    "stand_30_06_2026": 16223,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3755,
+    "gebiet": "Altbezirk Reinickendorf",
+    "jahr": 2025,
+    "kauffaelle": 539,
+    "spanne": "2.262 bis 5.528",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 845,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.0,
+    "ebene": "Bezirk Reinickendorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 1.8,
+    "basis_2024": 274000,
+    "ziel_2040": 279000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 2,
+    "status_klassen_anzahl": {
+     "hoch": 2
+    },
+    "einwohneranteil_prozent": {
+     "hoch": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Frohnau",
+      "linien": [
+       "S1",
+       "S85"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1767,
+    "fertiggestellte_wohnungen": 120,
+    "ebene": "Bezirk Reinickendorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 100,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-reinickendorf-hermsdorf",
+  "name": "Hermsdorf (Reinickendorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Reinickendorf",
+  "ortsteil_nr": "1206",
+  "einwohner": 16430,
+  "koordinate": {
+   "lat": 52.617249,
+   "lon": 13.306869,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4100,
+  "miete": 15.84,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.100, Gutachterausschuss Berlin (Altbezirk Reinickendorf) 3.755 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 15,84. homeday 11,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 1.8,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Reinickendorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Reinickendorf: 274 Tsd. (2024) auf 279 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "13467"
+   ],
+   "plz_haupt": "13467",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/hermsdorf",
+     "wert": 4283.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Reinickendorf, Tegel, Konradshöhe, Heiligensee, Frohnau, Wittenau, Märkisches Viertel, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/hermsdorf",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/hermsdorf",
+     "wert": 4100.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/hermsdorf?marketing_type=rent&property_type=apartment",
+     "wert": 11.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 15.84,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Hermsdorf der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13465, 13467) überschneiden sich mit den PLZ des Ortsteils (13467)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Hermsdorf (Reinickendorf) hat 16.430 Einwohner und liegt bei 4.100 €/m² Kauf und 15,84 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 3.755 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 16430,
+    "stichtag": "31.12.2025",
+    "vor5": 16726,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": -1.8,
+    "stand_30_06_2026": 16395,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3755,
+    "gebiet": "Altbezirk Reinickendorf",
+    "jahr": 2025,
+    "kauffaelle": 539,
+    "spanne": "2.262 bis 5.528",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 845,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.0,
+    "ebene": "Bezirk Reinickendorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 1.8,
+    "basis_2024": 274000,
+    "ziel_2040": 279000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 2,
+    "status_klassen_anzahl": {
+     "hoch": 2
+    },
+    "einwohneranteil_prozent": {
+     "hoch": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Hermsdorf",
+      "linien": [
+       "S1",
+       "S85"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1767,
+    "fertiggestellte_wohnungen": 120,
+    "ebene": "Bezirk Reinickendorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 100,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-reinickendorf-waidmannslust",
+  "name": "Waidmannslust (Reinickendorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Reinickendorf",
+  "ortsteil_nr": "1207",
+  "einwohner": 11661,
+  "koordinate": {
+   "lat": 52.606878,
+   "lon": 13.319713,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 3650,
+  "miete": 12.03,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.650, Gutachterausschuss Berlin (Altbezirk Reinickendorf) 3.755 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 12,03. homeday 9,7 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 1.8,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Reinickendorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Reinickendorf: 274 Tsd. (2024) auf 279 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "13469"
+   ],
+   "plz_haupt": "13469",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/waidmannslust",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/waidmannslust",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/waidmannslust",
+     "wert": 3650.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/waidmannslust?marketing_type=rent&property_type=apartment",
+     "wert": 9.7,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 12.03,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Waidmannslust der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13469) überschneiden sich mit den PLZ des Ortsteils (13469)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Waidmannslust (Reinickendorf) hat 11.661 Einwohner und liegt bei 3.650 €/m² Kauf und 12,03 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 3.755 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 11661,
+    "stichtag": "31.12.2025",
+    "vor5": 11088,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 5.2,
+    "stand_30_06_2026": 11626,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3755,
+    "gebiet": "Altbezirk Reinickendorf",
+    "jahr": 2025,
+    "kauffaelle": 539,
+    "spanne": "2.262 bis 5.528",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 845,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.0,
+    "ebene": "Bezirk Reinickendorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 1.8,
+    "basis_2024": 274000,
+    "ziel_2040": 279000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 2,
+    "status_klassen_anzahl": {
+     "mittel": 1,
+     "sehr niedrig": 1
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 45.2,
+     "sehr niedrig": 54.8
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Waidmannslust",
+      "linien": [
+       "S1",
+       "S25",
+       "S26",
+       "S85"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1767,
+    "fertiggestellte_wohnungen": 120,
+    "ebene": "Bezirk Reinickendorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 54,8 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-reinickendorf-luebars",
+  "name": "Lübars (Reinickendorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Reinickendorf",
+  "ortsteil_nr": "1208",
+  "einwohner": 5058,
+  "koordinate": {
+   "lat": 52.61524,
+   "lon": 13.354321,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 3650,
+  "miete": 12.03,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.650, Gutachterausschuss Berlin (Altbezirk Reinickendorf) 3.755 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 12,03. homeday 9,7 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 1.8,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Reinickendorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Reinickendorf: 274 Tsd. (2024) auf 279 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "13469"
+   ],
+   "plz_haupt": "13469",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/luebars",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/luebars",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/l%C3%BCbars",
+     "wert": 3650.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/l%C3%BCbars?marketing_type=rent&property_type=apartment",
+     "wert": 9.7,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 12.03,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Lübars der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13469) überschneiden sich mit den PLZ des Ortsteils (13469)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Lübars (Reinickendorf) hat 5.058 Einwohner und liegt bei 3.650 €/m² Kauf und 12,03 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 3.755 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 5058,
+    "stichtag": "31.12.2025",
+    "vor5": 5160,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": -2.0,
+    "stand_30_06_2026": 5013,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3755,
+    "gebiet": "Altbezirk Reinickendorf",
+    "jahr": 2025,
+    "kauffaelle": 539,
+    "spanne": "2.262 bis 5.528",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 845,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.0,
+    "ebene": "Bezirk Reinickendorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 1.8,
+    "basis_2024": 274000,
+    "ziel_2040": 279000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 1,
+    "status_klassen_anzahl": {
+     "hoch": 1
+    },
+    "einwohneranteil_prozent": {
+     "hoch": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": false,
+    "bahnhoefe": [],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1767,
+    "fertiggestellte_wohnungen": 120,
+    "ebene": "Bezirk Reinickendorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 100,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-reinickendorf-wittenau",
+  "name": "Wittenau (Reinickendorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Reinickendorf",
+  "ortsteil_nr": "1209",
+  "einwohner": 25497,
+  "koordinate": {
+   "lat": 52.592687,
+   "lon": 13.327811,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 3550,
+  "miete": 12.01,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.550, Gutachterausschuss Berlin (Altbezirk Reinickendorf) 3.755 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 12,01. homeday 9,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 1.8,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Reinickendorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Reinickendorf: 274 Tsd. (2024) auf 279 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "13403",
+    "13435",
+    "13437"
+   ],
+   "plz_haupt": "13437",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/wittenau",
+     "wert": 4283.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Reinickendorf, Tegel, Konradshöhe, Heiligensee, Frohnau, Hermsdorf, Märkisches Viertel, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/wittenau",
+     "wert": 12.79,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Reinickendorf, Tegel, Heiligensee, Frohnau, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/wittenau",
+     "wert": 3550.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/wittenau?marketing_type=rent&property_type=apartment",
+     "wert": 9.8,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 12.01,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Wittenau der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13403, 13407, 13435, 13437, 13439, 13469, 13509) überschneiden sich mit den PLZ des Ortsteils (13403, 13435, 13437)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Wittenau (Reinickendorf) hat 25.497 Einwohner und liegt bei 3.550 €/m² Kauf und 12,01 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 3.755 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 25497,
+    "stichtag": "31.12.2025",
+    "vor5": 24726,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 3.1,
+    "stand_30_06_2026": 25773,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3755,
+    "gebiet": "Altbezirk Reinickendorf",
+    "jahr": 2025,
+    "kauffaelle": 539,
+    "spanne": "2.262 bis 5.528",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 845,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.0,
+    "ebene": "Bezirk Reinickendorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 1.8,
+    "basis_2024": 274000,
+    "ziel_2040": 279000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 4,
+    "status_klassen_anzahl": {
+     "mittel": 4
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Rathaus Reinickendorf",
+      "linien": [
+       "U8"
+      ]
+     },
+     {
+      "name": "Wittenau",
+      "linien": [
+       "S1",
+       "S25",
+       "S26",
+       "S85",
+       "U8"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1767,
+    "fertiggestellte_wohnungen": 120,
+    "ebene": "Bezirk Reinickendorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-reinickendorf-maerkisches-viertel",
+  "name": "Märkisches Viertel (Reinickendorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Reinickendorf",
+  "ortsteil_nr": "1210",
+  "einwohner": 41199,
+  "koordinate": {
+   "lat": 52.599332,
+   "lon": 13.355581,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 3500,
+  "miete": 8.88,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.500, Gutachterausschuss Berlin (Altbezirk Reinickendorf) 3.755 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 8,88. homeday 8,3 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 1.8,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Reinickendorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Reinickendorf: 274 Tsd. (2024) auf 279 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "13435",
+    "13439"
+   ],
+   "plz_haupt": "13439",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/maerkisches-viertel",
+     "wert": 4283.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Reinickendorf, Tegel, Konradshöhe, Heiligensee, Frohnau, Hermsdorf, Wittenau, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/maerkisches-viertel",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/m%C3%A4rkisches+viertel",
+     "wert": 3500.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/m%C3%A4rkisches+viertel?marketing_type=rent&property_type=apartment",
+     "wert": 8.3,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 8.88,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Märkisches Viertel der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13435, 13439) überschneiden sich mit den PLZ des Ortsteils (13435, 13439)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Märkisches Viertel (Reinickendorf) hat 41.199 Einwohner und liegt bei 3.500 €/m² Kauf und 8,88 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 3.755 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 41199,
+    "stichtag": "31.12.2025",
+    "vor5": 40119,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 2.7,
+    "stand_30_06_2026": 40998,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3755,
+    "gebiet": "Altbezirk Reinickendorf",
+    "jahr": 2025,
+    "kauffaelle": 539,
+    "spanne": "2.262 bis 5.528",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 845,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.0,
+    "ebene": "Bezirk Reinickendorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 1.8,
+    "basis_2024": 274000,
+    "ziel_2040": 279000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 4,
+    "status_klassen_anzahl": {
+     "sehr niedrig": 3,
+     "mittel": 1
+    },
+    "einwohneranteil_prozent": {
+     "sehr niedrig": 92.3,
+     "mittel": 7.7
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": false,
+    "bahnhoefe": [],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1767,
+    "fertiggestellte_wohnungen": 120,
+    "ebene": "Bezirk Reinickendorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 92,3 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-reinickendorf-borsigwalde",
+  "name": "Borsigwalde (Reinickendorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Reinickendorf",
+  "ortsteil_nr": "1211",
+  "einwohner": 7091,
+  "koordinate": {
+   "lat": 52.584354,
+   "lon": 13.307419,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 3650,
+  "miete": 13.77,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.650, Gutachterausschuss Berlin (Altbezirk Reinickendorf) 3.755 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 13,77. homeday 9,6 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 1.8,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Reinickendorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Reinickendorf: 274 Tsd. (2024) auf 279 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "13509"
+   ],
+   "plz_haupt": "13509",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/borsigwalde",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/borsigwalde",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/borsigwalde",
+     "wert": 3650.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/borsigwalde?marketing_type=rent&property_type=apartment",
+     "wert": 9.6,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 13.77,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Borsigwalde der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13509) überschneiden sich mit den PLZ des Ortsteils (13509)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Borsigwalde (Reinickendorf) hat 7.091 Einwohner und liegt bei 3.650 €/m² Kauf und 13,77 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 3.755 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 7091,
+    "stichtag": "31.12.2025",
+    "vor5": 6769,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 4.8,
+    "stand_30_06_2026": 7057,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3755,
+    "gebiet": "Altbezirk Reinickendorf",
+    "jahr": 2025,
+    "kauffaelle": 539,
+    "spanne": "2.262 bis 5.528",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 845,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.0,
+    "ebene": "Bezirk Reinickendorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 1.8,
+    "basis_2024": 274000,
+    "ziel_2040": 279000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 1,
+    "status_klassen_anzahl": {
+     "mittel": 1
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": false,
+    "bahnhoefe": [],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1767,
+    "fertiggestellte_wohnungen": 120,
+    "ebene": "Bezirk Reinickendorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ }
+]

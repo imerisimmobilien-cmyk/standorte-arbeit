@@ -1,0 +1,1865 @@
+[
+ {
+  "id": "berlin-bezirk-mitte",
+  "name": "Bezirk Mitte",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Mitte",
+  "einwohner": 397879,
+  "koordinate": {
+   "lat": 52.532875,
+   "lon": 13.365917,
+   "art": "Schwerpunkt der Bezirksfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Bezirksschlüssel, Stand 19.10.2026"
+  },
+  "kauf": null,
+  "miete": null,
+  "kaufQuellen": "keine Angabe: kein eindeutiger Bezirkswert mit mindestens zwei Portalquellen; bewertet sind die Ortsteile.",
+  "mieteQuellen": "keine Angabe: kein eindeutiger Bezirkswert; bewertet sind die Ortsteile.",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": 2.0,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Mitte: 397 Tsd. (2024) auf 405 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "quellen": [
+    {
+     "quelle": "alle Portale",
+     "hinweis": "Bezirk und Ortsteil heißen beide Mitte; die Portalseite ist nicht eindeutig dem Bezirk zuzuordnen, deshalb kein Bezirkswert"
+    }
+   ]
+  },
+  "arbeitgeber": null,
+  "fazit": "Bezirk Mitte hat 397.879 Einwohner; Kauf und Miete werden je Ortsteil bewertet, ein eigener Bezirkswert ließ sich nicht mit zwei Portalquellen belegen, Rendite {R} % und Faktor {F} ungeprüft. Die Senatsprognose 2024 bis 2040 liegt bei +2,0 %, Mietpreisbremse gilt (Kappung 15 %). Ampel unbewertet, Ortsteile: 3 gelb, 2 rot, 1 unbewertet.",
+  "offen": [
+   "unbewertet: Bezirkseintrag ohne eigenen Portalwert, Bewertung über die Ortsteile"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 397879,
+    "stichtag": "31.12.2025",
+    "vor5": 383360,
+    "entwicklung_5_jahre_prozent": 3.8,
+    "quelle": "Amt für Statistik Berlin-Brandenburg"
+   },
+   "ortsteile": [
+    {
+     "id": "berlin-mitte-mitte",
+     "name": "Mitte (Mitte)",
+     "score": "rot",
+     "kauf": 6650,
+     "miete": 16.84
+    },
+    {
+     "id": "berlin-mitte-moabit",
+     "name": "Moabit (Mitte)",
+     "score": "rot",
+     "kauf": 5750,
+     "miete": 15.82
+    },
+    {
+     "id": "berlin-mitte-hansaviertel",
+     "name": "Hansaviertel (Mitte)",
+     "score": "gelb",
+     "kauf": 5750,
+     "miete": 17.86
+    },
+    {
+     "id": "berlin-mitte-tiergarten",
+     "name": "Tiergarten (Mitte)",
+     "score": "gelb",
+     "kauf": 6050,
+     "miete": 16.89
+    },
+    {
+     "id": "berlin-mitte-wedding",
+     "name": "Wedding (Mitte)",
+     "score": "gelb",
+     "kauf": 4250,
+     "miete": 14.05
+    },
+    {
+     "id": "berlin-mitte-gesundbrunnen",
+     "name": "Gesundbrunnen (Mitte)",
+     "score": "unbewertet",
+     "kauf": 4650,
+     "miete": null
+    }
+   ],
+   "ampel_ortsteile": {
+    "rot": 2,
+    "gelb": 3,
+    "unbewertet": 1
+   },
+   "gutachter": {
+    "kauffaelle_wohnungs_und_teileigentum_2025": 2169,
+    "altbezirke": [
+     "Mitte",
+     "Tiergarten",
+     "Wedding"
+    ],
+    "preis_bezirk": null,
+    "grund": "Der Marktbericht weist Preise nur je Altbezirk aus (siehe Ortsteile), keinen amtlichen Bezirkswert",
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf"
+   },
+   "erhaltungsgebiete_anzahl": 14,
+   "leerstand": {
+    "quote_prozent": 2.1,
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 2.0,
+    "basis_2024": 397000,
+    "ziel_2040": 405000,
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "neubau": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 672,
+    "fertiggestellte_wohnungen": 1049
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   }
+  }
+ },
+ {
+  "id": "berlin-mitte-mitte",
+  "name": "Mitte (Mitte)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Mitte",
+  "ortsteil_nr": "0101",
+  "einwohner": 108953,
+  "koordinate": {
+   "lat": 52.521339,
+   "lon": 13.397876,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 6650,
+  "miete": 16.84,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 6.650, Gutachterausschuss Berlin (Altbezirk Mitte) 9.374 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 16,84. homeday 13,5 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 2.0,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Mitte (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Mitte: 397 Tsd. (2024) auf 405 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "10115",
+    "10117",
+    "10119",
+    "10178",
+    "10179",
+    "10435"
+   ],
+   "plz_haupt": "10117",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/mitte",
+     "wert": 6365.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Moabit, Hansaviertel, Tiergarten, Wedding, Gesundbrunnen, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/mitte",
+     "wert": 19.27,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Moabit, Tiergarten, Wedding, Gesundbrunnen, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/mitte",
+     "wert": 6650.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/mitte?marketing_type=rent&property_type=apartment",
+     "wert": 13.5,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 16.84,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Mitte der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (10115, 10117, 10119, 10178, 10179, 10435) überschneiden sich mit den PLZ des Ortsteils (10115, 10117, 10119, 10178, 10179, 10435)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Mitte (Mitte) hat 108.953 Einwohner und liegt bei 6.650 €/m² Kauf und 16,84 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +2,0 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 9.374 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 108953,
+    "stichtag": "31.12.2025",
+    "vor5": 102338,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 6.5,
+    "stand_30_06_2026": 109323,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 9374,
+    "gebiet": "Altbezirk Mitte",
+    "jahr": 2025,
+    "kauffaelle": 779,
+    "spanne": "3.501 bis 15.914",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 2169,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 1,
+    "gebiete": [
+     {
+      "schluessel": "EM0116",
+      "name": "Alexanderplatzviertel",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 354
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.1,
+    "ebene": "Bezirk Mitte (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 2.0,
+    "basis_2024": 397000,
+    "ziel_2040": 405000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 12,
+    "status_klassen_anzahl": {
+     "mittel": 8,
+     "hoch": 4
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 63.3,
+     "hoch": 36.7
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Alexanderplatz",
+      "linien": [
+       "S3",
+       "S5",
+       "S7",
+       "S9",
+       "U2",
+       "U5",
+       "U8"
+      ]
+     },
+     {
+      "name": "Anton-Wilhelm-Amo-Str.",
+      "linien": [
+       "U2"
+      ]
+     },
+     {
+      "name": "Bernauer Str.",
+      "linien": [
+       "U8"
+      ]
+     },
+     {
+      "name": "Brandenburger Tor",
+      "linien": [
+       "S1",
+       "S2",
+       "S25",
+       "S26",
+       "U5"
+      ]
+     },
+     {
+      "name": "Friedrichstr.",
+      "linien": [
+       "S1",
+       "S2",
+       "S3",
+       "S5",
+       "S7",
+       "S9",
+       "S25",
+       "S26",
+       "U6"
+      ]
+     },
+     {
+      "name": "Hackescher Markt",
+      "linien": [
+       "S3",
+       "S5",
+       "S7",
+       "S9"
+      ]
+     },
+     {
+      "name": "Hausvogteiplatz",
+      "linien": [
+       "U2"
+      ]
+     },
+     {
+      "name": "Heinrich-Heine-Str.",
+      "linien": [
+       "U8"
+      ]
+     },
+     {
+      "name": "Jannowitzbrücke",
+      "linien": [
+       "S3",
+       "S5",
+       "S7",
+       "S9",
+       "U8"
+      ]
+     },
+     {
+      "name": "Klosterstr.",
+      "linien": [
+       "U2"
+      ]
+     },
+     {
+      "name": "Museumsinsel",
+      "linien": [
+       "U5"
+      ]
+     },
+     {
+      "name": "Märkisches Museum",
+      "linien": [
+       "U2"
+      ]
+     },
+     {
+      "name": "Naturkundemuseum",
+      "linien": [
+       "U6"
+      ]
+     },
+     {
+      "name": "Nordbahnhof",
+      "linien": [
+       "S1",
+       "S2",
+       "S25",
+       "S26",
+       "S41",
+       "S85"
+      ]
+     },
+     {
+      "name": "Oranienburger Str.",
+      "linien": [
+       "S1",
+       "S2",
+       "S25",
+       "S26"
+      ]
+     },
+     {
+      "name": "Oranienburger Tor",
+      "linien": [
+       "U6"
+      ]
+     },
+     {
+      "name": "Rosa-Luxemburg-Platz",
+      "linien": [
+       "U2"
+      ]
+     },
+     {
+      "name": "Rosenthaler Platz",
+      "linien": [
+       "U8"
+      ]
+     },
+     {
+      "name": "Rotes Rathaus",
+      "linien": [
+       "U5"
+      ]
+     },
+     {
+      "name": "Schillingstr.",
+      "linien": [
+       "U5"
+      ]
+     },
+     {
+      "name": "Schwartzkopffstr.",
+      "linien": [
+       "U6"
+      ]
+     },
+     {
+      "name": "Spittelmarkt",
+      "linien": [
+       "U2"
+      ]
+     },
+     {
+      "name": "Stadtmitte",
+      "linien": [
+       "U2",
+       "U6"
+      ]
+     },
+     {
+      "name": "Unter den Linden",
+      "linien": [
+       "U5",
+       "U6"
+      ]
+     },
+     {
+      "name": "Weinmeisterstr.",
+      "linien": [
+       "U8"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [
+    {
+     "name": "Humboldt-Universität zu Berlin",
+     "studierende": 35845,
+     "stand": "Wintersemester 2024/25 (endgültig)",
+     "quelle": "Studierende: AfS Statistischer Bericht B III 1 j/24, Tab. 9 (Humboldt-Universität), https://download.statistik-berlin-brandenburg.de/1cd22406e3177d1f/895372af48fe/SB_B03-01-00_2024j01_BE.pdf; Adresse: https://www.berlin.de/sen/wissenschaft/einrichtungen/hochschulen/universitaeten/; Ortsteil/Bezirk: OSM Nominatim Geokodierung der Adresse"
+    },
+    {
+     "name": "Charité Universitätsmedizin Berlin",
+     "studierende": 10031,
+     "stand": "Wintersemester 2024/25 (endgültig)",
+     "quelle": "Studierende: AfS Statistischer Bericht B III 1 j/24, Tab. 9 (Charité-Universitätsmedizin), https://download.statistik-berlin-brandenburg.de/1cd22406e3177d1f/895372af48fe/SB_B03-01-00_2024j01_BE.pdf; Adresse: https://www.berlin.de/sen/wissenschaft/einrichtungen/hochschulen/universitaeten/; Ortsteil/Bezirk: OSM Nominatim Geokodierung der Adresse"
+    },
+    {
+     "name": "Hochschule für Musik Hanns Eisler Berlin",
+     "studierende": 554,
+     "stand": "Wintersemester 2024/25 (endgültig)",
+     "quelle": "Studierende: AfS Statistischer Bericht B III 1 j/24, Tab. 9 (Hochschule für Musik Hanns Eisler), https://download.statistik-berlin-brandenburg.de/1cd22406e3177d1f/895372af48fe/SB_B03-01-00_2024j01_BE.pdf; Adresse: https://www.berlin.de/sen/wissenschaft/einrichtungen/hochschulen/kunsthochschulen/; Ortsteil/Bezirk: OSM Nominatim Geokodierung der Adresse"
+    },
+    {
+     "name": "Hochschule für Schauspielkunst Ernst Busch Berlin",
+     "studierende": 197,
+     "stand": "Wintersemester 2024/25 (endgültig)",
+     "quelle": "Studierende: AfS Statistischer Bericht B III 1 j/24, Tab. 9 (Hochschule für Schauspielkunst Ernst Busch), https://download.statistik-berlin-brandenburg.de/1cd22406e3177d1f/895372af48fe/SB_B03-01-00_2024j01_BE.pdf; Adresse: https://www.berlin.de/sen/wissenschaft/einrichtungen/hochschulen/kunsthochschulen/; Ortsteil/Bezirk: OSM Nominatim Geokodierung der Adresse"
+    },
+    {
+     "name": "European School of Management and Technology (ESMT)",
+     "studierende": 855,
+     "stand": "Wintersemester 2024/25 (endgültig)",
+     "quelle": "Studierende: AfS Statistischer Bericht B III 1 j/24, Tab. 9 (ESMT European School of Management and Technology), https://download.statistik-berlin-brandenburg.de/1cd22406e3177d1f/895372af48fe/SB_B03-01-00_2024j01_BE.pdf; Adresse: https://www.berlin.de/sen/wissenschaft/einrichtungen/hochschulen/private-hochschulen/; Ortsteil/Bezirk: OSM Nominatim Geokodierung der Adresse"
+    },
+    {
+     "name": "Hertie School",
+     "studierende": 755,
+     "stand": "Wintersemester 2024/25 (endgültig)",
+     "quelle": "Studierende: AfS Statistischer Bericht B III 1 j/24, Tab. 9 (Hertie School of Governance), https://download.statistik-berlin-brandenburg.de/1cd22406e3177d1f/895372af48fe/SB_B03-01-00_2024j01_BE.pdf; Adresse: https://www.berlin.de/sen/wissenschaft/einrichtungen/hochschulen/private-hochschulen/; Ortsteil/Bezirk: OSM Nominatim Geokodierung der Adresse"
+    }
+   ],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 672,
+    "fertiggestellte_wohnungen": 1049,
+    "ebene": "Bezirk Mitte",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 1 soziale(s) Erhaltungsgebiet(e) mit rund 354 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 36,7 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-mitte-moabit",
+  "name": "Moabit (Mitte)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Mitte",
+  "ortsteil_nr": "0102",
+  "einwohner": 84913,
+  "koordinate": {
+   "lat": 52.529358,
+   "lon": 13.343278,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 5750,
+  "miete": 15.82,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 5.750, Gutachterausschuss Berlin (Altbezirk Tiergarten) 5.486 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 15,82. homeday 16,2 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 2.0,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Mitte (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Mitte: 397 Tsd. (2024) auf 405 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "10551",
+    "10553",
+    "10555",
+    "10557",
+    "10559",
+    "13353"
+   ],
+   "plz_haupt": "10557",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/moabit",
+     "wert": 6365.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Mitte, Hansaviertel, Tiergarten, Wedding, Gesundbrunnen, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/moabit",
+     "wert": 19.27,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Mitte, Tiergarten, Wedding, Gesundbrunnen, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/moabit",
+     "wert": 5750.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/moabit?marketing_type=rent&property_type=apartment",
+     "wert": 16.2,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 15.82,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Moabit der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (10551, 10553, 10555, 10557, 10559) überschneiden sich mit den PLZ des Ortsteils (10551, 10553, 10555, 10557, 10559)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Moabit (Mitte) hat 84.913 Einwohner und liegt bei 5.750 €/m² Kauf und 15,82 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +2,0 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 5.486 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 84913,
+    "stichtag": "31.12.2025",
+    "vor5": 81021,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 4.8,
+    "stand_30_06_2026": 85021,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 5486,
+    "gebiet": "Altbezirk Tiergarten",
+    "jahr": 2025,
+    "kauffaelle": 301,
+    "spanne": "3.097 bis 8.477",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 2169,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 3,
+    "gebiete": [
+     {
+      "schluessel": "EM0107",
+      "name": "Waldstraße",
+      "anteil_im_ortsteil": 0.996,
+      "adressen_im_ortsteil": 700
+     },
+     {
+      "schluessel": "EM0114",
+      "name": "Thomasiusstraße",
+      "anteil_im_ortsteil": 0.986,
+      "adressen_im_ortsteil": 153
+     },
+     {
+      "schluessel": "EM0108",
+      "name": "Birkenstraße",
+      "anteil_im_ortsteil": 0.999,
+      "adressen_im_ortsteil": 855
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.1,
+    "ebene": "Bezirk Mitte (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 2.0,
+    "basis_2024": 397000,
+    "ziel_2040": 405000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 12,
+    "status_klassen_anzahl": {
+     "mittel": 10,
+     "niedrig": 1,
+     "sehr niedrig": 1
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 89.8,
+     "niedrig": 6.2,
+     "sehr niedrig": 4.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Berlin Hauptbahnhof",
+      "linien": [
+       "S3",
+       "S5",
+       "S7",
+       "S9",
+       "S15",
+       "S41",
+       "S46",
+       "U5"
+      ]
+     },
+     {
+      "name": "Beusselstr.",
+      "linien": [
+       "S41",
+       "S42",
+       "S46"
+      ]
+     },
+     {
+      "name": "Birkenstr.",
+      "linien": [
+       "U9"
+      ]
+     },
+     {
+      "name": "Turmstr.",
+      "linien": [
+       "U9"
+      ]
+     },
+     {
+      "name": "Westhafen",
+      "linien": [
+       "S41",
+       "S42",
+       "S46",
+       "U9"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 672,
+    "fertiggestellte_wohnungen": 1049,
+    "ebene": "Bezirk Mitte",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 3 soziale(s) Erhaltungsgebiet(e) mit rund 1.708 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 10,2 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-mitte-hansaviertel",
+  "name": "Hansaviertel (Mitte)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Mitte",
+  "ortsteil_nr": "0103",
+  "einwohner": 6120,
+  "koordinate": {
+   "lat": 52.518542,
+   "lon": 13.341793,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 5750,
+  "miete": 17.86,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 5.750, Gutachterausschuss Berlin (Altbezirk Tiergarten) 5.486 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 17,86. homeday 16,2 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 2.0,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Mitte (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Mitte: 397 Tsd. (2024) auf 405 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "10555",
+    "10557"
+   ],
+   "plz_haupt": "10557",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/hansaviertel",
+     "wert": 6365.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Mitte, Moabit, Tiergarten, Wedding, Gesundbrunnen, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/hansaviertel",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/hansaviertel",
+     "wert": 5750.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/hansaviertel?marketing_type=rent&property_type=apartment",
+     "wert": 16.2,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 17.86,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Hansaviertel der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (10555, 10557) überschneiden sich mit den PLZ des Ortsteils (10555, 10557)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Hansaviertel (Mitte) hat 6.120 Einwohner und liegt bei 5.750 €/m² Kauf und 17,86 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +2,0 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 5.486 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 6120,
+    "stichtag": "31.12.2025",
+    "vor5": 5924,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 3.3,
+    "stand_30_06_2026": 6121,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 5486,
+    "gebiet": "Altbezirk Tiergarten",
+    "jahr": 2025,
+    "kauffaelle": 301,
+    "spanne": "3.097 bis 8.477",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 2169,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.1,
+    "ebene": "Bezirk Mitte (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 2.0,
+    "basis_2024": 397000,
+    "ziel_2040": 405000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 1,
+    "status_klassen_anzahl": {
+     "mittel": 1
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Bellevue",
+      "linien": [
+       "S3",
+       "S5",
+       "S7",
+       "S9"
+      ]
+     },
+     {
+      "name": "Hansaplatz",
+      "linien": [
+       "U9"
+      ]
+     },
+     {
+      "name": "Tiergarten",
+      "linien": [
+       "S3",
+       "S5",
+       "S7",
+       "S9"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 672,
+    "fertiggestellte_wohnungen": 1049,
+    "ebene": "Bezirk Mitte",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-mitte-tiergarten",
+  "name": "Tiergarten (Mitte)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Mitte",
+  "ortsteil_nr": "0104",
+  "einwohner": 16217,
+  "koordinate": {
+   "lat": 52.510472,
+   "lon": 13.35821,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 6050,
+  "miete": 16.89,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 6.050, Gutachterausschuss Berlin (Altbezirk Tiergarten) 5.486 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 16,89. homeday 16,7 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 2.0,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Mitte (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Mitte: 397 Tsd. (2024) auf 405 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "10557",
+    "10785",
+    "10787"
+   ],
+   "plz_haupt": "10785",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/tiergarten",
+     "wert": 6365.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Mitte, Moabit, Hansaviertel, Wedding, Gesundbrunnen, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/tiergarten",
+     "wert": 19.27,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Mitte, Moabit, Wedding, Gesundbrunnen, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/tiergarten",
+     "wert": 6050.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/tiergarten?marketing_type=rent&property_type=apartment",
+     "wert": 16.7,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 16.89,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Tiergarten der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (10555, 10557, 10559, 10785, 10787, 10963, 13353) überschneiden sich mit den PLZ des Ortsteils (10557, 10785, 10787)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Tiergarten (Mitte) hat 16.217 Einwohner und liegt bei 6.050 €/m² Kauf und 16,89 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +2,0 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 5.486 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 16217,
+    "stichtag": "31.12.2025",
+    "vor5": 14940,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 8.5,
+    "stand_30_06_2026": 16200,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 5486,
+    "gebiet": "Altbezirk Tiergarten",
+    "jahr": 2025,
+    "kauffaelle": 301,
+    "spanne": "3.097 bis 8.477",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 2169,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 1,
+    "gebiete": [
+     {
+      "schluessel": "EM0115",
+      "name": "Tiergarten-Süd",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 541
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.1,
+    "ebene": "Bezirk Mitte (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 2.0,
+    "basis_2024": 397000,
+    "ziel_2040": 405000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 4,
+    "status_klassen_anzahl": {
+     "mittel": 3,
+     "hoch": 1
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 87.5,
+     "hoch": 12.5
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Bundestag",
+      "linien": [
+       "U5"
+      ]
+     },
+     {
+      "name": "Kurfürstenstr.",
+      "linien": [
+       "U1",
+       "U3"
+      ]
+     },
+     {
+      "name": "Potsdamer Platz",
+      "linien": [
+       "S1",
+       "S2",
+       "S25",
+       "S26",
+       "U2"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 672,
+    "fertiggestellte_wohnungen": 1049,
+    "ebene": "Bezirk Mitte",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 1 soziale(s) Erhaltungsgebiet(e) mit rund 541 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 12,5 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-mitte-wedding",
+  "name": "Wedding (Mitte)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Mitte",
+  "ortsteil_nr": "0105",
+  "einwohner": 86662,
+  "koordinate": {
+   "lat": 52.550856,
+   "lon": 13.341567,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4250,
+  "miete": 14.05,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.250, Gutachterausschuss Berlin (Altbezirk Wedding) 4.197 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 14,05. homeday 11,9 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 2.0,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Mitte (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Mitte: 397 Tsd. (2024) auf 405 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "13347",
+    "13349",
+    "13351",
+    "13353",
+    "13405"
+   ],
+   "plz_haupt": "13351",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/wedding",
+     "wert": 6365.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Mitte, Moabit, Hansaviertel, Tiergarten, Gesundbrunnen, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/wedding",
+     "wert": 19.27,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Mitte, Moabit, Tiergarten, Gesundbrunnen, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/wedding",
+     "wert": 4250.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/wedding?marketing_type=rent&property_type=apartment",
+     "wert": 11.9,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 14.05,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Wedding der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (13347, 13349, 13351, 13353, 13355, 13357, 13359, 13405, 13407, 13409) überschneiden sich mit den PLZ des Ortsteils (13347, 13349, 13351, 13353, 13405)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": [
+   {
+    "name": "Jüdisches Krankenhaus Berlin",
+    "beschaeftigte": "rund 840",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Berlin-Wedding, abgerufen 19.10.2026"
+   },
+   {
+    "name": "BVG Betriebshof Müllerstraße",
+    "beschaeftigte": "437 (Fahrdienst)",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Berlin-Wedding, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Wedding (Mitte) hat 86.662 Einwohner und liegt bei 4.250 €/m² Kauf und 14,05 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +2,0 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.197 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 86662,
+    "stichtag": "31.12.2025",
+    "vor5": 85275,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 1.6,
+    "stand_30_06_2026": 86471,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4197,
+    "gebiet": "Altbezirk Wedding",
+    "jahr": 2025,
+    "kauffaelle": 307,
+    "spanne": "2.546 bis 6.078",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 2169,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 6,
+    "gebiete": [
+     {
+      "schluessel": "EM0106",
+      "name": "Leopoldplatz",
+      "anteil_im_ortsteil": 0.959,
+      "adressen_im_ortsteil": 604
+     },
+     {
+      "schluessel": "EM0109",
+      "name": "Seestraße",
+      "anteil_im_ortsteil": 0.987,
+      "adressen_im_ortsteil": 443
+     },
+     {
+      "schluessel": "EM0117",
+      "name": "Müllerstraße Nord",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 811
+     },
+     {
+      "schluessel": "EM0111",
+      "name": "Reinickendorfer Straße",
+      "anteil_im_ortsteil": 0.111,
+      "adressen_im_ortsteil": 39
+     },
+     {
+      "schluessel": "EM0105",
+      "name": "Sparrplatz",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 415
+     },
+     {
+      "schluessel": "EM0112",
+      "name": "Humboldthain Nord-West",
+      "anteil_im_ortsteil": 0.275,
+      "adressen_im_ortsteil": 38
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.1,
+    "ebene": "Bezirk Mitte (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 2.0,
+    "basis_2024": 397000,
+    "ziel_2040": 405000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 10,
+    "status_klassen_anzahl": {
+     "mittel": 9,
+     "niedrig": 1
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 90.6,
+     "niedrig": 9.4
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Afrikanische Str.",
+      "linien": [
+       "U6"
+      ]
+     },
+     {
+      "name": "Amrumer Str.",
+      "linien": [
+       "U9"
+      ]
+     },
+     {
+      "name": "Leopoldplatz",
+      "linien": [
+       "U6",
+       "U9"
+      ]
+     },
+     {
+      "name": "Nauener Platz",
+      "linien": [
+       "U9"
+      ]
+     },
+     {
+      "name": "Rehberge",
+      "linien": [
+       "U6"
+      ]
+     },
+     {
+      "name": "Reinickendorfer Str.",
+      "linien": [
+       "U6"
+      ]
+     },
+     {
+      "name": "Seestr.",
+      "linien": [
+       "U6"
+      ]
+     },
+     {
+      "name": "Wedding",
+      "linien": [
+       "S15",
+       "S41",
+       "S42",
+       "U6"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [
+    {
+     "name": "Berliner Hochschule für Technik",
+     "studierende": 12344,
+     "stand": "Wintersemester 2024/25 (endgültig)",
+     "quelle": "Studierende: AfS Statistischer Bericht B III 1 j/24, Tab. 9 (Berliner Hochschule für Technik), https://download.statistik-berlin-brandenburg.de/1cd22406e3177d1f/895372af48fe/SB_B03-01-00_2024j01_BE.pdf; Adresse: https://www.berlin.de/sen/wissenschaft/einrichtungen/hochschulen/hochschulen-fuer-angewandte-wissenschaften/; Ortsteil/Bezirk: OSM Nominatim Geokodierung der Adresse"
+    }
+   ],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 672,
+    "fertiggestellte_wohnungen": 1049,
+    "ebene": "Bezirk Mitte",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 6 soziale(s) Erhaltungsgebiet(e) mit rund 2.350 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 9,4 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-mitte-gesundbrunnen",
+  "name": "Gesundbrunnen (Mitte)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Mitte",
+  "ortsteil_nr": "0106",
+  "einwohner": 95014,
+  "koordinate": {
+   "lat": 52.550753,
+   "lon": 13.38426,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4650,
+  "miete": null,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.650, Gutachterausschuss Berlin (Altbezirk Wedding) 4.197 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "keine Angabe. homeday 10,2 (nur daneben).",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": 2.0,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Mitte (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Mitte: 397 Tsd. (2024) auf 405 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "13347",
+    "13355",
+    "13357",
+    "13359"
+   ],
+   "plz_haupt": "13357",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/gesundbrunnen",
+     "wert": 6365.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Mitte, Moabit, Hansaviertel, Tiergarten, Wedding, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/gesundbrunnen",
+     "wert": 19.27,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Mitte, Moabit, Tiergarten, Wedding, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/gesundbrunnen",
+     "wert": 4650.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/gesundbrunnen?marketing_type=rent&property_type=apartment",
+     "wert": 10.2,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "ergebnis": "kein Wert",
+     "grund": "Ortsteil nicht in der miet-check-Rangliste (Einzelseiten zeigen 0,00 €)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Gesundbrunnen (Mitte) hat 95.014 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose: +2,0 %, Mietpreisbremse gilt (Kappung 15 %). Rendite {R} % und Faktor {F} ungeprüft.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.197 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 95014,
+    "stichtag": "31.12.2025",
+    "vor5": 93862,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 1.2,
+    "stand_30_06_2026": 95369,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4197,
+    "gebiet": "Altbezirk Wedding",
+    "jahr": 2025,
+    "kauffaelle": 307,
+    "spanne": "2.546 bis 6.078",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 2169,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 5,
+    "gebiete": [
+     {
+      "schluessel": "EM0111",
+      "name": "Reinickendorfer Straße",
+      "anteil_im_ortsteil": 0.889,
+      "adressen_im_ortsteil": 311
+     },
+     {
+      "schluessel": "EM0118",
+      "name": "Badstraße",
+      "anteil_im_ortsteil": 0.99,
+      "adressen_im_ortsteil": 419
+     },
+     {
+      "schluessel": "EM0113",
+      "name": "Soldiner Straße",
+      "anteil_im_ortsteil": 0.992,
+      "adressen_im_ortsteil": 468
+     },
+     {
+      "schluessel": "EM0112",
+      "name": "Humboldthain Nord-West",
+      "anteil_im_ortsteil": 0.725,
+      "adressen_im_ortsteil": 100
+     },
+     {
+      "schluessel": "EM0110",
+      "name": "Kattegatstraße",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 149
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.1,
+    "ebene": "Bezirk Mitte (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 2.0,
+    "basis_2024": 397000,
+    "ziel_2040": 405000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 10,
+    "status_klassen_anzahl": {
+     "sehr niedrig": 6,
+     "niedrig": 3,
+     "mittel": 1
+    },
+    "einwohneranteil_prozent": {
+     "sehr niedrig": 58.2,
+     "niedrig": 31.1,
+     "mittel": 10.7
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Gesundbrunnen",
+      "linien": [
+       "S1",
+       "S2",
+       "S15",
+       "S25",
+       "S26",
+       "S41",
+       "S42",
+       "S85",
+       "U8"
+      ]
+     },
+     {
+      "name": "Humboldthain",
+      "linien": [
+       "S1",
+       "S2",
+       "S25",
+       "S26",
+       "S41",
+       "S85"
+      ]
+     },
+     {
+      "name": "Osloer Str.",
+      "linien": [
+       "U8",
+       "U9"
+      ]
+     },
+     {
+      "name": "Pankstr.",
+      "linien": [
+       "U8"
+      ]
+     },
+     {
+      "name": "Voltastr.",
+      "linien": [
+       "U8"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 672,
+    "fertiggestellte_wohnungen": 1049,
+    "ebene": "Bezirk Mitte",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 5 soziale(s) Erhaltungsgebiet(e) mit rund 1.447 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 89,3 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ }
+]

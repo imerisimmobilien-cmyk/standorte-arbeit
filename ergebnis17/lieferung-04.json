@@ -1,0 +1,1963 @@
+[
+ {
+  "id": "berlin-bezirk-charlottenburg-wilmersdorf",
+  "name": "Bezirk Charlottenburg-Wilmersdorf",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "einwohner": 343625,
+  "koordinate": {
+   "lat": 52.501046,
+   "lon": 13.270226,
+   "art": "Schwerpunkt der Bezirksfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Bezirksschlüssel, Stand 19.10.2026"
+  },
+  "kauf": null,
+  "miete": null,
+  "kaufQuellen": "keine Angabe: kein eindeutiger Bezirkswert mit mindestens zwei Portalquellen; bewertet sind die Ortsteile.",
+  "mieteQuellen": "keine Angabe: kein eindeutiger Bezirkswert; bewertet sind die Ortsteile.",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": -2.5,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Charlottenburg-Wilmersdorf: 343 Tsd. (2024) auf 335 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/charlottenburg-wilmersdorf",
+     "wert": 5750.0,
+     "hinweis": "Bezirksseite; nur eine Kaufquelle und keine gewertete Mietquelle, daher keine eigene Ampel"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/charlottenburg-wilmersdorf?marketing_type=rent&property_type=apartment",
+     "wert": 15.0,
+     "hinweis": "Bezirksseite; nur eine Kaufquelle und keine gewertete Mietquelle, daher keine eigene Ampel"
+    },
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/charlottenburg-wilmersdorf",
+     "wert": null,
+     "hinweis": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/charlottenburg-wilmersdorf",
+     "wert": null,
+     "hinweis": "keine Ortsteilseite (HTTP 404)"
+    }
+   ]
+  },
+  "arbeitgeber": null,
+  "fazit": "Bezirk Charlottenburg-Wilmersdorf hat 343.625 Einwohner; Kauf und Miete werden je Ortsteil bewertet, ein eigener Bezirkswert ließ sich nicht mit zwei Portalquellen belegen, Rendite {R} % und Faktor {F} ungeprüft. Die Senatsprognose 2024 bis 2040 liegt bei -2,5 %, Mietpreisbremse gilt (Kappung 15 %). Ampel unbewertet, Ortsteile: 4 gelb, 2 rot, 1 unbewertet.",
+  "offen": [
+   "unbewertet: Bezirkseintrag ohne eigenen Portalwert, Bewertung über die Ortsteile"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 343625,
+    "stichtag": "31.12.2025",
+    "vor5": 341392,
+    "entwicklung_5_jahre_prozent": 0.7,
+    "quelle": "Amt für Statistik Berlin-Brandenburg"
+   },
+   "ortsteile": [
+    {
+     "id": "berlin-charlottenburg-wilmersdorf-charlottenburg",
+     "name": "Charlottenburg (Charlottenburg-Wilmersdorf)",
+     "score": "unbewertet",
+     "kauf": null,
+     "miete": 15.54
+    },
+    {
+     "id": "berlin-charlottenburg-wilmersdorf-wilmersdorf",
+     "name": "Wilmersdorf (Charlottenburg-Wilmersdorf)",
+     "score": "gelb",
+     "kauf": 5550,
+     "miete": 16.47
+    },
+    {
+     "id": "berlin-charlottenburg-wilmersdorf-schmargendorf",
+     "name": "Schmargendorf (Charlottenburg-Wilmersdorf)",
+     "score": "gelb",
+     "kauf": 5667,
+     "miete": 18.52
+    },
+    {
+     "id": "berlin-charlottenburg-wilmersdorf-grunewald",
+     "name": "Grunewald (Charlottenburg-Wilmersdorf)",
+     "score": "gelb",
+     "kauf": 6054,
+     "miete": 18.23
+    },
+    {
+     "id": "berlin-charlottenburg-wilmersdorf-westend",
+     "name": "Westend (Charlottenburg-Wilmersdorf)",
+     "score": "rot",
+     "kauf": 5778,
+     "miete": 14.94
+    },
+    {
+     "id": "berlin-charlottenburg-wilmersdorf-charlottenburg-nord",
+     "name": "Charlottenburg-Nord (Charlottenburg-Wilmersdorf)",
+     "score": "rot",
+     "kauf": 5223,
+     "miete": 11.28
+    },
+    {
+     "id": "berlin-charlottenburg-wilmersdorf-halensee",
+     "name": "Halensee (Charlottenburg-Wilmersdorf)",
+     "score": "gelb",
+     "kauf": 5828,
+     "miete": 19.47
+    }
+   ],
+   "ampel_ortsteile": {
+    "unbewertet": 1,
+    "gelb": 4,
+    "rot": 2
+   },
+   "gutachter": {
+    "kauffaelle_wohnungs_und_teileigentum_2025": 2637,
+    "altbezirke": [
+     "Charlottenburg",
+     "Wilmersdorf"
+    ],
+    "preis_bezirk": null,
+    "grund": "Der Marktbericht weist Preise nur je Altbezirk aus (siehe Ortsteile), keinen amtlichen Bezirkswert",
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf"
+   },
+   "erhaltungsgebiete_anzahl": 9,
+   "leerstand": {
+    "quote_prozent": 2.4,
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": -2.5,
+    "basis_2024": 343000,
+    "ziel_2040": 335000,
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "neubau": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 852,
+    "fertiggestellte_wohnungen": 801
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   }
+  }
+ },
+ {
+  "id": "berlin-charlottenburg-wilmersdorf-charlottenburg",
+  "name": "Charlottenburg (Charlottenburg-Wilmersdorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "ortsteil_nr": "0401",
+  "einwohner": 130566,
+  "koordinate": {
+   "lat": 52.514271,
+   "lon": 13.307242,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": null,
+  "miete": 15.54,
+  "kaufQuellen": "Mittel aus 0 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): Gutachterausschuss Berlin (Altbezirk Charlottenburg) 5.201 (Mittel aller Eigentumswohnungen 2025, 936 Kauffälle). Ort/PLZ geprüft: keine Quelle.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 15,54. homeday 13,4 (nur daneben).",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": -2.5,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Charlottenburg-Wilmersdorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Charlottenburg-Wilmersdorf: 343 Tsd. (2024) auf 335 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "10585",
+    "10587",
+    "10589",
+    "10623",
+    "10625",
+    "10627",
+    "10629",
+    "10707",
+    "10719",
+    "10789",
+    "14057",
+    "14059"
+   ],
+   "plz_haupt": "14059",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/charlottenburg",
+     "wert": 6015.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Wilmersdorf, Staaken, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/charlottenburg",
+     "wert": 18.11,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Wilmersdorf, Staaken, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/charlottenburg",
+     "wert": 5000.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/charlottenburg?marketing_type=rent&property_type=apartment",
+     "wert": 13.4,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 15.54,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Charlottenburg der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (10585, 10587, 10589, 10623, 10625, 10627, 10629, 10707, 10709, 10711, 10719, 10787, 10789, 13353, 13597, 13627, 13629, 14050, 14052, 14053, 14055, 14057, 14059) überschneiden sich mit den PLZ des Ortsteils (10585, 10587, 10589, 10623, 10625, 10627, 10629, 10707, 10719, 10789, 14057, 14059)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Charlottenburg (Charlottenburg-Wilmersdorf) hat 130.566 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose: -2,5 %, Mietpreisbremse gilt (Kappung 15 %). Rendite {R} % und Faktor {F} ungeprüft.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Wert des Altbezirks Charlottenburg, kein Ortsteilwert",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 130566,
+    "stichtag": "31.12.2025",
+    "vor5": 129359,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 0.9,
+    "stand_30_06_2026": 130053,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 5201,
+    "gebiet": "Altbezirk Charlottenburg",
+    "jahr": 2025,
+    "kauffaelle": 936,
+    "spanne": "3.019 bis 7.583",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 2637,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 6,
+    "gebiete": [
+     {
+      "schluessel": "EM0405",
+      "name": "Alt-Lietzow",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 355
+     },
+     {
+      "schluessel": "EM0403",
+      "name": "Klausenerplatz",
+      "anteil_im_ortsteil": 0.917,
+      "adressen_im_ortsteil": 447
+     },
+     {
+      "schluessel": "EM0402",
+      "name": "Gierkeplatz",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 345
+     },
+     {
+      "schluessel": "EM0406",
+      "name": "Richard-Wagner-Straße",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 193
+     },
+     {
+      "schluessel": "EM0407",
+      "name": "Karl-August-Platz",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 490
+     },
+     {
+      "schluessel": "EM0401",
+      "name": "Mierendorff-Insel",
+      "anteil_im_ortsteil": 0.967,
+      "adressen_im_ortsteil": 593
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.4,
+    "ebene": "Bezirk Charlottenburg-Wilmersdorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": -2.5,
+    "basis_2024": 343000,
+    "ziel_2040": 335000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 17,
+    "status_klassen_anzahl": {
+     "mittel": 17
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Adenauerplatz",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Bismarckstr.",
+      "linien": [
+       "U2",
+       "U7"
+      ]
+     },
+     {
+      "name": "Charlottenburg",
+      "linien": [
+       "S3",
+       "S5",
+       "S7",
+       "S9",
+       "S41",
+       "S42",
+       "S46"
+      ]
+     },
+     {
+      "name": "Deutsche Oper",
+      "linien": [
+       "U2"
+      ]
+     },
+     {
+      "name": "Ernst-Reuter-Platz",
+      "linien": [
+       "U2"
+      ]
+     },
+     {
+      "name": "Kurfürstendamm",
+      "linien": [
+       "U1",
+       "U9"
+      ]
+     },
+     {
+      "name": "Messe Nord/ZOB",
+      "linien": [
+       "S41",
+       "S42",
+       "S46",
+       "S47"
+      ]
+     },
+     {
+      "name": "Mierendorffplatz",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Richard-Wagner-Platz",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Savignyplatz",
+      "linien": [
+       "S3",
+       "S5",
+       "S7",
+       "S9"
+      ]
+     },
+     {
+      "name": "Sophie-Charlotte-Platz",
+      "linien": [
+       "U2"
+      ]
+     },
+     {
+      "name": "Uhlandstr.",
+      "linien": [
+       "U1"
+      ]
+     },
+     {
+      "name": "Westend",
+      "linien": [
+       "S41",
+       "S42",
+       "S46",
+       "S47"
+      ]
+     },
+     {
+      "name": "Westkreuz",
+      "linien": [
+       "S3",
+       "S5",
+       "S7",
+       "S9",
+       "S41",
+       "S42",
+       "S46",
+       "S47"
+      ]
+     },
+     {
+      "name": "Wilmersdorfer Str.",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Zoologischer Garten",
+      "linien": [
+       "S3",
+       "S5",
+       "S7",
+       "S9",
+       "U2",
+       "U9"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [
+    {
+     "name": "Technische Universität Berlin",
+     "studierende": 34550,
+     "stand": "Wintersemester 2024/25 (endgültig)",
+     "quelle": "Studierende: AfS Statistischer Bericht B III 1 j/24, Tab. 9 (Technische Universität), https://download.statistik-berlin-brandenburg.de/1cd22406e3177d1f/895372af48fe/SB_B03-01-00_2024j01_BE.pdf; Adresse: https://www.berlin.de/sen/wissenschaft/einrichtungen/hochschulen/universitaeten/; Ortsteil/Bezirk: OSM Nominatim Geokodierung der Adresse"
+    },
+    {
+     "name": "Universität der Künste Berlin",
+     "studierende": 4422,
+     "stand": "Wintersemester 2024/25 (endgültig)",
+     "quelle": "Studierende: AfS Statistischer Bericht B III 1 j/24, Tab. 9 (Universität der Künste), https://download.statistik-berlin-brandenburg.de/1cd22406e3177d1f/895372af48fe/SB_B03-01-00_2024j01_BE.pdf; Adresse: https://www.berlin.de/sen/wissenschaft/einrichtungen/hochschulen/kunsthochschulen/; Ortsteil/Bezirk: OSM Nominatim Geokodierung der Adresse"
+    },
+    {
+     "name": "ESCP Business School Berlin",
+     "studierende": 1478,
+     "stand": "Wintersemester 2024/25 (endgültig)",
+     "quelle": "Studierende: AfS Statistischer Bericht B III 1 j/24, Tab. 9 (ESCP Europe Wirtschaftshochschule), https://download.statistik-berlin-brandenburg.de/1cd22406e3177d1f/895372af48fe/SB_B03-01-00_2024j01_BE.pdf; Adresse: https://www.berlin.de/sen/wissenschaft/einrichtungen/hochschulen/private-hochschulen/; Ortsteil/Bezirk: OSM Nominatim Geokodierung der Adresse"
+    }
+   ],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 852,
+    "fertiggestellte_wohnungen": 801,
+    "ebene": "Bezirk Charlottenburg-Wilmersdorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 6 soziale(s) Erhaltungsgebiet(e) mit rund 2.423 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-charlottenburg-wilmersdorf-wilmersdorf",
+  "name": "Wilmersdorf (Charlottenburg-Wilmersdorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "ortsteil_nr": "0402",
+  "einwohner": 101125,
+  "koordinate": {
+   "lat": 52.48585,
+   "lon": 13.318425,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 5550,
+  "miete": 16.47,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 5.550, Gutachterausschuss Berlin (Altbezirk Wilmersdorf) 5.547 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 16,47. homeday 12,6 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -2.5,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Charlottenburg-Wilmersdorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Charlottenburg-Wilmersdorf: 343 Tsd. (2024) auf 335 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "10707",
+    "10709",
+    "10713",
+    "10715",
+    "10717",
+    "10719",
+    "10777",
+    "10779",
+    "10789",
+    "14197"
+   ],
+   "plz_haupt": "14197",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/wilmersdorf",
+     "wert": 6015.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Charlottenburg, Staaken, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/wilmersdorf",
+     "wert": 18.11,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Charlottenburg, Staaken, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/wilmersdorf",
+     "wert": 5550.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/wilmersdorf?marketing_type=rent&property_type=apartment",
+     "wert": 12.6,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 16.47,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Wilmersdorf der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (10707, 10709, 10711, 10713, 10715, 10717, 10719, 10777, 10779, 10789, 10825, 14055, 14195, 14197, 14199) überschneiden sich mit den PLZ des Ortsteils (10707, 10709, 10713, 10715, 10717, 10719, 10777, 10779, 10789, 14197)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Wilmersdorf (Charlottenburg-Wilmersdorf) hat 101.125 Einwohner und liegt bei 5.550 €/m² Kauf und 16,47 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei -2,5 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 5.547 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 101125,
+    "stichtag": "31.12.2025",
+    "vor5": 101877,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": -0.7,
+    "stand_30_06_2026": 100806,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 5547,
+    "gebiet": "Altbezirk Wilmersdorf",
+    "jahr": 2025,
+    "kauffaelle": 761,
+    "spanne": "3.251 bis 8.009",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 2637,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 2,
+    "gebiete": [
+     {
+      "schluessel": "EM0408",
+      "name": "Brabanter Platz",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 207
+     },
+     {
+      "schluessel": "EM0409",
+      "name": "Hochmeisterplatz",
+      "anteil_im_ortsteil": 0.469,
+      "adressen_im_ortsteil": 187
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.4,
+    "ebene": "Bezirk Charlottenburg-Wilmersdorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": -2.5,
+    "basis_2024": 343000,
+    "ziel_2040": 335000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 15,
+    "status_klassen_anzahl": {
+     "niedrig": 1,
+     "hoch": 1,
+     "mittel": 13
+    },
+    "einwohneranteil_prozent": {
+     "niedrig": 3.9,
+     "hoch": 3.4,
+     "mittel": 92.7
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Augsburger Str.",
+      "linien": [
+       "U3"
+      ]
+     },
+     {
+      "name": "Berliner Str.",
+      "linien": [
+       "U7",
+       "U9"
+      ]
+     },
+     {
+      "name": "Blissestr.",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Bundesplatz",
+      "linien": [
+       "S41",
+       "S42",
+       "S46",
+       "S47",
+       "U9"
+      ]
+     },
+     {
+      "name": "Fehrbelliner Platz",
+      "linien": [
+       "U3",
+       "U7"
+      ]
+     },
+     {
+      "name": "Güntzelstr.",
+      "linien": [
+       "U9"
+      ]
+     },
+     {
+      "name": "Heidelberger Platz",
+      "linien": [
+       "S41",
+       "S42",
+       "S46",
+       "S47",
+       "U3"
+      ]
+     },
+     {
+      "name": "Hohenzollernplatz",
+      "linien": [
+       "U3"
+      ]
+     },
+     {
+      "name": "Konstanzer Str.",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Rüdesheimer Platz",
+      "linien": [
+       "U3"
+      ]
+     },
+     {
+      "name": "Spichernstr.",
+      "linien": [
+       "U3",
+       "U9"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [
+    {
+     "name": "MSB Medical School Berlin",
+     "studierende": 3120,
+     "stand": "Wintersemester 2024/25 (endgültig)",
+     "quelle": "Studierende: AfS Statistischer Bericht B III 1 j/24, Tab. 9 (Medical School), https://download.statistik-berlin-brandenburg.de/1cd22406e3177d1f/895372af48fe/SB_B03-01-00_2024j01_BE.pdf; Adresse: https://www.berlin.de/sen/wissenschaft/einrichtungen/hochschulen/private-hochschulen/; Ortsteil/Bezirk: OSM Nominatim Geokodierung der Adresse"
+    }
+   ],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 852,
+    "fertiggestellte_wohnungen": 801,
+    "ebene": "Bezirk Charlottenburg-Wilmersdorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 2 soziale(s) Erhaltungsgebiet(e) mit rund 394 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 3,9 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 3,4 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-charlottenburg-wilmersdorf-schmargendorf",
+  "name": "Schmargendorf (Charlottenburg-Wilmersdorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "ortsteil_nr": "0403",
+  "einwohner": 23955,
+  "koordinate": {
+   "lat": 52.47876,
+   "lon": 13.291926,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 5667,
+  "miete": 18.52,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 6.068, homeday 5.750, Gutachterausschuss Berlin (Ortsteil Schmargendorf) 5.183 (Mittel aller Eigentumswohnungen 2025, 106 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 18,76, miet-check 18,27. homeday 14,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -2.5,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Charlottenburg-Wilmersdorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Charlottenburg-Wilmersdorf: 343 Tsd. (2024) auf 335 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "14193",
+    "14195",
+    "14199"
+   ],
+   "plz_haupt": "14199",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/schmargendorf",
+     "wert": 6068.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/schmargendorf",
+     "wert": 18.76,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/schmargendorf",
+     "wert": 5750.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/schmargendorf?marketing_type=rent&property_type=apartment",
+     "wert": 14.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 18.27,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Schmargendorf der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (14193, 14195, 14199) überschneiden sich mit den PLZ des Ortsteils (14193, 14195, 14199)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": [
+   {
+    "name": "Cornelsen Verlag, Firmensitz Mecklenburgische Straße",
+    "beschaeftigte": "rund 650",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Berlin-Schmargendorf, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Schmargendorf (Charlottenburg-Wilmersdorf) hat 23.955 Einwohner und liegt bei 5.667 €/m² Kauf und 18,52 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei -2,5 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Ortsteilwert (im Marktbericht gesondert ausgewiesen)",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 23955,
+    "stichtag": "31.12.2025",
+    "vor5": 22733,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 5.4,
+    "stand_30_06_2026": 23962,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 5183,
+    "gebiet": "Ortsteil Schmargendorf",
+    "jahr": 2025,
+    "kauffaelle": 106,
+    "spanne": "3.166 bis 7.558",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 2637,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.4,
+    "ebene": "Bezirk Charlottenburg-Wilmersdorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": -2.5,
+    "basis_2024": 343000,
+    "ziel_2040": 335000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 4,
+    "status_klassen_anzahl": {
+     "mittel": 2,
+     "hoch": 2
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 66.3,
+     "hoch": 33.7
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": false,
+    "bahnhoefe": [],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 852,
+    "fertiggestellte_wohnungen": 801,
+    "ebene": "Bezirk Charlottenburg-Wilmersdorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 33,7 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-charlottenburg-wilmersdorf-grunewald",
+  "name": "Grunewald (Charlottenburg-Wilmersdorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "ortsteil_nr": "0404",
+  "einwohner": 11144,
+  "koordinate": {
+   "lat": 52.48537,
+   "lon": 13.235477,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 6054,
+  "miete": 18.23,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 6.300, homeday 5.750, Gutachterausschuss Berlin (Ortsteil Grunewald) 6.111 (Mittel aller Eigentumswohnungen 2025, 61 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 18,67, miet-check 17,80. homeday 15,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -2.5,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Charlottenburg-Wilmersdorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Charlottenburg-Wilmersdorf: 343 Tsd. (2024) auf 335 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "10711",
+    "14055",
+    "14193"
+   ],
+   "plz_haupt": "14193",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/grunewald",
+     "wert": 6300.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/grunewald",
+     "wert": 18.67,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/grunewald",
+     "wert": 5750.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/grunewald?marketing_type=rent&property_type=apartment",
+     "wert": 15.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 17.8,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Grunewald der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (10711, 14055, 14193, 14195, 14199) überschneiden sich mit den PLZ des Ortsteils (10711, 14055, 14193)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Grunewald (Charlottenburg-Wilmersdorf) hat 11.144 Einwohner und liegt bei 6.054 €/m² Kauf und 18,23 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei -2,5 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Ortsteilwert (im Marktbericht gesondert ausgewiesen)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 11144,
+    "stichtag": "31.12.2025",
+    "vor5": 11176,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": -0.3,
+    "stand_30_06_2026": 11122,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 6111,
+    "gebiet": "Ortsteil Grunewald",
+    "jahr": 2025,
+    "kauffaelle": 61,
+    "spanne": "4.005 bis 8.560",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 2637,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.4,
+    "ebene": "Bezirk Charlottenburg-Wilmersdorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": -2.5,
+    "basis_2024": 343000,
+    "ziel_2040": 335000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 5,
+    "status_klassen_anzahl": {
+     "hoch": 2,
+     "nicht berechnet": 1,
+     "mittel": 2
+    },
+    "einwohneranteil_prozent": {
+     "hoch": 40.2,
+     "nicht berechnet": 0.4,
+     "mittel": 59.3
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Grunewald",
+      "linien": [
+       "S3",
+       "S5",
+       "S7",
+       "S9"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 852,
+    "fertiggestellte_wohnungen": 801,
+    "ebene": "Bezirk Charlottenburg-Wilmersdorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 40,2 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-charlottenburg-wilmersdorf-westend",
+  "name": "Westend (Charlottenburg-Wilmersdorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "ortsteil_nr": "0405",
+  "einwohner": 41348,
+  "koordinate": {
+   "lat": 52.512858,
+   "lon": 13.252671,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 5778,
+  "miete": 14.94,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.332, homeday 6.800, Gutachterausschuss Berlin (Altbezirk Charlottenburg) 5.201 (Mittel aller Eigentumswohnungen 2025, 936 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 16,03, miet-check 13,84. homeday 12,3 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": -2.5,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Charlottenburg-Wilmersdorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Charlottenburg-Wilmersdorf: 343 Tsd. (2024) auf 335 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "13597",
+    "14050",
+    "14052",
+    "14053",
+    "14055",
+    "14057",
+    "14059"
+   ],
+   "plz_haupt": "14055",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/westend",
+     "wert": 5332.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/westend",
+     "wert": 16.03,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/westend",
+     "wert": 6800.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/westend?marketing_type=rent&property_type=apartment",
+     "wert": 12.3,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 13.84,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Westend der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (14050, 14052, 14053, 14055, 14057, 14059) überschneiden sich mit den PLZ des Ortsteils (14050, 14052, 14053, 14055, 14057, 14059)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Westend (Charlottenburg-Wilmersdorf) hat 41.348 Einwohner und liegt bei 5.778 €/m² Kauf und 14,94 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei -2,5 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Wert des Altbezirks Charlottenburg, kein Ortsteilwert",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 41348,
+    "stichtag": "31.12.2025",
+    "vor5": 41328,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 0.0,
+    "stand_30_06_2026": 41274,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 5201,
+    "gebiet": "Altbezirk Charlottenburg",
+    "jahr": 2025,
+    "kauffaelle": 936,
+    "spanne": "3.019 bis 7.583",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 2637,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.4,
+    "ebene": "Bezirk Charlottenburg-Wilmersdorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": -2.5,
+    "basis_2024": 343000,
+    "ziel_2040": 335000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 8,
+    "status_klassen_anzahl": {
+     "hoch": 1,
+     "mittel": 7
+    },
+    "einwohneranteil_prozent": {
+     "hoch": 3.8,
+     "mittel": 96.2
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Heerstr.",
+      "linien": [
+       "S3",
+       "S5",
+       "S9"
+      ]
+     },
+     {
+      "name": "Kaiserdamm",
+      "linien": [
+       "U2"
+      ]
+     },
+     {
+      "name": "Messe Süd",
+      "linien": [
+       "S3",
+       "S5",
+       "S9"
+      ]
+     },
+     {
+      "name": "Neu-Westend",
+      "linien": [
+       "U2"
+      ]
+     },
+     {
+      "name": "Olympia-Stadion",
+      "linien": [
+       "U2"
+      ]
+     },
+     {
+      "name": "Olympiastadion",
+      "linien": [
+       "S3",
+       "S5",
+       "S9"
+      ]
+     },
+     {
+      "name": "Pichelsberg",
+      "linien": [
+       "S3",
+       "S9"
+      ]
+     },
+     {
+      "name": "Ruhleben",
+      "linien": [
+       "U2"
+      ]
+     },
+     {
+      "name": "Theodor-Heuss-Platz",
+      "linien": [
+       "U2"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 852,
+    "fertiggestellte_wohnungen": 801,
+    "ebene": "Bezirk Charlottenburg-Wilmersdorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 3,8 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-charlottenburg-wilmersdorf-charlottenburg-nord",
+  "name": "Charlottenburg-Nord (Charlottenburg-Wilmersdorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "ortsteil_nr": "0406",
+  "einwohner": 19651,
+  "koordinate": {
+   "lat": 52.540544,
+   "lon": 13.297541,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 5223,
+  "miete": 11.28,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.019, homeday 5.450, Gutachterausschuss Berlin (Altbezirk Charlottenburg) 5.201 (Mittel aller Eigentumswohnungen 2025, 936 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): immoportal 11,28. homeday 9,0 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": -2.5,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Charlottenburg-Wilmersdorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Charlottenburg-Wilmersdorf: 343 Tsd. (2024) auf 335 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "10589",
+    "13627",
+    "13629"
+   ],
+   "plz_haupt": "13627",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/charlottenburg-nord",
+     "wert": 5019.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/charlottenburg-nord",
+     "wert": 11.28,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/charlottenburg-nord",
+     "wert": 5450.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/charlottenburg-nord?marketing_type=rent&property_type=apartment",
+     "wert": 9.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "ergebnis": "kein Wert",
+     "grund": "Ortsteil nicht in der miet-check-Rangliste (Einzelseiten zeigen 0,00 €)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Charlottenburg-Nord (Charlottenburg-Wilmersdorf) hat 19.651 Einwohner und liegt bei 5.223 €/m² Kauf und 11,28 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei -2,5 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Wert des Altbezirks Charlottenburg, kein Ortsteilwert",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 19651,
+    "stichtag": "31.12.2025",
+    "vor5": 19422,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 1.2,
+    "stand_30_06_2026": 19488,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 5201,
+    "gebiet": "Altbezirk Charlottenburg",
+    "jahr": 2025,
+    "kauffaelle": 936,
+    "spanne": "3.019 bis 7.583",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 2637,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 1,
+    "gebiete": [
+     {
+      "schluessel": "EM0404",
+      "name": "Jungfernheide",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 402
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.4,
+    "ebene": "Bezirk Charlottenburg-Wilmersdorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": -2.5,
+    "basis_2024": 343000,
+    "ziel_2040": 335000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 2,
+    "status_klassen_anzahl": {
+     "niedrig": 1,
+     "sehr niedrig": 1
+    },
+    "einwohneranteil_prozent": {
+     "niedrig": 59.9,
+     "sehr niedrig": 40.1
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Halemweg",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Jakob-Kaiser-Platz",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Jungfernheide",
+      "linien": [
+       "S41",
+       "S42",
+       "S46",
+       "U7"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 852,
+    "fertiggestellte_wohnungen": 801,
+    "ebene": "Bezirk Charlottenburg-Wilmersdorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 1 soziale(s) Erhaltungsgebiet(e) mit rund 402 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 100,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-charlottenburg-wilmersdorf-halensee",
+  "name": "Halensee (Charlottenburg-Wilmersdorf)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "ortsteil_nr": "0407",
+  "einwohner": 15836,
+  "koordinate": {
+   "lat": 52.497061,
+   "lon": 13.293319,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 5828,
+  "miete": 19.47,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 6.286, homeday 5.650, Gutachterausschuss Berlin (Altbezirk Wilmersdorf) 5.547 (Mittel aller Eigentumswohnungen 2025, 761 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): immoportal 19,47. homeday 15,1 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -2.5,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Charlottenburg-Wilmersdorf (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Charlottenburg-Wilmersdorf: 343 Tsd. (2024) auf 335 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "10709",
+    "10711"
+   ],
+   "plz_haupt": "10711",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/halensee",
+     "wert": 6286.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/halensee",
+     "wert": 19.47,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/halensee",
+     "wert": 5650.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/halensee?marketing_type=rent&property_type=apartment",
+     "wert": 15.1,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "ergebnis": "kein Wert",
+     "grund": "Ortsteil nicht in der miet-check-Rangliste (Einzelseiten zeigen 0,00 €)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Halensee (Charlottenburg-Wilmersdorf) hat 15.836 Einwohner und liegt bei 5.828 €/m² Kauf und 19,47 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei -2,5 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Wert des Altbezirks Wilmersdorf, kein Ortsteilwert",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 15836,
+    "stichtag": "31.12.2025",
+    "vor5": 15497,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 2.2,
+    "stand_30_06_2026": 15933,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 5547,
+    "gebiet": "Altbezirk Wilmersdorf",
+    "jahr": 2025,
+    "kauffaelle": 761,
+    "spanne": "3.251 bis 8.009",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 2637,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 1,
+    "gebiete": [
+     {
+      "schluessel": "EM0409",
+      "name": "Hochmeisterplatz",
+      "anteil_im_ortsteil": 0.477,
+      "adressen_im_ortsteil": 190
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.4,
+    "ebene": "Bezirk Charlottenburg-Wilmersdorf (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": -2.5,
+    "basis_2024": 343000,
+    "ziel_2040": 335000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 2,
+    "status_klassen_anzahl": {
+     "mittel": 2
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Halensee",
+      "linien": [
+       "S41",
+       "S42",
+       "S46",
+       "S47"
+      ]
+     },
+     {
+      "name": "Hohenzollerndamm",
+      "linien": [
+       "S41",
+       "S42",
+       "S46",
+       "S47"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 852,
+    "fertiggestellte_wohnungen": 801,
+    "ebene": "Bezirk Charlottenburg-Wilmersdorf",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 1 soziale(s) Erhaltungsgebiet(e) mit rund 190 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ }
+]

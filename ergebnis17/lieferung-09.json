@@ -1,0 +1,3239 @@
+[
+ {
+  "id": "berlin-bezirk-treptow-koepenick",
+  "name": "Bezirk Treptow-Köpenick",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "einwohner": 302686,
+  "koordinate": {
+   "lat": 52.429587,
+   "lon": 13.611255,
+   "art": "Schwerpunkt der Bezirksfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Bezirksschlüssel, Stand 19.10.2026"
+  },
+  "kauf": null,
+  "miete": null,
+  "kaufQuellen": "keine Angabe: kein eindeutiger Bezirkswert mit mindestens zwei Portalquellen; bewertet sind die Ortsteile.",
+  "mieteQuellen": "keine Angabe: kein eindeutiger Bezirkswert; bewertet sind die Ortsteile.",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/treptow-k%C3%B6penick",
+     "wert": 3200.0,
+     "hinweis": "Bezirksseite; nur eine Kaufquelle und keine gewertete Mietquelle, daher keine eigene Ampel"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/treptow-k%C3%B6penick?marketing_type=rent&property_type=apartment",
+     "wert": 9.8,
+     "hinweis": "Bezirksseite; nur eine Kaufquelle und keine gewertete Mietquelle, daher keine eigene Ampel"
+    },
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/treptow-koepenick",
+     "wert": null,
+     "hinweis": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/treptow-koepenick",
+     "wert": null,
+     "hinweis": "keine Ortsteilseite (HTTP 404)"
+    }
+   ]
+  },
+  "arbeitgeber": null,
+  "fazit": "Bezirk Treptow-Köpenick hat 302.686 Einwohner; Kauf und Miete werden je Ortsteil bewertet, ein eigener Bezirkswert ließ sich nicht mit zwei Portalquellen belegen, Rendite {R} % und Faktor {F} ungeprüft. Die Senatsprognose 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel unbewertet, Ortsteile: 9 gruen, 5 gelb, 1 rot.",
+  "offen": [
+   "unbewertet: Bezirkseintrag ohne eigenen Portalwert, Bewertung über die Ortsteile"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 302686,
+    "stichtag": "31.12.2025",
+    "vor5": 276165,
+    "entwicklung_5_jahre_prozent": 9.6,
+    "quelle": "Amt für Statistik Berlin-Brandenburg"
+   },
+   "ortsteile": [
+    {
+     "id": "berlin-treptow-koepenick-alt-treptow",
+     "name": "Alt-Treptow (Treptow-Köpenick)",
+     "score": "gelb",
+     "kauf": 4878,
+     "miete": 14.03
+    },
+    {
+     "id": "berlin-treptow-koepenick-plaenterwald",
+     "name": "Plänterwald (Treptow-Köpenick)",
+     "score": "rot",
+     "kauf": 5150,
+     "miete": 13.64
+    },
+    {
+     "id": "berlin-treptow-koepenick-baumschulenweg",
+     "name": "Baumschulenweg (Treptow-Köpenick)",
+     "score": "gelb",
+     "kauf": 4232,
+     "miete": 13.41
+    },
+    {
+     "id": "berlin-treptow-koepenick-johannisthal",
+     "name": "Johannisthal (Treptow-Köpenick)",
+     "score": "gruen",
+     "kauf": 3954,
+     "miete": 15.27
+    },
+    {
+     "id": "berlin-treptow-koepenick-niederschoeneweide",
+     "name": "Niederschöneweide (Treptow-Köpenick)",
+     "score": "gruen",
+     "kauf": 4088,
+     "miete": 16.87
+    },
+    {
+     "id": "berlin-treptow-koepenick-altglienicke",
+     "name": "Altglienicke (Treptow-Köpenick)",
+     "score": "gruen",
+     "kauf": 4042,
+     "miete": 15.43
+    },
+    {
+     "id": "berlin-treptow-koepenick-adlershof",
+     "name": "Adlershof (Treptow-Köpenick)",
+     "score": "gruen",
+     "kauf": 3933,
+     "miete": 16.77
+    },
+    {
+     "id": "berlin-treptow-koepenick-bohnsdorf",
+     "name": "Bohnsdorf (Treptow-Köpenick)",
+     "score": "gelb",
+     "kauf": 3900,
+     "miete": 15.15
+    },
+    {
+     "id": "berlin-treptow-koepenick-oberschoeneweide",
+     "name": "Oberschöneweide (Treptow-Köpenick)",
+     "score": "gruen",
+     "kauf": 4086,
+     "miete": 15.19
+    },
+    {
+     "id": "berlin-treptow-koepenick-koepenick",
+     "name": "Köpenick (Treptow-Köpenick)",
+     "score": "gruen",
+     "kauf": 3883,
+     "miete": 15.51
+    },
+    {
+     "id": "berlin-treptow-koepenick-friedrichshagen",
+     "name": "Friedrichshagen (Treptow-Köpenick)",
+     "score": "gelb",
+     "kauf": 4876,
+     "miete": 14.4
+    },
+    {
+     "id": "berlin-treptow-koepenick-rahnsdorf",
+     "name": "Rahnsdorf (Treptow-Köpenick)",
+     "score": "gruen",
+     "kauf": 4186,
+     "miete": 15.37
+    },
+    {
+     "id": "berlin-treptow-koepenick-gruenau",
+     "name": "Grünau (Treptow-Köpenick)",
+     "score": "gruen",
+     "kauf": 4290,
+     "miete": 17.72
+    },
+    {
+     "id": "berlin-treptow-koepenick-mueggelheim",
+     "name": "Müggelheim (Treptow-Köpenick)",
+     "score": "gelb",
+     "kauf": 3200,
+     "miete": 12.27
+    },
+    {
+     "id": "berlin-treptow-koepenick-schmoeckwitz",
+     "name": "Schmöckwitz (Treptow-Köpenick)",
+     "score": "gruen",
+     "kauf": 4326,
+     "miete": 16.74
+    }
+   ],
+   "ampel_ortsteile": {
+    "gelb": 5,
+    "rot": 1,
+    "gruen": 9
+   },
+   "gutachter": {
+    "kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "altbezirke": [
+     "Treptow",
+     "Köpenick"
+    ],
+    "preis_bezirk": null,
+    "grund": "Der Marktbericht weist Preise nur je Altbezirk aus (siehe Ortsteile), keinen amtlichen Bezirkswert",
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf"
+   },
+   "erhaltungsgebiete_anzahl": 3,
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "neubau": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   }
+  }
+ },
+ {
+  "id": "berlin-treptow-koepenick-alt-treptow",
+  "name": "Alt-Treptow (Treptow-Köpenick)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "ortsteil_nr": "0901",
+  "einwohner": 13491,
+  "koordinate": {
+   "lat": 52.490032,
+   "lon": 13.46046,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4878,
+  "miete": 14.03,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.419, homeday 5.150, Gutachterausschuss Berlin (Altbezirk Treptow) 4.066 (Mittel aller Eigentumswohnungen 2025, 320 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 14,03. homeday 12,9 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Treptow-Köpenick (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12435"
+   ],
+   "plz_haupt": "12435",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/alt-treptow",
+     "wert": 5419.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/alt-treptow",
+     "wert": 15.23,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Mahlsdorf, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/alt-treptow",
+     "wert": 5150.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/alt-treptow?marketing_type=rent&property_type=apartment",
+     "wert": 12.9,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 14.03,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Alt-Treptow der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12435) überschneiden sich mit den PLZ des Ortsteils (12435)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Alt-Treptow (Treptow-Köpenick) hat 13.491 Einwohner und liegt bei 4.878 €/m² Kauf und 14,03 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Wert des Altbezirks Treptow, kein Ortsteilwert",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 13491,
+    "stichtag": "31.12.2025",
+    "vor5": 13167,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 2.5,
+    "stand_30_06_2026": 13451,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4066,
+    "gebiet": "Altbezirk Treptow",
+    "jahr": 2025,
+    "kauffaelle": 320,
+    "spanne": "2.220 bis 6.184",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 1,
+    "gebiete": [
+     {
+      "schluessel": "EM0902",
+      "name": "Alt-Treptow",
+      "anteil_im_ortsteil": 0.905,
+      "adressen_im_ortsteil": 413
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "ebene": "Bezirk Treptow-Köpenick (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 1,
+    "status_klassen_anzahl": {
+     "mittel": 1
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Treptower Park",
+      "linien": [
+       "S8",
+       "S9",
+       "S41",
+       "S42",
+       "S46",
+       "S47",
+       "S85"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891,
+    "ebene": "Bezirk Treptow-Köpenick",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 1 soziale(s) Erhaltungsgebiet(e) mit rund 413 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-treptow-koepenick-plaenterwald",
+  "name": "Plänterwald (Treptow-Köpenick)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "ortsteil_nr": "0902",
+  "einwohner": 11869,
+  "koordinate": {
+   "lat": 52.479541,
+   "lon": 13.479704,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 5150,
+  "miete": 13.64,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 5.150, Gutachterausschuss Berlin (Altbezirk Treptow) 4.066 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 13,64. homeday 12,9 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Treptow-Köpenick (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12435",
+    "12437"
+   ],
+   "plz_haupt": "12435",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/plaenterwald",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/plaenterwald",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/pl%C3%A4nterwald",
+     "wert": 5150.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/pl%C3%A4nterwald?marketing_type=rent&property_type=apartment",
+     "wert": 12.9,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 13.64,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Plänterwald der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12435, 12437) überschneiden sich mit den PLZ des Ortsteils (12435, 12437)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Plänterwald (Treptow-Köpenick) hat 11.869 Einwohner und liegt bei 5.150 €/m² Kauf und 13,64 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.066 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 11869,
+    "stichtag": "31.12.2025",
+    "vor5": 11299,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 5.0,
+    "stand_30_06_2026": 12048,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4066,
+    "gebiet": "Altbezirk Treptow",
+    "jahr": 2025,
+    "kauffaelle": 320,
+    "spanne": "2.220 bis 6.184",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "ebene": "Bezirk Treptow-Köpenick (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 2,
+    "status_klassen_anzahl": {
+     "mittel": 2
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Plänterwald",
+      "linien": [
+       "S8",
+       "S9",
+       "S41",
+       "S42",
+       "S46",
+       "S47",
+       "S85"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891,
+    "ebene": "Bezirk Treptow-Köpenick",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-treptow-koepenick-baumschulenweg",
+  "name": "Baumschulenweg (Treptow-Köpenick)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "ortsteil_nr": "0903",
+  "einwohner": 19592,
+  "koordinate": {
+   "lat": 52.457459,
+   "lon": 13.467996,
+   "art": "Schwerpunkt der Ortsteilfläche (Punkt innerhalb, da Schwerpunkt außerhalb)",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4232,
+  "miete": 13.41,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.729, homeday 3.900, Gutachterausschuss Berlin (Altbezirk Treptow) 4.066 (Mittel aller Eigentumswohnungen 2025, 320 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 12,78, miet-check 14,04. homeday 10,3 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Treptow-Köpenick (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12437",
+    "12487"
+   ],
+   "plz_haupt": "12437",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/baumschulenweg",
+     "wert": 4729.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/baumschulenweg",
+     "wert": 12.78,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/baumschulenweg",
+     "wert": 3900.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/baumschulenweg?marketing_type=rent&property_type=apartment",
+     "wert": 10.3,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 14.04,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Baumschulenweg der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12437, 12487) überschneiden sich mit den PLZ des Ortsteils (12437, 12487)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Baumschulenweg (Treptow-Köpenick) hat 19.592 Einwohner und liegt bei 4.232 €/m² Kauf und 13,41 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Wert des Altbezirks Treptow, kein Ortsteilwert",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 19592,
+    "stichtag": "31.12.2025",
+    "vor5": 18894,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 3.7,
+    "stand_30_06_2026": 19618,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4066,
+    "gebiet": "Altbezirk Treptow",
+    "jahr": 2025,
+    "kauffaelle": 320,
+    "spanne": "2.220 bis 6.184",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "ebene": "Bezirk Treptow-Köpenick (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 3,
+    "status_klassen_anzahl": {
+     "mittel": 2,
+     "hoch": 1
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 84.2,
+     "hoch": 15.8
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Baumschulenweg",
+      "linien": [
+       "S8",
+       "S9",
+       "S41",
+       "S42",
+       "S46",
+       "S47",
+       "S85"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891,
+    "ebene": "Bezirk Treptow-Köpenick",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 15,8 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-treptow-koepenick-johannisthal",
+  "name": "Johannisthal (Treptow-Köpenick)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "ortsteil_nr": "0904",
+  "einwohner": 22760,
+  "koordinate": {
+   "lat": 52.444129,
+   "lon": 13.505287,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 3954,
+  "miete": 15.27,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.297, homeday 3.500, Gutachterausschuss Berlin (Altbezirk Treptow) 4.066 (Mittel aller Eigentumswohnungen 2025, 320 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 15,19, miet-check 15,34. homeday 10,4 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Treptow-Köpenick (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12437",
+    "12487"
+   ],
+   "plz_haupt": "12487",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/johannisthal",
+     "wert": 4297.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/johannisthal",
+     "wert": 15.19,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/johannisthal",
+     "wert": 3500.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/johannisthal?marketing_type=rent&property_type=apartment",
+     "wert": 10.4,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 15.34,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Johannisthal der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12487, 12489) überschneiden sich mit den PLZ des Ortsteils (12487)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Johannisthal (Treptow-Köpenick) hat 22.760 Einwohner und liegt bei 3.954 €/m² Kauf und 15,27 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Wert des Altbezirks Treptow, kein Ortsteilwert",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 22760,
+    "stichtag": "31.12.2025",
+    "vor5": 19960,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 14.0,
+    "stand_30_06_2026": 23030,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4066,
+    "gebiet": "Altbezirk Treptow",
+    "jahr": 2025,
+    "kauffaelle": 320,
+    "spanne": "2.220 bis 6.184",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "ebene": "Bezirk Treptow-Köpenick (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 3,
+    "status_klassen_anzahl": {
+     "mittel": 3
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Johannisthal",
+      "linien": [
+       "S8",
+       "S9",
+       "S41",
+       "S42",
+       "S46",
+       "S85"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891,
+    "ebene": "Bezirk Treptow-Köpenick",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-treptow-koepenick-niederschoeneweide",
+  "name": "Niederschöneweide (Treptow-Köpenick)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "ortsteil_nr": "0905",
+  "einwohner": 15387,
+  "koordinate": {
+   "lat": 52.455773,
+   "lon": 13.513875,
+   "art": "Schwerpunkt der Ortsteilfläche (Punkt innerhalb, da Schwerpunkt außerhalb)",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4088,
+  "miete": 16.87,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.599, homeday 3.600, Gutachterausschuss Berlin (Altbezirk Treptow) 4.066 (Mittel aller Eigentumswohnungen 2025, 320 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 18,69, miet-check 15,04. homeday 10,3 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Treptow-Köpenick (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12439"
+   ],
+   "plz_haupt": "12439",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/niederschoeneweide",
+     "wert": 4599.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/niederschoeneweide",
+     "wert": 18.69,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/niedersch%C3%B6neweide",
+     "wert": 3600.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/niedersch%C3%B6neweide?marketing_type=rent&property_type=apartment",
+     "wert": 10.3,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 15.04,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Niederschöneweide der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12439, 12487) überschneiden sich mit den PLZ des Ortsteils (12439)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Niederschöneweide (Treptow-Köpenick) hat 15.387 Einwohner und liegt bei 4.088 €/m² Kauf und 16,87 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Wert des Altbezirks Treptow, kein Ortsteilwert",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 15387,
+    "stichtag": "31.12.2025",
+    "vor5": 13004,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 18.3,
+    "stand_30_06_2026": 15518,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4066,
+    "gebiet": "Altbezirk Treptow",
+    "jahr": 2025,
+    "kauffaelle": 320,
+    "spanne": "2.220 bis 6.184",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 1,
+    "gebiete": [
+     {
+      "schluessel": "EM0903",
+      "name": "Niederschöneweide",
+      "anteil_im_ortsteil": 0.922,
+      "adressen_im_ortsteil": 315
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "ebene": "Bezirk Treptow-Köpenick (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 2,
+    "status_klassen_anzahl": {
+     "mittel": 2
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Oberspree",
+      "linien": [
+       "S47"
+      ]
+     },
+     {
+      "name": "Schöneweide",
+      "linien": [
+       "S8",
+       "S9",
+       "S41",
+       "S42",
+       "S46",
+       "S47",
+       "S85"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891,
+    "ebene": "Bezirk Treptow-Köpenick",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 1 soziale(s) Erhaltungsgebiet(e) mit rund 315 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-treptow-koepenick-altglienicke",
+  "name": "Altglienicke (Treptow-Köpenick)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "ortsteil_nr": "0906",
+  "einwohner": 33821,
+  "koordinate": {
+   "lat": 52.412577,
+   "lon": 13.540599,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4042,
+  "miete": 15.43,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.460, homeday 3.600, Gutachterausschuss Berlin (Altbezirk Treptow) 4.066 (Mittel aller Eigentumswohnungen 2025, 320 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 15,64, miet-check 15,21. homeday 10,1 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Treptow-Köpenick (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12524"
+   ],
+   "plz_haupt": "12524",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/altglienicke",
+     "wert": 4460.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/altglienicke",
+     "wert": 15.64,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/altglienicke",
+     "wert": 3600.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/altglienicke?marketing_type=rent&property_type=apartment",
+     "wert": 10.1,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 15.21,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Altglienicke der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12524) überschneiden sich mit den PLZ des Ortsteils (12524)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Altglienicke (Treptow-Köpenick) hat 33.821 Einwohner und liegt bei 4.042 €/m² Kauf und 15,43 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Wert des Altbezirks Treptow, kein Ortsteilwert",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 33821,
+    "stichtag": "31.12.2025",
+    "vor5": 29595,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 14.3,
+    "stand_30_06_2026": 34460,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4066,
+    "gebiet": "Altbezirk Treptow",
+    "jahr": 2025,
+    "kauffaelle": 320,
+    "spanne": "2.220 bis 6.184",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "ebene": "Bezirk Treptow-Köpenick (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 4,
+    "status_klassen_anzahl": {
+     "mittel": 2,
+     "hoch": 1,
+     "sehr niedrig": 1
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 71.5,
+     "hoch": 9.2,
+     "sehr niedrig": 19.2
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Altglienicke",
+      "linien": [
+       "S9",
+       "S85"
+      ]
+     },
+     {
+      "name": "Grünbergallee",
+      "linien": [
+       "S9",
+       "S85"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891,
+    "ebene": "Bezirk Treptow-Köpenick",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 19,2 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 9,2 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-treptow-koepenick-adlershof",
+  "name": "Adlershof (Treptow-Köpenick)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "ortsteil_nr": "0907",
+  "einwohner": 22942,
+  "koordinate": {
+   "lat": 52.435748,
+   "lon": 13.543126,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 3933,
+  "miete": 16.77,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.232, homeday 3.500, Gutachterausschuss Berlin (Altbezirk Treptow) 4.066 (Mittel aller Eigentumswohnungen 2025, 320 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 18,19, miet-check 15,34. homeday 10,4 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Treptow-Köpenick (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12489"
+   ],
+   "plz_haupt": "12489",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/adlershof",
+     "wert": 4232.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/adlershof",
+     "wert": 18.19,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/adlershof",
+     "wert": 3500.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/adlershof?marketing_type=rent&property_type=apartment",
+     "wert": 10.4,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 15.34,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Adlershof der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12487, 12489) überschneiden sich mit den PLZ des Ortsteils (12489)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Adlershof (Treptow-Köpenick) hat 22.942 Einwohner und liegt bei 3.933 €/m² Kauf und 16,77 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Wert des Altbezirks Treptow, kein Ortsteilwert",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 22942,
+    "stichtag": "31.12.2025",
+    "vor5": 20210,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 13.5,
+    "stand_30_06_2026": 23037,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4066,
+    "gebiet": "Altbezirk Treptow",
+    "jahr": 2025,
+    "kauffaelle": 320,
+    "spanne": "2.220 bis 6.184",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "ebene": "Bezirk Treptow-Köpenick (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 3,
+    "status_klassen_anzahl": {
+     "mittel": 3
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Adlershof",
+      "linien": [
+       "S8",
+       "S9",
+       "S41",
+       "S42",
+       "S46",
+       "S85"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891,
+    "ebene": "Bezirk Treptow-Köpenick",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-treptow-koepenick-bohnsdorf",
+  "name": "Bohnsdorf (Treptow-Köpenick)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "ortsteil_nr": "0908",
+  "einwohner": 13865,
+  "koordinate": {
+   "lat": 52.398224,
+   "lon": 13.56489,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 3900,
+  "miete": 15.15,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.900, Gutachterausschuss Berlin (Altbezirk Treptow) 4.066 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 15,15. homeday 10,3 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Treptow-Köpenick (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12526"
+   ],
+   "plz_haupt": "12526",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/bohnsdorf",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/bohnsdorf",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/bohnsdorf",
+     "wert": 3900.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/bohnsdorf?marketing_type=rent&property_type=apartment",
+     "wert": 10.3,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 15.15,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Bohnsdorf der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12526) überschneiden sich mit den PLZ des Ortsteils (12526)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Bohnsdorf (Treptow-Köpenick) hat 13.865 Einwohner und liegt bei 3.900 €/m² Kauf und 15,15 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.066 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 13865,
+    "stichtag": "31.12.2025",
+    "vor5": 11859,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 16.9,
+    "stand_30_06_2026": 13984,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4066,
+    "gebiet": "Altbezirk Treptow",
+    "jahr": 2025,
+    "kauffaelle": 320,
+    "spanne": "2.220 bis 6.184",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "ebene": "Bezirk Treptow-Köpenick (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 2,
+    "status_klassen_anzahl": {
+     "mittel": 2
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": false,
+    "bahnhoefe": [],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891,
+    "ebene": "Bezirk Treptow-Köpenick",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-treptow-koepenick-oberschoeneweide",
+  "name": "Oberschöneweide (Treptow-Köpenick)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "ortsteil_nr": "0909",
+  "einwohner": 25846,
+  "koordinate": {
+   "lat": 52.465292,
+   "lon": 13.52822,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4086,
+  "miete": 15.19,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.573, homeday 3.600, Gutachterausschuss Berlin (Altbezirk Köpenick) 7.134 (Mittel aller Eigentumswohnungen 2025, 711 Kauffälle, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 16,19, miet-check 14,18. homeday 9,8 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Treptow-Köpenick (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12459"
+   ],
+   "plz_haupt": "12459",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/oberschoeneweide",
+     "wert": 4573.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/oberschoeneweide",
+     "wert": 16.19,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/obersch%C3%B6neweide",
+     "wert": 3600.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/obersch%C3%B6neweide?marketing_type=rent&property_type=apartment",
+     "wert": 9.8,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 14.18,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Oberschöneweide der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12459) überschneiden sich mit den PLZ des Ortsteils (12459)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Oberschöneweide (Treptow-Köpenick) hat 25.846 Einwohner und liegt bei 4.086 €/m² Kauf und 15,19 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 7.134 nicht gewertet: Abweichung über 40 % vom Median der Portalwerte",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 25846,
+    "stichtag": "31.12.2025",
+    "vor5": 23638,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 9.3,
+    "stand_30_06_2026": 25794,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 7134,
+    "gebiet": "Altbezirk Köpenick",
+    "jahr": 2025,
+    "kauffaelle": 711,
+    "spanne": "2.158 bis 11.841",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": "Köpenick 2025 durch zahlreiche Mikroapartments verzerrt, ohne diese 5.321 €/m² (Fußnote im Bericht)"
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 1,
+    "gebiete": [
+     {
+      "schluessel": "EM0904",
+      "name": "Oberschöneweide",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 560
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "ebene": "Bezirk Treptow-Köpenick (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 3,
+    "status_klassen_anzahl": {
+     "mittel": 3
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": false,
+    "bahnhoefe": [],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891,
+    "ebene": "Bezirk Treptow-Köpenick",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 1 soziale(s) Erhaltungsgebiet(e) mit rund 560 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-treptow-koepenick-koepenick",
+  "name": "Köpenick (Treptow-Köpenick)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "ortsteil_nr": "0910",
+  "einwohner": 72778,
+  "koordinate": {
+   "lat": 52.439704,
+   "lon": 13.605136,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 3883,
+  "miete": 15.51,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.566, homeday 3.200, Gutachterausschuss Berlin (Altbezirk Köpenick) 7.134 (Mittel aller Eigentumswohnungen 2025, 711 Kauffälle, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 16,09, miet-check 14,93. homeday 9,8 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Treptow-Köpenick (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12555",
+    "12557",
+    "12559"
+   ],
+   "plz_haupt": "12559",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/koepenick",
+     "wert": 4566.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/koepenick",
+     "wert": 16.09,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/k%C3%B6penick",
+     "wert": 3200.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/k%C3%B6penick?marketing_type=rent&property_type=apartment",
+     "wert": 9.8,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 14.93,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Köpenick der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12555, 12557, 12559) überschneiden sich mit den PLZ des Ortsteils (12555, 12557, 12559)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Köpenick (Treptow-Köpenick) hat 72.778 Einwohner und liegt bei 3.883 €/m² Kauf und 15,51 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 7.134 nicht gewertet: Abweichung über 40 % vom Median der Portalwerte",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 72778,
+    "stichtag": "31.12.2025",
+    "vor5": 67148,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 8.4,
+    "stand_30_06_2026": 73921,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 7134,
+    "gebiet": "Altbezirk Köpenick",
+    "jahr": 2025,
+    "kauffaelle": 711,
+    "spanne": "2.158 bis 11.841",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": "Köpenick 2025 durch zahlreiche Mikroapartments verzerrt, ohne diese 5.321 €/m² (Fußnote im Bericht)"
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "ebene": "Bezirk Treptow-Köpenick (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 13,
+    "status_klassen_anzahl": {
+     "mittel": 11,
+     "hoch": 2
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 91.3,
+     "hoch": 8.7
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Köpenick",
+      "linien": [
+       "S3"
+      ]
+     },
+     {
+      "name": "Spindlersfeld",
+      "linien": [
+       "S47"
+      ]
+     },
+     {
+      "name": "Wuhlheide",
+      "linien": [
+       "S3"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891,
+    "ebene": "Bezirk Treptow-Köpenick",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 8,7 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-treptow-koepenick-friedrichshagen",
+  "name": "Friedrichshagen (Treptow-Köpenick)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "ortsteil_nr": "0911",
+  "einwohner": 19014,
+  "koordinate": {
+   "lat": 52.457928,
+   "lon": 13.637886,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4876,
+  "miete": 14.4,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.403, homeday 4.350, Gutachterausschuss Berlin (Altbezirk Köpenick) 7.134 (Mittel aller Eigentumswohnungen 2025, 711 Kauffälle, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 13,67, miet-check 15,13. homeday 10,7 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Treptow-Köpenick (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12587"
+   ],
+   "plz_haupt": "12587",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/friedrichshagen",
+     "wert": 5403.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/friedrichshagen",
+     "wert": 13.67,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/friedrichshagen",
+     "wert": 4350.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/friedrichshagen?marketing_type=rent&property_type=apartment",
+     "wert": 10.7,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 15.13,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Friedrichshagen der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12587) überschneiden sich mit den PLZ des Ortsteils (12587)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Friedrichshagen (Treptow-Köpenick) hat 19.014 Einwohner und liegt bei 4.876 €/m² Kauf und 14,40 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 7.134 nicht gewertet: Abweichung über 40 % vom Median der Portalwerte",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 19014,
+    "stichtag": "31.12.2025",
+    "vor5": 19009,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 0.0,
+    "stand_30_06_2026": 18904,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 7134,
+    "gebiet": "Altbezirk Köpenick",
+    "jahr": 2025,
+    "kauffaelle": 711,
+    "spanne": "2.158 bis 11.841",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": "Köpenick 2025 durch zahlreiche Mikroapartments verzerrt, ohne diese 5.321 €/m² (Fußnote im Bericht)"
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "ebene": "Bezirk Treptow-Köpenick (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 2,
+    "status_klassen_anzahl": {
+     "mittel": 2
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Friedrichshagen",
+      "linien": [
+       "S3"
+      ]
+     },
+     {
+      "name": "Hirschgarten",
+      "linien": [
+       "S3"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891,
+    "ebene": "Bezirk Treptow-Köpenick",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-treptow-koepenick-rahnsdorf",
+  "name": "Rahnsdorf (Treptow-Köpenick)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "ortsteil_nr": "0912",
+  "einwohner": 11227,
+  "koordinate": {
+   "lat": 52.444158,
+   "lon": 13.702965,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4186,
+  "miete": 15.37,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.472, homeday 3.900, Gutachterausschuss Berlin (Altbezirk Köpenick) 7.134 (Mittel aller Eigentumswohnungen 2025, 711 Kauffälle, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 14,65, miet-check 16,09. homeday 11,3 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Treptow-Köpenick (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12589"
+   ],
+   "plz_haupt": "12589",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/rahnsdorf",
+     "wert": 4472.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/rahnsdorf",
+     "wert": 14.65,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/rahnsdorf",
+     "wert": 3900.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/rahnsdorf?marketing_type=rent&property_type=apartment",
+     "wert": 11.3,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 16.09,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Rahnsdorf der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12589) überschneiden sich mit den PLZ des Ortsteils (12589)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Rahnsdorf (Treptow-Köpenick) hat 11.227 Einwohner und liegt bei 4.186 €/m² Kauf und 15,37 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 7.134 nicht gewertet: Abweichung über 40 % vom Median der Portalwerte",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 11227,
+    "stichtag": "31.12.2025",
+    "vor5": 9856,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 13.9,
+    "stand_30_06_2026": 11237,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 7134,
+    "gebiet": "Altbezirk Köpenick",
+    "jahr": 2025,
+    "kauffaelle": 711,
+    "spanne": "2.158 bis 11.841",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": "Köpenick 2025 durch zahlreiche Mikroapartments verzerrt, ohne diese 5.321 €/m² (Fußnote im Bericht)"
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "ebene": "Bezirk Treptow-Köpenick (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 1,
+    "status_klassen_anzahl": {
+     "hoch": 1
+    },
+    "einwohneranteil_prozent": {
+     "hoch": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Rahnsdorf",
+      "linien": [
+       "S3"
+      ]
+     },
+     {
+      "name": "Wilhelmshagen",
+      "linien": [
+       "S3"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891,
+    "ebene": "Bezirk Treptow-Köpenick",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 100,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-treptow-koepenick-gruenau",
+  "name": "Grünau (Treptow-Köpenick)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "ortsteil_nr": "0913",
+  "einwohner": 8551,
+  "koordinate": {
+   "lat": 52.405486,
+   "lon": 13.595772,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4290,
+  "miete": 17.72,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.630, homeday 3.950, Gutachterausschuss Berlin (Altbezirk Köpenick) 7.134 (Mittel aller Eigentumswohnungen 2025, 711 Kauffälle, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 17,54, miet-check 17,90. homeday 11,8 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Treptow-Köpenick (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12527"
+   ],
+   "plz_haupt": "12527",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/gruenau",
+     "wert": 4630.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/gruenau",
+     "wert": 17.54,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/gr%C3%BCnau",
+     "wert": 3950.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/gr%C3%BCnau?marketing_type=rent&property_type=apartment",
+     "wert": 11.8,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 17.9,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Grünau der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12527) überschneiden sich mit den PLZ des Ortsteils (12527)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Grünau (Treptow-Köpenick) hat 8.551 Einwohner und liegt bei 4.290 €/m² Kauf und 17,72 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 7.134 nicht gewertet: Abweichung über 40 % vom Median der Portalwerte",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 8551,
+    "stichtag": "31.12.2025",
+    "vor5": 7217,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 18.5,
+    "stand_30_06_2026": 8672,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 7134,
+    "gebiet": "Altbezirk Köpenick",
+    "jahr": 2025,
+    "kauffaelle": 711,
+    "spanne": "2.158 bis 11.841",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": "Köpenick 2025 durch zahlreiche Mikroapartments verzerrt, ohne diese 5.321 €/m² (Fußnote im Bericht)"
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "ebene": "Bezirk Treptow-Köpenick (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 1,
+    "status_klassen_anzahl": {
+     "hoch": 1
+    },
+    "einwohneranteil_prozent": {
+     "hoch": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Grünau",
+      "linien": [
+       "S8",
+       "S9",
+       "S41",
+       "S42",
+       "S46",
+       "S85"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891,
+    "ebene": "Bezirk Treptow-Köpenick",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 100,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-treptow-koepenick-mueggelheim",
+  "name": "Müggelheim (Treptow-Köpenick)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "ortsteil_nr": "0914",
+  "einwohner": 7015,
+  "koordinate": {
+   "lat": 52.407003,
+   "lon": 13.683573,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 3200,
+  "miete": 12.27,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.200, Gutachterausschuss Berlin (Altbezirk Köpenick) 7.134 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 12,27. homeday 9,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Treptow-Köpenick (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12559"
+   ],
+   "plz_haupt": "12559",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/mueggelheim",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/mueggelheim",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/m%C3%BCggelheim",
+     "wert": 3200.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/m%C3%BCggelheim?marketing_type=rent&property_type=apartment",
+     "wert": 9.8,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 12.27,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Müggelheim der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12559) überschneiden sich mit den PLZ des Ortsteils (12559)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Müggelheim (Treptow-Köpenick) hat 7.015 Einwohner und liegt bei 3.200 €/m² Kauf und 12,27 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 7.134 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 7015,
+    "stichtag": "31.12.2025",
+    "vor5": 6867,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 2.2,
+    "stand_30_06_2026": 6993,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 7134,
+    "gebiet": "Altbezirk Köpenick",
+    "jahr": 2025,
+    "kauffaelle": 711,
+    "spanne": "2.158 bis 11.841",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": "Köpenick 2025 durch zahlreiche Mikroapartments verzerrt, ohne diese 5.321 €/m² (Fußnote im Bericht)"
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "ebene": "Bezirk Treptow-Köpenick (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 1,
+    "status_klassen_anzahl": {
+     "hoch": 1
+    },
+    "einwohneranteil_prozent": {
+     "hoch": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": false,
+    "bahnhoefe": [],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891,
+    "ebene": "Bezirk Treptow-Köpenick",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 100,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-treptow-koepenick-schmoeckwitz",
+  "name": "Schmöckwitz (Treptow-Köpenick)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Treptow-Köpenick",
+  "ortsteil_nr": "0915",
+  "einwohner": 4528,
+  "koordinate": {
+   "lat": 52.37503,
+   "lon": 13.654088,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4326,
+  "miete": 16.74,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.702, homeday 3.950, Gutachterausschuss Berlin (Altbezirk Köpenick) 7.134 (Mittel aller Eigentumswohnungen 2025, 711 Kauffälle, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 15,58, miet-check 17,90. homeday 11,8 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 9.6,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Treptow-Köpenick (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Treptow-Köpenick: 297 Tsd. (2024) auf 326 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12527"
+   ],
+   "plz_haupt": "12527",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/schmoeckwitz",
+     "wert": 4702.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/schmoeckwitz",
+     "wert": 15.58,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/schm%C3%B6ckwitz",
+     "wert": 3950.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/schm%C3%B6ckwitz?marketing_type=rent&property_type=apartment",
+     "wert": 11.8,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 17.9,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Schmöckwitz der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12527) überschneiden sich mit den PLZ des Ortsteils (12527)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Schmöckwitz (Treptow-Köpenick) hat 4.528 Einwohner und liegt bei 4.326 €/m² Kauf und 16,74 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei +9,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 7.134 nicht gewertet: Abweichung über 40 % vom Median der Portalwerte",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 4528,
+    "stichtag": "31.12.2025",
+    "vor5": 4442,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 1.9,
+    "stand_30_06_2026": 4501,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 7134,
+    "gebiet": "Altbezirk Köpenick",
+    "jahr": 2025,
+    "kauffaelle": 711,
+    "spanne": "2.158 bis 11.841",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 1532,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": "Köpenick 2025 durch zahlreiche Mikroapartments verzerrt, ohne diese 5.321 €/m² (Fußnote im Bericht)"
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 1.7,
+    "ebene": "Bezirk Treptow-Köpenick (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": 9.6,
+    "basis_2024": 297000,
+    "ziel_2040": 326000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 2,
+    "status_klassen_anzahl": {
+     "hoch": 2
+    },
+    "einwohneranteil_prozent": {
+     "hoch": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": false,
+    "bahnhoefe": [],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1765,
+    "fertiggestellte_wohnungen": 1891,
+    "ebene": "Bezirk Treptow-Köpenick",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 100,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ }
+]

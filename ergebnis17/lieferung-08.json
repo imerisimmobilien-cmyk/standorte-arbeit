@@ -1,0 +1,1323 @@
+[
+ {
+  "id": "berlin-bezirk-neukoelln",
+  "name": "Bezirk Neukölln",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Neukölln",
+  "einwohner": 331623,
+  "koordinate": {
+   "lat": 52.441073,
+   "lon": 13.454987,
+   "art": "Schwerpunkt der Bezirksfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Bezirksschlüssel, Stand 19.10.2026"
+  },
+  "kauf": null,
+  "miete": null,
+  "kaufQuellen": "keine Angabe: kein eindeutiger Bezirkswert mit mindestens zwei Portalquellen; bewertet sind die Ortsteile.",
+  "mieteQuellen": "keine Angabe: kein eindeutiger Bezirkswert; bewertet sind die Ortsteile.",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": -1.2,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Neukölln: 329 Tsd. (2024) auf 325 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "quellen": [
+    {
+     "quelle": "alle Portale",
+     "hinweis": "Bezirk und Ortsteil heißen beide Neukölln; die Portalseite ist nicht eindeutig dem Bezirk zuzuordnen, deshalb kein Bezirkswert"
+    }
+   ]
+  },
+  "arbeitgeber": null,
+  "fazit": "Bezirk Neukölln hat 331.623 Einwohner; Kauf und Miete werden je Ortsteil bewertet, ein eigener Bezirkswert ließ sich nicht mit zwei Portalquellen belegen, Rendite {R} % und Faktor {F} ungeprüft. Die Senatsprognose 2024 bis 2040 liegt bei -1,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel unbewertet, Ortsteile: 4 gelb, 1 unbewertet.",
+  "offen": [
+   "unbewertet: Bezirkseintrag ohne eigenen Portalwert, Bewertung über die Ortsteile"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 331623,
+    "stichtag": "31.12.2025",
+    "vor5": 327945,
+    "entwicklung_5_jahre_prozent": 1.1,
+    "quelle": "Amt für Statistik Berlin-Brandenburg"
+   },
+   "ortsteile": [
+    {
+     "id": "berlin-neukoelln-neukoelln",
+     "name": "Neukölln (Neukölln)",
+     "score": "unbewertet",
+     "kauf": null,
+     "miete": 14.64
+    },
+    {
+     "id": "berlin-neukoelln-britz",
+     "name": "Britz (Neukölln)",
+     "score": "gelb",
+     "kauf": 4209,
+     "miete": 13.68
+    },
+    {
+     "id": "berlin-neukoelln-buckow",
+     "name": "Buckow (Neukölln)",
+     "score": "gelb",
+     "kauf": 4074,
+     "miete": 13.93
+    },
+    {
+     "id": "berlin-neukoelln-rudow",
+     "name": "Rudow (Neukölln)",
+     "score": "gelb",
+     "kauf": 4145,
+     "miete": 12.8
+    },
+    {
+     "id": "berlin-neukoelln-gropiusstadt",
+     "name": "Gropiusstadt (Neukölln)",
+     "score": "gelb",
+     "kauf": 3800,
+     "miete": 14.45
+    }
+   ],
+   "ampel_ortsteile": {
+    "unbewertet": 1,
+    "gelb": 4
+   },
+   "gutachter": {
+    "kauffaelle_wohnungs_und_teileigentum_2025": 984,
+    "altbezirke": [
+     "Neukölln"
+    ],
+    "preis_bezirk": null,
+    "grund": "Der Marktbericht weist Preise nur je Altbezirk aus (siehe Ortsteile), keinen amtlichen Bezirkswert",
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf"
+   },
+   "erhaltungsgebiete_anzahl": 10,
+   "leerstand": {
+    "quote_prozent": 2.1,
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": -1.2,
+    "basis_2024": 329000,
+    "ziel_2040": 325000,
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "neubau": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1118,
+    "fertiggestellte_wohnungen": 873
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   }
+  }
+ },
+ {
+  "id": "berlin-neukoelln-neukoelln",
+  "name": "Neukölln (Neukölln)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Neukölln",
+  "ortsteil_nr": "0801",
+  "einwohner": 163184,
+  "koordinate": {
+   "lat": 52.47514,
+   "lon": 13.441396,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": null,
+  "miete": 14.64,
+  "kaufQuellen": "Mittel aus 0 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): Gutachterausschuss Berlin (Altbezirk Neukölln) 4.425 (Mittel aller Eigentumswohnungen 2025, 500 Kauffälle). Ort/PLZ geprüft: keine Quelle.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 14,64. homeday 8,4 (nur daneben).",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": -1.2,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Neukölln (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Neukölln: 329 Tsd. (2024) auf 325 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "10965",
+    "10967",
+    "12043",
+    "12045",
+    "12047",
+    "12049",
+    "12051",
+    "12053",
+    "12055",
+    "12057",
+    "12059"
+   ],
+   "plz_haupt": "12057",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/neukoelln",
+     "wert": 4832.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Gropiusstadt, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/neukoelln",
+     "wert": 12.85,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Gropiusstadt, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/neuk%C3%B6lln",
+     "wert": 5000.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/neuk%C3%B6lln?marketing_type=rent&property_type=apartment",
+     "wert": 8.4,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 14.64,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Neukölln der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (10965, 10967, 12043, 12045, 12047, 12049, 12051, 12053, 12055, 12057, 12059, 12099, 12435) überschneiden sich mit den PLZ des Ortsteils (10965, 10967, 12043, 12045, 12047, 12049, 12051, 12053, 12055, 12057, 12059)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Neukölln (Neukölln) hat 163.184 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose: -1,2 %, Mietpreisbremse gilt (Kappung 15 %). Rendite {R} % und Faktor {F} ungeprüft.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Wert des Altbezirks Neukölln, kein Ortsteilwert",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 163184,
+    "stichtag": "31.12.2025",
+    "vor5": 164636,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": -0.9,
+    "stand_30_06_2026": 162886,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4425,
+    "gebiet": "Altbezirk Neukölln",
+    "jahr": 2025,
+    "kauffaelle": 500,
+    "spanne": "2.200 bis 6.776",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 984,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 7,
+    "gebiete": [
+     {
+      "schluessel": "EM0801",
+      "name": "Schillerpromenade",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 766
+     },
+     {
+      "schluessel": "EM0805",
+      "name": "Körnerpark",
+      "anteil_im_ortsteil": 0.997,
+      "adressen_im_ortsteil": 740
+     },
+     {
+      "schluessel": "EM0804",
+      "name": "Rixdorf",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 913
+     },
+     {
+      "schluessel": "EM0806",
+      "name": "Silbersteinstraße / Glasower Straße",
+      "anteil_im_ortsteil": 0.728,
+      "adressen_im_ortsteil": 617
+     },
+     {
+      "schluessel": "EM0803",
+      "name": "Flughafenstraße / Donaustraße",
+      "anteil_im_ortsteil": 0.999,
+      "adressen_im_ortsteil": 954
+     },
+     {
+      "schluessel": "EM0807",
+      "name": "Hertzbergplatz / Treptower Straße",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 742
+     },
+     {
+      "schluessel": "EM0802",
+      "name": "Reuterplatz",
+      "anteil_im_ortsteil": 1.0,
+      "adressen_im_ortsteil": 700
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.1,
+    "ebene": "Bezirk Neukölln (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": -1.2,
+    "basis_2024": 329000,
+    "ziel_2040": 325000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 21,
+    "status_klassen_anzahl": {
+     "mittel": 13,
+     "sehr niedrig": 5,
+     "niedrig": 3
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 62.3,
+     "sehr niedrig": 22.5,
+     "niedrig": 15.2
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": true,
+    "bahnhoefe": [
+     {
+      "name": "Boddinstr.",
+      "linien": [
+       "U8"
+      ]
+     },
+     {
+      "name": "Hermannplatz",
+      "linien": [
+       "U7",
+       "U8"
+      ]
+     },
+     {
+      "name": "Hermannstr.",
+      "linien": [
+       "S41",
+       "S42",
+       "S46",
+       "S47",
+       "U8"
+      ]
+     },
+     {
+      "name": "Karl-Marx-Str.",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Köllnische Heide",
+      "linien": [
+       "S41",
+       "S42",
+       "S46",
+       "S47"
+      ]
+     },
+     {
+      "name": "Leinestr.",
+      "linien": [
+       "U8"
+      ]
+     },
+     {
+      "name": "Neukölln",
+      "linien": [
+       "S41",
+       "S42",
+       "S46",
+       "S47",
+       "U7"
+      ]
+     },
+     {
+      "name": "Rathaus Neukölln",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Sonnenallee",
+      "linien": [
+       "S41",
+       "S42"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1118,
+    "fertiggestellte_wohnungen": 873,
+    "ebene": "Bezirk Neukölln",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 7 soziale(s) Erhaltungsgebiet(e) mit rund 5.432 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 37,7 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-neukoelln-britz",
+  "name": "Britz (Neukölln)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Neukölln",
+  "ortsteil_nr": "0802",
+  "einwohner": 43895,
+  "koordinate": {
+   "lat": 52.443946,
+   "lon": 13.436754,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4209,
+  "miete": 13.68,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.153, homeday 4.050, Gutachterausschuss Berlin (Altbezirk Neukölln) 4.425 (Mittel aller Eigentumswohnungen 2025, 500 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 13,19, miet-check 14,18. homeday 9,7 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -1.2,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Neukölln (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Neukölln: 329 Tsd. (2024) auf 325 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12347",
+    "12349",
+    "12351",
+    "12359"
+   ],
+   "plz_haupt": "12359",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/britz",
+     "wert": 4153.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/britz",
+     "wert": 13.19,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/britz",
+     "wert": 4050.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/britz?marketing_type=rent&property_type=apartment",
+     "wert": 9.7,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 14.18,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Britz der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12099, 12347, 12349, 12351, 12359) überschneiden sich mit den PLZ des Ortsteils (12347, 12349, 12351, 12359)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Britz (Neukölln) hat 43.895 Einwohner und liegt bei 4.209 €/m² Kauf und 13,68 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei -1,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Wert des Altbezirks Neukölln, kein Ortsteilwert",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 43895,
+    "stichtag": "31.12.2025",
+    "vor5": 42846,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 2.4,
+    "stand_30_06_2026": 43778,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4425,
+    "gebiet": "Altbezirk Neukölln",
+    "jahr": 2025,
+    "kauffaelle": 500,
+    "spanne": "2.200 bis 6.776",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 984,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 3,
+    "gebiete": [
+     {
+      "schluessel": "EM0808",
+      "name": "Germaniapromenade",
+      "anteil_im_ortsteil": 0.971,
+      "adressen_im_ortsteil": 298
+     },
+     {
+      "schluessel": "EM0806",
+      "name": "Silbersteinstraße / Glasower Straße",
+      "anteil_im_ortsteil": 0.272,
+      "adressen_im_ortsteil": 230
+     },
+     {
+      "schluessel": "EM0809",
+      "name": "Britz",
+      "anteil_im_ortsteil": 0.98,
+      "adressen_im_ortsteil": 543
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.1,
+    "ebene": "Bezirk Neukölln (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": -1.2,
+    "basis_2024": 329000,
+    "ziel_2040": 325000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 9,
+    "status_klassen_anzahl": {
+     "sehr niedrig": 1,
+     "mittel": 5,
+     "niedrig": 2,
+     "hoch": 1
+    },
+    "einwohneranteil_prozent": {
+     "sehr niedrig": 13.1,
+     "mittel": 59.9,
+     "niedrig": 22.8,
+     "hoch": 4.2
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": false,
+    "bahnhoefe": [
+     {
+      "name": "Blaschkoallee",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Britz-Süd",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Grenzallee",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Parchimer Allee",
+      "linien": [
+       "U7"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1118,
+    "fertiggestellte_wohnungen": 873,
+    "ebene": "Bezirk Neukölln",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 3 soziale(s) Erhaltungsgebiet(e) mit rund 1.071 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 35,9 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 4,2 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-neukoelln-buckow",
+  "name": "Buckow (Neukölln)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Neukölln",
+  "ortsteil_nr": "0803",
+  "einwohner": 42079,
+  "koordinate": {
+   "lat": 52.423839,
+   "lon": 13.436316,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4074,
+  "miete": 13.93,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.048, homeday 3.750, Gutachterausschuss Berlin (Altbezirk Neukölln) 4.425 (Mittel aller Eigentumswohnungen 2025, 500 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 14,08, miet-check 13,78. homeday 9,6 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -1.2,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Neukölln (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Neukölln: 329 Tsd. (2024) auf 325 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12349",
+    "12351",
+    "12353"
+   ],
+   "plz_haupt": "12349",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/buckow",
+     "wert": 4048.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/buckow",
+     "wert": 14.08,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/buckow",
+     "wert": 3750.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/buckow?marketing_type=rent&property_type=apartment",
+     "wert": 9.6,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 13.78,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Buckow der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12107, 12305, 12349, 12351, 12353, 12357, 12359) überschneiden sich mit den PLZ des Ortsteils (12349, 12351, 12353)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Buckow (Neukölln) hat 42.079 Einwohner und liegt bei 4.074 €/m² Kauf und 13,93 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei -1,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Wert des Altbezirks Neukölln, kein Ortsteilwert",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 42079,
+    "stichtag": "31.12.2025",
+    "vor5": 40146,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 4.8,
+    "stand_30_06_2026": 42444,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4425,
+    "gebiet": "Altbezirk Neukölln",
+    "jahr": 2025,
+    "kauffaelle": 500,
+    "spanne": "2.200 bis 6.776",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 984,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 1,
+    "gebiete": [
+     {
+      "schluessel": "EM0810",
+      "name": "Gropiusstadt",
+      "anteil_im_ortsteil": 0.115,
+      "adressen_im_ortsteil": 76
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.1,
+    "ebene": "Bezirk Neukölln (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": -1.2,
+    "basis_2024": 329000,
+    "ziel_2040": 325000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 6,
+    "status_klassen_anzahl": {
+     "mittel": 5,
+     "sehr niedrig": 1
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 92.6,
+     "sehr niedrig": 7.4
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": false,
+    "s_bahn": false,
+    "bahnhoefe": [],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1118,
+    "fertiggestellte_wohnungen": 873,
+    "ebene": "Bezirk Neukölln",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 1 soziale(s) Erhaltungsgebiet(e) mit rund 76 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 7,4 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-neukoelln-rudow",
+  "name": "Rudow (Neukölln)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Neukölln",
+  "ortsteil_nr": "0804",
+  "einwohner": 42944,
+  "koordinate": {
+   "lat": 52.416814,
+   "lon": 13.495534,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 4145,
+  "miete": 12.8,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.209, homeday 3.800, Gutachterausschuss Berlin (Altbezirk Neukölln) 4.425 (Mittel aller Eigentumswohnungen 2025, 500 Kauffälle). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 12,36, miet-check 13,25. homeday 9,4 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -1.2,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Neukölln (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Neukölln: 329 Tsd. (2024) auf 325 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12355",
+    "12357"
+   ],
+   "plz_haupt": "12355",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/rudow",
+     "wert": 4209.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/rudow",
+     "wert": 12.36,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter /berlin/, Seitentitel nennt Berlin und den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/rudow",
+     "wert": 3800.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/rudow?marketing_type=rent&property_type=apartment",
+     "wert": 9.4,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 13.25,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Rudow der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12351, 12353, 12355, 12357, 12359) überschneiden sich mit den PLZ des Ortsteils (12355, 12357)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Rudow (Neukölln) hat 42.944 Einwohner und liegt bei 4.145 €/m² Kauf und 12,80 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei -1,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Wert des Altbezirks Neukölln, kein Ortsteilwert",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 42944,
+    "stichtag": "31.12.2025",
+    "vor5": 42631,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 0.7,
+    "stand_30_06_2026": 43063,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4425,
+    "gebiet": "Altbezirk Neukölln",
+    "jahr": 2025,
+    "kauffaelle": 500,
+    "spanne": "2.200 bis 6.776",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 984,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 0,
+    "gebiete": [],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.1,
+    "ebene": "Bezirk Neukölln (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": -1.2,
+    "basis_2024": 329000,
+    "ziel_2040": 325000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 6,
+    "status_klassen_anzahl": {
+     "mittel": 6
+    },
+    "einwohneranteil_prozent": {
+     "mittel": 100.0
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": false,
+    "bahnhoefe": [
+     {
+      "name": "Rudow",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Zwickauer Damm",
+      "linien": [
+       "U7"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1118,
+    "fertiggestellte_wohnungen": 873,
+    "ebene": "Bezirk Neukölln",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: kein soziales Erhaltungsgebiet im Ortsteil zugeordnet; stadtweit gilt der Umwandlungsvorbehalt nach § 250 BauGB für Gebäude mit mehr als fünf Wohnungen. Sozialstruktur (MSS 2025): 0,0 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "berlin-neukoelln-gropiusstadt",
+  "name": "Gropiusstadt (Neukölln)",
+  "land": "Berlin",
+  "ags": "11000000",
+  "bezirk": "Neukölln",
+  "ortsteil_nr": "0805",
+  "einwohner": 39521,
+  "koordinate": {
+   "lat": 52.426554,
+   "lon": 13.464221,
+   "art": "Schwerpunkt der Ortsteilfläche",
+   "quelle": "OpenStreetMap-Grenze mit amtlichem Ortsteilschlüssel, Stand 19.10.2026 (gdi.berlin.de nicht erreichbar)"
+  },
+  "kauf": 3800,
+  "miete": 14.45,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.800, Gutachterausschuss Berlin (Altbezirk Neukölln) 4.425 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 14,45. homeday 8,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -1.2,
+   "basisjahr": 2024,
+   "zieljahr": 2040,
+   "ebene": "Bezirk Neukölln (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025), mittlere Variante, Bezirk Neukölln: 329 Tsd. (2024) auf 325 Tsd. (2040) Einwohner (https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig bis 10.05.2028",
+  "ortspruefung": {
+   "plz": [
+    "12351",
+    "12353"
+   ],
+   "plz_haupt": "12353",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/berlin/gropiusstadt",
+     "wert": 4832.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Neukölln, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/berlin/gropiusstadt",
+     "wert": 12.85,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Neukölln, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/gropiusstadt",
+     "wert": 3800.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/berlin/gropiusstadt?marketing_type=rent&property_type=apartment",
+     "wert": 8.8,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite unter /berlin/ ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/berlin/prenzlauer-berg/",
+     "wert": 14.45,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Gropiusstadt der miet-check-Rangliste der Berliner Stadtteile; PLZ der Zeile (12351) überschneiden sich mit den PLZ des Ortsteils (12351)"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Berlin/Berlin/",
+     "ergebnis": "kein Wert",
+     "grund": "nur Gesamtwert Berlin, keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "Ortsteilseiten der Portale unter dem Pfad /berlin/; miet-check über die PLZ-Liste der Rangliste; Werte, die dem Berliner Gesamtwert oder einem anderen Ortsteil exakt gleichen, gelten als nicht ortsteilgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Gropiusstadt (Neukölln) hat 39.521 Einwohner und liegt bei 3.800 €/m² Kauf und 14,45 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Senatsprognose für den Bezirk 2024 bis 2040 liegt bei -1,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.425 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Arbeitgeber im Wikipedia-Artikel des Ortsteils nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Mietspiegel-Wohnlage je Ortsteil, Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 39521,
+    "stichtag": "31.12.2025",
+    "vor5": 37686,
+    "vor5_stichtag": "31.12.2020",
+    "entwicklung_5_jahre_prozent": 4.9,
+    "stand_30_06_2026": 39573,
+    "quelle": "Amt für Statistik Berlin-Brandenburg, Einwohnerregisterstatistik nach Ortsteilen (A I 5 hj 2/25 und Open Data 31.12.2020)"
+   },
+   "mietspiegel": {
+    "aktuell": {
+     "titel": "Berliner Mietspiegel 2026",
+     "stichtag": "01.09.2025",
+     "art": "qualifizierter Mietspiegel, von allen sechs Verbänden der AG Mietspiegel anerkannt",
+     "mittelwert_berlin_eur_m2": 7.71,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf"
+    },
+    "vorgaenger_2024": {
+     "titel": "Berliner Mietspiegel 2024",
+     "stichtag": "01.09.2023",
+     "mittelwert_berlin_eur_m2": 7.21,
+     "link": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf"
+    },
+    "mittlere_wohnlage_ortsteil": null,
+    "grund": "Wohnlage wird je Adresse vergeben (Straßenverzeichnis nur mit Bezirk); die adressgenaue Wohnlagenkarte (gdi.berlin.de) war am 19.10.2026 nicht erreichbar, daher nicht ableitbar"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4425,
+    "gebiet": "Altbezirk Neukölln",
+    "jahr": 2025,
+    "kauffaelle": 500,
+    "spanne": "2.200 bis 6.776",
+    "bezirk_kauffaelle_wohnungs_und_teileigentum_2025": 984,
+    "bericht": "Immobilienmarktbericht Berlin 2025/2026, Geschäftsstelle des Gutachterausschusses für Grundstückswerte in Berlin, Tabelle S. 61 (Durchschnitt aller Eigentumswohnungen nach Ausreißereliminierung)",
+    "link": "https://www.berlin.de/gutachterausschuss/_assets/amarktinformationen/amarktanalyse/04-03-010-2500.pdf",
+    "hinweis": null
+   },
+   "erhaltungsgebiete": {
+    "anzahl": 1,
+    "gebiete": [
+     {
+      "schluessel": "EM0810",
+      "name": "Gropiusstadt",
+      "anteil_im_ortsteil": 0.862,
+      "adressen_im_ortsteil": 569
+     }
+    ],
+    "methode": "Adressen der Straßenliste soziale Erhaltungsgebiete (SenStadt, Stand 21.02.2026) über die Lage der Straßen (OpenStreetMap) den Ortsteilen zugeordnet; Gebiet aufgeführt ab 10 % seiner Adressen im Ortsteil",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/_assets/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/260221_strassenliste.pdf",
+    "umwandlungsverordnung": "Umwandlungsverordnung 2025, UmwandV 2025 vom 18.02.2025, gültig bis 12.03.2030; Seit 01.01.2026 ist sie in sozialen Erhaltungsgebieten nur noch für Wohngebäude mit bis zu fünf Wohnungen anzuwenden (darüber greift die stadtweite Verordnung nach § 250 BauGB)."
+   },
+   "vorkaufsrecht": {
+    "text": "Laut SenStadt können Vorkaufsrechte in sozialen Erhaltungsgebieten gegenwärtig nur noch in wenigen besonders gelagerten Fällen ausgeübt werden; Praxis: vorrangig Abwendungsvereinbarungen (Rundschreiben SenStadt IV Nr. 2/2026). Bundesgesetzentwurf (BT-Drs. 21/6588) zur Korrektur des Urteils bis 19.10.2026 nicht verabschiedet.",
+    "link": "https://www.berlin.de/sen/stadtentwicklung/quartiersentwicklung/stadterneuerung/soziales-erhaltungsrecht/"
+   },
+   "umwandlung_stadtweit": "Umwandlungsverordnung nach § 250 BauGB vom 11.11.2025 (GVBl. S. 576), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2030",
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungsverbot-Gesetz vom 29.11.2013 und Verordnung vom 04.03.2014, ganzes Stadtgebiet, unbefristet; Registriernummernpflicht für Ferienwohnungen",
+    "link": "https://www.berlin.de/sen/wohnen/rechtliches/zweckentfremdungsverbot/"
+   },
+   "leerstand": {
+    "quote_prozent": 2.1,
+    "ebene": "Bezirk Neukölln (kein Ortsteilwert veröffentlicht)",
+    "stichtag": "15.05.2022",
+    "quelle": "Zensus 2022 Datenbank, Tabelle 4000W-0001, Bezirke Berlin",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_bezirk": {
+    "wert_pct": -1.2,
+    "basis_2024": 329000,
+    "ziel_2040": 325000,
+    "quelle": "Bevölkerungsprognose für Berlin und die Bezirke 2024 bis 2040 (Vorlage zur Kenntnisnahme, Drucksache 19/2765 vom 11.11.2025)",
+    "link": "https://www.parlament-berlin.de/ados/19/IIIPlen/vorgang/d19-2765.pdf"
+   },
+   "sozialstruktur": {
+    "bericht": "Monitoring Soziale Stadtentwicklung 2025 (MSS 2025)",
+    "datenstand": "31.12.2024 (Status), Dynamik 31.12.2022 bis 31.12.2024",
+    "planungsraeume": 4,
+    "status_klassen_anzahl": {
+     "niedrig": 2,
+     "mittel": 2
+    },
+    "einwohneranteil_prozent": {
+     "niedrig": 61.1,
+     "mittel": 38.9
+    },
+    "methode": "Planungsräume (LOR 2021) mit Schwerpunkt im Ortsteil, Einwohner je Planungsraum aus dem MSS 2025",
+    "link": "https://www.berlin.de/sen/stadt/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2025/"
+   },
+   "oepnv": {
+    "u_bahn": true,
+    "s_bahn": false,
+    "bahnhoefe": [
+     {
+      "name": "Johannisthaler Chaussee",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Lipschitzallee",
+      "linien": [
+       "U7"
+      ]
+     },
+     {
+      "name": "Wutzkyallee",
+      "linien": [
+       "U7"
+      ]
+     }
+    ],
+    "quelle": "VBB GTFS (Stand 15.10.2026), Zuordnung über die Lage der Station"
+   },
+   "hochschulen": [],
+   "neubau_bezirk": {
+    "jahr": 2025,
+    "genehmigte_wohnungen": 1118,
+    "fertiggestellte_wohnungen": 873,
+    "ebene": "Bezirk Neukölln",
+    "quelle": "Statistischer Bericht F II 1 j/25, Baugenehmigungen im Land Berlin, Jahr 2025 (1. korrigierte Ausgabe vom 16.04.2026); Statistischer Bericht F II 2 j/25, Baufertigstellungen, Bauüberhang und Bauabgang in Berlin, Jahr 2025 (erschienen Juni 2026)"
+   },
+   "zusatzeinschaetzung": "Milieuschutz: 1 soziale(s) Erhaltungsgebiet(e) mit rund 569 Adressen im Ortsteil; dort Genehmigungspflicht für Modernisierung, Rückbau und Nutzungsänderung, Aufteilung in Wohnungseigentum bei Gebäuden bis fünf Wohnungen nach der UmwandV 2025 genehmigungspflichtig (darüber stadtweit § 250 BauGB); Vorkaufsrecht seit BVerwG 4 C 1.20 nur in Sonderfällen. Sozialstruktur (MSS 2025): 61,1 % der Einwohner in Planungsräumen mit niedrigem oder sehr niedrigem Status, 0,0 % mit hohem Status. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ }
+]
