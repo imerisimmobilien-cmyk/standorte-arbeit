@@ -61,7 +61,7 @@ Die Regeln sind dieselben wie in ergebnis14 bis 16, gerechnet mit demselben Prog
 | miete-aktuell | 0 | 0 | 97 |
 
 - **immoportal:** Hat Ortsteilseiten unter `/berlin/<ortsteil>`. Viele Seiten zeigen aber exakt denselben Wert wie andere Ortsteile, zum Beispiel Friedrichshain und Kreuzberg je 6.134 €/m², Prenzlauer Berg und Pankow 5.974 €/m², Tegel, Konradshöhe, Heiligensee und Märkisches Viertel 4.283 €/m². Solche Werte gelten als nicht ortsteilgenau und sind nicht gewertet, bei beiden Ortsteilen. Das ist der Hauptgrund für die vielen dünnen Datenbasen.
-- **homeday:** Hat echte Ortsteilseiten. Werte gleich dem Berliner Gesamtwert und Umleitungen auf andere Seiten wären nicht gewertet worden, das kam in Berlin nicht vor. homeday rundet auf 50 € bzw. 0,1 €, gleiche Werte zwischen Ortsteilen sind dort normal.
+- **homeday:** Hat echte Ortsteilseiten. Nicht gewertet sind Werte gleich dem Berliner Gesamtwert (5.000 €/m²) und Umleitungen auf andere Seiten. Das betrifft Neukölln und Charlottenburg (Gesamtwert) sowie Schlachtensee (Umleitung auf Nikolassee). homeday rundet auf 50 € bzw. 0,1 €, gleiche Werte zwischen Ortsteilen sind dort normal.
 - **miet-check:** Die Einzelseiten der Ortsteile sind defekt (0,00 €, „Berlin / Dahme-Spreewald“). Gewertet ist deshalb die Zeile der miet-check-Rangliste der Berliner Stadtteile. Voraussetzung ist, dass sich die PLZ der Zeile mit den PLZ des Ortsteils überschneiden.
 - **miete-aktuell:** Hat nur einen Gesamtwert für Berlin. Nach der Regel ist er nicht als Ortsteilwert eingesetzt.
 - **Datenbasis dünn:** 69 Ortsteile haben bei Kauf oder Miete nur eine Quelle, die Ampel dort ist höchstens gelb. Rot kann es trotzdem geben, wenn der Faktor über 30 liegt; das betrifft 10 Ortsteile, alle mit dünner Kaufbasis.
@@ -69,8 +69,8 @@ Die Regeln sind dieselben wie in ergebnis14 bis 16, gerechnet mit demselben Prog
 ## Orte ohne belastbare Werte (unbewertet)
 
 - **Gesundbrunnen** und **Fennpfuhl:** keine gewertete Miete. immoportal fehlt oder ist doppelt, und der Ortsteil fehlt in der miet-check-Rangliste.
-- **Charlottenburg** und **Neukölln:** kein gewerteter Kaufwert. immoportal ist doppelt (Bezirkswert), homeday hat keine eindeutige Seite.
-- **Schlachtensee:** kein Portal hat eine Seite für den 2020 neu gebildeten Ortsteil.
+- **Charlottenburg** und **Neukölln:** kein gewerteter Kaufwert. immoportal ist doppelt, und die homeday-Seite zeigt nur den Berliner Gesamtwert.
+- **Schlachtensee:** kein Portal hat eine eigene Seite für den 2020 neu gebildeten Ortsteil; homeday leitet auf Nikolassee um.
 
 ## Wo nur der Bezirkswert genutzt ist
 
