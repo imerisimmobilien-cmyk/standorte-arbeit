@@ -1,0 +1,154 @@
+# Zusammenfassung Block 10 (gezielte Nacharbeit), 1300 Orte aus ergebnis2 und ergebnis3
+
+Patches: `ergebnis8/patch-b-01.json` bis `patch-b-09.json` mit je 100 Orten. Jeder Eintrag hat `satz`, `id` und `ags` sowie nur die geänderten Felder. `muster` nennt die betroffenen Muster (1 bis 5), `ampelNeu` den Ampelwechsel. Ausgangsstand sind ergebnis2 und ergebnis3 mit den Patches aus ergebnis4. Insgesamt geändert: 878 Orte, darunter 358 nur mit aktualisiertem Belegtext, etwa der Zeile "Ort/PLZ geprüft". Branch: `claude/laughing-sagan-q2wyfw`.
+
+## Geänderte Orte je Muster
+
+- (1) Ortsverwechslung: 50 Orte. Strenge Prüfung bei allen 242 Orten, deren Grundname in Deutschland mehrfach vorkommt, über das Gemeindeverzeichnis gesucht (Zusätze wie "a.d.", "im", "bei" und Klammern abgetrennt). Jede genutzte Seite muss eine passende PLZ zeigen (exakt oder gleiche erste drei Stellen), den Landkreis nennen oder mindestens zwei Nachbarorte aus dem Landkreis zeigen. Seiten, die das nicht erfüllen, sind entfernt. Wo der Ortsindex (immoportal-Sitemap, miet-check-Index, miete-aktuell-Varianten) die richtige Seite lieferte, ist sie ersetzt. Details stehen je Ort im Feld `ortsverwechslung`.
+- (2) Gutachter-Kreiswert: 9 Orte. Der Kreiswert zählt nur, wenn mindestens zwei Portalwerte da sind und er höchstens 40 % von deren Median abweicht. Sonst steht er nur im Beleg mit "nicht gewertet".
+- (3) Ersatzquellen: 322 Orte. Neue feste Regel: Ersatz nur, wenn weniger als zwei Auftragsquellen Werte liefern, zuerst ohne-makler.net, dann Engel & Völkers, jeweils nur nach Landkreis-Prüfung und mit "(Ersatz)". Die meisten Änderungen sind entfernte Ersatzwerte bei Orten, die schon zwei Auftragsquellen hatten. Die frühere Pipeline hatte bis zu drei Quellen aufgefüllt.
+- (4) Prognose-Zeitraum: 377 Orte. Die Profile der kleineren bayerischen Gemeinden enden bei 2038, nicht bei 2044. Ich habe alle 377 Profile neu geladen und Basis- und Zieljahr aus dem PDF gelesen (Satz "Bevölkerungsveränderung 2038 gegenüber 2024"). Der Prozentwert war schon richtig, falsch waren Zieljahr und Endwert in der Quelle.
+- (5) Arbeitgeber: 3 Orte. UPM Ettringen ist gestrichen, die Papierfabrik wurde zum 31.12.2025 geschlossen (UPM, Mitteilung 12/2025). Zwei Einträge haben einen Hinweis: Mahle in Neustadt a.d.Donau (Schließung bis 1. Halbjahr 2027 angekündigt, Mahle 12.05.2026) und Valeo Klimasysteme in Bad Rodach (Abbau von 230 Stellen bis Ende 2028, Januar 2026). Weitere große Arbeitgeber (Coca-Cola Deizisau, Canon Poing, Röhm Sontheim, ZF Alfdorf, Mahle Zell, Heidelberger Druck Amstetten, Magna Neuenstein, Läpple Teublitz) habe ich per Websuche stichprobenartig geprüft und keine Schließung gefunden. Eine vollständige Aktualitätsprüfung aller 131 Einträge ist das nicht.
+
+## Ampelwechsel
+
+Zusammen 85: gelb zu grün 59, gelb zu rot 2, gelb zu unbewertet 8, grün zu gelb 8, rot zu gelb 6, rot zu unbewertet 2. Gelb zu grün kommt vor allem von der Rundungs- und Quellenregel bei Orten, deren Datenbasis jetzt trägt. Zu unbewertet wechseln Orte, bei denen nach der strengen Ortsprüfung keine belastbaren Werte übrig bleiben.
+
+- Waltenhofen (09780143, ergebnis2): gelb zu grün, Kauf 3734 zu 3640, Miete 13.04 zu 13.04
+- Tittmoning (09189152, ergebnis2): gelb zu rot, Kauf 3477 zu 3546, Miete 9.75 zu 9.75
+- Babenhausen (09778115, ergebnis2): gelb zu unbewertet, Kauf 3073 zu None, Miete 10.5 zu 10.38
+- Baar-Ebenhausen (09186113, ergebnis2): gelb zu grün, Kauf 3794 zu 3698, Miete 13.12 zu 13.12
+- Karlskron (09185140, ergebnis2): gelb zu grün, Kauf 3491 zu 3315, Miete 11.99 zu 11.99
+- Denkendorf (09176120, ergebnis2): gelb zu rot, Kauf 4139 zu 4160, Miete 11.53 zu 11.53
+- Hohenwart (09186128, ergebnis2): gelb zu grün, Kauf 3333 zu 3415, Miete 11.72 zu 12.11
+- Schömberg (08417057, ergebnis2): grün zu gelb, Kauf 2790 zu 2978, Miete 10.24 zu 10.19
+- Vöhringen (08325061, ergebnis2): gelb zu unbewertet, Kauf 3208 zu None, Miete 10.96 zu 10.2
+- Welden (09772216, ergebnis2): gelb zu grün, Kauf 3531 zu 3266, Miete 12.29 zu 12.52
+- Holzheim (09773140, ergebnis2): grün zu gelb, Kauf 3053 zu 3053, Miete 11.5 zu 10.25
+- Mettenheim (09183127, ergebnis2): rot zu gelb, Kauf 3856 zu 3695, Miete 10.3 zu 10.3
+- Weichs (09174151, ergebnis2): rot zu gelb, Kauf 4991 zu 4784, Miete 13.44 zu 13.44
+- Rudelzhausen (09178122, ergebnis2): gelb zu grün, Kauf 3828 zu 3178, Miete 11.3 zu 11.3
+- Halblech (09777173, ergebnis2): rot zu gelb, Kauf 4207 zu 3810, Miete 10.7 zu 10.7
+- Kammeltal (09774145, ergebnis2): gelb zu grün, Kauf 2994 zu 2811, Miete 10.2 zu 10.2
+- Kirchanschöring (09189127, ergebnis2): rot zu gelb, Kauf 3840 zu 3603, Miete 10.25 zu 10.25
+- Altenstadt (09190111, ergebnis2): gelb zu unbewertet, Kauf 3681 zu None, Miete 11.59 zu 11.59
+- Schwangau (09777169, ergebnis2): rot zu gelb, Kauf 4341 zu 4217, Miete 11.9 zu 11.9
+- Legau (09778165, ergebnis2): gelb zu grün, Kauf 3239 zu 3023, Miete 10.8 zu 10.8
+- Grafenau (09272120, ergebnis2): gelb zu grün, Kauf 2661 zu 2328, Miete 8.85 zu 8.85
+- Neunburg vorm Wald (09376147, ergebnis2): gelb zu grün, Kauf 2646 zu 2564, Miete 9.35 zu 9.35
+- Berg b.Neumarkt i.d.OPf. (09373113, ergebnis2): gelb zu unbewertet, Kauf 5831 zu 5000, Miete 16.78 zu None
+- Helmbrechts (09475136, ergebnis2): grün zu gelb, Kauf 1764 zu 1350, Miete 7.11 zu 7.11
+- Postbauer-Heng (09373155, ergebnis2): gelb zu grün, Kauf 3076 zu 2971, Miete 10.86 zu 10.86
+- Illingen (08236028, ergebnis2): gelb zu unbewertet, Kauf 1156 zu None, Miete 11.71 zu 11.71
+- Münnerstadt (09672135, ergebnis2): gelb zu grün, Kauf 2106 zu 1997, Miete 7.28 zu 7.28
+- Tiefenbach (09275151, ergebnis2): gelb zu grün, Kauf 3320 zu 2988, Miete 10.77 zu 10.77
+- Vilseck (09371156, ergebnis2): gelb zu grün, Kauf 2326 zu 2129, Miete 7.63 zu 7.63
+- Eggolsheim (09474123, ergebnis2): gelb zu grün, Kauf 3181 zu 2973, Miete 10.7 zu 10.7
+- Uffenheim (09575168, ergebnis2): gelb zu grün, Kauf 2845 zu 2644, Miete 9.62 zu 9.62
+- Grafenwöhr (09374124, ergebnis2): gelb zu grün, Kauf 2537 zu 2427, Miete 8.88 zu 8.88
+- Litzendorf (09471155, ergebnis2): gelb zu grün, Kauf 2959 zu 2670, Miete 10.2 zu 10.2
+- Gangkofen (09277121, ergebnis2): gelb zu grün, Kauf 3096 zu 2880, Miete 10.7 zu 10.7
+- Bruckberg (09274194, ergebnis2): gelb zu grün, Kauf 3567 zu 3318, Miete 12.02 zu 12.02
+- Kleinwallstadt (09676133, ergebnis2): gelb zu grün, Kauf 3121 zu 2997, Miete 10.9 zu 10.9
+- Oberkotzau (09475158, ergebnis2): grün zu gelb, Kauf 1612 zu 1350, Miete 7.79 zu 7.79
+- Moosthenning (09279128, ergebnis2): gelb zu grün, Kauf 3233 zu 2912, Miete 10.88 zu 10.88
+- Oerlenbach (09672140, ergebnis2): gelb zu grün, Kauf 2356 zu 2225, Miete 8.12 zu 8.12
+- Hahnbach (09371126, ergebnis2): gelb zu grün, Kauf 2407 zu 2236, Miete 8.1 zu 8.1
+- Großheubach (09676125, ergebnis2): gelb zu grün, Kauf 2879 zu 2750, Miete 10.01 zu 10.01
+- Oberthulba (09672139, ergebnis2): gelb zu grün, Kauf 2387 zu 2300, Miete 8.29 zu 8.29
+- Mömlingen (09676140, ergebnis2): gelb zu grün, Kauf 3014 zu 2909, Miete 10.39 zu 10.39
+- Leidersbach (09676136, ergebnis2): gelb zu grün, Kauf 2992 zu 2400, Miete 10.41 zu 10.41
+- Breitengüßbach (09471119, ergebnis2): gelb zu grün, Kauf 3081 zu 2806, Miete 10.13 zu 10.13
+- Frammersbach (09677129, ergebnis2): gelb zu grün, Kauf 2651 zu 2322, Miete 8.23 zu 8.23
+- Röthlein (09678170, ergebnis2): rot zu gelb, Kauf 2259 zu 2072, Miete 5.87 zu 5.87
+- Poppenhausen (09678168, ergebnis2): gelb zu grün, Kauf 2415 zu 2308, Miete 8.47 zu 8.47
+- Schönau (08226080, ergebnis2): rot zu unbewertet, Kauf 4450 zu None, Miete 12.22 zu 12.22
+- Eching (09274124, ergebnis2): rot zu unbewertet, Kauf 5403 zu None, Miete 14.95 zu 12.71
+- Schnaittenbach (09371150, ergebnis2): gelb zu grün, Kauf 2452 zu 2296, Miete 8.63 zu 8.63
+- Neureichenau (09272136, ergebnis2): grün zu gelb, Kauf 1060 zu 950, Miete 8.01 zu 8.2
+- Reichenberg (09679176, ergebnis2): gelb zu grün, Kauf 3184 zu 3018, Miete 11.2 zu 11.2
+- Simbach (09279135, ergebnis2): grün zu gelb, Kauf 2480 zu 2494, Miete 8.79 zu 8.79
+- Winkelhaid (09574164, ergebnis2): gelb zu grün, Kauf 3101 zu 2957, Miete 10.8 zu 10.8
+- Großwallstadt (09676126, ergebnis2): gelb zu grün, Kauf 3138 zu 3021, Miete 10.84 zu 10.84
+- Selbitz (09475171, ergebnis2): grün zu gelb, Kauf 1552 zu 1400, Miete 7.75 zu 7.75
+- Waldaschaff (09671156, ergebnis2): gelb zu grün, Kauf 3045 zu 2704, Miete 9.93 zu 9.93
+- Wiesenfelden (09278197, ergebnis2): gelb zu grün, Kauf 3125 zu 2663, Miete 9.81 zu 9.81
+- Marklkofen (09279126, ergebnis2): gelb zu grün, Kauf 3185 zu 3101, Miete 11.12 zu 11.12
+- Nüdlingen (09672136, ergebnis2): gelb zu grün, Kauf 2157 zu 2004, Miete 7.61 zu 7.61
+- Ebelsbach (09674129, ergebnis2): gelb zu grün, Kauf 2583 zu 2373, Miete 8.88 zu 8.88
+- Viereth-Trunstadt (09471207, ergebnis2): gelb zu grün, Kauf 2963 zu 2657, Miete 10.14 zu 10.14
+- Hettstadt (09679146, ergebnis2): gelb zu grün, Kauf 3325 zu 3211, Miete 11.57 zu 11.57
+- Thalmassing (09375205, ergebnis2): gelb zu grün, Kauf 3539 zu 3183, Miete 11.55 zu 11.55
+- Hohenroth (09673135, ergebnis2): gelb zu grün, Kauf 2588 zu 2357, Miete 8.77 zu 8.77
+- Burgbernheim (09575115, ergebnis2): gelb zu grün, Kauf 2548 zu 2471, Miete 8.96 zu 8.96
+- Marktrodach (09476183, ergebnis2): grün zu gelb, Kauf 2210 zu 2253, Miete 7.9 zu 7.9
+- Fürstenstein (09275121, ergebnis2): gelb zu grün, Kauf 2452 zu 2222, Miete 7.94 zu 7.94
+- Malsch (08226046, ergebnis2): gelb zu unbewertet, Kauf 3460 zu None, Miete 11.77 zu 12.29
+- Röttenbach (09576141, ergebnis2): gelb zu grün, Kauf 2896 zu 2794, Miete 10.12 zu 10.12
+- Wörth a.d.Isar (09274191, ergebnis2): gelb zu grün, Kauf 3718 zu 3263, Miete 11.62 zu 11.62
+- Kirchenthumbach (09374129, ergebnis2): gelb zu grün, Kauf 2286 zu 2067, Miete 8.0 zu 8.0
+- Leinach (09679200, ergebnis2): gelb zu grün, Kauf 3022 zu 2848, Miete 10.53 zu 10.53
+- Merkendorf (09571177, ergebnis2): gelb zu grün, Kauf 2615 zu 2578, Miete 9.23 zu 9.23
+- Köfering (09375161, ergebnis2): gelb zu grün, Kauf 3675 zu 3336, Miete 12.62 zu 12.62
+- Aurach (09571114, ergebnis2): gelb zu grün, Kauf 2553 zu 2456, Miete 9.0 zu 9.0
+- Pommersfelden (09471172, ergebnis2): gelb zu grün, Kauf 2894 zu 2617, Miete 9.79 zu 9.79
+- Langensendelbach (09474146, ergebnis2): gelb zu grün, Kauf 3555 zu 3362, Miete 12.46 zu 12.46
+- Schorndorf (09372158, ergebnis2): gelb zu unbewertet, Kauf 2752 zu None, Miete 9.2 zu 9.2
+- Rain (09278177, ergebnis2): gelb zu unbewertet, Kauf 3144 zu None, Miete 10.75 zu 10.77
+- Nittenau (09376149, ergebnis3): gelb zu grün, Kauf 2693 zu 2465, Miete 9.48 zu 9.48
+- Arnstein (09677114, ergebnis3): gelb zu grün, Kauf 2530 zu 2102, Miete 8.58 zu 8.58
+- Rimpar (09679180, ergebnis3): gelb zu grün, Kauf 3272 zu 3160, Miete 11.22 zu 11.22
+- Schwanstetten (09576132, ergebnis3): gelb zu grün, Kauf 3179 zu 3101, Miete 11.09 zu 11.09
+
+## Orte mit bereinigter Ortsverwechslung
+
+- gundelfingen-a-d-donau (09773136): immoportal Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/mietspiegel/gundelfingen-a-d-donau
+- babenhausen (09778115): immoportal Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/immobilienpreise/babenhausen; immoportal Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/mietspiegel/babenhausen; homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/babenhausen; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/babenhausen?marketing_type=rent&property_type=apartment; Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/babenhausen
+- altenstadt-09775111 (09775111): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/altenstadt
+- monheim (09779186): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/monheim
+- schoenau-a-koenigssee (09172132): homeday Kauf: entfernt, nicht eindeutig bestätigt: https://www.homeday.de/de/preisatlas/schoenau+a+koenigssee; homeday Miete: entfernt, nicht eindeutig bestätigt: https://www.homeday.de/de/preisatlas/schoenau+a+koenigssee?marketing_type=rent&property_type=apartment
+- denkendorf (09176120): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/denkendorf
+- schoemberg-08417057 (08417057): immoportal Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/immobilienpreise/schoemberg; immoportal Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/mietspiegel/schoemberg; homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/schoemberg; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/schoemberg?marketing_type=rent&property_type=apartment
+- voehringen (08325061): immoportal Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/immobilienpreise/voehringen; immoportal Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/mietspiegel/voehringen; homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/voehringen; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/voehringen?marketing_type=rent&property_type=apartment
+- stammham (09176161): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/stammham
+- haldenwang (09780122): homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/haldenwang; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/haldenwang?marketing_type=rent&property_type=apartment; Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/haldenwang
+- buxheim-09176118 (09176118): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/buxheim
+- holzheim (09773140): miet-check Miete: entfernt, PLZ passt nicht zum Ort: https://www.miet-check.de/mietspiegel/holzheim_bei_neu-ulm/
+- polling-09190142 (09190142): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/polling
+- polling-09183136 (09183136): homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/polling; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/polling?marketing_type=rent&property_type=apartment; Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/polling
+- aschau-a-inn (09183113): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/aschau-am-inn
+- altenstadt-09190111 (09190111): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/altenstadt
+- oberhausen (09185150): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/oberhausen
+- buxheim-09778123 (09778123): homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/buxheim; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/buxheim?marketing_type=rent&property_type=apartment; Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/buxheim
+- auerbach-i-d-opf (09371113): immoportal Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/mietspiegel/auerbach-i-d-opf
+- grafenau (09272120): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/grafenau
+- berg-b-neumarkt-i-d-opf (09373113): immoportal Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/immobilienpreise/berg; immoportal Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/mietspiegel/berg
+- illingen (08236028): immoportal Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/immobilienpreise/illingen
+- sulzbach-a-main (09676160): immoportal Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/immobilienpreise/sulzbach-a-main; immoportal Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/mietspiegel/sulzbach-a-main
+- tiefenbach-09275151 (09275151): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/tiefenbach
+- rueckersdorf (09574154): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/rueckersdorf
+- woerth-a-main (09676169): immoportal Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/immobilienpreise/woerth
+- oberhaid (09471165): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/oberhaid
+- neunkirchen-a-sand (09574141): miet-check Miete: ersetzt, PLZ passt nicht zum Ort: https://www.miet-check.de/mietspiegel/neunkirchen_am_brand/ ersetzt durch https://www.miet-check.de/mietspiegel/neunkirchen_am_sand/
+- rattelsdorf (09471174): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/rattelsdorf
+- lautertal (09473141): homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/lautertal; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/lautertal?marketing_type=rent&property_type=apartment
+- schoenau (08226080): homeday Kauf: entfernt, nicht eindeutig bestätigt: https://www.homeday.de/de/preisatlas/schoenau; homeday Miete: entfernt, nicht eindeutig bestätigt: https://www.homeday.de/de/preisatlas/schoenau?marketing_type=rent&property_type=apartment
+- neufahrn-i-nb (09274153): homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/neufahrn; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/neufahrn?marketing_type=rent&property_type=apartment
+- eching (09274124): immoportal Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/immobilienpreise/eching; immoportal Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/mietspiegel/eching; homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/eching; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/eching?marketing_type=rent&property_type=apartment; Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/eching
+- simbach (09279135): homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/simbach; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/simbach?marketing_type=rent&property_type=apartment
+- winkelhaid (09574164): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/winkelhaid
+- falkenberg (09277119): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/falkenberg
+- tiefenbach-09274182 (09274182): immoportal Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/immobilienpreise/tiefenbach; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/tiefenbach?marketing_type=rent&property_type=apartment
+- buch-a-erlbach (09274121): homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/buch+a+erlbach?marketing_type=rent&property_type=apartment
+- breitenbrunn (09373115): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/breitenbrunn
+- furth (09274132): homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/furth; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/furth?marketing_type=rent&property_type=apartment
+- malsch (08226046): immoportal Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/immobilienpreise/malsch; immoportal Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/mietspiegel/malsch; homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/malsch; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/malsch?marketing_type=rent&property_type=apartment
+- roettenbach (09576141): homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/roettenbach; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/roettenbach?marketing_type=rent&property_type=apartment
+- woerth-a-d-isar (09274191): immoportal Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/immobilienpreise/woerth
+- schorndorf (09372158): immoportal Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/immobilienpreise/schorndorf; immoportal Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/mietspiegel/schorndorf
+- schoenwald (09479150): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/schoenwald
+- wald (09372169): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/wald
+- rain-09278177 (09278177): immoportal Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/immobilienpreise/rain; immoportal Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.immoportal.com/mietspiegel/rain; homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/rain; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/rain?marketing_type=rent&property_type=apartment
+- lorch (08136042): homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/lorch; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/lorch?marketing_type=rent&property_type=apartment
+- arnstein (09677114): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/arnstein
+- leinburg (09574139): Engel & Völkers Kauf: entfernt, nicht eindeutig bestätigt: https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/leinburg
