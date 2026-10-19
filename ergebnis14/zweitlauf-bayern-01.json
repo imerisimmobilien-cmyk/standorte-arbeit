@@ -647,9 +647,9 @@
   "land": "Bayern",
   "ags": "09176121",
   "einwohner": 2878,
-  "kauf": 3290,
+  "kauf": 2500,
   "miete": 10.3,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.500, miete-aktuell 3.771, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.500, Gutachterausschuss Bayern (Kreiswert) 3.600 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). miete-aktuell 3.771 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,73, miet-check 10,88. homeday 7,8 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -701,11 +701,14 @@
    "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
   },
   "arbeitgeber": null,
-  "fazit": "Dollnstein hat 2.878 Einwohner und liegt bei 3.290 €/m² Kauf und 10,30 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -3,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "fazit": "Dollnstein hat 2.878 Einwohner und liegt bei 2.500 €/m² Kauf und 10,30 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei -3,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Kauf miete-aktuell 3.771 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Gutachterausschuss: kein Wert für den Landkreis im Immobilienmarktbericht (Kreis nicht gesondert ausgewiesen)",
+   "Gutachterwert 3.600 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
   ]
  },
@@ -758,12 +761,6 @@
      "pfad": "https://www.miete-aktuell.de/mietspiegel/Eggstaett/Eggstaett/",
      "ergebnis": "bestätigt",
      "methode": "PLZ passt"
-    },
-    {
-     "quelle": "Engel & Völkers Kauf",
-     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/eggstaett",
-     "ergebnis": "bestätigt",
-     "methode": "Landkreis auf der Seite genannt"
     },
     {
      "quelle": "Engel & Völkers Kauf",
@@ -840,6 +837,12 @@
      "pfad": "https://www.miet-check.de/mietspiegel/kastl_kreis_altoetting/",
      "ergebnis": "bestätigt",
      "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/kastl",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
     },
     {
      "quelle": "Engel & Völkers Kauf",
@@ -3337,9 +3340,9 @@
   "land": "Bayern",
   "ags": "09171118",
   "einwohner": 2567,
-  "kauf": 2778,
+  "kauf": 2880,
   "miete": 11.43,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.150, miete-aktuell 3.383, Gutachterausschuss Bayern (Kreiswert) 2.800 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.150, miete-aktuell 3.383, ohne-makler.net 3.186 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 2.800 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell, ohne-makler.net.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 11,00, miet-check 11,87. homeday 8,5 (nur daneben).",
   "score": "gruen",
   "prognose": {
@@ -3386,16 +3389,31 @@
      "pfad": "https://www.miet-check.de/mietspiegel/haiming_kreis_altoetting/",
      "ergebnis": "bestätigt",
      "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/bayern/haiming/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/bayern/haiming/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
     }
    ],
    "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
   },
   "arbeitgeber": null,
-  "fazit": "Haiming hat 2.567 Einwohner und liegt bei 2.778 €/m² Kauf und 11,43 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +5,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "fazit": "Haiming hat 2.567 Einwohner und liegt bei 2.880 €/m² Kauf und 11,43 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +5,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
    "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
   ]
  },
