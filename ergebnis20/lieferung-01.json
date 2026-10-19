@@ -1,0 +1,3516 @@
+[
+ {
+  "id": "heilbronn",
+  "name": "Heilbronn",
+  "land": "Baden-Württemberg",
+  "ags": "08121000",
+  "einwohner": 131986,
+  "kauf": 3537,
+  "miete": 13.65,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.466, homeday 3.650, miete-aktuell 3.494, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 13,28, miete-aktuell 13,67, miet-check 14,01. homeday 11,3 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 5.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Heilbronn, kreisfreie Stadt: 126460 (2020) auf 133000 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+heilbronn+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "74072",
+   "landkreis": "Heilbronn, Stadtkreis",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/heilbronn",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/heilbronn",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/heilbronn",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/heilbronn?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Heilbronn/Heilbronn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Heilbronn/Heilbronn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/heilbronn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Heilbronn hat 131.986 Einwohner und liegt bei 3.537 €/m² Kauf und 13,65 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +5,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel 2024, fortgeschrieben als Mietspiegel 2026 (Gemeinderatsbeschluss 25.06.2026), gültig 01.08.2026 bis 31.07.2028",
+    "art": "qualifiziert",
+    "link": "https://www.heilbronn.de/fileadmin/daten/stadtheilbronn/formulare/bauen_wohnen/wohnen/mietspiegel/2026-06-02-Mietspiegelbroschuere_HN_2026.pdf"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3114,
+    "segment": "Durchschnittspreis aller gebrauchten Eigentumswohnungen (ohne Senioren und Studentenwohnungen), Mittelwert, alle Baujahre, normiert ab Bj 1975 inkl. Garage",
+    "bericht": "Immobilienmarktbericht Heilbronn 2025, Gutachterausschuss für die Ermittlung von Grundstückswerten in Heilbronn (Ausgabe 2026 nur kostenpflichtig, 40 Euro)",
+    "jahr": 2024,
+    "kauffaelle": 627,
+    "kauffaelle_hinweis": "Summe der geeigneten Wiederverkaufsfälle aus Tabelle 6.5.2 (665 geeignete Verträge minus 35 Erstverkäufe minus 3 Studentenwohnungen); insgesamt 686 gebrauchte Wohnungen verkauft",
+    "gebiet": "Stadt",
+    "link": "https://www.heilbronn.de/fileadmin/daten/stadtheilbronn/formulare/rathaus/Stadtverwaltung_-_AEmter_A-Z/Vermessungs-_und_Katasteramt/Immobilienmarktbericht_2025_web.pdf"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Keine Zweckentfremdungssatzung: Die Ortsrechtssammlung der Stadt (Stand 19.10.2026 abgerufen) enthält keine Satzung zum Zweckentfremdungsverbot; auch keine Treffer in Websuche. Landesregierung kannte 2024 keine Heilbronner Satzung (Drucksache 17/6469)",
+    "link": "https://www.heilbronn.de/rathaus/stadtrecht.html"
+   },
+   "leerstand": {
+    "quote_prozent": 4.0,
+    "leerstehende_wohnungen": 2445,
+    "wohnungen": 60810,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 5.2,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Heilbronn, kreisfreie Stadt: 126460 (2020) auf 133000 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+heilbronn+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+   },
+   "kaufwert_quelle": "immoportal 3.466, homeday 3.650, miete-aktuell 3.494, Gutachterausschuss keine Angabe",
+   "vergleich": {
+    "kauf_portale": 3537,
+    "gutachter": 3114,
+    "abweichung_prozent": 13.6,
+    "text": "Kaufmittel 3.537 €/m² liegt 13,6 % über dem Gutachterwert 3.114 €/m² (2024, Stadt, Segment: Durchschnittspreis aller gebrauchten Eigentumswohnungen (ohne Senioren und Studentenwohnungen), Mittelwert, alle Baujahre, normiert ab Bj 1975 inkl. Garage); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "ludwigsburg",
+  "name": "Ludwigsburg",
+  "land": "Baden-Württemberg",
+  "ags": "08118048",
+  "einwohner": 92858,
+  "kauf": 4042,
+  "miete": 14.88,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.833, homeday 4.350, miete-aktuell 3.943, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 14,51, miete-aktuell 15,16, miet-check 14,97. homeday 13,4 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 4.8,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Ludwigsburg (im Landkreis Ludwigsburg): 93360 (2020) auf 97880 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+ludwigsburg-lb+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "71638",
+   "landkreis": "Ludwigsburg",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/ludwigsburg",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/ludwigsburg",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/ludwigsburg",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/ludwigsburg?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Ludwigsburg/Ludwigsburg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Ludwigsburg/Ludwigsburg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/ludwigsburg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Ludwigsburg hat 92.858 Einwohner und liegt bei 4.042 €/m² Kauf und 14,88 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +4,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Qualifizierter Mietspiegel 2025 (Indexfortschreibung des Mietspiegels 2023), gültig 01.08.2025 bis 31.07.2027",
+    "art": "qualifiziert",
+    "link": "https://www.ludwigsburg.de/site/Ludwigsburg-Internet-2020/get/params_E882495696/24168310/Mietspiegel_Ludwigsburg_2025_FINAL.pdf"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3635,
+    "segment": "Eigentumswohnungen bereinigte Baujahre 1964 bis 2023 (Bestand), Mittelwert; Neubau ab 2024: 6.290 Euro/m², gesamt 3.818 Euro/m²",
+    "bericht": "Grundstücksmarktbericht 2025, Immobilienmarkt 2024, Gemeinsamer Gutachterausschuss Ludwigsburg und Umgebung",
+    "jahr": 2024,
+    "kauffaelle": 379,
+    "kauffaelle_hinweis": "Zur Auswertung geeignete Kaufverträge 2024 in diesem Segment; insgesamt 512 Wiederverkäufe von Eigentumswohnungen in Ludwigsburg",
+    "gebiet": "Stadt (Tabelle 12.1 Ludwigsburg im Bericht des Gemeinsamen Gutachterausschusses Ludwigsburg, Remseck, Freiberg)",
+    "link": "https://www.ludwigsburg.de/site/Ludwigsburg-Internet-2020/get/params_E647693957/24177218/Grundstuecksmarktbericht_2025_Immobilienmarkt_2024.pdf"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Keine Zweckentfremdungssatzung: Die Ortsrechtssammlung der Stadt (Stand 19.10.2026 abgerufen) enthält keine Satzung zum Zweckentfremdungsverbot; auch keine Treffer in Websuche",
+    "link": "https://www.ludwigsburg.de/start/rathaus+und+service/stadtrecht+-+satzungen+und+verordnungen.html"
+   },
+   "leerstand": {
+    "quote_prozent": 3.7,
+    "leerstehende_wohnungen": 1657,
+    "wohnungen": 44386,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 4.8,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Ludwigsburg (im Landkreis Ludwigsburg): 93360 (2020) auf 97880 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+ludwigsburg-lb+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+   },
+   "kaufwert_quelle": "immoportal 3.833, homeday 4.350, miete-aktuell 3.943, Gutachterausschuss keine Angabe",
+   "vergleich": {
+    "kauf_portale": 4042,
+    "gutachter": 3635,
+    "abweichung_prozent": 11.2,
+    "text": "Kaufmittel 4.042 €/m² liegt 11,2 % über dem Gutachterwert 3.635 €/m² (2024, Stadt (Tabelle 12.1 Ludwigsburg im Bericht des Gemeinsamen Gutachterausschusses Ludwigsburg, Remseck, Freiberg), Segment: Eigentumswohnungen bereinigte Baujahre 1964 bis 2023 (Bestand), Mittelwert; Neubau ab 2024: 6.290 Euro/m², gesamt 3.818 Euro/m²); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "waiblingen",
+  "name": "Waiblingen",
+  "land": "Baden-Württemberg",
+  "ags": "08119079",
+  "einwohner": 57313,
+  "kauf": 3835,
+  "miete": 14.35,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.736, homeday 4.000, miete-aktuell 3.770, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 14,12, miete-aktuell 14,25, miet-check 14,68. homeday 12,1 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 6.4,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Waiblingen (im Rems-Murr-Kreis): 55530 (2020) auf 59060 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+waiblingen+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "71332",
+   "landkreis": "Rems-Murr-Kreis",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/waiblingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/waiblingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/waiblingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/waiblingen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Waiblingen/Waiblingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Waiblingen/Waiblingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/waiblingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": [
+   {
+    "name": "Stihl",
+    "beschaeftigte": "rund 3.800",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Waiblingen, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "Robert Bosch GmbH, Werk Waiblingen",
+    "beschaeftigte": "etwa 600",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Waiblingen, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Waiblingen hat 57.313 Einwohner und liegt bei 3.835 €/m² Kauf und 14,35 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +6,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Qualifizierter Mietspiegel 2025, gemeinsam mit der Gemeinde Korb erstellt, gültig 01.02.2025 bis 31.01.2027",
+    "art": "qualifiziert",
+    "link": "https://www.waiblingen.de/de/Das-Rathaus/Buergerservice/Bauen-Wohnen/Mietspiegel"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3134,
+    "segment": "Wohnungseigentum Baujahr 1961 bis 1980, Mittelwert alle Wohnflächen; kein Gesamtwert über alle Baujahre im Bericht (weitere Mittelwerte: vor 1961 2.781, 1981 bis 1990 3.255, 1991 bis 2000 3.434, 2001 bis 2010 4.128, 2011 bis 2021 4.658 Euro/m²)",
+    "bericht": "Grundstücksmarktbericht 2025, Immobilienmarkt 2024, Gemeinsamer Gutachterausschuss Waiblingen/Korb",
+    "jahr": 2024,
+    "kauffaelle": null,
+    "kauffaelle_hinweis": "Fallzahl je Baujahrsklasse nicht angegeben; 2024 gab es 294 Wiederverkäufe von Eigentumswohnungen in Waiblingen, 204 Fragebögen Wohnungseigentum Waiblingen ausgewertet",
+    "gebiet": "Gemeinsamer Gutachterausschuss Waiblingen/Korb (Preisspiegel ohne Trennung nach Waiblingen und Korb)",
+    "link": "https://www.waiblingen.de/ceasy/resource/?id=31872&download=1"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Keine Zweckentfremdungssatzung: Die Ortsrechtssammlung der Stadt (Stand 19.10.2026 abgerufen) enthält keine Satzung zum Zweckentfremdungsverbot; auch keine Treffer in Websuche",
+    "link": "https://www.waiblingen.de/de/Das-Rathaus/Buergerservice/Satzungen"
+   },
+   "leerstand": {
+    "quote_prozent": 3.4,
+    "leerstehende_wohnungen": 904,
+    "wohnungen": 26420,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 6.4,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Waiblingen (im Rems-Murr-Kreis): 55530 (2020) auf 59060 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+waiblingen+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+   },
+   "kaufwert_quelle": "immoportal 3.736, homeday 4.000, miete-aktuell 3.770, Gutachterausschuss keine Angabe",
+   "vergleich": {
+    "kauf_portale": 3835,
+    "gutachter": 3134,
+    "abweichung_prozent": 22.4,
+    "text": "Kaufmittel 3.835 €/m² liegt 22,4 % über dem Gutachterwert 3.134 €/m² (2024, Gemeinsamer Gutachterausschuss Waiblingen/Korb (Preisspiegel ohne Trennung nach Waiblingen und Korb), Segment: Wohnungseigentum Baujahr 1961 bis 1980, Mittelwert alle Wohnflächen; kein Gesamtwert über alle Baujahre im Bericht (weitere Mittelwerte: vor 1961 2.781, 1981 bis 1990 3.255, 1991 bis 2000 3.434, 2001 bis 2010 4.128, 2011 bis 2021 4.658 Euro/m²)); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "esslingen-am-neckar",
+  "name": "Esslingen am Neckar",
+  "land": "Baden-Württemberg",
+  "ags": "08116019",
+  "einwohner": 96182,
+  "kauf": 3838,
+  "miete": 13.69,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.750, homeday 3.950, miete-aktuell 3.813, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 13,46, miete-aktuell 13,92. homeday 12,6 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 5.3,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Esslingen am Neckar (im Landkreis Esslingen): 92720 (2020) auf 97640 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+esslingen-am-neckar+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "73728",
+   "landkreis": "Esslingen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/esslingen-am-neckar",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/esslingen-am-neckar",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/esslingen+am+neckar",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/esslingen+am+neckar?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Esslingen-am-Neckar/Esslingen-am-Neckar/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Esslingen-am-Neckar/Esslingen-am-Neckar/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Esslingen am Neckar hat 96.182 Einwohner und liegt bei 3.838 €/m² Kauf und 13,69 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +5,3 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Qualifizierter Mietspiegel 2026, in Kraft seit 01.01.2026 (Enddatum im Dokument nicht genannt)",
+    "art": "qualifiziert",
+    "link": "https://www.esslingen.de/site/Esslingen_Layout_2022/get/params_E412816035/20586326/Stadt%20Esslingen%20Qualifizierter%20Mietspiegel%202026.pdf"
+   },
+   "gutachter": {
+    "wert_eur_m2": null,
+    "segment": null,
+    "bericht": "Grundstücksmarktbericht des Gutachterausschusses der Stadt Esslingen am Neckar (kostenpflichtig, 50 Euro); kostenlose Quartalsberichte zeigen Quadratmeterpreise nur als Grafik ohne Zahlenwerte",
+    "jahr": null,
+    "kauffaelle": null,
+    "kauffaelle_hinweis": "Kein Zahlenwert frei verfügbar",
+    "gebiet": "Stadt",
+    "link": "https://www.esslingen.de/wohnen-und-bauen/wohnen/gutachterausschuss"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Zweckentfremdungsverbotssatzung vom 24.07.2023 (bekanntgemacht 28.07.2023) wurde laut Ortsrechtsliste der Stadt am 17.04.2026 aufgehoben (Stuttgarter Zeitung: Gemeinderat hat das Zweckentfremdungsverbot gekippt); aktuelle Ortsrechtssammlung führt sie nicht mehr. Derzeit keine Satzung",
+    "link": "https://www.esslingen.de/,Lde/start/es_services/ortsrecht.html"
+   },
+   "leerstand": {
+    "quote_prozent": 4.3,
+    "leerstehende_wohnungen": 1966,
+    "wohnungen": 45695,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 5.3,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Esslingen am Neckar (im Landkreis Esslingen): 92720 (2020) auf 97640 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+esslingen-am-neckar+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+   },
+   "kaufwert_quelle": "immoportal 3.750, homeday 3.950, miete-aktuell 3.813, Gutachterausschuss keine Angabe",
+   "vergleich": null
+  }
+ },
+ {
+  "id": "sindelfingen",
+  "name": "Sindelfingen",
+  "land": "Baden-Württemberg",
+  "ags": "08115045",
+  "einwohner": 61422,
+  "kauf": 3901,
+  "miete": 15.5,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.771, homeday 4.100, miete-aktuell 3.832, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 14,92, miete-aktuell 15,93, miet-check 15,65. homeday 13,5 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 7.1,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Sindelfingen (im Landkreis Böblingen): 64600 (2020) auf 69180 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+sindelfingen+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "71063",
+   "landkreis": "Böblingen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/sindelfingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/sindelfingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/sindelfingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/sindelfingen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Sindelfingen/Sindelfingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Sindelfingen/Sindelfingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/sindelfingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": [
+   {
+    "name": "Mercedes-Benz Werk Sindelfingen",
+    "beschaeftigte": "rund 25.000 (dazu rund 6.000 in der Pkw-Entwicklung)",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Sindelfingen, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Sindelfingen hat 61.422 Einwohner und liegt bei 3.901 €/m² Kauf und 15,50 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +7,1 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Gemeinsamer qualifizierter Mietspiegel Böblingen und Sindelfingen 2026 (Fortschreibung 2024), gültig 01.08.2026 bis 31.07.2028",
+    "art": "qualifiziert",
+    "link": "https://www.boeblingen.de/site/Boeblingen-Internet/get/params_E2003274204/25461605/Mietspiegel_2026.pdf"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3500,
+    "segment": "Wiederverkauf, Baujahr 1985 bis 1999, Wohnfläche 46 bis 65 m², mittlerer Quadratmeterpreis (größte Stichprobe im Preisspiegel; kein Gesamtwert über alle Baujahre veröffentlicht)",
+    "bericht": "Grundstücksmarktbericht 2026, Immobilienmarkt 2025, Gutachterausschuss Sindelfingen und Magstadt",
+    "jahr": "2025 (Verkäufe 01/2025 bis 03/2026)",
+    "kauffaelle": 39,
+    "kauffaelle_hinweis": "Umfang der Stichprobe in dieser Zelle; 467 Kauffälle Wohnungseigentum 2025 in Sindelfingen insgesamt",
+    "gebiet": "Gutachterausschuss Sindelfingen und Magstadt (Preisspiegel gilt laut Bericht für Sindelfingen und Maichingen, gebrauchte Wohnungen auch für Magstadt)",
+    "link": "https://www.magstadt.de/fileadmin/Dateien/Cross7/Startseite/Verwaltung/Bauen_%26_Werte/Grundstucksmarktbericht_2026.pdf"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Keine Zweckentfremdungssatzung: Die Ortsrechtssammlung der Stadt (Stand 19.10.2026 abgerufen) enthält keine Satzung zum Zweckentfremdungsverbot; auch keine Treffer in Websuche",
+    "link": "https://www.sindelfingen.de/rathaus-service/buergerservice/stadtrecht"
+   },
+   "leerstand": {
+    "quote_prozent": 4.1,
+    "leerstehende_wohnungen": 1208,
+    "wohnungen": 29229,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 7.1,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Sindelfingen (im Landkreis Böblingen): 64600 (2020) auf 69180 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+sindelfingen+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+   },
+   "kaufwert_quelle": "immoportal 3.771, homeday 4.100, miete-aktuell 3.832, Gutachterausschuss keine Angabe",
+   "vergleich": {
+    "kauf_portale": 3901,
+    "gutachter": 3500,
+    "abweichung_prozent": 11.5,
+    "text": "Kaufmittel 3.901 €/m² liegt 11,5 % über dem Gutachterwert 3.500 €/m² (2025 (Verkäufe 01/2025 bis 03/2026), Gutachterausschuss Sindelfingen und Magstadt (Preisspiegel gilt laut Bericht für Sindelfingen und Maichingen, gebrauchte Wohnungen auch für Magstadt), Segment: Wiederverkauf, Baujahr 1985 bis 1999, Wohnfläche 46 bis 65 m², mittlerer Quadratmeterpreis (größte Stichprobe im Preisspiegel; kein Gesamtwert über alle Baujahre veröffentlicht)); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "boeblingen",
+  "name": "Böblingen",
+  "land": "Baden-Württemberg",
+  "ags": "08115003",
+  "einwohner": 51483,
+  "kauf": 3933,
+  "miete": 15.28,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.801, homeday 4.150, miete-aktuell 3.849, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 14,79, miete-aktuell 15,59, miet-check 15,47. homeday 13,9 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 8.6,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Böblingen (im Landkreis Böblingen): 50120 (2020) auf 54440 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+boeblingen-bb+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "71032",
+   "landkreis": "Böblingen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/boeblingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/boeblingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/boeblingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/boeblingen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Boeblingen/Boeblingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Boeblingen/Boeblingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/boeblingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Böblingen hat 51.483 Einwohner und liegt bei 3.933 €/m² Kauf und 15,28 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +8,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Gemeinsamer qualifizierter Mietspiegel Böblingen und Sindelfingen 2026 (Fortschreibung 2024), gültig 01.08.2026 bis 31.07.2028",
+    "art": "qualifiziert",
+    "link": "https://www.boeblingen.de/site/Boeblingen-Internet/get/params_E2003274204/25461605/Mietspiegel_2026.pdf"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3335,
+    "segment": "Wohnungseigentum Baujahr 1970 bis 1990, Wohnfläche 51 bis 100 m², Mittelwert (Median 3.341 Euro/m²); kein Gesamtwert über alle Baujahre",
+    "bericht": "Grundstücksmarktbericht 2025, Gemeinsamer Gutachterausschuss Böblingen und Schönbuchgemeinden",
+    "jahr": "2023 bis 2024 (Verkäufe 2023/2024)",
+    "kauffaelle": 146,
+    "kauffaelle_hinweis": "Anzahl Verträge in dieser Zelle",
+    "gebiet": "Gemeinsamer Gutachterausschuss Böblingen und Schönbuchgemeinden, Gebietsbereich City (Böblingen, Holzgerlingen, Ehningen; Dagersheim zählt zum Gebietsbereich Land)",
+    "link": "https://www.boeblingen.de/site/Boeblingen-Internet/get/params_E1760480026/24662987/GMB_29_07_25.pdf"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Keine Zweckentfremdungssatzung: Die Ortsrechtssammlung der Stadt (Stand 19.10.2026 abgerufen) enthält keine Satzung zum Zweckentfremdungsverbot; auch keine Treffer in Websuche",
+    "link": "https://www.boeblingen.de/buerger--service/buergerservices/Stadtrecht"
+   },
+   "leerstand": {
+    "quote_prozent": 3.4,
+    "leerstehende_wohnungen": 847,
+    "wohnungen": 24610,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 8.6,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Böblingen (im Landkreis Böblingen): 50120 (2020) auf 54440 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+boeblingen-bb+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+   },
+   "kaufwert_quelle": "immoportal 3.801, homeday 4.150, miete-aktuell 3.849, Gutachterausschuss keine Angabe",
+   "vergleich": {
+    "kauf_portale": 3933,
+    "gutachter": 3335,
+    "abweichung_prozent": 17.9,
+    "text": "Kaufmittel 3.933 €/m² liegt 17,9 % über dem Gutachterwert 3.335 €/m² (2023 bis 2024 (Verkäufe 2023/2024), Gemeinsamer Gutachterausschuss Böblingen und Schönbuchgemeinden, Gebietsbereich City (Böblingen, Holzgerlingen, Ehningen; Dagersheim zählt zum Gebietsbereich Land), Segment: Wohnungseigentum Baujahr 1970 bis 1990, Wohnfläche 51 bis 100 m², Mittelwert (Median 3.341 Euro/m²); kein Gesamtwert über alle Baujahre); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "goeppingen",
+  "name": "Göppingen",
+  "land": "Baden-Württemberg",
+  "ags": "08117026",
+  "einwohner": 58937,
+  "kauf": 2976,
+  "miete": 11.7,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 2.900, homeday 3.050, miete-aktuell 2.979, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 11,46, miete-aktuell 11,78, miet-check 11,85. homeday 9,7 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 6.5,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Göppingen (im Landkreis Göppingen): 57970 (2020) auf 61720 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+goeppingen-gp+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "73033",
+   "landkreis": "Göppingen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/goeppingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/goeppingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/goeppingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/goeppingen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Goeppingen/Goeppingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Goeppingen/Goeppingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/goeppingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": [
+   {
+    "name": "Märklin, Standort Göppingen",
+    "beschaeftigte": "500",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel G%C3%B6ppingen, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "T-Systems, Standort Göppingen",
+    "beschaeftigte": "ca. 400",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel G%C3%B6ppingen, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "Kleemann GmbH",
+    "beschaeftigte": "570",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel G%C3%B6ppingen, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Göppingen hat 58.937 Einwohner und liegt bei 2.976 €/m² Kauf und 11,70 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +6,5 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Qualifizierter Mietspiegel 2025, in Kraft 01.03.2025, gilt bis 28.02.2027",
+    "art": "qualifiziert",
+    "link": "https://www.goeppingen.de/site/Goeppingen-Internet-2021/get/documents_E1958140900/Goeppingen/Goeppingen_Anleitungen/Mietspiegel/G%C3%B6ppingen_2025_Dokumentation.pdf"
+   },
+   "gutachter": {
+    "wert_eur_m2": 2457,
+    "segment": "Vergleichsfaktor Wohnungseigentum, bereinigtes Baujahr 1971 bis 1979, gleitender Durchschnitt (weitere: 1959 bis 1970 2.236, 1980 bis 1988 2.650, 1989 bis 1999 2.783, 2000 bis 2010 3.336 Euro/m²); kein Gesamtwert über alle Baujahre",
+    "bericht": "Grundstücksmarktbericht 2025, Jahresbericht 2023/2024, Gemeinsamer Gutachterausschuss bei der Stadt Göppingen",
+    "jahr": 2024,
+    "kauffaelle": null,
+    "kauffaelle_hinweis": "Fallzahl je Baujahrsklasse nicht angegeben; 574 Weiterverkäufe Wohnungseigentum 2024 im Gesamtgebiet",
+    "gebiet": "Gesamtgebiet des Gemeinsamen Gutachterausschusses bei der Stadt Göppingen (u. a. Göppingen, Uhingen, Eislingen, Süßen, Bad Boll)",
+    "link": "https://www.goeppingen.de/site/Goeppingen-Internet-2021/get/documents_E1352601181/Goeppingen/Goeppingen_Anleitungen/Grundst%C3%BCcksmarktbericht/Grundst%C3%BCcksmarktbericht%202025.pdf"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Keine Zweckentfremdungssatzung: Die Ortsrechtssammlung der Stadt (Stand 19.10.2026 abgerufen) enthält keine Satzung zum Zweckentfremdungsverbot; auch keine Treffer in Websuche",
+    "link": "https://www.goeppingen.de/start/kennenlernen/stadtrecht.html"
+   },
+   "leerstand": {
+    "quote_prozent": 4.1,
+    "leerstehende_wohnungen": 1133,
+    "wohnungen": 27437,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 6.5,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Göppingen (im Landkreis Göppingen): 57970 (2020) auf 61720 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+goeppingen-gp+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+   },
+   "kaufwert_quelle": "immoportal 2.900, homeday 3.050, miete-aktuell 2.979, Gutachterausschuss keine Angabe",
+   "vergleich": {
+    "kauf_portale": 2976,
+    "gutachter": 2457,
+    "abweichung_prozent": 21.1,
+    "text": "Kaufmittel 2.976 €/m² liegt 21,1 % über dem Gutachterwert 2.457 €/m² (2024, Gesamtgebiet des Gemeinsamen Gutachterausschusses bei der Stadt Göppingen (u. a. Göppingen, Uhingen, Eislingen, Süßen, Bad Boll), Segment: Vergleichsfaktor Wohnungseigentum, bereinigtes Baujahr 1971 bis 1979, gleitender Durchschnitt (weitere: 1959 bis 1970 2.236, 1980 bis 1988 2.650, 1989 bis 1999 2.783, 2000 bis 2010 3.336 Euro/m²); kein Gesamtwert über alle Baujahre); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "aalen",
+  "name": "Aalen",
+  "land": "Baden-Württemberg",
+  "ags": "08136088",
+  "einwohner": 67621,
+  "kauf": 3263,
+  "miete": 12.19,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.110, homeday 3.600, miete-aktuell 3.079, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 11,94, miete-aktuell 12,24, miet-check 12,40. homeday 9,5 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 3.5,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Aalen (im Ostalbkreis): 68360 (2020) auf 70730 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+aalen+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "73430",
+   "landkreis": "Ostalbkreis",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/aalen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/aalen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/aalen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/aalen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Aalen/Aalen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Aalen/Aalen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/aalen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Aalen hat 67.621 Einwohner und liegt bei 3.263 €/m² Kauf und 12,19 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +3,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Gemeinsamer qualifizierter Mietspiegel Aalen und Essingen 2025 (Indexfortschreibung des Mietspiegels 2023), gültig 01.08.2025 bis 31.07.2027",
+    "art": "qualifiziert",
+    "link": "https://www.aalen.de/mietspiegel-aalen-und-essingen-2025.235593.25.htm"
+   },
+   "gutachter": {
+    "wert_eur_m2": 2748,
+    "segment": "Gebrauchte Eigentumswohnungen ohne Studenten und Seniorenwohnheime, mittlerer Kaufpreis je m² Wohnfläche, alle Baujahre",
+    "bericht": "Grundstücksmarktbericht 2025 (öffentlicher Auszug), Gutachterausschuss Aalen-Essingen",
+    "jahr": 2024,
+    "kauffaelle": 228,
+    "kauffaelle_hinweis": "Auswertbare Kauffälle; insgesamt 249 Kauffälle gebrauchte Eigentumswohnungen in Aalen 2024",
+    "gebiet": "Stadt (Auswertung Aalen ohne Essingen)",
+    "link": "https://www.aalen.de/gmb-2025-auszug-.244886.25.htm"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Keine Zweckentfremdungssatzung: Die Ortsrechtssammlung der Stadt (Stand 19.10.2026 abgerufen) enthält keine Satzung zum Zweckentfremdungsverbot; auch keine Treffer in Websuche",
+    "link": "https://www.aalen.de/ortsrecht.13324.25.htm"
+   },
+   "leerstand": {
+    "quote_prozent": 4.2,
+    "leerstehende_wohnungen": 1341,
+    "wohnungen": 32090,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 3.5,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Aalen (im Ostalbkreis): 68360 (2020) auf 70730 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+aalen+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+   },
+   "kaufwert_quelle": "immoportal 3.110, homeday 3.600, miete-aktuell 3.079, Gutachterausschuss keine Angabe",
+   "vergleich": {
+    "kauf_portale": 3263,
+    "gutachter": 2748,
+    "abweichung_prozent": 18.7,
+    "text": "Kaufmittel 3.263 €/m² liegt 18,7 % über dem Gutachterwert 2.748 €/m² (2024, Stadt (Auswertung Aalen ohne Essingen), Segment: Gebrauchte Eigentumswohnungen ohne Studenten und Seniorenwohnheime, mittlerer Kaufpreis je m² Wohnfläche, alle Baujahre); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "heidenheim-an-der-brenz",
+  "name": "Heidenheim an der Brenz",
+  "land": "Baden-Württemberg",
+  "ags": "08135019",
+  "einwohner": 50618,
+  "kauf": 2651,
+  "miete": 10.55,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 2.569, homeday 2.850, miete-aktuell 2.534, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 10,39, miete-aktuell 10,72. homeday 8,6 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 10.0,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Heidenheim an der Brenz (im Landkreis Heidenheim): 49340 (2020) auf 54280 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+heidenheim-an-der-brenz+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "89522",
+   "landkreis": "Heidenheim",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/heidenheim-an-der-brenz",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 4 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/heidenheim-an-der-brenz",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 4 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/heidenheim+an+der+brenz",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 6 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/heidenheim+an+der+brenz?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 6 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Heidenheim-an-der-Brenz/Heidenheim-an-der-Brenz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Heidenheim-an-der-Brenz/Heidenheim-an-der-Brenz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Heidenheim an der Brenz hat 50.618 Einwohner und liegt bei 2.651 €/m² Kauf und 10,55 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +10,0 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": false,
+    "ausgabe": "Kein qualifizierter Mietspiegel; Aussage aus einer Gemeinderatsvorlage der Stadt Heidenheim (nur über Suchindex gesehen, Ratsinfo für mich gesperrt): Einen qualifizierten Mietspiegel gibt es für die Stadt Heidenheim nicht. Auf heidenheim.de wurde auch kein einfacher Mietspiegel gefunden",
+    "art": null,
+    "link": "https://buergerinfo.heidenheim.de/vo0050.php?__kvonr=2716"
+   },
+   "gutachter": {
+    "wert_eur_m2": null,
+    "segment": null,
+    "bericht": "Grundstücksmarktbericht des Gemeinsamen Gutachterausschusses Landkreis Heidenheim (nur kostenpflichtig, digital 40 Euro); keine frei zugängliche Zusammenfassung mit Wohnungspreisen gefunden",
+    "jahr": null,
+    "kauffaelle": null,
+    "kauffaelle_hinweis": "Kein Wert frei verfügbar",
+    "gebiet": "Gemeinsamer Gutachterausschuss Landkreis Heidenheim",
+    "link": "https://www.heidenheim.de/-/behoerdenwegweiser/geschaeftsstelle-des-gutachterausschusses-stadt-heidenheim/oe6006948"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Keine Zweckentfremdungssatzung: Die Ortsrechtssammlung der Stadt (Stand 19.10.2026 abgerufen) enthält keine Satzung zum Zweckentfremdungsverbot; auch keine Treffer in Websuche",
+    "link": "https://www.heidenheim.de/rathaus-und-verwaltung/stadtpolitik/stadtrecht"
+   },
+   "leerstand": {
+    "quote_prozent": 4.6,
+    "leerstehende_wohnungen": 1093,
+    "wohnungen": 23690,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 10.0,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Heidenheim an der Brenz (im Landkreis Heidenheim): 49340 (2020) auf 54280 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+heidenheim-an-der-brenz+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+   },
+   "kaufwert_quelle": "immoportal 2.569, homeday 2.850, miete-aktuell 2.534, Gutachterausschuss keine Angabe",
+   "vergleich": null
+  }
+ },
+ {
+  "id": "reutlingen",
+  "name": "Reutlingen",
+  "land": "Baden-Württemberg",
+  "ags": "08415061",
+  "einwohner": 118852,
+  "kauf": 3576,
+  "miete": 13.44,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.527, homeday 3.650, miete-aktuell 3.551, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 12,88, miete-aktuell 14,16, miet-check 13,29. homeday 11,3 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 5.8,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Reutlingen (im Landkreis Reutlingen): 116030 (2020) auf 122720 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+reutlingen-rt+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "72764",
+   "landkreis": "Reutlingen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/reutlingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/reutlingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/reutlingen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/reutlingen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Reutlingen/Reutlingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Reutlingen/Reutlingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/reutlingen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Reutlingen hat 118.852 Einwohner und liegt bei 3.576 €/m² Kauf und 13,44 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +5,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Qualifizierter Mietspiegel 2025 für Reutlingen (Fortschreibung des Mietspiegels 2023), in Kraft 01.02.2025, gilt bis 31.01.2027",
+    "art": "qualifiziert",
+    "link": "https://www.reutlingen.de/ceasy/resource/?id=63786&download=1"
+   },
+   "gutachter": {
+    "wert_eur_m2": null,
+    "segment": null,
+    "bericht": "Grundstücksmarktbericht 2025 (Immobilienmarkt 2023/2024), Gemeinsamer Gutachterausschuss bei der Stadt Reutlingen (nur kostenpflichtig, PDF 60 Euro); Pressetext im Amtsblatt nennt keine Wohnungspreise",
+    "jahr": null,
+    "kauffaelle": null,
+    "kauffaelle_hinweis": "Kein Wert frei verfügbar",
+    "gebiet": "Gemeinsamer Gutachterausschuss bei der Stadt Reutlingen (Reutlingen, Pliezhausen, Walddorfhäslach, Wannweil)",
+    "link": "https://www.reutlingen.de/ceasy/resource/?id=65884&download=1"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Keine Zweckentfremdungssatzung: Die Ortsrechtssammlung der Stadt (Stand 19.10.2026 abgerufen) enthält keine Satzung zum Zweckentfremdungsverbot; auch keine Treffer in Websuche",
+    "link": "https://www.reutlingen.de/de/Rathaus/Stadtverwaltung/Stadtrecht-A-Z"
+   },
+   "leerstand": {
+    "quote_prozent": 3.1,
+    "leerstehende_wohnungen": 1690,
+    "wohnungen": 53816,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 5.8,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Reutlingen (im Landkreis Reutlingen): 116030 (2020) auf 122720 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+reutlingen-rt+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+   },
+   "kaufwert_quelle": "immoportal 3.527, homeday 3.650, miete-aktuell 3.551, Gutachterausschuss keine Angabe",
+   "vergleich": null
+  }
+ },
+ {
+  "id": "villingen-schwenningen",
+  "name": "Villingen-Schwenningen",
+  "land": "Baden-Württemberg",
+  "ags": "08326074",
+  "einwohner": 89756,
+  "kauf": 2611,
+  "miete": 10.76,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 2.547, homeday 2.850, miete-aktuell 2.435, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 10,64, miete-aktuell 10,84, miet-check 10,79. homeday 8,5 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 7.1,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Villingen-Schwenningen (im Schwarzwald-Baar-Kreis): 85690 (2020) auf 91790 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+villingen-schwenningen+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "78050",
+   "landkreis": "Schwarzwald-Baar-Kreis",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/villingen-schwenningen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/villingen-schwenningen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/villingen+schwenningen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/villingen+schwenningen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Villingen-Schwenningen/Villingen-Schwenningen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Villingen-Schwenningen/Villingen-Schwenningen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/villingen-schwenningen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Villingen-Schwenningen hat 89.756 Einwohner und liegt bei 2.611 €/m² Kauf und 10,76 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +7,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel 2024 (Indexfortschreibung des Mietspiegels 2022, der gemeinsam mit Bad Dürrheim erstellt wurde), gültig 01.12.2024 bis 30.11.2026",
+    "art": "qualifiziert",
+    "link": "https://www.villingen-schwenningen.de/fileadmin/VS/06_Bauen_Wohnen/Stadtplanung/Statistik/Dokumentation_Mietspiegel_2024_gesamt.pdf"
+   },
+   "gutachter": {
+    "wert_eur_m2": null,
+    "segment": null,
+    "bericht": "Grundstücksmarktbericht des Gemeinsamen Gutachterausschusses nordöstlicher Schwarzwald-Baar-Kreis (aktuelle Daten beschlossen 03.06.2025, nur kostenpflichtig, 40 Euro); frei verfügbar nur Bericht 2021 (Periode 2018 bis 2020) und Dashboard 2018 bis 2020",
+    "jahr": null,
+    "kauffaelle": null,
+    "kauffaelle_hinweis": "Kein aktueller Wert frei verfügbar",
+    "gebiet": "Gemeinsamer Gutachterausschuss nordöstlicher Schwarzwald-Baar-Kreis",
+    "link": "https://www.villingen-schwenningen.de/bauen-wohnen/gutachterausschuss/grundstuecksmarktbericht/"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Keine Zweckentfremdungssatzung: Die Ortsrechtssammlung der Stadt (Stand 19.10.2026 abgerufen) enthält keine Satzung zum Zweckentfremdungsverbot; auch keine Treffer in Websuche",
+    "link": "https://www.villingen-schwenningen.de/rathaus-leben/unsere-stadt/ortsrecht/"
+   },
+   "leerstand": {
+    "quote_prozent": 3.8,
+    "leerstehende_wohnungen": 1632,
+    "wohnungen": 42428,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 7.1,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Villingen-Schwenningen (im Schwarzwald-Baar-Kreis): 85690 (2020) auf 91790 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+villingen-schwenningen+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+   },
+   "kaufwert_quelle": "immoportal 2.547, homeday 2.850, miete-aktuell 2.435, Gutachterausschuss keine Angabe",
+   "vergleich": null
+  }
+ },
+ {
+  "id": "friedrichshafen",
+  "name": "Friedrichshafen",
+  "land": "Baden-Württemberg",
+  "ags": "08435016",
+  "einwohner": 62796,
+  "kauf": 4130,
+  "miete": 14.34,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.167, homeday 4.150, miete-aktuell 4.073, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 14,23, miete-aktuell 14,11, miet-check 14,69. homeday 11,7 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 6.6,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Friedrichshafen (im Bodenseekreis): 61220 (2020) auf 65230 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+friedrichshafen+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "88045",
+   "landkreis": "Bodenseekreis",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/friedrichshafen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/friedrichshafen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/friedrichshafen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/friedrichshafen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Friedrichshafen/Friedrichshafen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Friedrichshafen/Friedrichshafen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/friedrichshafen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Friedrichshafen hat 62.796 Einwohner und liegt bei 4.130 €/m² Kauf und 14,34 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +6,6 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Qualifizierter Mietspiegel 2026 (Fortschreibung 2024 im Verbund Bodenseekreis, 22 Kommunen), gültig 01.08.2026 bis 31.07.2028 laut Suchindex des städtischen PDF; die Datei selbst war wegen JavaScript Sperre nicht direkt abrufbar",
+    "art": "qualifiziert",
+    "link": "https://www.friedrichshafen.de/fileadmin/user_upload/images_fn/SBW_Downloads/Mietspiegel_Friedrichshafen_2026.pdf"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3710,
+    "segment": "Gebrauchte Eigentumswohnungen, bereinigtes Baujahr bis 1980, Durchschnitt (weitere: 1981 bis 1990 4.058, 1991 bis 2000 4.257, 2001 bis 2010 5.194, 2011 bis 2020 5.621 Euro/m²); kein Gesamtwert. Hinweis: neuerer Bericht Stichtag 01.01.2024 existiert, war aber auf friedrichshafen.de wegen JavaScript Sperre nicht abrufbar",
+    "bericht": "Auszug aus dem Grundstücksmarktbericht Stichtag 01.01.2023, Gutachterausschuss Östlicher Bodenseekreis",
+    "jahr": 2022,
+    "kauffaelle": 99,
+    "kauffaelle_hinweis": "Anzahl Verkäufe in diesem Segment, Friedrichshafen",
+    "gebiet": "Stadt (Tabelle Friedrichshafen im Bericht des Gutachterausschusses Östlicher Bodenseekreis)",
+    "link": "https://langenargen.de/fileadmin/Dateien/Website/Dateien/Gutachterausschuss/Auszug_aus_dem_Grundstuecksmarktbericht_Stichtag_01.01.2023.pdf"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Keine Satzung gefunden: Verwaltung sprach sich 2022 gegen ein Zweckentfremdungsverbot aus, Gemeinderat stimmte Ende Juni 2022 zweimal 18:18, Thema vertagt (Schwäbische Zeitung 29.06.2022); kein späterer Satzungsbeschluss gefunden. Ortsrecht auf friedrichshafen.de wegen JavaScript Sperre nicht maschinell prüfbar",
+    "link": "https://www.schwaebische.de/regional/bodensee/friedrichshafen/zweckentfremdung-von-wohnraum-spaltet-den-rat-43393"
+   },
+   "leerstand": {
+    "quote_prozent": 3.5,
+    "leerstehende_wohnungen": 1070,
+    "wohnungen": 30526,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 6.6,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Friedrichshafen (im Bodenseekreis): 61220 (2020) auf 65230 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+friedrichshafen+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+   },
+   "kaufwert_quelle": "immoportal 4.167, homeday 4.150, miete-aktuell 4.073, Gutachterausschuss keine Angabe",
+   "vergleich": {
+    "kauf_portale": 4130,
+    "gutachter": 3710,
+    "abweichung_prozent": 11.3,
+    "text": "Kaufmittel 4.130 €/m² liegt 11,3 % über dem Gutachterwert 3.710 €/m² (2022, Stadt (Tabelle Friedrichshafen im Bericht des Gutachterausschusses Östlicher Bodenseekreis), Segment: Gebrauchte Eigentumswohnungen, bereinigtes Baujahr bis 1980, Durchschnitt (weitere: 1981 bis 1990 4.058, 1991 bis 2000 4.257, 2001 bis 2010 5.194, 2011 bis 2020 5.621 Euro/m²); kein Gesamtwert. Hinweis: neuerer Bericht Stichtag 01.01.2024 existiert, war aber auf friedrichshafen.de wegen JavaScript Sperre nicht abrufbar); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "ravensburg",
+  "name": "Ravensburg",
+  "land": "Baden-Württemberg",
+  "ags": "08436064",
+  "einwohner": 50628,
+  "kauf": 4063,
+  "miete": 13.59,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.845, homeday 4.350, miete-aktuell 3.995, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 13,18, miete-aktuell 13,50, miet-check 14,08. homeday 10,9 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 4.1,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Ravensburg (im Landkreis Ravensburg): 50780 (2020) auf 52860 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+ravensburg-rv+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "88212",
+   "landkreis": "Ravensburg",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/ravensburg",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/ravensburg",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/ravensburg",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/ravensburg?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Ravensburg/Ravensburg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Ravensburg/Ravensburg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/ravensburg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Ravensburg hat 50.628 Einwohner und liegt bei 4.063 €/m² Kauf und 13,59 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +4,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Qualifizierter Mietspiegel 2026 (Neuerstellung, Erhebung in Ravensburg, Weingarten, Baienfurt, Baindt und Berg), gilt ab 01.10.2026",
+    "art": "qualifiziert",
+    "link": "https://www.ravensburg.de/rv/buergerservice-verwaltung/stadtverwaltung/dienstleistungen/mietspiegel.php"
+   },
+   "gutachter": {
+    "wert_eur_m2": null,
+    "segment": null,
+    "bericht": "Kein aktueller Bericht: laut Stadt Ravensburg war die Veröffentlichung eines Grundstücksmarktberichts 2025 des Gemeinsamen Gutachterausschusses westlicher Landkreis Ravensburg nicht möglich; frei verfügbar nur Bericht 2019/2020 des Vorgängerausschusses Mittleres Schussental (zu alt)",
+    "jahr": null,
+    "kauffaelle": null,
+    "kauffaelle_hinweis": "Kein aktueller Wert verfügbar",
+    "gebiet": "Gemeinsamer Gutachterausschuss westlicher Landkreis Ravensburg",
+    "link": "https://www.ravensburg.de/rv/wirtschaft-planen-bauen/gutachen-bodenrichtwerte/aktuelles.php"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Keine Zweckentfremdungssatzung: Die Ortsrechtssammlung der Stadt (Stand 19.10.2026 abgerufen) enthält keine Satzung zum Zweckentfremdungsverbot; auch keine Treffer in Websuche",
+    "link": "https://www.ravensburg.de/rv/buergerservice-verwaltung/stadtverwaltung/stadtrecht.php"
+   },
+   "leerstand": {
+    "quote_prozent": 3.2,
+    "leerstehende_wohnungen": 759,
+    "wohnungen": 23976,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 4.1,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Ravensburg (im Landkreis Ravensburg): 50780 (2020) auf 52860 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+ravensburg-rv+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+   },
+   "kaufwert_quelle": "immoportal 3.845, homeday 4.350, miete-aktuell 3.995, Gutachterausschuss keine Angabe",
+   "vergleich": null
+  }
+ },
+ {
+  "id": "loerrach",
+  "name": "Lörrach",
+  "land": "Baden-Württemberg",
+  "ags": "08336050",
+  "einwohner": 51349,
+  "kauf": 3800,
+  "miete": 14.3,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.687, homeday 3.950, miete-aktuell 3.764, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 14,18, miete-aktuell 14,19, miet-check 14,53. homeday 12,5 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 2.5,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Lörrach (im Landkreis Lörrach): 49300 (2020) auf 50530 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+loerrach-loe+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "79539",
+   "landkreis": "Lörrach",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/loerrach",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/loerrach",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/loerrach",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/loerrach?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Loerrach/Loerrach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Loerrach/Loerrach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/loerrach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Lörrach hat 51.349 Einwohner und liegt bei 3.800 €/m² Kauf und 14,30 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +2,5 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": false,
+    "ausgabe": "Kein Mietspiegel: Stadt Lörrach schreibt, dass zum jetzigen Zeitpunkt kein offizieller Mietspiegel existiert",
+    "art": null,
+    "link": "https://www.loerrach.de/de/Stadt-Buerger/Rathaus-Buergerservice/buergerbuero/Dienstleistungen-A-Z/Dienstleistung?view=publish&item=service&id=942"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3457,
+    "segment": "Wohnungseigentum Baujahre 1999 und älter, Median (Mittelwert 3.412 Euro/m²); Baujahre 2000 bis 2020: Median 3.868 Euro/m² bei 116 Verträgen. Neuester veröffentlichter Bericht ist der Jahresbericht 2023",
+    "bericht": "Grundstücksmarktbericht (Jahresbericht) 2023 über die Jahre 2021/2022, Gutachterausschuss der Verwaltungsgemeinschaft Lörrach-Inzlingen (heute Gemeinsamer Gutachterausschuss Lörrach-Wiesental)",
+    "jahr": "2021 bis 2022",
+    "kauffaelle": 361,
+    "kauffaelle_hinweis": "Anzahl der ausgewerteten Kaufverträge",
+    "gebiet": "Verwaltungsgemeinschaft Lörrach-Inzlingen (Stadt Lörrach und Gemeinde Inzlingen)",
+    "link": "https://www.loerrach.de/ceasy/resource/?id=23834&download=1"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Keine Zweckentfremdungssatzung: Die Ortsrechtssammlung der Stadt (Stand 19.10.2026 abgerufen) enthält keine Satzung zum Zweckentfremdungsverbot; auch keine Treffer in Websuche",
+    "link": "https://www.loerrach.de/Stadtrecht"
+   },
+   "leerstand": {
+    "quote_prozent": 3.6,
+    "leerstehende_wohnungen": 902,
+    "wohnungen": 24866,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 2.5,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Lörrach (im Landkreis Lörrach): 49300 (2020) auf 50530 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+loerrach-loe+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+   },
+   "kaufwert_quelle": "immoportal 3.687, homeday 3.950, miete-aktuell 3.764, Gutachterausschuss keine Angabe",
+   "vergleich": {
+    "kauf_portale": 3800,
+    "gutachter": 3457,
+    "abweichung_prozent": 9.9,
+    "text": "Kaufmittel 3.800 €/m² liegt 9,9 % über dem Gutachterwert 3.457 €/m² (2021 bis 2022, Verwaltungsgemeinschaft Lörrach-Inzlingen (Stadt Lörrach und Gemeinde Inzlingen), Segment: Wohnungseigentum Baujahre 1999 und älter, Median (Mittelwert 3.412 Euro/m²); Baujahre 2000 bis 2020: Median 3.868 Euro/m² bei 116 Verträgen. Neuester veröffentlichter Bericht ist der Jahresbericht 2023); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "rastatt",
+  "name": "Rastatt",
+  "land": "Baden-Württemberg",
+  "ags": "08216043",
+  "einwohner": 50741,
+  "kauf": 2903,
+  "miete": 11.39,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 2.903, homeday 3.050, miete-aktuell 2.755, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 11,11, miete-aktuell 11,27, miet-check 11,79. homeday 9,2 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 7.1,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Rastatt (im Landkreis Rastatt): 50170 (2020) auf 53720 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+rastatt-ra+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "76437",
+   "landkreis": "Rastatt",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/rastatt",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/rastatt",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/rastatt",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/rastatt?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Rastatt/Rastatt/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Rastatt/Rastatt/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/rastatt/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Rastatt hat 50.741 Einwohner und liegt bei 2.903 €/m² Kauf und 11,39 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +7,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel 2025/2026, gültig 01.04.2025 bis 31.12.2026",
+    "art": "qualifiziert",
+    "link": "https://www.rastatt.de/mein-rastatt/wohnen/wohnungsmarkt/mietspiegel"
+   },
+   "gutachter": {
+    "wert_eur_m2": null,
+    "segment": null,
+    "bericht": "Immobilienmarktbericht 2024 des Gemeinsamen Gutachterausschusses Rastatt (Daten 2023, nur gegen Gebühr); Webseite nennt nur qualitativ gesunkene Preise für bestehendes Wohnungseigentum",
+    "jahr": null,
+    "kauffaelle": null,
+    "kauffaelle_hinweis": "Kein Wert frei verfügbar",
+    "gebiet": "Gemeinsamer Gutachterausschuss Rastatt",
+    "link": "https://www.rastatt.de/rathaus-und-politik/stadtverwaltung/gemeinsamer-gutachterausschuss/immobilienmarktbericht"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Keine Zweckentfremdungssatzung: Die Ortsrechtssammlung der Stadt (Stand 19.10.2026 abgerufen) enthält keine Satzung zum Zweckentfremdungsverbot; auch keine Treffer in Websuche",
+    "link": "https://www.rastatt.de/rathaus-und-politik/stadtverwaltung/amtliche-veroeffentlichungen/satzungen-und-weisungen"
+   },
+   "leerstand": {
+    "quote_prozent": 3.8,
+    "leerstehende_wohnungen": 930,
+    "wohnungen": 24325,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 7.1,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Rastatt (im Landkreis Rastatt): 50170 (2020) auf 53720 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+rastatt-ra+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+   },
+   "kaufwert_quelle": "immoportal 2.903, homeday 3.050, miete-aktuell 2.755, Gutachterausschuss keine Angabe",
+   "vergleich": null
+  }
+ },
+ {
+  "id": "aschaffenburg",
+  "name": "Aschaffenburg",
+  "land": "Bayern",
+  "ags": "09661000",
+  "einwohner": 73091,
+  "kauf": 3784,
+  "miete": 12.41,
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.985, homeday 3.800, miete-aktuell 3.751, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 12,30, miete-aktuell 12,36, miet-check 12,57. homeday 10,4 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 1.3,
+   "basisjahr": 2024,
+   "zieljahr": 2044,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2044: 73091 auf 74000 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09661.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "63701",
+   "landkreis": "Aschaffenburg",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/aschaffenburg",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/aschaffenburg",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/aschaffenburg",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/aschaffenburg?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Aschaffenburg/Aschaffenburg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Aschaffenburg/Aschaffenburg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/aschaffenburg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Aschaffenburg hat 73.091 Einwohner und liegt bei 3.784 €/m² Kauf und 12,41 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +1,3 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein (Ausnahme Bayern: der Kreiswert des Gutachterausschusses Bayern zählt nach der bestehenden Regel im Kaufmittel)"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel 2024/2026 (Indexfortschreibung des Mietspiegels 2024, +4,4 %), vom Stadtrat am 20.04.2026 als qualifiziert anerkannt",
+    "art": "qualifiziert",
+    "gueltigkeit": "ab 14.05.2026 für weitere zwei Jahre (Mietspiegel 2024 galt 14.05.2024 bis 13.05.2026)",
+    "link": "https://www.aschaffenburg.de/Buerger-in-Aschaffenburg/Planen-Bauen-und-Wohnen/Mietspiegel/"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3600,
+    "segment": "Weiterverkäufe Eigentumswohnungen, Ø Preis je m² Wohnfläche (arithmetisches Mittel), ausgewertet ETW > 45 m², alle Baujahre",
+    "bericht": "Oberer Gutachterausschuss für Grundstückswerte im Freistaat Bayern, Immobilienmarktbericht 2026 (Tabelle ETW, mittlere Wohnflächenpreise, Weiterverkäufe)",
+    "jahr": 2025,
+    "kauffaelle": 346,
+    "kauffaelle_hinweis": "Anzahl aller ETW Transaktionen 2025 laut Tabelle ETW kurze Reihe (Erst und Weiterverkäufe zusammen), keine getrennte Zahl für Weiterverkäufe ausgewiesen",
+    "gebiet": "kreisfreie Stadt selbst",
+    "link": "https://www.gutachterausschuesse-bayern.de/fileadmin/user_upload/Immobilienmarktberichte/2026_IMB_BY.pdf"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Bayern: Art. 1 ZwEWG erlaubt Gemeinden mit Wohnraummangel eine Zweckentfremdungssatzung (max. 5 Jahre). Für Aschaffenburg wurde keine Satzung gefunden (Websuche, Stadtwebsite ohne Treffer).",
+    "link": "https://www.gesetze-bayern.de/Content/Pdf/BayZwEWG2008?all=True"
+   },
+   "leerstand": {
+    "quote_prozent": 4.4,
+    "leerstehende_wohnungen": 1677,
+    "wohnungen": 37999,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "hinweis": "Quote aus 4000W-0001 (WHG009); Anzahlen aus 4000W-3002 (Wohngebäude ohne Wohnheime, Wohnungen insgesamt inkl. 161 Ferien- und Freizeitwohnungen). Nachgerechnete Quote aus den Anzahlen weicht wegen Geheimhaltungsverfahren leicht ab",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 1.3,
+    "basisjahr": 2024,
+    "zieljahr": 2044,
+    "ebene": "Gemeinde",
+    "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2044: 73091 auf 74000 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09661.pdf)"
+   },
+   "kaufwert_quelle": "immoportal 3.985, homeday 3.800, miete-aktuell 3.751, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025)",
+   "vergleich": {
+    "kauf_portale": 3784,
+    "gutachter": 3600,
+    "abweichung_prozent": 5.1,
+    "text": "Kaufmittel 3.784 €/m² liegt 5,1 % über dem Gutachterwert 3.600 €/m² (2025, kreisfreie Stadt selbst, Segment: Weiterverkäufe Eigentumswohnungen, Ø Preis je m² Wohnfläche (arithmetisches Mittel), ausgewertet ETW > 45 m², alle Baujahre); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "bayreuth",
+  "name": "Bayreuth",
+  "land": "Bayern",
+  "ags": "09462000",
+  "einwohner": 72940,
+  "kauf": 3041,
+  "miete": 11.95,
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.268, homeday 3.500, miete-aktuell 2.696, Gutachterausschuss Bayern (Kreiswert) 2.700 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 11,75, miete-aktuell 11,83, miet-check 12,27. homeday 9,6 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -1.8,
+   "basisjahr": 2024,
+   "zieljahr": 2044,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2044: 72940 auf 71600 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09462.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "95410",
+   "landkreis": "Bayreuth",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/bayreuth",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/bayreuth",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/bayreuth",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/bayreuth?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Bayreuth/Bayreuth/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Bayreuth/Bayreuth/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/bayreuth/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": [
+   {
+    "name": "Klinikum Bayreuth GmbH",
+    "beschaeftigte": "2.300",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Bayreuth, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "Universität Bayreuth",
+    "beschaeftigte": "1.800",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Bayreuth, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "Regierung von Oberfranken",
+    "beschaeftigte": "550",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Bayreuth, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "Schlachthof Bayreuth (Müller Fleisch)",
+    "beschaeftigte": "ca. 150",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Bayreuth, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Bayreuth hat 72.940 Einwohner und liegt bei 3.041 €/m² Kauf und 11,95 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei -1,8 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Pendler, Hochwasser nicht erhoben",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein (Ausnahme Bayern: der Kreiswert des Gutachterausschusses Bayern zählt nach der bestehenden Regel im Kaufmittel)"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel 2026 (Neuerstellung, im März 2026 vom Stadtrat anerkannt)",
+    "art": "qualifiziert",
+    "gueltigkeit": "01.05.2026 bis 30.04.2028",
+    "link": "https://www.bayreuth.de/neuer-qualifizierter-mietspiegel-fuer-bayreuth-2/"
+   },
+   "gutachter": {
+    "wert_eur_m2": 2700,
+    "segment": "Weiterverkäufe Eigentumswohnungen, Ø Preis je m² Wohnfläche (arithmetisches Mittel), ausgewertet ETW > 45 m², alle Baujahre",
+    "bericht": "Oberer Gutachterausschuss für Grundstückswerte im Freistaat Bayern, Immobilienmarktbericht 2026 (Tabelle ETW, mittlere Wohnflächenpreise, Weiterverkäufe)",
+    "jahr": 2025,
+    "kauffaelle": 593,
+    "kauffaelle_hinweis": "Anzahl aller ETW Transaktionen 2025 laut Tabelle ETW kurze Reihe (Erst und Weiterverkäufe zusammen), keine getrennte Zahl für Weiterverkäufe ausgewiesen",
+    "gebiet": "kreisfreie Stadt selbst",
+    "link": "https://www.gutachterausschuesse-bayern.de/fileadmin/user_upload/Immobilienmarktberichte/2026_IMB_BY.pdf"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Bayern: Art. 1 ZwEWG erlaubt Gemeinden mit Wohnraummangel eine Zweckentfremdungssatzung (max. 5 Jahre). Für Bayreuth wurde keine Satzung gefunden (Suche auf bayreuth.de nach Zweckentfremdung: keine Ergebnisse).",
+    "link": "https://www.bayreuth.de/?s=Zweckentfremdung"
+   },
+   "leerstand": {
+    "quote_prozent": 4.9,
+    "leerstehende_wohnungen": 1914,
+    "wohnungen": 39640,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "hinweis": "Quote aus 4000W-0001 (WHG009); Anzahlen aus 4000W-3002 (Wohngebäude ohne Wohnheime, Wohnungen insgesamt inkl. 194 Ferien- und Freizeitwohnungen). Nachgerechnete Quote aus den Anzahlen weicht wegen Geheimhaltungsverfahren leicht ab",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": -1.8,
+    "basisjahr": 2024,
+    "zieljahr": 2044,
+    "ebene": "Gemeinde",
+    "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2044: 72940 auf 71600 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09462.pdf)"
+   },
+   "kaufwert_quelle": "immoportal 3.268, homeday 3.500, miete-aktuell 2.696, Gutachterausschuss Bayern (Kreiswert) 2.700 (Wiederverkäufe ETW 2025)",
+   "vergleich": {
+    "kauf_portale": 3041,
+    "gutachter": 2700,
+    "abweichung_prozent": 12.6,
+    "text": "Kaufmittel 3.041 €/m² liegt 12,6 % über dem Gutachterwert 2.700 €/m² (2025, kreisfreie Stadt selbst, Segment: Weiterverkäufe Eigentumswohnungen, Ø Preis je m² Wohnfläche (arithmetisches Mittel), ausgewertet ETW > 45 m², alle Baujahre); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "landshut",
+  "name": "Landshut",
+  "land": "Bayern",
+  "ags": "09261000",
+  "einwohner": 71863,
+  "kauf": 4330,
+  "miete": 13.13,
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.724, homeday 4.150, miete-aktuell 4.244, Gutachterausschuss Bayern (Kreiswert) 4.200 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 12,96, miete-aktuell 13,09, miet-check 13,33. homeday 11,1 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 4.7,
+   "basisjahr": 2024,
+   "zieljahr": 2044,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2044: 71863 auf 75200 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09261.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "84026",
+   "landkreis": "Landshut",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/landshut",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/landshut",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/landshut",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/landshut?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Landshut/Landshut/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Landshut/Landshut/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/landshut_isar/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": [
+   {
+    "name": "Klinikum Landshut",
+    "beschaeftigte": "etwa 1.360",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Landshut, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "E.ON Service Plus, Hauptsitz Landshut",
+    "beschaeftigte": "650",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Landshut, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "Sparkasse Landshut",
+    "beschaeftigte": "knapp 600",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Landshut, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "Deutsche Telekom, Landshut",
+    "beschaeftigte": "etwa 450",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Landshut, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "Klann Verpackungen",
+    "beschaeftigte": "über 150",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Landshut, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "Seefelder GmbH",
+    "beschaeftigte": "110",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Landshut, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Landshut hat 71.863 Einwohner und liegt bei 4.330 €/m² Kauf und 13,13 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +4,7 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Pendler, Hochwasser nicht erhoben",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein (Ausnahme Bayern: der Kreiswert des Gutachterausschusses Bayern zählt nach der bestehenden Regel im Kaufmittel)"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel 2025",
+    "art": "qualifiziert",
+    "gueltigkeit": "01.03.2025 bis 28.02.2027",
+    "link": "https://www.landshut.de/mietspiegel"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4200,
+    "segment": "Weiterverkäufe Eigentumswohnungen, Ø Preis je m² Wohnfläche (arithmetisches Mittel), ausgewertet ETW > 45 m², alle Baujahre",
+    "bericht": "Oberer Gutachterausschuss für Grundstückswerte im Freistaat Bayern, Immobilienmarktbericht 2026 (Tabelle ETW, mittlere Wohnflächenpreise, Weiterverkäufe)",
+    "jahr": 2025,
+    "kauffaelle": 628,
+    "kauffaelle_hinweis": "Anzahl aller ETW Transaktionen 2025 laut Tabelle ETW kurze Reihe (Erst und Weiterverkäufe zusammen), keine getrennte Zahl für Weiterverkäufe ausgewiesen",
+    "gebiet": "kreisfreie Stadt selbst",
+    "link": "https://www.gutachterausschuesse-bayern.de/fileadmin/user_upload/Immobilienmarktberichte/2026_IMB_BY.pdf"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Bayern: Art. 1 ZwEWG erlaubt Gemeinden mit Wohnraummangel eine Zweckentfremdungssatzung (max. 5 Jahre). Für Landshut wurde keine Satzung gefunden (Websuche, Stadtwebsite ohne Treffer).",
+    "link": "https://www.gesetze-bayern.de/Content/Pdf/BayZwEWG2008?all=True"
+   },
+   "leerstand": {
+    "quote_prozent": 4.2,
+    "leerstehende_wohnungen": 1486,
+    "wohnungen": 36055,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "hinweis": "Quote aus 4000W-0001 (WHG009); Anzahlen aus 4000W-3002 (Wohngebäude ohne Wohnheime, Wohnungen insgesamt inkl. 291 Ferien- und Freizeitwohnungen). Nachgerechnete Quote aus den Anzahlen weicht wegen Geheimhaltungsverfahren leicht ab",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 4.7,
+    "basisjahr": 2024,
+    "zieljahr": 2044,
+    "ebene": "Gemeinde",
+    "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2044: 71863 auf 75200 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09261.pdf)"
+   },
+   "kaufwert_quelle": "immoportal 4.724, homeday 4.150, miete-aktuell 4.244, Gutachterausschuss Bayern (Kreiswert) 4.200 (Wiederverkäufe ETW 2025)",
+   "vergleich": {
+    "kauf_portale": 4330,
+    "gutachter": 4200,
+    "abweichung_prozent": 3.1,
+    "text": "Kaufmittel 4.330 €/m² liegt 3,1 % über dem Gutachterwert 4.200 €/m² (2025, kreisfreie Stadt selbst, Segment: Weiterverkäufe Eigentumswohnungen, Ø Preis je m² Wohnfläche (arithmetisches Mittel), ausgewertet ETW > 45 m², alle Baujahre); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "kempten-allgaeu",
+  "name": "Kempten (Allgäu)",
+  "land": "Bayern",
+  "ags": "09763000",
+  "einwohner": 67645,
+  "kauf": 3913,
+  "miete": 13.63,
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.956, homeday 4.250, miete-aktuell 3.847, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 13,64, miete-aktuell 13,46, miet-check 13,80. homeday 10,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 2.1,
+   "basisjahr": 2024,
+   "zieljahr": 2044,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2044: 67645 auf 69100 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09763.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "87435",
+   "landkreis": "Kempten (Allgäu)",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/kempten-allgaeu",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/kempten-allgaeu",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/kempten+allgaeu",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/kempten+allgaeu?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Kempten-Allgaeu/Kempten-(Allgaeu)/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Kempten-Allgaeu/Kempten-(Allgaeu)/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/kempten/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Kempten (Allgäu) hat 67.645 Einwohner und liegt bei 3.913 €/m² Kauf und 13,63 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +2,1 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein (Ausnahme Bayern: der Kreiswert des Gutachterausschusses Bayern zählt nach der bestehenden Regel im Kaufmittel)"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel 2025 (indexbasierte Fortschreibung des qualifizierten Mietspiegels 2023, +5,5 %)",
+    "art": "qualifiziert",
+    "gueltigkeit": "01.06.2025 bis 31.05.2027",
+    "link": "https://kempten.de/mietspiegel-31829.html"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3600,
+    "segment": "Weiterverkäufe Eigentumswohnungen, Ø Preis je m² Wohnfläche (arithmetisches Mittel), ausgewertet ETW > 45 m², alle Baujahre",
+    "bericht": "Oberer Gutachterausschuss für Grundstückswerte im Freistaat Bayern, Immobilienmarktbericht 2026 (Tabelle ETW, mittlere Wohnflächenpreise, Weiterverkäufe)",
+    "jahr": 2025,
+    "kauffaelle": 621,
+    "kauffaelle_hinweis": "Anzahl aller ETW Transaktionen 2025 laut Tabelle ETW kurze Reihe (Erst und Weiterverkäufe zusammen), keine getrennte Zahl für Weiterverkäufe ausgewiesen",
+    "gebiet": "kreisfreie Stadt selbst",
+    "link": "https://www.gutachterausschuesse-bayern.de/fileadmin/user_upload/Immobilienmarktberichte/2026_IMB_BY.pdf"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Bayern: Art. 1 ZwEWG erlaubt Gemeinden mit Wohnraummangel eine Zweckentfremdungssatzung (max. 5 Jahre). Für Kempten (Allgäu) wurde keine Satzung gefunden (Websuche ohne Treffer).",
+    "link": "https://www.gesetze-bayern.de/Content/Pdf/BayZwEWG2008?all=True"
+   },
+   "leerstand": {
+    "quote_prozent": 2.9,
+    "leerstehende_wohnungen": 995,
+    "wohnungen": 34551,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "hinweis": "Quote aus 4000W-0001 (WHG009); Anzahlen aus 4000W-3002 (Wohngebäude ohne Wohnheime, Wohnungen insgesamt inkl. 394 Ferien- und Freizeitwohnungen). Nachgerechnete Quote aus den Anzahlen weicht wegen Geheimhaltungsverfahren leicht ab",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 2.1,
+    "basisjahr": 2024,
+    "zieljahr": 2044,
+    "ebene": "Gemeinde",
+    "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2044: 67645 auf 69100 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09763.pdf)"
+   },
+   "kaufwert_quelle": "immoportal 3.956, homeday 4.250, miete-aktuell 3.847, Gutachterausschuss Bayern (Kreiswert) 3.600 (Wiederverkäufe ETW 2025)",
+   "vergleich": {
+    "kauf_portale": 3913,
+    "gutachter": 3600,
+    "abweichung_prozent": 8.7,
+    "text": "Kaufmittel 3.913 €/m² liegt 8,7 % über dem Gutachterwert 3.600 €/m² (2025, kreisfreie Stadt selbst, Segment: Weiterverkäufe Eigentumswohnungen, Ø Preis je m² Wohnfläche (arithmetisches Mittel), ausgewertet ETW > 45 m², alle Baujahre); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "rosenheim",
+  "name": "Rosenheim",
+  "land": "Bayern",
+  "ags": "09163000",
+  "einwohner": 65274,
+  "kauf": 4683,
+  "miete": 15.27,
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.643, homeday 5.100, miete-aktuell 4.688, Gutachterausschuss Bayern (Kreiswert) 4.300 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 15,27, miete-aktuell 15,28, miet-check 15,26. homeday 11,7 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2024,
+   "zieljahr": 2044,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2044: 65274 auf 67400 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09163.pdf)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": "83013",
+   "landkreis": "Rosenheim",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/rosenheim",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 11 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/rosenheim",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 10 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/rosenheim",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 10 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/rosenheim?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 10 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Rosenheim/Rosenheim/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ-Bereich (erste drei Stellen) passt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Rosenheim/Rosenheim/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ-Bereich (erste drei Stellen) passt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/rosenheim/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ-Bereich (erste drei Stellen) passt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": [
+   {
+    "name": "Klinikum Rosenheim (RoMed)",
+    "beschaeftigte": "über 2.000",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Rosenheim, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Rosenheim hat 65.274 Einwohner und liegt bei 4.683 €/m² Kauf und 15,27 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Pendler, Hochwasser nicht erhoben",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein (Ausnahme Bayern: der Kreiswert des Gutachterausschusses Bayern zählt nach der bestehenden Regel im Kaufmittel)"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel 2025 (Fortschreibung des qualifizierten Mietspiegels 2023 per Stichprobe, Stadtratsbeschluss 10.07.2025)",
+    "art": "qualifiziert",
+    "gueltigkeit": "ab 01.08.2025 für zwei Jahre",
+    "link": "https://www.rosenheim.de/fileadmin/Buergerservice/Planen_und_Bauen/Mietspiegel/Mietspiegeldokumentation_Rosenheim_2025.pdf"
+   },
+   "gutachter": {
+    "wert_eur_m2": 4300,
+    "segment": "Weiterverkäufe Eigentumswohnungen, Ø Preis je m² Wohnfläche (arithmetisches Mittel), ausgewertet ETW > 45 m², alle Baujahre",
+    "bericht": "Oberer Gutachterausschuss für Grundstückswerte im Freistaat Bayern, Immobilienmarktbericht 2026 (Tabelle ETW, mittlere Wohnflächenpreise, Weiterverkäufe)",
+    "jahr": 2025,
+    "kauffaelle": 761,
+    "kauffaelle_hinweis": "Anzahl aller ETW Transaktionen 2025 laut Tabelle ETW kurze Reihe (Erst und Weiterverkäufe zusammen), keine getrennte Zahl für Weiterverkäufe ausgewiesen",
+    "gebiet": "kreisfreie Stadt selbst",
+    "link": "https://www.gutachterausschuesse-bayern.de/fileadmin/user_upload/Immobilienmarktberichte/2026_IMB_BY.pdf"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Bayern: Art. 1 ZwEWG erlaubt Gemeinden mit Wohnraummangel eine Zweckentfremdungssatzung (max. 5 Jahre). Für Rosenheim wurde keine Satzung gefunden (Websuche ohne Treffer).",
+    "link": "https://www.gesetze-bayern.de/Content/Pdf/BayZwEWG2008?all=True"
+   },
+   "leerstand": {
+    "quote_prozent": 2.0,
+    "leerstehende_wohnungen": 634,
+    "wohnungen": 31886,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "hinweis": "Quote aus 4000W-0001 (WHG009); Anzahlen aus 4000W-3002 (Wohngebäude ohne Wohnheime, Wohnungen insgesamt inkl. 100 Ferien- und Freizeitwohnungen). Nachgerechnete Quote aus den Anzahlen weicht wegen Geheimhaltungsverfahren leicht ab",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 3.2,
+    "basisjahr": 2024,
+    "zieljahr": 2044,
+    "ebene": "Gemeinde",
+    "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2044: 65274 auf 67400 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09163.pdf)"
+   },
+   "kaufwert_quelle": "immoportal 4.643, homeday 5.100, miete-aktuell 4.688, Gutachterausschuss Bayern (Kreiswert) 4.300 (Wiederverkäufe ETW 2025)",
+   "vergleich": {
+    "kauf_portale": 4683,
+    "gutachter": 4300,
+    "abweichung_prozent": 8.9,
+    "text": "Kaufmittel 4.683 €/m² liegt 8,9 % über dem Gutachterwert 4.300 €/m² (2025, kreisfreie Stadt selbst, Segment: Weiterverkäufe Eigentumswohnungen, Ø Preis je m² Wohnfläche (arithmetisches Mittel), ausgewertet ETW > 45 m², alle Baujahre); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "passau",
+  "name": "Passau",
+  "land": "Bayern",
+  "ags": "09262000",
+  "einwohner": 53039,
+  "kauf": 3052,
+  "miete": 11.5,
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.022, homeday 3.400, miete-aktuell 2.988, Gutachterausschuss Bayern (Kreiswert) 2.800 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 11,56, miete-aktuell 11,67, miet-check 11,27. homeday 9,4 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 4.6,
+   "basisjahr": 2024,
+   "zieljahr": 2044,
+   "ebene": "Gemeinde",
+   "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2044: 53039 auf 55500 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09262.pdf)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": "94030",
+   "landkreis": "Passau",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/passau",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/passau",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/passau",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/passau?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Passau/Passau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Passau/Passau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/passau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Passau hat 53.039 Einwohner und liegt bei 3.052 €/m² Kauf und 11,50 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2044 liegt bei +4,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein (Ausnahme Bayern: der Kreiswert des Gutachterausschusses Bayern zählt nach der bestehenden Regel im Kaufmittel)"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Qualifizierter Mietspiegel 2026 (Regressionsmietspiegel 2024, anerkannt 04.11.2024, zum 01.01.2026 per VPI +4,25 % fortgeschrieben)",
+    "art": "qualifiziert",
+    "gueltigkeit": "Qualifizierung ab Fortschreibung 01.01.2026 um 2 Jahre verlängert",
+    "link": "https://www.passau.de/bauen-umwelt/bauen-wohnen/mietspiegel/"
+   },
+   "gutachter": {
+    "wert_eur_m2": 2800,
+    "segment": "Weiterverkäufe Eigentumswohnungen, Ø Preis je m² Wohnfläche (arithmetisches Mittel), ausgewertet ETW > 45 m², alle Baujahre",
+    "bericht": "Oberer Gutachterausschuss für Grundstückswerte im Freistaat Bayern, Immobilienmarktbericht 2026 (Tabelle ETW, mittlere Wohnflächenpreise, Weiterverkäufe)",
+    "jahr": 2025,
+    "kauffaelle": 541,
+    "kauffaelle_hinweis": "Anzahl aller ETW Transaktionen 2025 laut Tabelle ETW kurze Reihe (Erst und Weiterverkäufe zusammen), keine getrennte Zahl für Weiterverkäufe ausgewiesen Die Transaktionszahl 2025 für Passau ist im Bericht mit * als hochgerechnet gekennzeichnet.",
+    "gebiet": "kreisfreie Stadt selbst",
+    "link": "https://www.gutachterausschuesse-bayern.de/fileadmin/user_upload/Immobilienmarktberichte/2026_IMB_BY.pdf"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Bayern: Art. 1 ZwEWG erlaubt Gemeinden mit Wohnraummangel eine Zweckentfremdungssatzung (max. 5 Jahre). Für Passau wurde keine Satzung gefunden (Websuche, Stadtwebsite ohne Treffer).",
+    "link": "https://www.gesetze-bayern.de/Content/Pdf/BayZwEWG2008?all=True"
+   },
+   "leerstand": {
+    "quote_prozent": 5.7,
+    "leerstehende_wohnungen": 1760,
+    "wohnungen": 31337,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "hinweis": "Quote aus 4000W-0001 (WHG009); Anzahlen aus 4000W-3002 (Wohngebäude ohne Wohnheime, Wohnungen insgesamt inkl. 257 Ferien- und Freizeitwohnungen). Nachgerechnete Quote aus den Anzahlen weicht wegen Geheimhaltungsverfahren leicht ab",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 4.6,
+    "basisjahr": 2024,
+    "zieljahr": 2044,
+    "ebene": "Gemeinde",
+    "quelle": "Bayerisches Landesamt für Statistik, Demographie-Spiegel für Bayern (April 2026), Gemeindeprofil 2024 bis 2044: 53039 auf 55500 Einwohner (https://www.statistik.bayern.de/statistik/gemeinden/09262.pdf)"
+   },
+   "kaufwert_quelle": "immoportal 3.022, homeday 3.400, miete-aktuell 2.988, Gutachterausschuss Bayern (Kreiswert) 2.800 (Wiederverkäufe ETW 2025)",
+   "vergleich": {
+    "kauf_portale": 3052,
+    "gutachter": 2800,
+    "abweichung_prozent": 9.0,
+    "text": "Kaufmittel 3.052 €/m² liegt 9,0 % über dem Gutachterwert 2.800 €/m² (2025, kreisfreie Stadt selbst, Segment: Weiterverkäufe Eigentumswohnungen, Ø Preis je m² Wohnfläche (arithmetisches Mittel), ausgewertet ETW > 45 m², alle Baujahre); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "cottbus",
+  "name": "Cottbus",
+  "land": "Brandenburg",
+  "ags": "12052000",
+  "einwohner": 95123,
+  "kauf": 2576,
+  "miete": 8.35,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 2.634, miete-aktuell 2.518, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 7,75, miete-aktuell 7,96, miet-check 9,34.",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -2.5,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde (amtsfrei)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Cottbus (kreisfrei): 94778 (2023) auf 92404 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03046",
+   "landkreis": "Cottbus, Stadt",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/cottbus",
+     "ergebnis": "nicht bestätigt",
+     "methode": "nicht bestätigt"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/cottbus",
+     "ergebnis": "nicht bestätigt",
+     "methode": "nicht bestätigt"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Cottbus/Cottbus/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Cottbus/Cottbus/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/cottbus/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": [
+   {
+    "name": "RBB-Regionalstudio Cottbus",
+    "beschaeftigte": "rund 50",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Cottbus, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Cottbus hat 95.123 Einwohner und liegt bei 2.576 €/m² Kauf und 8,35 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -2,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: immoportal, immoportal (Miete)",
+   "Pendler, Hochwasser nicht erhoben",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel 2024 (Stichtag 01.03.2024, Beschluss StVV vom 18.12.2024); auf cottbus.de inzwischen als Archiv geführt, Mietspiegel 2026 in Erstellung (Erhebung bis 31.05.2026, voraussichtlich Ende 2026)",
+    "art": "qualifiziert",
+    "gueltigkeit": "auf der Stadtseite nicht angegeben",
+    "link": "https://cottbus.de/verwaltung/gb-3/dz-3-1/fb-33-buergerservice/mietspiegel-2024-der-kreisfreien-stadt-cottbus-chosebuz/"
+   },
+   "gutachter": {
+    "wert_eur_m2": 2392,
+    "segment": "Weiterveräußerungen ETW, Neubauten (Baujahre ab 1994, in 2025 Bj 1994 bis 2021), Ø Preis je m² Wohnfläche. Kein Gesamtwert über alle Baujahre ausgewiesen; weitere Segmente 2025: sanierte Altbauten Ø 2.473 €/m² (19 KF), geschlossene Wohnquartiere/Plattenbau Ø 1.274 €/m² (34 KF)",
+    "bericht": "Gutachterausschuss für Grundstückswerte in der Stadt Cottbus/Chóśebuz, Grundstücksmarktbericht 2025",
+    "jahr": 2025,
+    "kauffaelle": 64,
+    "kauffaelle_hinweis": "64 Kauffälle im Segment Neubauten; Weiterveräußerungen von ETW insgesamt 2025: 117 Kauffälle",
+    "gebiet": "kreisfreie Stadt selbst",
+    "link": "https://gutachterausschuss.brandenburg.de/sixcms/media.php/9/GMB_CB.pdf"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Brandenburg: Brandenburgisches Zweckentfremdungsverbotsgesetz (BbgZwVbG) vom 5. Juni 2019 erlaubt Gemeinden eine Satzung (max. 5 Jahre). Für Cottbus wurde keine Satzung gefunden (Websuche ohne Treffer; bekannt ist z. B. Potsdam).",
+    "link": "https://bravors.brandenburg.de/gesetze/bbgzwvbg"
+   },
+   "leerstand": {
+    "quote_prozent": 6.4,
+    "leerstehende_wohnungen": 3562,
+    "wohnungen": 55534,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "hinweis": "Quote aus 4000W-0001 (WHG009); Anzahlen aus 4000W-3002 (Wohngebäude ohne Wohnheime, Wohnungen insgesamt inkl. 47 Ferien- und Freizeitwohnungen). Nachgerechnete Quote aus den Anzahlen weicht wegen Geheimhaltungsverfahren leicht ab",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": -2.5,
+    "basisjahr": 2023,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde (amtsfrei)",
+    "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Cottbus (kreisfrei): 94778 (2023) auf 92404 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+   },
+   "kaufwert_quelle": "immoportal 2.634, miete-aktuell 2.518, Gutachterausschuss keine Angabe",
+   "vergleich": {
+    "kauf_portale": 2576,
+    "gutachter": 2392,
+    "abweichung_prozent": 7.7,
+    "text": "Kaufmittel 2.576 €/m² liegt 7,7 % über dem Gutachterwert 2.392 €/m² (2025, kreisfreie Stadt selbst, Segment: Weiterveräußerungen ETW, Neubauten (Baujahre ab 1994, in 2025 Bj 1994 bis 2021), Ø Preis je m² Wohnfläche. Kein Gesamtwert über alle Baujahre ausgewiesen; weitere Segmente 2025: sanierte Altbauten Ø 2.473 €/m² (19 KF), geschlossene Wohnquartiere/Plattenbau Ø 1.274 €/m² (34 KF)); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "zwickau",
+  "name": "Zwickau",
+  "land": "Sachsen",
+  "ags": "14524330",
+  "einwohner": 87410,
+  "kauf": 1032,
+  "miete": 6.5,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 835, homeday 1.150, miete-aktuell 1.112, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 6,45, miete-aktuell 6,55, miet-check 6,51. homeday 5,9 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -12.4,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Zwickau (im Landkreis Zwickau): 87520 (2020) auf 76680 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+zwickau-z+2020-2040+tabelle)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Sächsische Mietpreisbegrenzungsverordnung (in Kraft seit 1.1.2026, bis 30.6.2027) und Sächsische Kappungsgrenzen-Verordnung vom 10.6.2025 (bis 30.6.2027): nur Dresden und Leipzig, nicht gelistet",
+  "ortspruefung": {
+   "plz": "08056",
+   "landkreis": "Zwickau",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/zwickau",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/zwickau",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/zwickau",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/zwickau?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Zwickau/Zwickau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Zwickau/Zwickau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/zwickau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": [
+   {
+    "name": "Heinrich-Braun-Klinikum Zwickau",
+    "beschaeftigte": "1.500",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Zwickau, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Zwickau hat 87.410 Einwohner und liegt bei 1.032 €/m² Kauf und 6,50 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei -12,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel 2025 (löst Mietspiegel 2021 ab, Erhebungsstichtag 01.01.2025)",
+    "art": "einfach",
+    "gueltigkeit": "ab 01.09.2025 (Enddatum nicht angegeben)",
+    "link": "https://www.zwickau.de/media/downloads/02_D2/05_ewo/Mietspiegel-2025_Web.pdf"
+   },
+   "gutachter": {
+    "wert_eur_m2": 1149,
+    "segment": "Weiterverkäufe ETW, Baujahresgruppe bis 1918, saniert, Lageklasse 4 (Stadt Zwickau), Mittelwert (Median 962 €/m²). Kein Gesamtwert über alle Baujahre ausgewiesen; Baujahr nach 1990, Lageklasse 4: Mittel 1.422 €/m², Median 1.130 €/m², 219 Fälle",
+    "bericht": "Gutachterausschuss für Grundstückswerte im Landkreis Zwickau, Grundstücksmarktbericht Landkreis Zwickau 2026 (öffentliche, gekürzte Fassung; Vollversion kostenpflichtig), Tab. 37",
+    "jahr": "2024/2025",
+    "kauffaelle": 452,
+    "kauffaelle_hinweis": "Stichprobengröße 452 im Segment bis 1918 saniert, Lageklasse 4, Auswertung 2024 bis 2025",
+    "gebiet": "Stadt Zwickau (Lageklasse 4) aus dem Bericht des Landkreises Zwickau",
+    "link": "https://www.landkreis-zwickau.de/uploads/formulare/GrundstuecksmarktberichtLKZwickau2026_4741.pdf"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Sachsen: Sächsisches Zweckentfremdungsverbotsgesetz, vom Landtag am 31.01.2024 beschlossen, in Kraft seit 19.03.2024, erlaubt Gemeinden eine Satzung. Für Zwickau wurde keine Satzung gefunden (Websuche ohne Treffer; Satzung bekannt für Leipzig, Entwurf Dresden 2026).",
+    "link": "https://www.bauen-wohnen.sachsen.de/zweckentfremdungsverbot-4385.html"
+   },
+   "leerstand": {
+    "quote_prozent": 13.1,
+    "leerstehende_wohnungen": 7087,
+    "wohnungen": 54301,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "hinweis": "Quote aus 4000W-0001 (WHG009); Anzahlen aus 4000W-3002 (Wohngebäude ohne Wohnheime, Wohnungen insgesamt inkl. 80 Ferien- und Freizeitwohnungen). Nachgerechnete Quote aus den Anzahlen weicht wegen Geheimhaltungsverfahren leicht ab",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": -12.4,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Zwickau (im Landkreis Zwickau): 87520 (2020) auf 76680 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+zwickau-z+2020-2040+tabelle)"
+   },
+   "kaufwert_quelle": "immoportal 835, homeday 1.150, miete-aktuell 1.112, Gutachterausschuss keine Angabe",
+   "vergleich": {
+    "kauf_portale": 1032,
+    "gutachter": 1149,
+    "abweichung_prozent": -10.2,
+    "text": "Kaufmittel 1.032 €/m² liegt 10,2 % unter dem Gutachterwert 1.149 €/m² (2024/2025, Stadt Zwickau (Lageklasse 4) aus dem Bericht des Landkreises Zwickau, Segment: Weiterverkäufe ETW, Baujahresgruppe bis 1918, saniert, Lageklasse 4 (Stadt Zwickau), Mittelwert (Median 962 €/m²). Kein Gesamtwert über alle Baujahre ausgewiesen; Baujahr nach 1990, Lageklasse 4: Mittel 1.422 €/m², Median 1.130 €/m², 219 Fälle); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "brandenburg-an-der-havel",
+  "name": "Brandenburg an der Havel",
+  "land": "Brandenburg",
+  "ags": "12051000",
+  "einwohner": 74113,
+  "kauf": 2806,
+  "miete": 8.68,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 2.938, homeday 2.650, miete-aktuell 2.829, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 8,53, miete-aktuell 8,84. homeday 6,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 3.1,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde (amtsfrei)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Brandenburg an der Havel (kreisfrei): 73939 (2023) auf 76207 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "14770",
+   "landkreis": "Brandenburg an der Havel, Stadt",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/brandenburg-an-der-havel",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/brandenburg-an-der-havel",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/brandenburg+an+der+havel",
+     "ergebnis": "bestätigt",
+     "methode": "Bundesland passt"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/brandenburg+an+der+havel?marketing_type=rent&property_type=apartment",
+     "ergebnis": "bestätigt",
+     "methode": "Bundesland passt"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Brandenburg-an-der-Havel/Brandenburg-an-der-Havel/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Brandenburg-an-der-Havel/Brandenburg-an-der-Havel/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Brandenburg an der Havel hat 74.113 Einwohner und liegt bei 2.806 €/m² Kauf und 8,68 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei +3,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel 2026 (von Interessenvertretern am 03.06.2026 als qualifiziert beschlossen)",
+    "art": "qualifiziert",
+    "gueltigkeit": "30.06.2026 bis 29.06.2028",
+    "link": "https://www.stadt-brandenburg.de/fileadmin/pdf/12/Statistik/Mietspiegel_2026_Broschuere.pdf"
+   },
+   "gutachter": {
+    "wert_eur_m2": 2136,
+    "segment": "WE Weiterverkauf, Mittelwert €/m² Wohnfläche (Abb. 126), alle Kategorien",
+    "bericht": "Gutachterausschuss für Grundstückswerte in der Stadt Brandenburg an der Havel, Grundstücksmarktbericht 2025",
+    "jahr": 2025,
+    "kauffaelle": 37,
+    "kauffaelle_hinweis": "Abb. 124: 37 Weiterverkäufe 2025. Die Summenzeile dieser Tabelle (84) entspricht WE und TE zusammen (Abb. 123: 66 WE, 18 TE), daher kann die Zahl Teileigentum enthalten",
+    "gebiet": "kreisfreie Stadt selbst",
+    "link": "https://gutachterausschuss.brandenburg.de/sixcms/media.php/9/GMB_BRB.pdf"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Brandenburg: Brandenburgisches Zweckentfremdungsverbotsgesetz (BbgZwVbG) vom 5. Juni 2019 erlaubt Gemeinden eine Satzung (max. 5 Jahre). Für Brandenburg an der Havel wurde keine Satzung gefunden (Websuche ohne Treffer; bekannt ist z. B. Potsdam).",
+    "link": "https://bravors.brandenburg.de/gesetze/bbgzwvbg"
+   },
+   "leerstand": {
+    "quote_prozent": 8.6,
+    "leerstehende_wohnungen": 3735,
+    "wohnungen": 43352,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "hinweis": "Quote aus 4000W-0001 (WHG009); Anzahlen aus 4000W-3002 (Wohngebäude ohne Wohnheime, Wohnungen insgesamt inkl. 131 Ferien- und Freizeitwohnungen). Nachgerechnete Quote aus den Anzahlen weicht wegen Geheimhaltungsverfahren leicht ab",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 3.1,
+    "basisjahr": 2023,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde (amtsfrei)",
+    "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Brandenburg an der Havel (kreisfrei): 73939 (2023) auf 76207 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+   },
+   "kaufwert_quelle": "immoportal 2.938, homeday 2.650, miete-aktuell 2.829, Gutachterausschuss keine Angabe",
+   "vergleich": {
+    "kauf_portale": 2806,
+    "gutachter": 2136,
+    "abweichung_prozent": 31.4,
+    "text": "Kaufmittel 2.806 €/m² liegt 31,4 % über dem Gutachterwert 2.136 €/m² (2025, kreisfreie Stadt selbst, Segment: WE Weiterverkauf, Mittelwert €/m² Wohnfläche (Abb. 126), alle Kategorien); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "weimar",
+  "name": "Weimar",
+  "land": "Thüringen",
+  "ags": "16055000",
+  "einwohner": 65954,
+  "kauf": 2796,
+  "miete": 10.51,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 2.916, miete-aktuell 2.676, Gutachterausschuss keine Angabe. homeday 2.750 (nicht gewertet: Ortsname mehrfach in Deutschland und Seite nicht über PLZ, Landkreis oder Bundesland bestätigt). Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 10,39, miete-aktuell 10,37, miet-check 10,77. homeday 8,4 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -1.7,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Weimar, kreisfreie Stadt: 65100 (2020) auf 63980 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+weimar+2020-2040+tabelle)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Thüringer Mietpreisbegrenzungsverordnung (zuletzt verlängert am 09.12.2025, gültig bis 31.12.2027) und Thüringer Kappungsgrenzenverordnung: nur Erfurt und Jena, nicht gelistet",
+  "ortspruefung": {
+   "plz": "99423",
+   "landkreis": "Weimar, Stadt",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/weimar",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 1 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/weimar",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 1 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/weimar",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 5 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/weimar?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 5 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Weimar/Weimar/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Weimar/Weimar/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/weimar/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": [
+   {
+    "name": "Sophien- und Hufeland-Klinikum Weimar",
+    "beschaeftigte": "ca. 1.100",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Weimar, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "Bayer Weimar GmbH und Co. KG",
+    "beschaeftigte": "etwa 500",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Weimar, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "Döllken Weimar",
+    "beschaeftigte": "ca. 120",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Weimar, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Weimar hat 65.954 Einwohner und liegt bei 2.796 €/m² Kauf und 10,51 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei -1,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf homeday 2.750 nicht gewertet: Ortsname mehrfach in Deutschland und Seite nicht über PLZ, Landkreis oder Bundesland bestätigt",
+   "Pendler, Hochwasser nicht erhoben",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel Weimar 2025, angepasst an die Marktentwicklung zum Stichtag 31.12.2025 (Erhebungsstichtag 31.12.2023)",
+    "art": "einfach",
+    "gueltigkeit": "im Dokument nicht angegeben (Anpassung alle 2 Jahre vorgesehen)",
+    "link": "https://stadt.weimar.de/datei/anzeigen/id/87907,48/20251231_mietspiegel_weimar_2025.pdf"
+   },
+   "gutachter": {
+    "wert_eur_m2": null,
+    "segment": null,
+    "bericht": "Gutachterausschuss für Grundstückswerte für das Gebiet des Landkreises Sömmerda, des Landkreises Weimarer Land und der kreisfreien Stadt Weimar; Immobilienmarktinformationen nur online beim TLBG",
+    "jahr": null,
+    "kauffaelle": null,
+    "kauffaelle_hinweis": "null: TLBG Seite Wohnungseigentum per Captcha gesperrt, kein PDF Bericht mit ETW Werten für Weimar gefunden",
+    "gebiet": "gemeinsamer Gutachterausschuss Sömmerda, Weimarer Land, Weimar",
+    "link": "https://tlbg.thueringen.de/wertermittlung/online-grundstuecksmarktinformationen/immobilienmarktbericht/wt-wohnungseigentum"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Thüringen: kein geltendes Landesgesetz gefunden. Die Thüringer Zweckentfremdungs-Verordnung von 1992 (galt u. a. für Weimar) trat am 31.03.2013 außer Kraft; Entwurf ThürWoGeG (Drs. 7/9214, 2024) ohne Nachweis eines Beschlusses. Daher keine Satzung in Weimar.",
+    "link": "https://beteiligtentransparenzdokumentation.thueringer-landtag.de/fileadmin/Redaktion/Beteiligtentransparenzdokumentation/Dokumente/7-9214/BTD_7-9214.pdf"
+   },
+   "leerstand": {
+    "quote_prozent": 4.2,
+    "leerstehende_wohnungen": 1424,
+    "wohnungen": 34338,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "hinweis": "Quote aus 4000W-0001 (WHG009); Anzahlen aus 4000W-3002 (Wohngebäude ohne Wohnheime, Wohnungen insgesamt inkl. 158 Ferien- und Freizeitwohnungen). Nachgerechnete Quote aus den Anzahlen weicht wegen Geheimhaltungsverfahren leicht ab",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": -1.7,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Weimar, kreisfreie Stadt: 65100 (2020) auf 63980 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+weimar+2020-2040+tabelle)"
+   },
+   "kaufwert_quelle": "immoportal 2.916, miete-aktuell 2.676, Gutachterausschuss keine Angabe. homeday 2.750 (nicht gewertet: Ortsname mehrfach in Deutschland und Seite nicht über PLZ, Landkreis oder Bundesland bestätigt)",
+   "vergleich": null
+  }
+ },
+ {
+  "id": "plauen",
+  "name": "Plauen",
+  "land": "Sachsen",
+  "ags": "14523320",
+  "einwohner": 65599,
+  "kauf": 915,
+  "miete": 5.69,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 669, homeday 1.000, miete-aktuell 1.076, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 5,69, miete-aktuell 5,70, miet-check 5,67. homeday 5,1 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -4.0,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Plauen (im Vogtlandkreis): 64010 (2020) auf 61460 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+plauen+2020-2040+tabelle)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Sächsische Mietpreisbegrenzungsverordnung (in Kraft seit 1.1.2026, bis 30.6.2027) und Sächsische Kappungsgrenzen-Verordnung vom 10.6.2025 (bis 30.6.2027): nur Dresden und Leipzig, nicht gelistet",
+  "ortspruefung": {
+   "plz": "08523",
+   "landkreis": "Vogtlandkreis",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/plauen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/plauen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/plauen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/plauen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Plauen/Plauen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Plauen/Plauen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/plauen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": [
+   {
+    "name": "Sternquell-Brauerei GmbH Plauen",
+    "beschaeftigte": "etwa 160",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Plauen, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "Plauen Stahl Technologie GmbH",
+    "beschaeftigte": "etwa 130",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Plauen, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "Binz, Werk Plauen",
+    "beschaeftigte": "120",
+    "stand": "2021",
+    "quelle": "de.wikipedia.org, Artikel Plauen, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "Sachsendruck Plauen GmbH",
+    "beschaeftigte": "etwa 80",
+    "stand": "2014",
+    "quelle": "de.wikipedia.org, Artikel Plauen, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Plauen hat 65.599 Einwohner und liegt bei 915 €/m² Kauf und 5,69 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei -4,0 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel 2026 (Fortschreibung zum Stichtag 01.09.2025 des Mietspiegels 2024, am 17.03.2026 von der Arbeitsgruppe als qualifiziert anerkannt)",
+    "art": "qualifiziert",
+    "gueltigkeit": "Enddatum nicht angegeben",
+    "link": "https://www.plauen.de/B%C3%BCrgerservice/Mietspiegel/"
+   },
+   "gutachter": {
+    "wert_eur_m2": 784,
+    "segment": "Weiterverkauf ETW, Baujahresgruppe bis 1949 saniert, Mittelwert (Median 697 €/m²), bereinigt um Verkäufe < 200 €/m². Kein Gesamtwert über alle Baujahre; Baujahr ab 1991: Mittel 950 €/m², Median 896 €/m², 156 Fälle",
+    "bericht": "Gutachterausschuss für Grundstückswerte im Vogtlandkreis, Grundstücksmarktbericht Vogtlandkreis 2025 (Berichtszeitraum 2023/2024), Tab. 64",
+    "jahr": "2023/2024",
+    "kauffaelle": 373,
+    "kauffaelle_hinweis": "Stichprobengröße 373 im Segment bis 1949 saniert, Auswertung 2023 bis 2024",
+    "gebiet": "Stadt Plauen (Gemeindezeile im Bericht des Vogtlandkreises)",
+    "link": "https://www.vogtlandkreis.de/media/custom/3434_6169_1.PDF"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Sachsen: Sächsisches Zweckentfremdungsverbotsgesetz, in Kraft seit 19.03.2024, erlaubt Gemeinden eine Satzung. Für Plauen wurde keine Satzung gefunden (Websuche ohne Treffer).",
+    "link": "https://www.bauen-wohnen.sachsen.de/zweckentfremdungsverbot-4385.html"
+   },
+   "leerstand": {
+    "quote_prozent": 13.3,
+    "leerstehende_wohnungen": 5493,
+    "wohnungen": 41283,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "hinweis": "Quote aus 4000W-0001 (WHG009); Anzahlen aus 4000W-3002 (Wohngebäude ohne Wohnheime, Wohnungen insgesamt inkl. 89 Ferien- und Freizeitwohnungen). Nachgerechnete Quote aus den Anzahlen weicht wegen Geheimhaltungsverfahren leicht ab",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": -4.0,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Plauen (im Vogtlandkreis): 64010 (2020) auf 61460 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+plauen+2020-2040+tabelle)"
+   },
+   "kaufwert_quelle": "immoportal 669, homeday 1.000, miete-aktuell 1.076, Gutachterausschuss keine Angabe",
+   "vergleich": {
+    "kauf_portale": 915,
+    "gutachter": 784,
+    "abweichung_prozent": 16.7,
+    "text": "Kaufmittel 915 €/m² liegt 16,7 % über dem Gutachterwert 784 €/m² (2023/2024, Stadt Plauen (Gemeindezeile im Bericht des Vogtlandkreises), Segment: Weiterverkauf ETW, Baujahresgruppe bis 1949 saniert, Mittelwert (Median 697 €/m²), bereinigt um Verkäufe < 200 €/m². Kein Gesamtwert über alle Baujahre; Baujahr ab 1991: Mittel 950 €/m², Median 896 €/m², 156 Fälle); Angebotspreise gegen Kaufpreise und teils nur ein Baujahres-Segment, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "goerlitz",
+  "name": "Görlitz",
+  "land": "Sachsen",
+  "ags": "14626110",
+  "einwohner": 55186,
+  "kauf": 1199,
+  "miete": 6.55,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 971, homeday 1.300, miete-aktuell 1.326, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 6,39, miete-aktuell 6,44, miet-check 6,83. homeday 5,5 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 1.4,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Görlitz (im Landkreis Görlitz): 55780 (2020) auf 56560 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+goerlitz-gr+2020-2040+tabelle)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Sächsische Mietpreisbegrenzungsverordnung (in Kraft seit 1.1.2026, bis 30.6.2027) und Sächsische Kappungsgrenzen-Verordnung vom 10.6.2025 (bis 30.6.2027): nur Dresden und Leipzig, nicht gelistet",
+  "ortspruefung": {
+   "plz": "02826",
+   "landkreis": "Görlitz",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/goerlitz",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/goerlitz",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/goerlitz",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/goerlitz?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Goerlitz/Goerlitz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Goerlitz/Goerlitz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/goerlitz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": [
+   {
+    "name": "Software Quality Systems AG, Standort Görlitz",
+    "beschaeftigte": "über 200",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel G%C3%B6rlitz, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Görlitz hat 55.186 Einwohner und liegt bei 1.199 €/m² Kauf und 6,55 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +1,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel 2024 (erster qualifizierter Mietspiegel, vom Stadtrat anerkannt)",
+    "art": "qualifiziert",
+    "gueltigkeit": "ab 01.11.2024 (Enddatum nicht angegeben)",
+    "link": "https://www.goerlitz.de/Mietspiegel.html"
+   },
+   "gutachter": {
+    "wert_eur_m2": null,
+    "segment": null,
+    "bericht": "Grundstücksmarktbericht Freistaat Sachsen 2025 (Oberer Gutachterausschuss), Abb. 6.5.1-1 und Tab. 6.5.2-1; Landkreis Görlitz veröffentlicht keinen eigenen Marktbericht online",
+    "jahr": 2024,
+    "kauffaelle": 303,
+    "kauffaelle_hinweis": "303 Erwerbsvorgänge Wohnungseigentum 2024 im gesamten Landkreis Görlitz (alle Arten). Preis null: in Abb. 6.5.1-1 für LK Görlitz keine Angabe",
+    "gebiet": "Landkreis Görlitz",
+    "link": "https://sidas8.extranet.sachsen.de/public/download-shares/o4YQKyap6fRanckyzU2er9HPF3rOAOiY"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "Sachsen: Sächsisches Zweckentfremdungsverbotsgesetz, in Kraft seit 19.03.2024, erlaubt Gemeinden eine Satzung. Für Görlitz wurde keine Satzung gefunden (Websuche ohne Treffer).",
+    "link": "https://www.bauen-wohnen.sachsen.de/zweckentfremdungsverbot-4385.html"
+   },
+   "leerstand": {
+    "quote_prozent": 13.0,
+    "leerstehende_wohnungen": 4568,
+    "wohnungen": 35143,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "hinweis": "Quote aus 4000W-0001 (WHG009); Anzahlen aus 4000W-3002 (Wohngebäude ohne Wohnheime, Wohnungen insgesamt inkl. 78 Ferien- und Freizeitwohnungen). Nachgerechnete Quote aus den Anzahlen weicht wegen Geheimhaltungsverfahren leicht ab",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 1.4,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Görlitz (im Landkreis Görlitz): 55780 (2020) auf 56560 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+goerlitz-gr+2020-2040+tabelle)"
+   },
+   "kaufwert_quelle": "immoportal 971, homeday 1.300, miete-aktuell 1.326, Gutachterausschuss keine Angabe",
+   "vergleich": null
+  }
+ }
+]
