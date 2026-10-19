@@ -1,0 +1,107 @@
+{
+ "id": "oelsnitz-vogtl",
+ "name": "Oelsnitz/Vogtl.",
+ "land": "Sachsen",
+ "ags": "14523300",
+ "einwohner": 10062,
+ "kauf": 661,
+ "miete": 5.99,
+ "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 564, homeday 800, Gutachterausschuss Vogtlandkreis (Gemeindewert) 619 (Grundstücksmarktbericht Vogtlandkreis 2025, Tab. 64, Weiterverkäufe Eigentumswohnungen 2023 bis 2024, Mittel aus 20 Kauffällen, gewichtet nach Baujahresgruppen). Ort/PLZ geprüft: homeday, immoportal.",
+ "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 6,14, miet-check 5,85. homeday 5,1 (nur daneben).",
+ "score": "rot",
+ "prognose": {
+  "wert_pct": -15.6,
+  "basisjahr": 2020,
+  "zieljahr": 2040,
+  "ebene": "Gemeinde",
+  "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Oelsnitz / Vogtland (im Vogtlandkreis): 10050 (2020) auf 8480 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+oelsnitz-vogtland+2020-2040+tabelle)"
+ },
+ "mpb": false,
+ "kappung": 20,
+ "mpbQuelle": "Sächsische Mietpreisbegrenzungsverordnung (in Kraft seit 1.1.2026, bis 30.6.2027) und Sächsische Kappungsgrenzen-Verordnung vom 10.6.2025 (bis 30.6.2027): nur Dresden und Leipzig, nicht gelistet",
+ "ortspruefung": {
+  "plz": "08606",
+  "landkreis": "Vogtlandkreis",
+  "gesamt": "bestätigt",
+  "quellen": [
+   {
+    "quelle": "immoportal Kauf",
+    "pfad": "https://www.immoportal.com/immobilienpreise/oelsnitz-vogtl",
+    "ergebnis": "Nachbarorte passen",
+    "methode": "Nachbarorte passen (Landkreis, 8 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+   },
+   {
+    "quelle": "immoportal Miete",
+    "pfad": "https://www.immoportal.com/mietspiegel/oelsnitz-vogtl",
+    "ergebnis": "Nachbarorte passen",
+    "methode": "Nachbarorte passen (Landkreis, 8 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+   },
+   {
+    "quelle": "homeday Kauf",
+    "pfad": "https://www.homeday.de/de/preisatlas/oelsnitz+vogtl",
+    "ergebnis": "Nachbarorte passen",
+    "methode": "Nachbarorte passen (Landkreis, 10 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+   },
+   {
+    "quelle": "homeday Miete",
+    "pfad": "https://www.homeday.de/de/preisatlas/oelsnitz+vogtl?marketing_type=rent&property_type=apartment",
+    "ergebnis": "Nachbarorte passen",
+    "methode": "Nachbarorte passen (Landkreis, 10 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+   },
+   {
+    "quelle": "miet-check Miete",
+    "pfad": "https://www.miet-check.de/mietspiegel/oelsnitz_vogtland/",
+    "ergebnis": "bestätigt",
+    "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+   }
+  ],
+  "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+ },
+ "arbeitgeber": null,
+ "fazit": "Oelsnitz/Vogtl. hat 10.062 Einwohner und liegt bei 661 €/m² Kauf und 5,99 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei -15,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel rot mit Prognose-Deckel.",
+ "offen": [
+  "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+  "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+  "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+  "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+  "Lokale Vorwerte der Datenbank (Leerstand 12,3 %, Prognose minus 17,4 %, Angebotsmiete 6,00 €/m²) nicht übernommen, sondern unabhängig belegt: Prognose hier Bertelsmann 2020 bis 2040 (minus 15,6 %), weil das Datenblatt des Statistischen Landesamts Sachsen nicht abrufbar war; Leerstand nicht erhoben"
+ ],
+ "kauffaelleGutachter": {
+  "kauffaelle_wohnungs_und_teileigentum_2023_2024": 43,
+  "weiterverkauf_eigentumswohnungen_2023_2024": [
+   {
+    "baujahr": "bis 1949, saniert",
+    "mittel_eur_m2": 633,
+    "median_eur_m2": 555,
+    "anzahl": 10,
+    "wohnflaeche_m2": 58
+   },
+   {
+    "baujahr": "1950 bis 1975, saniert",
+    "mittel_eur_m2": 516,
+    "median_eur_m2": 538,
+    "anzahl": 7,
+    "wohnflaeche_m2": 62
+   },
+   {
+    "baujahr": "1976 bis 1990, saniert (Plattenbau)",
+    "mittel_eur_m2": 508,
+    "median_eur_m2": null,
+    "anzahl": 1,
+    "wohnflaeche_m2": 59,
+    "hinweis": "geringe Stichprobe"
+   },
+   {
+    "baujahr": "ab 1991",
+    "mittel_eur_m2": 967,
+    "median_eur_m2": 967,
+    "anzahl": 2,
+    "wohnflaeche_m2": 66,
+    "hinweis": "geringe Stichprobe"
+   }
+  ],
+  "umwandlungen": "Umwandlungen zu Eigentumswohnungen (Kernsanierung, Baujahr bis 1949) wurden 2023 bis 2024 unter anderem in Oelsnitz/Vogtl. erfasst",
+  "fazit": "Es wird gekauft, aber wenig: 43 Erwerbsvorgänge im Teilmarkt Wohnungs- und Teileigentum in zwei Jahren, davon 20 auswertbare Weiterverkäufe von Eigentumswohnungen. Das Preisniveau liegt bei rund 500 bis 650 €/m² für sanierten Altbau und Altneubau, bei rund 970 €/m² für Bauten ab 1991 (2 Fälle).",
+  "quelle": "Gutachterausschuss für Grundstückswerte im Vogtlandkreis, Grundstücksmarktbericht 2025 (Stand 08.12.2025, Auswertungszeitraum 2023 bis 2024), Tabelle Erwerbsvorgänge nach Gemeinden und Tab. 64 Kaufpreise für Eigentumswohnungen nach Gemeinden, Weiterverkauf: https://www.vogtlandkreis.de/media/custom/3434_6169_1.PDF"
+ }
+}
