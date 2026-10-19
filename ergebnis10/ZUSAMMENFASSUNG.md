@@ -7,7 +7,7 @@ Dateien: `ergebnis10/lieferung-01.json` bis `lieferung-02.json`. Branch: `claude
 - gesamt: grün 51, gelb 44, rot 0, unbewertet 0
 - Niedersachsen: grün 25, gelb 18, rot 0, unbewertet 0
 - Schleswig-Holstein: grün 26, gelb 26, rot 0, unbewertet 0
-- rot wegen Prognose-Deckel: 1
+- Ampel durch Prognose-Deckel begrenzt (gelb oder rot): 1
 
 ## Unbewertete Orte (0)
 

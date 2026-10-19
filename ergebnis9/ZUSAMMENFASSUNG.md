@@ -5,7 +5,7 @@ Dateien: `ergebnis9/lieferung-01.json` bis `lieferung-03.json`. Branch: `claude/
 ## Ampel
 
 - gesamt: grün 68, gelb 70, rot 8, unbewertet 2
-- rot wegen Prognose-Deckel: 20
+- Ampel durch Prognose-Deckel begrenzt (gelb oder rot): 20
 
 ## Unbewertete Orte (2)
 
