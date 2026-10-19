@@ -134,12 +134,6 @@
      "pfad": "https://www.ohne-makler.net/mietspiegel/bayern/mittelstetten/",
      "ergebnis": "bestätigt",
      "methode": "Landkreis auf der Seite genannt"
-    },
-    {
-     "quelle": "Engel & Völkers Kauf",
-     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/mittelstetten",
-     "ergebnis": "bestätigt",
-     "methode": "Landkreis auf der Seite genannt"
     }
    ],
    "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
@@ -210,12 +204,6 @@
      "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/rettenbach",
      "ergebnis": "nicht bestätigt, Wert entfernt",
      "methode": "nicht eindeutig bestätigt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
-    },
-    {
-     "quelle": "ohne-makler.net Miete",
-     "pfad": "https://www.ohne-makler.net/mietspiegel/bayern/rettenbach/",
-     "ergebnis": "bestätigt",
-     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
     }
    ],
    "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
@@ -1413,12 +1401,6 @@
      "pfad": "https://www.miet-check.de/mietspiegel/rammingen_schwaben/",
      "ergebnis": "bestätigt",
      "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
-    },
-    {
-     "quelle": "ohne-makler.net Miete",
-     "pfad": "https://www.ohne-makler.net/mietspiegel/bayern/rammingen/",
-     "ergebnis": "bestätigt",
-     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
     }
    ],
    "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
@@ -2426,7 +2408,7 @@
   "einwohner": 1513,
   "kauf": 3638,
   "miete": 10.4,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.950, ohne-makler.net 3.564 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.400 (Wiederverkäufe ETW 2025). miete-aktuell 6.306 (nicht gewertet: über 150 % des Medians der übrigen Quellen). Ort/PLZ geprüft: homeday, ohne-makler.net.",
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.950, ohne-makler.net 3.564 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 3.400 (Wiederverkäufe ETW 2025). miete-aktuell 6.306 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday, ohne-makler.net.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,00, miet-check 11,80. homeday 9,3 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -2495,7 +2477,7 @@
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
-   "Kauf miete-aktuell 6.306 nicht gewertet: über 150 % des Medians der übrigen Quellen",
+   "Kauf miete-aktuell 6.306 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
    "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
    "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
@@ -2508,9 +2490,9 @@
   "land": "Bayern",
   "ags": "09181143",
   "einwohner": 1522,
-  "kauf": 4050,
+  "kauf": 4226,
   "miete": 12.81,
-  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.050, miete-aktuell 4.699, Gutachterausschuss Bayern (Kreiswert) 4.400 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "kaufQuellen": "Mittel aus 4 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.050, miete-aktuell 4.699, Engel & Völkers 4.755 (Ersatz), Gutachterausschuss Bayern (Kreiswert) 4.400 (Wiederverkäufe ETW 2025). Ort/PLZ geprüft: Engel & Völkers, homeday, miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 12,03, miet-check 13,59. homeday 9,3 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -2563,16 +2545,25 @@
      "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/unterdiessen",
      "ergebnis": "bestätigt",
      "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "Engel & Völkers Kauf",
+     "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/unterdiessen",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
     }
    ],
    "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
   },
   "arbeitgeber": null,
-  "fazit": "Unterdießen hat 1.522 Einwohner und liegt bei 4.050 €/m² Kauf und 12,81 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +2,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "fazit": "Unterdießen hat 1.522 Einwohner und liegt bei 4.226 €/m² Kauf und 12,81 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2024 bis 2038 liegt bei +2,3 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle Engel & Völkers genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: Engel & Völkers",
    "Gutachterwert ist Kreiswert, kein Gemeindewert",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
    "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
   ]
  },
@@ -3075,7 +3066,7 @@
   "einwohner": 1452,
   "kauf": 1725,
   "miete": 11.07,
-  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.725, Gutachterausschuss Bayern (Kreiswert) 3.400 (Wiederverkäufe ETW 2025, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). homeday 3.100 (nicht gewertet: mehr als 50 % über der nächsten Quelle). Ort/PLZ geprüft: miete-aktuell.",
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.725, Gutachterausschuss Bayern (Kreiswert) 3.400 (Wiederverkäufe ETW 2025, nicht gewertet: Abweichung über 40 % vom Median der Portalwerte). homeday 3.100 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: miete-aktuell.",
   "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,98, miet-check 11,17. homeday 7,1 (nur daneben).",
   "score": "gelb",
   "prognose": {
@@ -3128,12 +3119,6 @@
      "pfad": "https://www.engelvoelkers.com/de/de/immobilienpreise/bayern/salgen",
      "ergebnis": "nicht bestätigt",
      "methode": "nicht bestätigt"
-    },
-    {
-     "quelle": "ohne-makler.net Miete",
-     "pfad": "https://www.ohne-makler.net/mietspiegel/bayern/salgen/",
-     "ergebnis": "bestätigt",
-     "methode": "Landkreis auf der Seite genannt"
     }
    ],
    "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
@@ -3143,7 +3128,7 @@
   "offen": [
    "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
    "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
-   "Kauf homeday 3.100 nicht gewertet: mehr als 50 % über der nächsten Quelle",
+   "Kauf homeday 3.100 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
    "Gutachter-Kreiswert 3.400 nicht gewertet: Abweichung über 40 % vom Median der Portalwerte",
    "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
    "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
