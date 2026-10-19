@@ -33,3 +33,17 @@ Dateien: `ergebnis9/lieferung-01.json` bis `lieferung-03.json`. Branch: `claude/
 
 - Mietpreisbremse: Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95, gültig 1.1.2026 bis 31.12.2029), 36 Gemeinden. Kappung 15 % laut Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94) für dieselben Gemeinden. Der Abgleich läuft über den Gemeindeschlüssel.
 - Prognose: Bevölkerungsvorausschätzung 2024 bis 2040 des Landesamts für Bauen und Verkehr und des Amts für Statistik Berlin-Brandenburg, Tabellenanhang, mittlere Variante, Entwicklung 2023 bis 2040. Werte gibt es für amtsfreie Gemeinden. Bei amtsangehörigen Gemeinden ist der Wert des Amts angegeben, mit Ebene im Feld `prognose.ebene`.
+
+## Zusatzort Oelsnitz/Vogtl. (Sachsen, ags 14523300)
+
+Eigene Datei: `ergebnis9/oelsnitz-vogtl.json`. Nicht verwechselt mit Oelsnitz/Erzgeb. (14521450). Die Seiten sind über Nachbarorte im Vogtlandkreis bestätigt.
+
+- Kauf 661 €/m², Miete 5,99 €/m², Ampel rot mit Prognose-Deckel. Die Prognose der Bertelsmann Stiftung für 2020 bis 2040 liegt bei minus 15,6 %. Das Datenblatt des Statistischen Landesamts Sachsen war nicht abrufbar.
+- Keine Mietpreisbremse und Kappung 20 %. In Sachsen gelten beide Regeln nur für Dresden und Leipzig.
+- Wird dort gekauft? Ja, aber wenig. Der Grundstücksmarktbericht 2025 des Gutachterausschusses im Vogtlandkreis (Auswertung 2023 bis 2024) zählt 43 Erwerbsvorgänge im Teilmarkt Wohnungs- und Teileigentum. Die Weiterverkäufe von Eigentumswohnungen (Tab. 64) verteilen sich so:
+  - bis 1949, saniert: 633 €/m² im Mittel (Median 555), 10 Fälle
+  - 1950 bis 1975: 516 €/m² (Median 538), 7 Fälle
+  - 1976 bis 1990: 508 €/m², 1 Fall
+  - ab 1991: 967 €/m², 2 Fälle
+  
+  Quelle: https://www.vogtlandkreis.de/media/custom/3434_6169_1.PDF. Der daraus gewichtete Gemeindewert von 619 €/m² geht als vierte Quelle in den Kaufpreis ein.
