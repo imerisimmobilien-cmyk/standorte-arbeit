@@ -1,0 +1,253 @@
+[
+ {
+  "id": "loerrach-brombach",
+  "name": "Brombach (Lörrach)",
+  "land": "Baden-Württemberg",
+  "ags": "08336050",
+  "gemeinde": "Lörrach",
+  "ortsteil": "Brombach",
+  "einwohner": 7033,
+  "einwohnerQuelle": "Stadt Lörrach, Seite Ortsteil Brombach: \"Brombach ist mit 7.033 Einwohnern (zum Stichtag 31.12.2025) der größte Ortsteil von Lörrach\", https://www.loerrach.de/Brombach, Stand 2025-12-31",
+  "koordinate": {
+   "lat": 47.62726,
+   "lon": 7.70673,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 1412291 (\"Brombach\", boundary=administrative), https://www.openstreetmap.org/relation/1412291, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 3868,
+  "miete": 14.62,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.868, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): immoportal 14,62. homeday 12,1 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 2.5,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Lörrach (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Lörrach (im Landkreis Lörrach): 49300 (2020) auf 50530 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+loerrach-loe+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79541"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/loerrach/brombach",
+     "wert": 3868.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/loerrach/brombach",
+     "wert": 14.62,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/loerrach/brombach+79541",
+     "wert": 3950.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/loerrach/brombach+79541?marketing_type=rent&property_type=apartment",
+     "wert": 12.1,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell und miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Brombach (Lörrach) hat 7.033 Einwohner und liegt bei 3.868 €/m² Kauf und 14,62 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +2,5 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ]
+ },
+ {
+  "id": "loerrach-haagen",
+  "name": "Haagen (Lörrach)",
+  "land": "Baden-Württemberg",
+  "ags": "08336050",
+  "gemeinde": "Lörrach",
+  "ortsteil": "Haagen",
+  "einwohner": 4511,
+  "einwohnerQuelle": "Stadt Lörrach, Seite Ortsteil Haagen: \"Die Einwohnerzahl liegt derzeit bei 4.511 (zum Stichtag 31.12.2025)\", https://www.loerrach.de/Haagen, Stand 2025-12-31",
+  "koordinate": {
+   "lat": 47.64284,
+   "lon": 7.67859,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 1414646 (\"Haagen\", boundary=administrative), https://www.openstreetmap.org/relation/1414646, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 3646,
+  "miete": null,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.646, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal.",
+  "mieteQuellen": "keine Angabe. homeday 12,1 (nur daneben).",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": 2.5,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Lörrach (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Lörrach (im Landkreis Lörrach): 49300 (2020) auf 50530 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+loerrach-loe+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79541"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/loerrach/haagen",
+     "wert": 3646.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/loerrach/haagen",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/loerrach/haagen",
+     "wert": 3950.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/loerrach/haagen?marketing_type=rent&property_type=apartment",
+     "wert": 12.1,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell und miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Haagen (Lörrach) hat 4.511 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose: +2,5 %, Mietpreisbremse gilt (Kappung 15 %). Rendite {R} % und Faktor {F} ungeprüft.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ]
+ },
+ {
+  "id": "muellheim-niederweiler",
+  "name": "Niederweiler (Müllheim im Markgräflerland)",
+  "land": "Baden-Württemberg",
+  "ags": "08315074",
+  "gemeinde": "Müllheim im Markgräflerland",
+  "ortsteil": "Niederweiler",
+  "einwohner": 1420,
+  "einwohnerQuelle": "Stadt Müllheim im Markgräflerland, Stadtinfos, Abschnitt Einwohnerzahlen (Stand: 31.12.2023 / Meldeamt Stadt Müllheim i. M.): \"1.420 Ortsteil Niederweiler\", https://www.muellheim.de/buerger-infos/stadtinfos/; neuerer amtlicher Ortsteilwert nicht gefunden, Stand 2023-12-31",
+  "koordinate": {
+   "lat": 47.80208,
+   "lon": 7.66082,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 311921 (\"Niederweiler\", boundary=administrative), https://www.openstreetmap.org/relation/311921, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 3350,
+  "miete": null,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.350, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "keine Angabe. homeday 10,5 (nur daneben).",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": 5.5,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Müllheim im Markgräflerland (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Müllheim im Markgräflerland (im Landkreis Breisgau-Hochschwarzwald): 19120 (2020) auf 20170 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+muellheim-im-markgraeflerland+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: nicht gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79379"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/muellheim/niederweiler",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/muellheim/niederweiler",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/muellheim/niederweiler",
+     "wert": 3350.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/muellheim/niederweiler?marketing_type=rent&property_type=apartment",
+     "wert": 10.5,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell und miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseiten"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Niederweiler (Müllheim im Markgräflerland) hat 1.420 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose: +5,5 %, keine Mietpreisbremse (Kappung 20 %). Rendite {R} % und Faktor {F} ungeprüft.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ]
+ }
+]

@@ -1,0 +1,4103 @@
+[
+ {
+  "id": "freiburg-altstadt",
+  "name": "Altstadt (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Altstadt",
+  "stadtteil_nr": 11,
+  "stadtbezirke": [
+   "111 Altstadt-Mitte",
+   "112 Altstadt-Ring"
+  ],
+  "einwohner": 7770,
+  "koordinate": {
+   "lat": 47.994544,
+   "lon": 7.848152,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 5986,
+  "miete": 14.36,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.986, Gutachterausschuss Freiburg (Stadtwert) 4.987 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 14,28, miet-check 14,45.",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79098"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/altstadt",
+     "wert": 5986.0,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/altstadt",
+     "wert": 14.28,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": null,
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseite"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": null,
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseite"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 14.45,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Altstadt der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79098, 79104) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Altstadt (Freiburg im Breisgau) hat 7.770 Einwohner und liegt bei 5.986 €/m² Kauf und 14,36 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.987 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 7770,
+    "stichtag": "31.12.2024",
+    "vor5": 7570,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 2.6,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S3/S4": 0.93,
+     "S2": 0.06,
+     "ohne_lageklasse": 0.01
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [
+     {
+      "titel": "Erhaltungssatzung für den Bereich der südöstlichen Altstadt",
+      "datum": "1987-12-01",
+      "flaechenanteil_im_stadtteil": 1.0,
+      "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1310468127/freiburg/daten/ortsrecht/09%20Bauen%20und%20Sanieren/OrtsR_09_02_01.pdf"
+     }
+    ],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 7770,
+    "vorausrechnung_2034": 7629,
+    "veraenderung_prozent_berechnet": -1.8,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "Bertoldsbrunnen",
+      "linien": [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30100"
+     },
+     {
+      "haltestelle": "Erbprinzenstraße",
+      "linien": [
+       "5"
+      ],
+      "stop_id": "Parentde:08311:30114"
+     },
+     {
+      "haltestelle": "Europaplatz",
+      "linien": [
+       "3",
+       "5"
+      ],
+      "stop_id": "Parentde:08311:30101"
+     },
+     {
+      "haltestelle": "Fahnenbergplatz",
+      "linien": [
+       "5"
+      ],
+      "stop_id": "Parentde:08311:30105"
+     },
+     {
+      "haltestelle": "Hauptbahnhof",
+      "linien": [
+       "1",
+       "2",
+       "3",
+       "4",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:6508"
+     },
+     {
+      "haltestelle": "Holzmarkt",
+      "linien": [
+       "2",
+       "4"
+      ],
+      "stop_id": "Parentde:08311:30103"
+     },
+     {
+      "haltestelle": "Oberlinden",
+      "linien": [
+       "1"
+      ],
+      "stop_id": "Parentde:08311:30118"
+     },
+     {
+      "haltestelle": "Schwabentorplatz",
+      "linien": [
+       "1"
+      ],
+      "stop_id": "Parentde:08311:30124"
+     },
+     {
+      "haltestelle": "Stadttheater",
+      "linien": [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30106"
+     }
+    ],
+    "stadtbahn_linien": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "SC"
+    ],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Soziale Erhaltungssatzung in Kraft (Erhaltungssatzung für den Bereich der südöstlichen Altstadt vom 1987-12-01, 100 % der Satzungsfläche im Stadtteil); dort Genehmigungsvorbehalt für Modernisierung, Rückbau und Umwandlung in Wohnungseigentum (Landesverordnung bis 18.11.2028). Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-neuburg",
+  "name": "Neuburg (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Neuburg",
+  "stadtteil_nr": 12,
+  "stadtbezirke": [
+   "120 Neuburg"
+  ],
+  "einwohner": 5567,
+  "koordinate": {
+   "lat": 47.999511,
+   "lon": 7.860016,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 6032,
+  "miete": 14.61,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 6.032, Gutachterausschuss Freiburg (Stadtwert) 4.987 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 14,92, miet-check 14,29.",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79098",
+    "79104",
+    "79106"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/neuburg",
+     "wert": 6032.0,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/neuburg",
+     "wert": 14.92,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": null,
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseite"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": null,
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseite"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 14.29,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Neuburg der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79098, 79104, 79106) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Neuburg (Freiburg im Breisgau) hat 5.567 Einwohner und liegt bei 6.032 €/m² Kauf und 14,61 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.987 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 5567,
+    "stichtag": "31.12.2024",
+    "vor5": 4900,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 13.6,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S3/S4": 0.735,
+     "S2": 0.099,
+     "S1": 0.088,
+     "ohne_lageklasse": 0.078
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 5567,
+    "vorausrechnung_2034": 5600,
+    "veraenderung_prozent_berechnet": 0.6,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "Tennenbacher Straße",
+      "linien": [
+       "3"
+      ],
+      "stop_id": "Parentde:08311:30102"
+     }
+    ],
+    "stadtbahn_linien": [
+     "3"
+    ],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [
+    {
+     "hochschule": "Albert-Ludwigs-Universität Freiburg",
+     "studierende_ws_2024_25": 24048,
+     "studierende_ws_2025_26_eigene_angabe": 24507,
+     "quelle_ws_2025_26": "https://uni-freiburg.de/wp-content/uploads/Uni_Freiburg_Studierendenstatistik_Wintersemester_25_26.pdf (Kopfstatistik, Stand 01.12.2025)",
+     "adresse": "Friedrichstraße 39, 79098 Freiburg",
+     "adresse_quelle": "https://uni-freiburg.de/impressum/",
+     "stadtteil": "Neuburg",
+     "stadtbezirk": "120 Neuburg",
+     "hinweis": "Einrichtungen über mehrere Stadtteile verteilt; Stadtteil bezieht sich auf die Impressumsadresse"
+    }
+   ],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-zaehringen",
+  "name": "Zähringen (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Zähringen",
+  "stadtteil_nr": 22,
+  "stadtbezirke": [
+   "220 Zähringen"
+  ],
+  "einwohner": 9441,
+  "koordinate": {
+   "lat": 48.023871,
+   "lon": 7.869397,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 5147,
+  "miete": 15.41,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.555, homeday 4.900, Gutachterausschuss Freiburg (Stadtwert) 4.987 (Wiederverkauf Eigentumswohnungen 2025, Stadtgebiet ohne Tuniberg und Hochdorf). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 16,39, miet-check 14,42. homeday 13,7 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79104",
+    "79108"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/zaehringen",
+     "wert": 5555.0,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/zaehringen",
+     "wert": 16.39,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/z%C3%A4hringen",
+     "wert": 4900.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/z%C3%A4hringen?marketing_type=rent&property_type=apartment",
+     "wert": 13.7,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 14.42,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Zähringen der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79104, 79108) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Zähringen (Freiburg im Breisgau) hat 9.441 Einwohner und liegt bei 5.147 €/m² Kauf und 15,41 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Stadtwert ohne Tuniberg und Hochdorf, kein Stadtteilwert (Stadtteilwerte nur im kostenpflichtigen Bericht)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 9441,
+    "stichtag": "31.12.2024",
+    "vor5": 9247,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 2.1,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S3/S4": 0.495,
+     "S2": 0.376,
+     "S1": 0.101,
+     "S0": 0.021,
+     "ohne_lageklasse": 0.008
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [
+     {
+      "titel": "Soziale Erhaltungssatzung \"Brühl/Zähringen, beiderseits der Zähringer Straße\"",
+      "status": "Aufstellungsbeschluss, laut Geoportal am 19.10.2026 weiterhin im Verfahren, nicht im Ortsrecht",
+      "link": "https://geoportal.freiburg.de/files/satzungsgebiete/G_22_200.pdf"
+     }
+    ],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 9441,
+    "vorausrechnung_2034": 10122,
+    "veraenderung_prozent_berechnet": 7.2,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "Berggasse",
+      "linien": [
+       "2",
+       "3"
+      ],
+      "stop_id": "Parentde:08311:30431"
+     },
+     {
+      "haltestelle": "Glottertalstraße",
+      "linien": [
+       "2",
+       "3"
+      ],
+      "stop_id": "Parentde:08311:30432"
+     },
+     {
+      "haltestelle": "Reutebachgasse",
+      "linien": [
+       "2",
+       "3"
+      ],
+      "stop_id": "Parentde:08311:30202"
+     },
+     {
+      "haltestelle": "Tullastraße",
+      "linien": [
+       "2",
+       "3"
+      ],
+      "stop_id": "Parentde:08311:30201"
+     }
+    ],
+    "stadtbahn_linien": [
+     "2",
+     "3"
+    ],
+    "bahnhoefe": [
+     {
+      "station": "Freiburg Zähringen Bahnhof",
+      "sbahn_linien": [
+       "S2"
+      ],
+      "weitere_linien_gtfs": [
+       "RB26",
+       "RB27",
+       "RE7"
+      ],
+      "lat": 48.024513,
+      "lon": 7.863906
+     }
+    ],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Im Verfahren: Soziale Erhaltungssatzung \"Brühl/Zähringen, beiderseits der Zähringer Straße\". Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-hochdorf",
+  "name": "Hochdorf (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Hochdorf",
+  "stadtteil_nr": 24,
+  "stadtbezirke": [
+   "240 Hochdorf"
+  ],
+  "einwohner": 5308,
+  "koordinate": {
+   "lat": 48.049994,
+   "lon": 7.813834,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 4900,
+  "miete": 14.03,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.900, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 14,03. homeday 13,7 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79108"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/hochdorf",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/hochdorf",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/hochdorf",
+     "wert": 4900.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/hochdorf?marketing_type=rent&property_type=apartment",
+     "wert": 13.7,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 14.03,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Hochdorf der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79108) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Hochdorf (Freiburg im Breisgau) hat 5.308 Einwohner und liegt bei 4.900 €/m² Kauf und 14,03 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: Stadtwert gilt ohne Tuniberg-Ortschaften und Hochdorf, daher für diesen Stadtteil nicht angesetzt; Stadtteilwerte nur im kostenpflichtigen Bericht",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 5308,
+    "stichtag": "31.12.2024",
+    "vor5": 5273,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 0.7,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "TH2": 0.782,
+     "TH0/TH1": 0.201,
+     "ohne_lageklasse": 0.018
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": null,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 5308,
+    "vorausrechnung_2034": 5218,
+    "veraenderung_prozent_berechnet": -1.7,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [],
+    "stadtbahn_linien": [],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-waldsee",
+  "name": "Waldsee (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Waldsee",
+  "stadtteil_nr": 31,
+  "stadtbezirke": [
+   "310 Waldsee"
+  ],
+  "einwohner": 5973,
+  "koordinate": {
+   "lat": 47.992729,
+   "lon": 7.889433,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 5021,
+  "miete": 13.9,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.177, homeday 4.900, Gutachterausschuss Freiburg (Stadtwert) 4.987 (Wiederverkauf Eigentumswohnungen 2025, Stadtgebiet ohne Tuniberg und Hochdorf). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 13,46, miet-check 14,34. homeday 14,2 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79102",
+    "79104",
+    "79117"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/waldsee",
+     "wert": 5177.0,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/waldsee",
+     "wert": 13.46,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/waldsee",
+     "wert": 4900.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/waldsee?marketing_type=rent&property_type=apartment",
+     "wert": 14.2,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 14.34,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Waldsee der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79102, 79104, 79117) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Waldsee (Freiburg im Breisgau) hat 5.973 Einwohner und liegt bei 5.021 €/m² Kauf und 13,90 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Stadtwert ohne Tuniberg und Hochdorf, kein Stadtteilwert (Stadtteilwerte nur im kostenpflichtigen Bericht)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 5973,
+    "stichtag": "31.12.2024",
+    "vor5": 5908,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 1.1,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S3/S4": 0.934,
+     "S2": 0.033,
+     "ohne_lageklasse": 0.032
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 5973,
+    "vorausrechnung_2034": 5803,
+    "veraenderung_prozent_berechnet": -2.8,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "Emil-Gött-Straße",
+      "linien": [
+       "1"
+      ],
+      "stop_id": "Parentde:08311:30303"
+     },
+     {
+      "haltestelle": "Hasemannstraße",
+      "linien": [
+       "1"
+      ],
+      "stop_id": "Parentde:08311:30302"
+     },
+     {
+      "haltestelle": "Laßbergstraße",
+      "linien": [
+       "1"
+      ],
+      "stop_id": "Parentde:08311:30300"
+     },
+     {
+      "haltestelle": "Römerhof",
+      "linien": [
+       "1"
+      ],
+      "stop_id": "Parentde:08311:30301"
+     }
+    ],
+    "stadtbahn_linien": [
+     "1"
+    ],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-littenweiler",
+  "name": "Littenweiler (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Littenweiler",
+  "stadtteil_nr": 32,
+  "stadtbezirke": [
+   "320 Littenweiler"
+  ],
+  "einwohner": 8452,
+  "koordinate": {
+   "lat": 47.97558,
+   "lon": 7.893283,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 5009,
+  "miete": 13.96,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.141, homeday 4.900, Gutachterausschuss Freiburg (Stadtwert) 4.987 (Wiederverkauf Eigentumswohnungen 2025, Stadtgebiet ohne Tuniberg und Hochdorf). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): immoportal 13,96. homeday 14,2 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79117"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/littenweiler",
+     "wert": 5141.0,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/littenweiler",
+     "wert": 13.96,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/littenweiler+79117",
+     "wert": 4900.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/littenweiler+79117?marketing_type=rent&property_type=apartment",
+     "wert": 14.2,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 14.34,
+     "ergebnis": "nicht gewertet",
+     "grund": "gleicher Wert und gleiche PLZ-Liste wie Ebnet, Kappel, PLZ-Wert und nicht stadtteilgenau"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Littenweiler (Freiburg im Breisgau) hat 8.452 Einwohner und liegt bei 5.009 €/m² Kauf und 13,96 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Stadtwert ohne Tuniberg und Hochdorf, kein Stadtteilwert (Stadtteilwerte nur im kostenpflichtigen Bericht)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 8452,
+    "stichtag": "31.12.2024",
+    "vor5": 8218,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 2.8,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S3/S4": 0.606,
+     "S2": 0.345,
+     "S1": 0.025,
+     "S0": 0.015,
+     "ohne_lageklasse": 0.01
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 8452,
+    "vorausrechnung_2034": 8271,
+    "veraenderung_prozent_berechnet": -2.1,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [],
+    "stadtbahn_linien": [],
+    "bahnhoefe": [
+     {
+      "station": "Freiburg Littenweiler Bahnhof",
+      "sbahn_linien": [
+       "S1",
+       "S10",
+       "S11"
+      ],
+      "weitere_linien_gtfs": [],
+      "lat": 47.981663,
+      "lon": 7.895841
+     }
+    ],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [
+    {
+     "hochschule": "Pädagogische Hochschule Freiburg",
+     "studierende_ws_2024_25": 5039,
+     "adresse": "Kunzenweg 21, 79117 Freiburg",
+     "adresse_quelle": "https://www.ph-freiburg.de/impressum.html",
+     "stadtteil": "Littenweiler",
+     "stadtbezirk": "320 Littenweiler"
+    }
+   ],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-ebnet",
+  "name": "Ebnet (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Ebnet",
+  "stadtteil_nr": 33,
+  "stadtbezirke": [
+   "330 Ebnet"
+  ],
+  "einwohner": 3010,
+  "koordinate": {
+   "lat": 47.99689,
+   "lon": 7.915568,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 5700,
+  "miete": null,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 5.700, Gutachterausschuss Freiburg (Stadtwert) 4.987 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "keine Angabe. homeday 15,1 (nur daneben).",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79117"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/ebnet",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/ebnet",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/ebnet",
+     "wert": 5700.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/ebnet?marketing_type=rent&property_type=apartment",
+     "wert": 15.1,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 14.34,
+     "ergebnis": "nicht gewertet",
+     "grund": "gleicher Wert und gleiche PLZ-Liste wie Kappel, Littenweiler, PLZ-Wert und nicht stadtteilgenau"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Ebnet (Freiburg im Breisgau) hat 3.010 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose: +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Rendite {R} % und Faktor {F} ungeprüft.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.987 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 3010,
+    "stichtag": "31.12.2024",
+    "vor5": 2665,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 12.9,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S2": 0.554,
+     "S3/S4": 0.404,
+     "ohne_lageklasse": 0.043
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 3010,
+    "vorausrechnung_2034": 2961,
+    "veraenderung_prozent_berechnet": -1.6,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [],
+    "stadtbahn_linien": [],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-kappel",
+  "name": "Kappel (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Kappel",
+  "stadtteil_nr": 34,
+  "stadtbezirke": [
+   "340 Kappel"
+  ],
+  "einwohner": 2771,
+  "koordinate": {
+   "lat": 47.946386,
+   "lon": 7.903861,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 4900,
+  "miete": null,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.900, Gutachterausschuss Freiburg (Stadtwert) 4.987 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "keine Angabe. homeday 14,2 (nur daneben).",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79117"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/kappel",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/kappel",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/kappel",
+     "wert": 4900.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/kappel?marketing_type=rent&property_type=apartment",
+     "wert": 14.2,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 14.34,
+     "ergebnis": "nicht gewertet",
+     "grund": "gleicher Wert und gleiche PLZ-Liste wie Ebnet, Littenweiler, PLZ-Wert und nicht stadtteilgenau"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Kappel (Freiburg im Breisgau) hat 2.771 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose: +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Rendite {R} % und Faktor {F} ungeprüft.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.987 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 2771,
+    "stichtag": "31.12.2024",
+    "vor5": 2684,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 3.2,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S1": 0.518,
+     "S2": 0.397,
+     "ohne_lageklasse": 0.084
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 2771,
+    "vorausrechnung_2034": 2626,
+    "veraenderung_prozent_berechnet": -5.2,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [],
+    "stadtbahn_linien": [],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-oberau",
+  "name": "Oberau (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Oberau",
+  "stadtteil_nr": 41,
+  "stadtbezirke": [
+   "410 Oberau"
+  ],
+  "einwohner": 6754,
+  "koordinate": {
+   "lat": 47.992661,
+   "lon": 7.869362,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 5459,
+  "miete": 14.38,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.640, homeday 5.750, Gutachterausschuss Freiburg (Stadtwert) 4.987 (Wiederverkauf Eigentumswohnungen 2025, Stadtgebiet ohne Tuniberg und Hochdorf). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 14,48, miet-check 14,28. homeday 13,6 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79098",
+    "79102",
+    "79104",
+    "79117"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/oberau",
+     "wert": 5640.0,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/oberau",
+     "wert": 14.48,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/oberau",
+     "wert": 5750.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/oberau?marketing_type=rent&property_type=apartment",
+     "wert": 13.6,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 14.28,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Oberau der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79098, 79102, 79104, 79117) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Oberau (Freiburg im Breisgau) hat 6.754 Einwohner und liegt bei 5.459 €/m² Kauf und 14,38 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Stadtwert ohne Tuniberg und Hochdorf, kein Stadtteilwert (Stadtteilwerte nur im kostenpflichtigen Bericht)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 6754,
+    "stichtag": "31.12.2024",
+    "vor5": 6879,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": -1.8,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S2": 0.646,
+     "S3/S4": 0.341,
+     "ohne_lageklasse": 0.013
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 6754,
+    "vorausrechnung_2034": 6954,
+    "veraenderung_prozent_berechnet": 3.0,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "Alter Messplatz",
+      "linien": [
+       "1"
+      ],
+      "stop_id": "Parentde:08311:30305"
+     },
+     {
+      "haltestelle": "Brauerei Ganter",
+      "linien": [
+       "1"
+      ],
+      "stop_id": "Parentde:08311:30120"
+     },
+     {
+      "haltestelle": "Musikhochschule",
+      "linien": [
+       "1"
+      ],
+      "stop_id": "Parentde:08311:30304"
+     }
+    ],
+    "stadtbahn_linien": [
+     "1"
+    ],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [
+    {
+     "hochschule": "Hochschule für Musik Freiburg",
+     "studierende_ws_2024_25": 629,
+     "adresse": "Mendelssohn-Bartholdy-Platz 1, 79102 Freiburg",
+     "adresse_quelle": "https://www.mh-freiburg.de/impressum",
+     "stadtteil": "Oberau",
+     "stadtbezirk": "410 Oberau"
+    }
+   ],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-wiehre",
+  "name": "Wiehre (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Wiehre",
+  "stadtteil_nr": 42,
+  "stadtbezirke": [
+   "421 Oberwiehre",
+   "422 Mittelwiehre",
+   "423 Unterwiehre-Nord",
+   "424 Unterwiehre-Süd"
+  ],
+  "einwohner": 24702,
+  "koordinate": {
+   "lat": 47.981613,
+   "lon": 7.850441,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 5497,
+  "miete": 14.28,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.754, homeday 5.750, Gutachterausschuss Freiburg (Stadtwert) 4.987 (Wiederverkauf Eigentumswohnungen 2025, Stadtgebiet ohne Tuniberg und Hochdorf). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 14,47, miet-check 14,08. homeday 14,7 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79100",
+    "79102",
+    "79117"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/wiehre",
+     "wert": 5754.0,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/wiehre",
+     "wert": 14.47,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/wiehre",
+     "wert": 5750.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/wiehre?marketing_type=rent&property_type=apartment",
+     "wert": 14.7,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 14.08,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Wiehre der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79100, 79102, 79115, 79117) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Wiehre (Freiburg im Breisgau) hat 24.702 Einwohner und liegt bei 5.497 €/m² Kauf und 14,28 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Stadtwert ohne Tuniberg und Hochdorf, kein Stadtteilwert (Stadtteilwerte nur im kostenpflichtigen Bericht)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 24702,
+    "stichtag": "31.12.2024",
+    "vor5": 24822,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": -0.5,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S3/S4": 0.754,
+     "S2": 0.211,
+     "S1": 0.018,
+     "S0": 0.012,
+     "ohne_lageklasse": 0.005
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [
+     {
+      "titel": "Soziale Erhaltungssatzung \"Östlich der Quäkerstraße\" (Geoportal: \"Quäkerstraße\")",
+      "status": "Aufstellungsbeschluss, laut Geoportal am 19.10.2026 weiterhin im Verfahren, nicht im Ortsrecht",
+      "link": "https://geoportal.freiburg.de/files/satzungsgebiete/G-19-107.pdf"
+     }
+    ],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 24702,
+    "vorausrechnung_2034": 23967,
+    "veraenderung_prozent_berechnet": -3.0,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "H.-von-Stephan-Straße",
+      "linien": [
+       "4",
+       "5"
+      ],
+      "stop_id": "Parentde:08311:30411"
+     },
+     {
+      "haltestelle": "Holbeinstraße",
+      "linien": [
+       "2"
+      ],
+      "stop_id": "Parentde:08311:30404"
+     },
+     {
+      "haltestelle": "Johanneskirche",
+      "linien": [
+       "2",
+       "4"
+      ],
+      "stop_id": "Parentde:08311:30104"
+     },
+     {
+      "haltestelle": "Lorettostraße",
+      "linien": [
+       "2"
+      ],
+      "stop_id": "Parentde:08311:30405"
+     },
+     {
+      "haltestelle": "Maria-Hilf-Kirche",
+      "linien": [
+       "1"
+      ],
+      "stop_id": "Parentde:08311:30306"
+     },
+     {
+      "haltestelle": "Mattenstraße",
+      "linien": [
+       "5"
+      ],
+      "stop_id": "Parentde:08311:30123"
+     },
+     {
+      "haltestelle": "Peter-Thumb-Straße",
+      "linien": [
+       "4"
+      ],
+      "stop_id": "Parentde:08311:30131"
+     },
+     {
+      "haltestelle": "Reiterstraße",
+      "linien": [
+       "4"
+      ],
+      "stop_id": "Parentde:08311:30408"
+     },
+     {
+      "haltestelle": "Schwabentorbrücke",
+      "linien": [
+       "1"
+      ],
+      "stop_id": "Parentde:08311:30119"
+     },
+     {
+      "haltestelle": "Weddigenstraße",
+      "linien": [
+       "4"
+      ],
+      "stop_id": "Parentde:08311:30415"
+     }
+    ],
+    "stadtbahn_linien": [
+     "1",
+     "2",
+     "4",
+     "5"
+    ],
+    "bahnhoefe": [
+     {
+      "station": "Freiburg Wiehre Bahnhof",
+      "sbahn_linien": [
+       "S1",
+       "S10",
+       "S11"
+      ],
+      "weitere_linien_gtfs": [],
+      "lat": 47.982487,
+      "lon": 7.854734
+     }
+    ],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Im Verfahren: Soziale Erhaltungssatzung \"Östlich der Quäkerstraße\" (Geoportal: \"Quäkerstraße\"). Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-guenterstal",
+  "name": "Günterstal (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Günterstal",
+  "stadtteil_nr": 43,
+  "stadtbezirke": [
+   "430 Günterstal"
+  ],
+  "einwohner": 2165,
+  "koordinate": {
+   "lat": 47.939682,
+   "lon": 7.884541,
+   "art": "representative point, da Schwerpunkt außerhalb des Polygons des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 5750,
+  "miete": 14.69,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 5.750, Gutachterausschuss Freiburg (Stadtwert) 4.987 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 14,69. homeday 14,7 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79100"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/guenterstal",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/guenterstal",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/g%C3%BCnterstal",
+     "wert": 5750.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/g%C3%BCnterstal?marketing_type=rent&property_type=apartment",
+     "wert": 14.7,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 14.69,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Günterstal der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79100) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Günterstal (Freiburg im Breisgau) hat 2.165 Einwohner und liegt bei 5.750 €/m² Kauf und 14,69 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.987 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 2165,
+    "stichtag": "31.12.2024",
+    "vor5": 2106,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 2.8,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S3/S4": 0.61,
+     "S2": 0.368,
+     "ohne_lageklasse": 0.021
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 2165,
+    "vorausrechnung_2034": 2136,
+    "veraenderung_prozent_berechnet": -1.3,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "Dorfstraße",
+      "linien": [
+       "2"
+      ],
+      "stop_id": "Parentde:08311:30400"
+     },
+     {
+      "haltestelle": "Klosterplatz",
+      "linien": [
+       "2"
+      ],
+      "stop_id": "Parentde:08311:30401"
+     },
+     {
+      "haltestelle": "Wiesenweg",
+      "linien": [
+       "2"
+      ],
+      "stop_id": "Parentde:08311:30402"
+     },
+     {
+      "haltestelle": "Wonnhalde",
+      "linien": [
+       "2"
+      ],
+      "stop_id": "Parentde:08311:30403"
+     }
+    ],
+    "stadtbahn_linien": [
+     "2"
+    ],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-stuehlinger",
+  "name": "Stühlinger (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Stühlinger",
+  "stadtteil_nr": 51,
+  "stadtbezirke": [
+   "512 Stühlinger-Eschholz",
+   "513 Alt-Stühlinger"
+  ],
+  "einwohner": 15811,
+  "koordinate": {
+   "lat": 48.000601,
+   "lon": 7.834649,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 5350,
+  "miete": 13.52,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 5.350, Gutachterausschuss Freiburg (Stadtwert) 4.987 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 13,52. homeday 15,4 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79106",
+    "79114",
+    "79115"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/stuehlinger",
+     "wert": 5094.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Mooswald, Betzenhausen, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/stuehlinger",
+     "wert": 14.02,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Mooswald, Betzenhausen, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/st%C3%BChlinger",
+     "wert": 5350.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/st%C3%BChlinger?marketing_type=rent&property_type=apartment",
+     "wert": 15.4,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 13.52,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Stühlinger der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79106, 79114, 79115) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Stühlinger (Freiburg im Breisgau) hat 15.811 Einwohner und liegt bei 5.350 €/m² Kauf und 13,52 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.987 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 15811,
+    "stichtag": "31.12.2024",
+    "vor5": 16152,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": -2.1,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S2": 0.844,
+     "S1": 0.115,
+     "ohne_lageklasse": 0.034,
+     "S0": 0.006,
+     "S3/S4": 0.001
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [
+     {
+      "titel": "Soziale Erhaltungssatzung \"Stühlinger\"",
+      "datum": "2020-07-28",
+      "flaechenanteil_im_stadtteil": 1.0,
+      "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E1019830511/freiburg/daten/ortsrecht/09%20Bauen%20und%20Sanieren/OrtsR_09_02_04.pdf"
+     }
+    ],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 15811,
+    "vorausrechnung_2034": 16515,
+    "veraenderung_prozent_berechnet": 4.5,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "Eschholzstraße",
+      "linien": [
+       "1",
+       "2",
+       "3",
+       "4",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30108"
+     },
+     {
+      "haltestelle": "Friedrich-Ebert-Platz",
+      "linien": [
+       "2",
+       "4"
+      ],
+      "stop_id": "Parentde:08311:30811"
+     },
+     {
+      "haltestelle": "Killianstraße",
+      "linien": [
+       "4",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30809"
+     },
+     {
+      "haltestelle": "Rathaus im Stühlinger",
+      "linien": [
+       "1",
+       "2",
+       "3",
+       "4",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30500"
+     },
+     {
+      "haltestelle": "Robert-Koch-Straße",
+      "linien": [
+       "2",
+       "4",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30810"
+     }
+    ],
+    "stadtbahn_linien": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "SC"
+    ],
+    "bahnhoefe": [
+     {
+      "station": "Freiburg Hauptbahnhof",
+      "sbahn_linien": [
+       "S1",
+       "S10",
+       "S11",
+       "S2"
+      ],
+      "weitere_linien_gtfs": [
+       "12N",
+       "20N",
+       "43N",
+       "FLX10",
+       "RB26",
+       "RB27",
+       "RE2",
+       "RE7",
+       "TER",
+       "TGD"
+      ],
+      "lat": 47.99746,
+      "lon": 7.840954
+     },
+     {
+      "station": "Freiburg Klinikum Bahnhof",
+      "sbahn_linien": [
+       "S1",
+       "S11"
+      ],
+      "weitere_linien_gtfs": [],
+      "lat": 48.005867,
+      "lon": 7.842346
+     }
+    ],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Soziale Erhaltungssatzung in Kraft (Soziale Erhaltungssatzung \"Stühlinger\" vom 2020-07-28, 100 % der Satzungsfläche im Stadtteil); dort Genehmigungsvorbehalt für Modernisierung, Rückbau und Umwandlung in Wohnungseigentum (Landesverordnung bis 18.11.2028). Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-mooswald",
+  "name": "Mooswald (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Mooswald",
+  "stadtteil_nr": 52,
+  "stadtbezirke": [
+   "521 Mooswald-West",
+   "522 Mooswald-Ost"
+  ],
+  "einwohner": 9513,
+  "koordinate": {
+   "lat": 48.013955,
+   "lon": 7.823706,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 4650,
+  "miete": 14.91,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.650, Gutachterausschuss Freiburg (Stadtwert) 4.987 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 14,91. homeday 13,4 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79110"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/mooswald",
+     "wert": 5094.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Stühlinger, Betzenhausen, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/mooswald",
+     "wert": 14.02,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Stühlinger, Betzenhausen, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/mooswald",
+     "wert": 4650.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/mooswald?marketing_type=rent&property_type=apartment",
+     "wert": 13.4,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 14.91,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Mooswald der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79106, 79110) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": [
+   {
+    "name": "Universitätsklinikum Freiburg",
+    "beschaeftigte": "mehr als 15.000 Mitarbeitende",
+    "stand": "Dateiname datiert 18.05.2026",
+    "quelle": "Universitätsklinikum Freiburg, Klimawin BW Bericht 2025 (Abschnitt 1.1) https://www.uniklinik-freiburg.de/fileadmin/mediapool/10_andere/zqm/Zahlen_und_Fakten/Nachhaltigkeit/20260518_UKF-Klimawin_BW_Bericht_2025.pdf",
+    "hinweis": "Stadtteil der Herausgeberadresse laut Amtlichem Adressverzeichnis; das Klinikumsgelände selbst wurde nicht abgegrenzt"
+   }
+  ],
+  "fazit": "Mooswald (Freiburg im Breisgau) hat 9.513 Einwohner und liegt bei 4.650 €/m² Kauf und 14,91 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.987 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 9513,
+    "stichtag": "31.12.2024",
+    "vor5": 9394,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 1.3,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S2": 0.938,
+     "S0": 0.04,
+     "S1": 0.018,
+     "ohne_lageklasse": 0.004
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 9513,
+    "vorausrechnung_2034": 9253,
+    "veraenderung_prozent_berechnet": -2.7,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "Berliner Allee",
+      "linien": [
+       "4",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30808"
+     },
+     {
+      "haltestelle": "Elsässer Straße",
+      "linien": [
+       "4",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30807"
+     }
+    ],
+    "stadtbahn_linien": [
+     "4",
+     "SC"
+    ],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-betzenhausen",
+  "name": "Betzenhausen (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Betzenhausen",
+  "stadtteil_nr": 53,
+  "stadtbezirke": [
+   "531 Betzenhausen-Bischofslinde",
+   "532 Alt-Betzenhausen"
+  ],
+  "einwohner": 15535,
+  "koordinate": {
+   "lat": 48.006809,
+   "lon": 7.816354,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 4250,
+  "miete": 14.33,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.250, Gutachterausschuss Freiburg (Stadtwert) 4.987 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 14,33. homeday 13,1 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79106",
+    "79110",
+    "79114"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/betzenhausen",
+     "wert": 5094.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Stühlinger, Mooswald, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/betzenhausen",
+     "wert": 14.02,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Stühlinger, Mooswald, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/betzenhausen",
+     "wert": 4250.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/betzenhausen?marketing_type=rent&property_type=apartment",
+     "wert": 13.1,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 14.33,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Betzenhausen der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79106, 79110, 79111, 79114) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Betzenhausen (Freiburg im Breisgau) hat 15.535 Einwohner und liegt bei 4.250 €/m² Kauf und 14,33 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.987 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 15535,
+    "stichtag": "31.12.2024",
+    "vor5": 14314,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 8.5,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S2": 0.807,
+     "S1": 0.091,
+     "S3/S4": 0.071,
+     "S0": 0.018,
+     "ohne_lageklasse": 0.013
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 15535,
+    "vorausrechnung_2034": 14809,
+    "veraenderung_prozent_berechnet": -4.7,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "Am Bischofskreuz",
+      "linien": [
+       "1",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30502"
+     },
+     {
+      "haltestelle": "Betzenhauser Torplatz",
+      "linien": [
+       "1",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30503"
+     },
+     {
+      "haltestelle": "Bissierstraße",
+      "linien": [
+       "2",
+       "3",
+       "4",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30505"
+     },
+     {
+      "haltestelle": "Runzmattenweg",
+      "linien": [
+       "1",
+       "2",
+       "3",
+       "4",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30501"
+     }
+    ],
+    "stadtbahn_linien": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "SC"
+    ],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-landwasser",
+  "name": "Landwasser (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Landwasser",
+  "stadtteil_nr": 54,
+  "stadtbezirke": [
+   "540 Landwasser"
+  ],
+  "einwohner": 7264,
+  "koordinate": {
+   "lat": 48.024232,
+   "lon": 7.808949,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 4636,
+  "miete": 15.86,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.270, homeday 4.650, Gutachterausschuss Freiburg (Stadtwert) 4.987 (Wiederverkauf Eigentumswohnungen 2025, Stadtgebiet ohne Tuniberg und Hochdorf). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 15,86. homeday 13,4 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79110"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/landwasser",
+     "wert": 4270.0,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/landwasser",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/landwasser",
+     "wert": 4650.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/landwasser?marketing_type=rent&property_type=apartment",
+     "wert": 13.4,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 15.86,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Landwasser der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79110) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Landwasser (Freiburg im Breisgau) hat 7.264 Einwohner und liegt bei 4.636 €/m² Kauf und 15,86 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Stadtwert ohne Tuniberg und Hochdorf, kein Stadtteilwert (Stadtteilwerte nur im kostenpflichtigen Bericht)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 7264,
+    "stichtag": "31.12.2024",
+    "vor5": 7176,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 1.2,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S2": 0.617,
+     "S1": 0.335,
+     "ohne_lageklasse": 0.032,
+     "S0": 0.017
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 7264,
+    "vorausrechnung_2034": 7077,
+    "veraenderung_prozent_berechnet": -2.6,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "Diakoniekrankenhaus",
+      "linien": [
+       "1"
+      ],
+      "stop_id": "Parentde:08311:30801"
+     },
+     {
+      "haltestelle": "Moosgrund",
+      "linien": [
+       "1"
+      ],
+      "stop_id": "Parentde:08311:30802"
+     },
+     {
+      "haltestelle": "Moosweiher",
+      "linien": [
+       "1"
+      ],
+      "stop_id": "Parentde:08311:30800"
+     }
+    ],
+    "stadtbahn_linien": [
+     "1"
+    ],
+    "bahnhoefe": [
+     {
+      "station": "Freiburg Landwasser",
+      "sbahn_linien": [
+       "S1",
+       "S11"
+      ],
+      "weitere_linien_gtfs": [],
+      "lat": 48.02816,
+      "lon": 7.811687
+     }
+    ],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-lehen",
+  "name": "Lehen (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Lehen",
+  "stadtteil_nr": 55,
+  "stadtbezirke": [
+   "550 Lehen"
+  ],
+  "einwohner": 2536,
+  "koordinate": {
+   "lat": 48.022833,
+   "lon": 7.795762,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 4650,
+  "miete": 14.75,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.650, Gutachterausschuss Freiburg (Stadtwert) 4.987 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 14,75. homeday 13,4 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79110",
+    "79111"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/lehen",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/lehen",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/lehen",
+     "wert": 4650.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/lehen?marketing_type=rent&property_type=apartment",
+     "wert": 13.4,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 14.75,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Lehen der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79108, 79110, 79111) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Lehen (Freiburg im Breisgau) hat 2.536 Einwohner und liegt bei 4.650 €/m² Kauf und 14,75 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.987 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 2536,
+    "stichtag": "31.12.2024",
+    "vor5": 2462,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 3.0,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S2": 0.902,
+     "S0": 0.073,
+     "ohne_lageklasse": 0.024
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 2536,
+    "vorausrechnung_2034": 3723,
+    "veraenderung_prozent_berechnet": 46.8,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "Paduaallee",
+      "linien": [
+       "1",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30504"
+     }
+    ],
+    "stadtbahn_linien": [
+     "1",
+     "SC"
+    ],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-haslach",
+  "name": "Haslach (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Haslach",
+  "stadtteil_nr": 61,
+  "stadtbezirke": [
+   "611 Haslach-Egerten",
+   "612 Haslach-Gartenstadt",
+   "613 Haslach-Schildacker",
+   "614 Haslach-Haid"
+  ],
+  "einwohner": 22300,
+  "koordinate": {
+   "lat": 47.988861,
+   "lon": 7.817131,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 4700,
+  "miete": 13.65,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 4.700, Gutachterausschuss Freiburg (Stadtwert) 4.987 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 13,65. homeday 14,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79114",
+    "79115"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/haslach",
+     "wert": 5289.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit St. Georgen, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/haslach",
+     "wert": 13.66,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit St. Georgen, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/haslach",
+     "wert": 4700.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/haslach?marketing_type=rent&property_type=apartment",
+     "wert": 14.8,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 13.65,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Haslach der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79111, 79114, 79115) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Haslach (Freiburg im Breisgau) hat 22.300 Einwohner und liegt bei 4.700 €/m² Kauf und 13,65 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.987 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 22300,
+    "stichtag": "31.12.2024",
+    "vor5": 20467,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 9.0,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S1": 0.537,
+     "S2": 0.4,
+     "S0": 0.059,
+     "ohne_lageklasse": 0.004
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [
+     {
+      "titel": "Soziale Erhaltungssatzung \"Haslach - Uferstraße / Haslacher Straße\"",
+      "datum": "2020-07-28",
+      "flaechenanteil_im_stadtteil": 1.0,
+      "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E580115321/freiburg/daten/ortsrecht/09%20Bauen%20und%20Sanieren/OrtsR_09_02_05.pdf"
+     },
+     {
+      "titel": "Soziale Erhaltungssatzung \"Haslach - Kernbereich östlich der Güterbahnlinie\"",
+      "datum": "2022-07-12",
+      "flaechenanteil_im_stadtteil": 1.0,
+      "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-375143566/freiburg/daten/ortsrecht/09%20Bauen%20und%20Sanieren/OrtsR_09_02_06.pdf"
+     }
+    ],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 22300,
+    "vorausrechnung_2034": 22424,
+    "veraenderung_prozent_berechnet": 0.6,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "Dorfbrunnen",
+      "linien": [
+       "5"
+      ],
+      "stop_id": "Parentde:08311:30603"
+     },
+     {
+      "haltestelle": "Haslach Bad",
+      "linien": [
+       "5"
+      ],
+      "stop_id": "Parentde:08311:30605"
+     },
+     {
+      "haltestelle": "Pressehaus",
+      "linien": [
+       "5"
+      ],
+      "stop_id": "Parentde:08311:30616"
+     },
+     {
+      "haltestelle": "Scherrerplatz",
+      "linien": [
+       "5"
+      ],
+      "stop_id": "Parentde:08311:30604"
+     }
+    ],
+    "stadtbahn_linien": [
+     "5"
+    ],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Soziale Erhaltungssatzung in Kraft (Soziale Erhaltungssatzung \"Haslach - Uferstraße / Haslacher Straße\" vom 2020-07-28, 100 % der Satzungsfläche im Stadtteil; Soziale Erhaltungssatzung \"Haslach - Kernbereich östlich der Güterbahnlinie\" vom 2022-07-12, 100 % der Satzungsfläche im Stadtteil); dort Genehmigungsvorbehalt für Modernisierung, Rückbau und Umwandlung in Wohnungseigentum (Landesverordnung bis 18.11.2028). Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-tiengen",
+  "name": "Tiengen (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Tiengen",
+  "stadtteil_nr": 64,
+  "stadtbezirke": [
+   "640 Tiengen"
+  ],
+  "einwohner": 3715,
+  "koordinate": {
+   "lat": 47.984623,
+   "lon": 7.72337,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 4381,
+  "miete": 13.8,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.381, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 13,62, miet-check 13,99. homeday 10,7 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79112"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/tiengen",
+     "wert": 4381.0,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/tiengen",
+     "wert": 13.62,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/tiengen",
+     "wert": 5100.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/tiengen?marketing_type=rent&property_type=apartment",
+     "wert": 10.7,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 13.99,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Tiengen der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79111, 79112) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Tiengen (Freiburg im Breisgau) hat 3.715 Einwohner und liegt bei 4.381 €/m² Kauf und 13,80 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: Stadtwert gilt ohne Tuniberg-Ortschaften und Hochdorf, daher für diesen Stadtteil nicht angesetzt; Stadtteilwerte nur im kostenpflichtigen Bericht",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 3715,
+    "stichtag": "31.12.2024",
+    "vor5": 3335,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 11.4,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "TH0/TH1": 0.648,
+     "TH2": 0.324,
+     "ohne_lageklasse": 0.028
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": null,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 3715,
+    "vorausrechnung_2034": 4413,
+    "veraenderung_prozent_berechnet": 18.8,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [],
+    "stadtbahn_linien": [],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-weingarten",
+  "name": "Weingarten (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Weingarten",
+  "stadtteil_nr": 66,
+  "stadtbezirke": [
+   "660 Weingarten"
+  ],
+  "einwohner": 11765,
+  "koordinate": {
+   "lat": 47.999026,
+   "lon": 7.807728,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 4490,
+  "miete": 13.3,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.234, homeday 4.250, Gutachterausschuss Freiburg (Stadtwert) 4.987 (Wiederverkauf Eigentumswohnungen 2025, Stadtgebiet ohne Tuniberg und Hochdorf). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 13,32, miet-check 13,29. homeday 13,1 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79114",
+    "79115"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/weingarten",
+     "wert": 4234.0,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/weingarten",
+     "wert": 13.32,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/weingarten",
+     "wert": 4250.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/weingarten?marketing_type=rent&property_type=apartment",
+     "wert": 13.1,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 13.29,
+     "ergebnis": "bestätigt",
+     "methode": "Zeile Weingarten der miet-check-Rangliste der Freiburger Stadtteile; PLZ der Zeile (79114, 79115) überschneiden sich mit den PLZ des Stadtteils"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Weingarten (Freiburg im Breisgau) hat 11.765 Einwohner und liegt bei 4.490 €/m² Kauf und 13,30 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Stadtwert ohne Tuniberg und Hochdorf, kein Stadtteilwert (Stadtteilwerte nur im kostenpflichtigen Bericht)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 11765,
+    "stichtag": "31.12.2024",
+    "vor5": 11305,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": 4.1,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S1": 0.987,
+     "ohne_lageklasse": 0.013
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 11765,
+    "vorausrechnung_2034": 11121,
+    "veraenderung_prozent_berechnet": -5.5,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "Am Lindenwäldle",
+      "linien": [
+       "3",
+       "5",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30601"
+     },
+     {
+      "haltestelle": "Bugginger Straße",
+      "linien": [
+       "3",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30600"
+     },
+     {
+      "haltestelle": "Krozinger Straße",
+      "linien": [
+       "5"
+      ],
+      "stop_id": "Parentde:08311:30602"
+     },
+     {
+      "haltestelle": "Rohrgraben",
+      "linien": [
+       "3",
+       "SC"
+      ],
+      "stop_id": "Parentde:08311:30607"
+     }
+    ],
+    "stadtbahn_linien": [
+     "3",
+     "5",
+     "SC"
+    ],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [
+    {
+     "hochschule": "Evangelische Hochschule Freiburg",
+     "studierende_ws_2024_25": 900,
+     "adresse": "Bugginger Straße 38, 79114 Freiburg",
+     "adresse_quelle": "https://www.eh-freiburg.de/impressum/",
+     "stadtteil": "Weingarten",
+     "stadtbezirk": "660 Weingarten"
+    }
+   ],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-rieselfeld",
+  "name": "Rieselfeld (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Rieselfeld",
+  "stadtteil_nr": 67,
+  "stadtbezirke": [
+   "670 Rieselfeld"
+  ],
+  "einwohner": 9354,
+  "koordinate": {
+   "lat": 48.003614,
+   "lon": 7.785506,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 5643,
+  "miete": 14.0,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.643, Gutachterausschuss Freiburg (Stadtwert) 4.987 (nicht gewertet: nur ein Portalwert vorhanden, Gutachterwert zählt erst ab zwei Portalwerten). Ort/PLZ geprüft: immoportal.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): immoportal 14,00.",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79111"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/rieselfeld",
+     "wert": 5643.0,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/rieselfeld",
+     "wert": 14.0,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": null,
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseite"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": null,
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseite"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "wert": 14.37,
+     "ergebnis": "nicht gewertet",
+     "grund": "gleicher Wert und gleiche PLZ-Liste wie Mundenhof, PLZ-Wert und nicht stadtteilgenau"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Rieselfeld (Freiburg im Breisgau) hat 9.354 Einwohner und liegt bei 5.643 €/m² Kauf und 14,00 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert 4.987 nicht gewertet: nur ein Portalwert vorhanden",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 9354,
+    "stichtag": "31.12.2024",
+    "vor5": 9867,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": -5.2,
+    "quelle": "Statistisches Jahrbuch 2024, https://www.freiburg.de/pb/site/Freiburg/get/params_E204762294/1631036/Statistisches_Jahrbuch%202024.pdf",
+    "hinweis": "Rieselfeld 2024 nur gemeinsam mit Mundenhof ausgewiesen, Wert 31.12.2023"
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S3/S4": 0.614,
+     "S2": 0.372,
+     "ohne_lageklasse": 0.013,
+     "S0": 0.001
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": null,
+    "vorausrechnung_2034": null,
+    "veraenderung_prozent_berechnet": null,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "Bollerstaudenstraße",
+      "linien": [
+       "5"
+      ],
+      "stop_id": "Parentde:08311:30727"
+     },
+     {
+      "haltestelle": "Geschwister-Scholl-Platz",
+      "linien": [
+       "5"
+      ],
+      "stop_id": "Parentde:08311:30733"
+     },
+     {
+      "haltestelle": "Maria-von-Rudloff-Platz",
+      "linien": [
+       "5"
+      ],
+      "stop_id": "Parentde:08311:30734"
+     }
+    ],
+    "stadtbahn_linien": [
+     "5"
+    ],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ },
+ {
+  "id": "freiburg-vauban",
+  "name": "Vauban (Freiburg im Breisgau)",
+  "land": "Baden-Württemberg",
+  "ags": "08311000",
+  "stadtteil": "Vauban",
+  "stadtteil_nr": 68,
+  "stadtbezirke": [
+   "680 Vauban"
+  ],
+  "einwohner": 5146,
+  "koordinate": {
+   "lat": 47.97553,
+   "lon": 7.824226,
+   "art": "Schwerpunkt des amtlichen Stadtteilpolygons (EPSG:25832, umgerechnet nach WGS84)",
+   "quelle": "Stadt Freiburg, Geodaten Stadtteile (WFS abi_gliederung)"
+  },
+  "kauf": 5463,
+  "miete": 13.35,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.651, homeday 5.750, Gutachterausschuss Freiburg (Stadtwert) 4.987 (Wiederverkauf Eigentumswohnungen 2025, Stadtgebiet ohne Tuniberg und Hochdorf). Ort/PLZ geprüft: homeday, immoportal.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): immoportal 13,35. homeday 14,7 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 3.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Stadt Freiburg (Wegweiser Kommune, kein Stadtteilwert)",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Freiburg im Breisgau, kreisfreie Stadt: 230940 (2020) auf 238420 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+freiburg-im-breisgau+2020-2040+tabelle); Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach; Ersatzquelle, weil GENESIS-Online BW (Tabelle 12421-0006) am 19.10.2026 mit Server-Timeout abbrach"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "79100",
+    "79115"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/freiburg-im-breisgau/vauban",
+     "wert": 5651.0,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/freiburg-im-breisgau/vauban",
+     "wert": 13.35,
+     "ergebnis": "bestätigt",
+     "methode": "Stadtteilseite unter /freiburg-im-breisgau/, Seitentitel nennt den Stadtteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/vauban+79100",
+     "wert": 5750.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/freiburg+im+breisgau/vauban+79100?marketing_type=rent&property_type=apartment",
+     "wert": 14.7,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Stadtteilseite ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietpreise-stadtteil/freiburg_im_breisgau/wiehre/",
+     "ergebnis": "kein Wert",
+     "grund": "Stadtteil nicht in der miet-check-Rangliste"
+    },
+    {
+     "quelle": "miete-aktuell",
+     "ergebnis": "kein Wert",
+     "grund": "keine Stadtteilseiten"
+    }
+   ],
+   "grundlage": "nur Stadtteile mit eigener, stadtteilgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Stadtteil gelten als nicht stadtteilgenau; miet-check nur, wenn kein anderer Stadtteil denselben Wert mit derselben PLZ-Liste hat"
+  },
+  "arbeitgeber": null,
+  "fazit": "Vauban (Freiburg im Breisgau) hat 5.146 Einwohner und liegt bei 5.463 €/m² Kauf und 13,35 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung für die Stadt 2020 bis 2040 liegt bei +3,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterwert ist Stadtwert ohne Tuniberg und Hochdorf, kein Stadtteilwert (Stadtteilwerte nur im kostenpflichtigen Bericht)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose für die Ampel ist der Stadtwert; die städtische Vorausrechnung je Stadtbezirk bis 2034 steht in stufe2",
+   "Pendler, Hochwasser nicht erhoben"
+  ],
+  "stufe2": {
+   "einwohner": {
+    "wert": 5146,
+    "stichtag": "31.12.2024",
+    "vor5": 5405,
+    "vor5_stichtag": "31.12.2019",
+    "entwicklung_5_jahre_prozent": -4.8,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": null
+   },
+   "mietspiegel": {
+    "ausgabe": "Mietspiegel 2025/2026",
+    "qualifiziert": true,
+    "gueltigkeit": "01.01.2025 bis 31.12.2026",
+    "mittelwert_stadt_eur_m2": 10.81,
+    "link": "https://www.freiburg.de/servicebw/Mietspiegel_2025_2026.pdf",
+    "lageklassen_adressanteile": {
+     "S2": 0.848,
+     "S3/S4": 0.138,
+     "S0": 0.014
+    },
+    "lageklassen_hinweis": "Abgeleitet: Anteil der amtlichen Adresspunkte je Lageklasse (H3-Zellen der Lagenklassenkarte 2025/2026). Der Mietspiegel ordnet nach Straße und Hausnummer zu, nicht nach Stadtteil."
+   },
+   "gutachter": {
+    "wert_eur_m2": 4987,
+    "ebene": "Stadt Freiburg ohne Tuniberg und Hochdorf",
+    "jahr": 2025,
+    "kauffaelle": null,
+    "kauffaelle_grund": "In der frei zugänglichen Pressemitteilung nicht genannt; nur im kostenpflichtigen Bericht.",
+    "stadtteilwert": null,
+    "stadtteilwert_grund": "nur im kostenpflichtigen Immobilienmarktbericht 2025",
+    "bericht": "Immobilienmarktbericht 2025 des Gutachterausschusses für die Ermittlung von Grundstückswerten in Freiburg",
+    "link": "https://www.freiburg.de/pb/2589820.html"
+   },
+   "erhaltungssatzungen": {
+    "in_kraft": [],
+    "im_verfahren": [],
+    "umwandlungsverbot": {
+     "in_sozialen_erhaltungsgebieten": "Ja. Landesverordnung über die Einführung einer Umwandlungsgenehmigung in Gebieten einer Erhaltungssatzung nach § 172 Abs. 1 Satz 1 Nr. 2 BauGB (Umwandlungsverordnung, seit 2013), zuletzt verlängert durch Verordnung vom 17.10.2023 (GBl. S. 385), gültig bis 18.11.2028. Damit bedarf die Begründung von Wohnungs- oder Teileigentum in den fünf Freiburger sozialen Erhaltungsgebieten einer Genehmigung.",
+     "paragraph_250_baugb": "Nein. Baden-Württemberg hat laut Stellungnahme des Ministeriums für Landesentwicklung und Wohnen zu Landtagsdrucksache 17/8689 (Antrag vom 10.04.2025) keine Verordnung nach § 250 BauGB erlassen und sieht keine vor. Ein späterer Erlass wurde nicht gefunden (nicht abschließend geprüft).",
+     "quelle": {
+      "titel": "Landtag von Baden-Württemberg, Drucksache 17/8689: Umwandlung von Miet- in Eigentumswohnungen und § 250 BauGB",
+      "url": "https://www.landtag-bw.de/resource/blob/568938/34f72fd30bfe7a78180222be6f1b45c3/17_8689_D.pdf"
+     }
+    }
+   },
+   "zweckentfremdung": {
+    "gilt": true,
+    "text": "Zweckentfremdungssatzung vom 28.11.2023, in Kraft seit 01.02.2024 für fünf Jahren, gesamtes Stadtgebiet",
+    "link": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E-1740730137/freiburg/daten/ortsrecht/22%20Wohnen%20und%20Wohnungsbaufoerderung/OrtsR_22_04.pdf"
+   },
+   "prognose_stadtbezirke_2034": {
+    "einwohner_2024": 5146,
+    "vorausrechnung_2034": 5100,
+    "veraenderung_prozent_berechnet": -0.9,
+    "quelle": "Stadtbezirksatlas 2025, https://www.freiburg.de/pb/site/Freiburg/get/params_E603190795/2463694/Stadtbezirksatlas%202025.pdf",
+    "hinweis": "Die im Atlas je Bezirk gedruckte prozentuale Veränderung 2024 bis 2034 weicht teils von der aus den gedruckten Absolutwerten berechneten Veränderung ab (z. B. Zähringen: gedruckt +9, berechnet +7,2). Beide Werte sind angegeben. Rieselfeld und Mundenhof sind nur gemeinsam ausgewiesen."
+   },
+   "oepnv": {
+    "stadtbahn": [
+     {
+      "haltestelle": "Innsbrucker Straße",
+      "linien": [
+       "4"
+      ],
+      "stop_id": "Parentde:08311:30424"
+     },
+     {
+      "haltestelle": "Paula-Modersohn-Platz",
+      "linien": [
+       "4"
+      ],
+      "stop_id": "Parentde:08311:30651"
+     },
+     {
+      "haltestelle": "Vauban-Mitte",
+      "linien": [
+       "4"
+      ],
+      "stop_id": "Parentde:08311:30423"
+     }
+    ],
+    "stadtbahn_linien": [
+     "4"
+    ],
+    "bahnhoefe": [],
+    "quelle": "VAG-GTFS vom 19.10.2026 und DELFI-GTFS vom 17.10.2026, Zuordnung über die Lage der Haltestelle"
+   },
+   "hochschulen": [],
+   "zusatzeinschaetzung": "Keine soziale Erhaltungssatzung in Kraft. Diese Einschätzung fließt nicht in die Ampel ein."
+  }
+ }
+]
