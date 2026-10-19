@@ -1,0 +1,3311 @@
+[
+ {
+  "id": "breese",
+  "name": "Breese",
+  "land": "Brandenburg",
+  "ags": "12070052",
+  "einwohner": 1526,
+  "kauf": 1953,
+  "miete": 7.46,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.232, ohne-makler.net 1.675 (Ersatz), Gutachterausschuss keine Angabe. homeday 1.150 (nicht gewertet: unter 60 % des Medians der übrigen Portalquellen). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,46, ohne-makler.net 7,47 (Ersatz). homeday 6,2 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -2.1,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Bad Wilsnack/Weisen (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Bad Wilsnack/Weisen: 6144 (2023) auf 6018 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "19322",
+   "landkreis": "Prignitz",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/breese",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/breese?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Breese/Breese/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Breese/Breese/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/breese/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/breese/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Breese hat 1.526 Einwohner und liegt bei 1.953 €/m² Kauf und 7,46 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -2,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Kauf homeday 1.150 nicht gewertet: unter 60 % des Medians der übrigen Portalquellen",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "gerswalde",
+  "name": "Gerswalde",
+  "land": "Brandenburg",
+  "ags": "12073201",
+  "einwohner": 1468,
+  "kauf": 2114,
+  "miete": 9.46,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.750, miete-aktuell 2.478, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,87, miet-check 10,06. homeday 5,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -11.6,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Gerswalde (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Gerswalde: 4286 (2023) auf 3789 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "17268",
+   "landkreis": "Uckermark",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/gerswalde",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/gerswalde?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Gerswalde/Gerswalde/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Gerswalde/Gerswalde/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/gerswalde/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Gerswalde hat 1.468 Einwohner und liegt bei 2.114 €/m² Kauf und 9,46 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -11,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "temnitztal",
+  "name": "Temnitztal",
+  "land": "Brandenburg",
+  "ags": "12068426",
+  "einwohner": 1465,
+  "kauf": 2100,
+  "miete": 7.02,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.100, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): ohne-makler.net 7,02 (Ersatz). homeday 6,1 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 5.5,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Temnitz (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Temnitz: 5423 (2023) auf 5719 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "16845",
+   "landkreis": "Ostprignitz-Ruppin",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/temnitztal",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/temnitztal?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/temnitztal/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Temnitztal hat 1.465 Einwohner und liegt bei 2.100 €/m² Kauf und 7,02 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei +5,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "schoenborn",
+  "name": "Schönborn",
+  "land": "Brandenburg",
+  "ags": "12062453",
+  "einwohner": 1455,
+  "kauf": 1200,
+  "miete": 6.18,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.200, Gutachterausschuss keine Angabe. miete-aktuell 1.871 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 6,18. homeday 5,3 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -13.6,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Elsterland (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Elsterland: 4326 (2023) auf 3737 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03253",
+   "landkreis": "Elbe-Elster",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/schoenborn",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 8 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/schoenborn?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 8 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Schoenborn/Schoenborn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Schoenborn/Schoenborn/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Schönborn hat 1.455 Einwohner und liegt bei 1.200 €/m² Kauf und 6,18 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -13,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf miete-aktuell 1.871 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "sallgast",
+  "name": "Sallgast",
+  "land": "Brandenburg",
+  "ags": "12062425",
+  "einwohner": 1392,
+  "kauf": 1658,
+  "miete": 7.04,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.979, ohne-makler.net 1.337 (Ersatz), Gutachterausschuss keine Angabe. homeday 950 (nicht gewertet: unter 60 % des Medians der übrigen Portalquellen). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 6,70, ohne-makler.net 7,39 (Ersatz). homeday 5,5 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -12.6,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Kleine Elster (Niederlausitz) (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Kleine Elster (Niederlausitz): 5333 (2023) auf 4662 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03238",
+   "landkreis": "Elbe-Elster",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/sallgast",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/sallgast?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Sallgast/Sallgast/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Sallgast/Sallgast/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/sallgast/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/sallgast/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Sallgast hat 1.392 Einwohner und liegt bei 1.658 €/m² Kauf und 7,04 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -12,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Kauf homeday 950 nicht gewertet: unter 60 % des Medians der übrigen Portalquellen",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "milmersdorf",
+  "name": "Milmersdorf",
+  "land": "Brandenburg",
+  "ags": "12073396",
+  "einwohner": 1389,
+  "kauf": 2113,
+  "miete": 9.01,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.750, miete-aktuell 2.475, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,87, ohne-makler.net 9,15 (Ersatz). homeday 6,3 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -11.6,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Gerswalde (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Gerswalde: 4286 (2023) auf 3789 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "17268",
+   "landkreis": "Uckermark",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/milmersdorf",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/milmersdorf?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Milmersdorf/Milmersdorf/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Milmersdorf/Milmersdorf/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/milmersdorf/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/milmersdorf/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Milmersdorf hat 1.389 Einwohner und liegt bei 2.113 €/m² Kauf und 9,01 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -11,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "rueckersdorf",
+  "name": "Rückersdorf",
+  "land": "Brandenburg",
+  "ags": "12062417",
+  "einwohner": 1360,
+  "kauf": null,
+  "miete": null,
+  "kaufQuellen": "Mittel aus 0 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): Gutachterausschuss keine Angabe. Ort/PLZ geprüft: keine Quelle.",
+  "mieteQuellen": "keine Angabe.",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": -13.6,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Elsterland (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Elsterland: 4326 (2023) auf 3737 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03238",
+   "landkreis": "Elbe-Elster",
+   "gesamt": "keine Portalseite gefunden",
+   "quellen": [],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Rückersdorf hat 1.360 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose: -13,6 %, keine Mietpreisbremse (Kappung 20 %). Rendite {R} % und Faktor {F} ungeprüft.",
+  "offen": [
+   "unbewertet: Portale liefern für diese Gemeinde keine oder zu wenige belegbare Werte, keine Ersatzwerte aus Landkreis oder Nachbarorten eingesetzt",
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "wiesengrund",
+  "name": "Wiesengrund",
+  "land": "Brandenburg",
+  "ags": "12071414",
+  "einwohner": 1338,
+  "kauf": 1250,
+  "miete": 6.35,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.250, Gutachterausschuss keine Angabe. miete-aktuell 1.942 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 6,35. homeday 5,0 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": -17.6,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Döbern-Land (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Döbern-Land: 10133 (2023) auf 8347 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03149",
+   "landkreis": "Spree-Neiße",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/wiesengrund",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/wiesengrund?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Wiesengrund/Wiesengrund/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Wiesengrund/Wiesengrund/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Wiesengrund hat 1.338 Einwohner und liegt bei 1.250 €/m² Kauf und 6,35 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -17,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel rot mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf miete-aktuell 1.942 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "groeden",
+  "name": "Gröden",
+  "land": "Brandenburg",
+  "ags": "12062196",
+  "einwohner": 1309,
+  "kauf": 1589,
+  "miete": 5.24,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.300, miete-aktuell 1.878, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 5,24. homeday 5,3 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -13.9,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Schradenland (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Schradenland: 4309 (2023) auf 3710 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "04932",
+   "landkreis": "Elbe-Elster",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/groeden",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/groeden?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Groeden/Groeden/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Groeden/Groeden/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Gröden hat 1.309 Einwohner und liegt bei 1.589 €/m² Kauf und 5,24 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -13,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "maerkisch-linden",
+  "name": "Märkisch Linden",
+  "land": "Brandenburg",
+  "ags": "12068306",
+  "einwohner": 1207,
+  "kauf": 2100,
+  "miete": null,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.100, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "keine Angabe. homeday 6,5 (nur daneben).",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": 5.5,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Temnitz (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Temnitz: 5423 (2023) auf 5719 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "16818",
+   "landkreis": "Ostprignitz-Ruppin",
+   "gesamt": "Nachbarorte passen",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/maerkisch+linden",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/maerkisch+linden?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Märkisch Linden hat 1.207 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose: +5,5 %, keine Mietpreisbremse (Kappung 20 %). Rendite {R} % und Faktor {F} ungeprüft.",
+  "offen": [
+   "unbewertet: Portale liefern für diese Gemeinde keine oder zu wenige belegbare Werte, keine Ersatzwerte aus Landkreis oder Nachbarorten eingesetzt",
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "neupetershain",
+  "name": "Neupetershain",
+  "land": "Brandenburg",
+  "ags": "12066228",
+  "einwohner": 1190,
+  "kauf": 2221,
+  "miete": 6.96,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.200, miete-aktuell 2.241, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 5,91, miet-check 8,02. homeday 5,2 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -10.7,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Altdöbern (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Altdöbern: 5404 (2023) auf 4824 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03103",
+   "landkreis": "Oberspreewald-Lausitz",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/neupetershain",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/neupetershain?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Neupetershain/Neupetershain/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Neupetershain/Neupetershain/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/neupetershain/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Neupetershain hat 1.190 Einwohner und liegt bei 2.221 €/m² Kauf und 6,96 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -10,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "hirschfeld",
+  "name": "Hirschfeld",
+  "land": "Brandenburg",
+  "ags": "12062232",
+  "einwohner": 1173,
+  "kauf": 1883,
+  "miete": 5.38,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.883, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 5,55, ohne-makler.net 5,21 (Ersatz).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -13.9,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Schradenland (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Schradenland: 4309 (2023) auf 3710 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "04932",
+   "landkreis": "Elbe-Elster",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Hirschfeld/Hirschfeld/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Hirschfeld/Hirschfeld/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/hirschfeld/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Hirschfeld hat 1.173 Einwohner und liegt bei 1.883 €/m² Kauf und 5,38 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -13,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "tschernitz",
+  "name": "Tschernitz",
+  "land": "Brandenburg",
+  "ags": "12071392",
+  "einwohner": 1142,
+  "kauf": 1147,
+  "miete": 6.79,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): ohne-makler.net 1.147 (Ersatz), Gutachterausschuss keine Angabe. miete-aktuell 2.100 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: ohne-makler.net.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,26, ohne-makler.net 6,31 (Ersatz).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": -17.6,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Döbern-Land (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Döbern-Land: 10133 (2023) auf 8347 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03130",
+   "landkreis": "Spree-Neiße",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Tschernitz/Tschernitz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Tschernitz/Tschernitz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/tschernitz/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/tschernitz/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Tschernitz hat 1.142 Einwohner und liegt bei 1.147 €/m² Kauf und 6,79 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -17,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel rot mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Kauf miete-aktuell 2.100 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "crinitz",
+  "name": "Crinitz",
+  "land": "Brandenburg",
+  "ags": "12062088",
+  "einwohner": 1127,
+  "kauf": 2981,
+  "miete": 6.91,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 3.550, miete-aktuell 2.412, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,44, miet-check 6,38. homeday 5,6 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": -12.6,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Kleine Elster (Niederlausitz) (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Kleine Elster (Niederlausitz): 5333 (2023) auf 4662 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03246",
+   "landkreis": "Elbe-Elster",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/crinitz",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/crinitz?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Crinitz/Crinitz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Crinitz/Crinitz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/crinitz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Crinitz hat 1.127 Einwohner und liegt bei 2.981 €/m² Kauf und 6,91 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -12,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel rot mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "dreetz",
+  "name": "Dreetz",
+  "land": "Brandenburg",
+  "ags": "12068109",
+  "einwohner": 1117,
+  "kauf": 2165,
+  "miete": 7.48,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.100, miete-aktuell 2.230, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,95, ohne-makler.net 7,02 (Ersatz). homeday 7,2 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -0.9,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Neustadt (Dosse) (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Neustadt (Dosse): 7658 (2023) auf 7590 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "16845",
+   "landkreis": "Ostprignitz-Ruppin",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/dreetz",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 3 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/dreetz?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 3 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Dreetz/Dreetz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Dreetz/Dreetz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/dreetz/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Dreetz hat 1.117 Einwohner und liegt bei 2.165 €/m² Kauf und 7,48 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -0,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "turnow-preilack",
+  "name": "Turnow-Preilack",
+  "land": "Brandenburg",
+  "ags": "12071401",
+  "einwohner": 1094,
+  "kauf": 1918,
+  "miete": 6.27,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.800, miete-aktuell 2.037, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 6,27. homeday 5,4 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -9.6,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Peitz (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Peitz: 10589 (2023) auf 9575 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03185",
+   "landkreis": "Spree-Neiße",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/turnow+preilack",
+     "ergebnis": "nicht bestätigt",
+     "methode": "nicht bestätigt"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/turnow+preilack?marketing_type=rent&property_type=apartment",
+     "ergebnis": "nicht bestätigt",
+     "methode": "nicht bestätigt"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Turnow-Preilack/Turnow-Preilack/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Turnow-Preilack/Turnow-Preilack/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Turnow-Preilack hat 1.094 Einwohner und liegt bei 1.918 €/m² Kauf und 6,27 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -9,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "teichland",
+  "name": "Teichland",
+  "land": "Brandenburg",
+  "ags": "12071386",
+  "einwohner": 1061,
+  "kauf": 2034,
+  "miete": 6.29,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.034, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 5,81, ohne-makler.net 6,77 (Ersatz).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -9.6,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Peitz (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Peitz: 10589 (2023) auf 9575 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03185",
+   "landkreis": "Spree-Neiße",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Teichland/Teichland/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Teichland/Teichland/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/teichland/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Teichland hat 1.061 Einwohner und liegt bei 2.034 €/m² Kauf und 6,29 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -9,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "grosskmehlen",
+  "name": "Großkmehlen",
+  "land": "Brandenburg",
+  "ags": "12066104",
+  "einwohner": 1021,
+  "kauf": 1096,
+  "miete": 6.22,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.300, miete-aktuell 892, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 5,91, ohne-makler.net 6,53 (Ersatz). homeday 5,6 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -7.1,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Ortrand (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Ortrand: 6001 (2023) auf 5576 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "01990",
+   "landkreis": "Oberspreewald-Lausitz",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/grosskmehlen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/grosskmehlen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Grosskmehlen/Grosskmehlen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Grosskmehlen/Grosskmehlen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/grosskmehlen/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Großkmehlen hat 1.021 Einwohner und liegt bei 1.096 €/m² Kauf und 6,22 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -7,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "weisen",
+  "name": "Weisen",
+  "land": "Brandenburg",
+  "ags": "12070416",
+  "einwohner": 995,
+  "kauf": 2166,
+  "miete": 7.46,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.100, miete-aktuell 2.232, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,46, ohne-makler.net 7,47 (Ersatz). homeday 6,1 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -2.1,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Bad Wilsnack/Weisen (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Bad Wilsnack/Weisen: 6144 (2023) auf 6018 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "19322",
+   "landkreis": "Prignitz",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/weisen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/weisen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Weisen/Weisen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Weisen/Weisen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/weisen/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/weisen/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Weisen hat 995 Einwohner und liegt bei 2.166 €/m² Kauf und 7,46 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -2,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "grossthiemig",
+  "name": "Großthiemig",
+  "land": "Brandenburg",
+  "ags": "12062208",
+  "einwohner": 981,
+  "kauf": 1616,
+  "miete": 5.29,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.350, miete-aktuell 1.882, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 5,37, ohne-makler.net 5,21 (Ersatz). homeday 5,4 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -13.9,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Schradenland (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Schradenland: 4309 (2023) auf 3710 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "04932",
+   "landkreis": "Elbe-Elster",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/grossthiemig",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/grossthiemig?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Grossthiemig/Grossthiemig/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Grossthiemig/Grossthiemig/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/grossthiemig/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Großthiemig hat 981 Einwohner und liegt bei 1.616 €/m² Kauf und 5,29 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -13,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "hohenbocka",
+  "name": "Hohenbocka",
+  "land": "Brandenburg",
+  "ags": "12066132",
+  "einwohner": 969,
+  "kauf": 1972,
+  "miete": 6.03,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.805, ohne-makler.net 2.139 (Ersatz), Gutachterausschuss keine Angabe. homeday 950 (nicht gewertet: unter 60 % des Medians der übrigen Portalquellen). Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 5,30, ohne-makler.net 6,76 (Ersatz). homeday 5,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -8.4,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Ruhland (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Ruhland: 7137 (2023) auf 6540 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "01945",
+   "landkreis": "Oberspreewald-Lausitz",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/hohenbocka",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/hohenbocka?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Hohenbocka/Hohenbocka/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Hohenbocka/Hohenbocka/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/hohenbocka/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/hohenbocka/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Hohenbocka hat 969 Einwohner und liegt bei 1.972 €/m² Kauf und 6,03 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -8,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Kauf homeday 950 nicht gewertet: unter 60 % des Medians der übrigen Portalquellen",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Ersatzwert nach gestrichenem Ausreißer (Kauf): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "uckerfelde",
+  "name": "Uckerfelde",
+  "land": "Brandenburg",
+  "ags": "12073578",
+  "einwohner": 962,
+  "kauf": 2059,
+  "miete": 7.44,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.850, miete-aktuell 2.267, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 7,44. homeday 5,3 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -9.7,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Gramzow (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Gramzow: 6649 (2023) auf 6001 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "17291",
+   "landkreis": "Uckermark",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/uckerfelde",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/uckerfelde?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Uckerfelde/Uckerfelde/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Uckerfelde/Uckerfelde/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Uckerfelde hat 962 Einwohner und liegt bei 2.059 €/m² Kauf und 7,44 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -9,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "gruenow",
+  "name": "Grünow",
+  "land": "Brandenburg",
+  "ags": "12073261",
+  "einwohner": 956,
+  "kauf": 2269,
+  "miete": 7.44,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.269, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 7,44.",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -9.7,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Gramzow (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Gramzow: 6649 (2023) auf 6001 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "17291",
+   "landkreis": "Uckermark",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/gruenow",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/gruenow?marketing_type=rent&property_type=apartment",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Gruenow/Gruenow/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Gruenow/Gruenow/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Grünow hat 956 Einwohner und liegt bei 2.269 €/m² Kauf und 7,44 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -9,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Ortsverwechslung bereinigt: homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/gruenow; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/gruenow?marketing_type=rent&property_type=apartment",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "dissen-striesow",
+  "name": "Dissen-Striesow",
+  "land": "Brandenburg",
+  "ags": "12071041",
+  "einwohner": 934,
+  "kauf": 2514,
+  "miete": 11.03,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.514, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 11,03.",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -4.5,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Burg (Spreewald) (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Burg (Spreewald): 9000 (2023) auf 8595 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03096",
+   "landkreis": "Spree-Neiße",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Dissen-Striesow/Dissen-Striesow/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Dissen-Striesow/Dissen-Striesow/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Dissen-Striesow hat 934 Einwohner und liegt bei 2.514 €/m² Kauf und 11,03 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -4,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "gorden-staupitz",
+  "name": "Gorden-Staupitz",
+  "land": "Brandenburg",
+  "ags": "12062177",
+  "einwohner": 929,
+  "kauf": 1791,
+  "miete": 6.7,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.600, miete-aktuell 1.982, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 6,70. homeday 5,8 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": -23.5,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Plessa (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Plessa: 5897 (2023) auf 4512 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03238",
+   "landkreis": "Elbe-Elster",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/gorden+staupitz",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/gorden+staupitz?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Gorden-Staupitz/Gorden-Staupitz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Gorden-Staupitz/Gorden-Staupitz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Gorden-Staupitz hat 929 Einwohner und liegt bei 1.791 €/m² Kauf und 6,70 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -23,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel rot mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "pinnow",
+  "name": "Pinnow",
+  "land": "Brandenburg",
+  "ags": "12073440",
+  "einwohner": 913,
+  "kauf": 2584,
+  "miete": 7.16,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): ohne-makler.net 2.584 (Ersatz), Gutachterausschuss keine Angabe. Ort/PLZ geprüft: ohne-makler.net.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): ohne-makler.net 7,16 (Ersatz).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": -11.9,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Mitverwaltung Schwedt (Gemeinde gehört zum Verwaltungsverband, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Schwedt/Oder (Mitverwaltung von Pinnow): 34535 (2023) auf 30421 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "16278",
+   "landkreis": "Uckermark",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/pinnow/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/pinnow/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Pinnow hat 913 Einwohner und liegt bei 2.584 €/m² Kauf und 7,16 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -11,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel rot mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "breddin",
+  "name": "Breddin",
+  "land": "Brandenburg",
+  "ags": "12068052",
+  "einwohner": 890,
+  "kauf": 1891,
+  "miete": 7.48,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.550, miete-aktuell 2.233, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,95, ohne-makler.net 7,02 (Ersatz). homeday 5,6 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -0.9,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Neustadt (Dosse) (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Neustadt (Dosse): 7658 (2023) auf 7590 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "16845",
+   "landkreis": "Ostprignitz-Ruppin",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/breddin",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/breddin?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Breddin/Breddin/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Breddin/Breddin/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/breddin/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Breddin hat 890 Einwohner und liegt bei 1.891 €/m² Kauf und 7,48 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -0,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "zernitz-lohm",
+  "name": "Zernitz-Lohm",
+  "land": "Brandenburg",
+  "ags": "12068501",
+  "einwohner": 888,
+  "kauf": 2293,
+  "miete": 7.95,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.350, miete-aktuell 2.235, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 7,95. homeday 6,1 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -0.9,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Neustadt (Dosse) (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Neustadt (Dosse): 7658 (2023) auf 7590 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "16845",
+   "landkreis": "Ostprignitz-Ruppin",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/zernitz+lohm",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/zernitz+lohm?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Zernitz-Lohm/Zernitz-Lohm/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Zernitz-Lohm/Zernitz-Lohm/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Zernitz-Lohm hat 888 Einwohner und liegt bei 2.293 €/m² Kauf und 7,95 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -0,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "lichterfeld-schacksdorf",
+  "name": "Lichterfeld-Schacksdorf",
+  "land": "Brandenburg",
+  "ags": "12062293",
+  "einwohner": 880,
+  "kauf": 1600,
+  "miete": 6.23,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.600, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miet-check 6,23. homeday 5,5 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -12.6,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Kleine Elster (Niederlausitz) (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Kleine Elster (Niederlausitz): 5333 (2023) auf 4662 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03238",
+   "landkreis": "Elbe-Elster",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/lichterfeld+schacksdorf",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/lichterfeld+schacksdorf?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/lichterfeld-schacksdorf/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Lichterfeld-Schacksdorf hat 880 Einwohner und liegt bei 1.600 €/m² Kauf und 6,23 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -12,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "randowtal",
+  "name": "Randowtal",
+  "land": "Brandenburg",
+  "ags": "12073458",
+  "einwohner": 876,
+  "kauf": 1910,
+  "miete": 6.96,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.550, miete-aktuell 2.270, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,44, miet-check 6,48. homeday 5,2 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -9.7,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Gramzow (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Gramzow: 6649 (2023) auf 6001 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "17291",
+   "landkreis": "Uckermark",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/randowtal",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/randowtal?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Randowtal/Randowtal/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Randowtal/Randowtal/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/randowtal/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Randowtal hat 876 Einwohner und liegt bei 1.910 €/m² Kauf und 6,96 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -9,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "merzdorf",
+  "name": "Merzdorf",
+  "land": "Brandenburg",
+  "ags": "12062336",
+  "einwohner": 820,
+  "kauf": 1619,
+  "miete": 5.47,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.350, miete-aktuell 1.889, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 5,73, ohne-makler.net 5,21 (Ersatz). homeday 5,4 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -13.9,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Schradenland (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Schradenland: 4309 (2023) auf 3710 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "04932",
+   "landkreis": "Elbe-Elster",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/merzdorf",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/merzdorf?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Merzdorf/Merzdorf/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Merzdorf/Merzdorf/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/merzdorf/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Merzdorf hat 820 Einwohner und liegt bei 1.619 €/m² Kauf und 5,47 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -13,9 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "schmogrow-fehrow",
+  "name": "Schmogrow-Fehrow",
+  "land": "Brandenburg",
+  "ags": "12071341",
+  "einwohner": 804,
+  "kauf": 2523,
+  "miete": 11.03,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.523, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 11,03.",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -4.5,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Burg (Spreewald) (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Burg (Spreewald): 9000 (2023) auf 8595 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03096",
+   "landkreis": "Spree-Neiße",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Schmogrow-Fehrow/Schmogrow-Fehrow/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Schmogrow-Fehrow/Schmogrow-Fehrow/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Schmogrow-Fehrow hat 804 Einwohner und liegt bei 2.523 €/m² Kauf und 11,03 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -4,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "walsleben",
+  "name": "Walsleben",
+  "land": "Brandenburg",
+  "ags": "12068452",
+  "einwohner": 795,
+  "kauf": 2722,
+  "miete": 9.43,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.350, miete-aktuell 3.095, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 10,17, ohne-makler.net 8,70 (Ersatz). homeday 5,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 5.5,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Temnitz (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Temnitz: 5423 (2023) auf 5719 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "16818",
+   "landkreis": "Ostprignitz-Ruppin",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/walsleben",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/walsleben?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Walsleben/Walsleben/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Walsleben/Walsleben/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/walsleben/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/walsleben/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Walsleben hat 795 Einwohner und liegt bei 2.722 €/m² Kauf und 9,43 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei +5,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "lebusa",
+  "name": "Lebusa",
+  "land": "Brandenburg",
+  "ags": "12062289",
+  "einwohner": 793,
+  "kauf": 2297,
+  "miete": 5.4,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.750, miete-aktuell 1.844, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 5,40. homeday 5,2 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": -8.1,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Schlieben (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Schlieben: 5124 (2023) auf 4707 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "04936",
+   "landkreis": "Elbe-Elster",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/lebusa",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/lebusa?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Lebusa/Lebusa/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Lebusa/Lebusa/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Lebusa hat 793 Einwohner und liegt bei 2.297 €/m² Kauf und 5,40 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -8,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel rot mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "tantow",
+  "name": "Tantow",
+  "land": "Brandenburg",
+  "ags": "12073565",
+  "einwohner": 791,
+  "kauf": 1820,
+  "miete": 6.83,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.500, miete-aktuell 2.141, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 6,33, ohne-makler.net 7,32 (Ersatz). homeday 5,2 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -10.8,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Gartz (Oder) (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Gartz (Oder): 6323 (2023) auf 5637 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "16307",
+   "landkreis": "Uckermark",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/tantow",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/tantow?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Tantow/Tantow/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Tantow/Tantow/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/tantow/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Tantow hat 791 Einwohner und liegt bei 1.820 €/m² Kauf und 6,83 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -10,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "goeritz",
+  "name": "Göritz",
+  "land": "Brandenburg",
+  "ags": "12073216",
+  "einwohner": 788,
+  "kauf": 1450,
+  "miete": 7.44,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.450, Gutachterausschuss keine Angabe. miete-aktuell 2.266 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 7,44. homeday 5,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -7.4,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Brüssow (Uckermark) (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Brüssow (Uckermark): 4367 (2023) auf 4045 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "17291",
+   "landkreis": "Uckermark",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/goeritz",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/goeritz?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Goeritz/Goeritz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Goeritz/Goeritz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Göritz hat 788 Einwohner und liegt bei 1.450 €/m² Kauf und 7,44 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -7,4 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf miete-aktuell 2.266 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "kremitzaue",
+  "name": "Kremitzaue",
+  "land": "Brandenburg",
+  "ags": "12062282",
+  "einwohner": 779,
+  "kauf": 1050,
+  "miete": 6.35,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.050, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): ohne-makler.net 6,35 (Ersatz). homeday 5,5 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -8.1,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Schlieben (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Schlieben: 5124 (2023) auf 4707 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "04936",
+   "landkreis": "Elbe-Elster",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/kremitzaue",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/kremitzaue?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/kremitzaue/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Kremitzaue hat 779 Einwohner und liegt bei 1.050 €/m² Kauf und 6,35 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -8,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "briesen",
+  "name": "Briesen",
+  "land": "Brandenburg",
+  "ags": "12071028",
+  "einwohner": 776,
+  "kauf": 3039,
+  "miete": 11.42,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.516, ohne-makler.net 3.561 (Ersatz), Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 11,03, ohne-makler.net 11,81 (Ersatz).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -4.5,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Burg (Spreewald) (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Burg (Spreewald): 9000 (2023) auf 8595 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03096",
+   "landkreis": "Spree-Neiße",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/briesen",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/briesen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "Nachbarorte passen nicht eindeutig zum Landkreis (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Briesen/Briesen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Briesen/Briesen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/briesen/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/briesen/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Briesen hat 776 Einwohner und liegt bei 3.039 €/m² Kauf und 11,42 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -4,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Ortsverwechslung bereinigt: homeday Kauf: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/briesen; homeday Miete: entfernt, Nachbarorte passen nicht eindeutig zum Landkreis: https://www.homeday.de/de/preisatlas/briesen?marketing_type=rent&property_type=apartment",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "temnitzquell",
+  "name": "Temnitzquell",
+  "land": "Brandenburg",
+  "ags": "12068425",
+  "einwohner": 756,
+  "kauf": 2400,
+  "miete": 8.7,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.400, Gutachterausschuss keine Angabe. ohne-makler.net 4.160 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: homeday, ohne-makler.net.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): ohne-makler.net 8,70 (Ersatz). homeday 7,2 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 5.5,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Temnitz (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Temnitz: 5423 (2023) auf 5719 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "16818",
+   "landkreis": "Ostprignitz-Ruppin",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/temnitzquell",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/temnitzquell?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/temnitzquell/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/temnitzquell/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Temnitzquell hat 756 Einwohner und liegt bei 2.400 €/m² Kauf und 8,70 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei +5,5 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Kauf ohne-makler.net 4.160 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "tettau",
+  "name": "Tettau",
+  "land": "Brandenburg",
+  "ags": "12066316",
+  "einwohner": 750,
+  "kauf": 2139,
+  "miete": 6.76,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): ohne-makler.net 2.139 (Ersatz), Gutachterausschuss keine Angabe. Ort/PLZ geprüft: ohne-makler.net.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): ohne-makler.net 6,76 (Ersatz).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -7.1,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Ortrand (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Ortrand: 6001 (2023) auf 5576 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "01945",
+   "landkreis": "Oberspreewald-Lausitz",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/tettau/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/tettau/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Tettau hat 750 Einwohner und liegt bei 2.139 €/m² Kauf und 6,76 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -7,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "luckaitztal",
+  "name": "Luckaitztal",
+  "land": "Brandenburg",
+  "ags": "12066202",
+  "einwohner": 746,
+  "kauf": 1807,
+  "miete": 6.01,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.450, miete-aktuell 2.165, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 6,01. homeday 5,4 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -10.7,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Altdöbern (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Altdöbern: 5404 (2023) auf 4824 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03229",
+   "landkreis": "Oberspreewald-Lausitz",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/luckaitztal",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/luckaitztal?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Luckaitztal/Luckaitztal/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Luckaitztal/Luckaitztal/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Luckaitztal hat 746 Einwohner und liegt bei 1.807 €/m² Kauf und 6,01 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -10,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "lindenau",
+  "name": "Lindenau",
+  "land": "Brandenburg",
+  "ags": "12066188",
+  "einwohner": 744,
+  "kauf": 1626,
+  "miete": 7.0,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.450, miete-aktuell 1.802, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): miete-aktuell 5,24, miet-check 9,00, ohne-makler.net 6,76 (Ersatz). homeday 5,7 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -7.1,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Ortrand (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Ortrand: 6001 (2023) auf 5576 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "01945",
+   "landkreis": "Oberspreewald-Lausitz",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/lindenau",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/lindenau?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Lindenau/Lindenau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Lindenau/Lindenau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/lindenau_oberlausitz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/lindenau/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/lindenau/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Lindenau hat 744 Einwohner und liegt bei 1.626 €/m² Kauf und 7,00 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -7,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Ersatzwert nach gestrichenem Ausreißer (Miete): Nach dem Streichen blieb weniger als eine zweite Auftragsquelle. Die Ersatzquelle kam deshalb zum ursprünglichen Wertesatz hinzu, und die Ausreißerregel lief neu",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "drachhausen",
+  "name": "Drachhausen",
+  "land": "Brandenburg",
+  "ags": "12071052",
+  "einwohner": 742,
+  "kauf": 1894,
+  "miete": 6.22,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.750, miete-aktuell 2.037, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 5,67, ohne-makler.net 6,77 (Ersatz). homeday 5,8 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -9.6,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Peitz (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Peitz: 10589 (2023) auf 9575 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03185",
+   "landkreis": "Spree-Neiße",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/drachhausen",
+     "ergebnis": "nicht bestätigt",
+     "methode": "nicht bestätigt"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/drachhausen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "nicht bestätigt",
+     "methode": "nicht bestätigt"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Drachhausen/Drachhausen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Drachhausen/Drachhausen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/drachhausen/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Drachhausen hat 742 Einwohner und liegt bei 1.894 €/m² Kauf und 6,22 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -9,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: homeday",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "hermsdorf",
+  "name": "Hermsdorf",
+  "land": "Brandenburg",
+  "ags": "12066124",
+  "einwohner": 733,
+  "kauf": null,
+  "miete": null,
+  "kaufQuellen": "Mittel aus 0 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): Gutachterausschuss keine Angabe. Ort/PLZ geprüft: keine Quelle.",
+  "mieteQuellen": "keine Angabe.",
+  "score": "unbewertet",
+  "prognose": {
+   "wert_pct": -8.4,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Ruhland (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Ruhland: 7137 (2023) auf 6540 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "01945",
+   "landkreis": "Oberspreewald-Lausitz",
+   "gesamt": "nicht bestätigt",
+   "quellen": [
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/hermsdorf___osterzgebirge/",
+     "ergebnis": "nicht bestätigt, Wert entfernt",
+     "methode": "PLZ passt nicht zum Ort (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Hermsdorf hat 733 Einwohner, Kauf oder Miete ließen sich nicht ausreichend belegen, Ampel unbewertet. Prognose: -8,4 %, keine Mietpreisbremse (Kappung 20 %). Rendite {R} % und Faktor {F} ungeprüft.",
+  "offen": [
+   "unbewertet: Portale liefern für diese Gemeinde keine oder zu wenige belegbare Werte, keine Ersatzwerte aus Landkreis oder Nachbarorten eingesetzt",
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Ortsverwechslung bereinigt: miet-check Miete: entfernt, PLZ passt nicht zum Ort: https://www.miet-check.de/mietspiegel/hermsdorf___osterzgebirge/",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "mescherin",
+  "name": "Mescherin",
+  "land": "Brandenburg",
+  "ags": "12073393",
+  "einwohner": 726,
+  "kauf": 1823,
+  "miete": 6.68,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 1.500, miete-aktuell 2.145, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 6,04, ohne-makler.net 7,32 (Ersatz). homeday 5,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -10.8,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Gartz (Oder) (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Gartz (Oder): 6323 (2023) auf 5637 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "16307",
+   "landkreis": "Uckermark",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/mescherin",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/mescherin?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Mescherin/Mescherin/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Mescherin/Mescherin/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/mescherin/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Mescherin hat 726 Einwohner und liegt bei 1.823 €/m² Kauf und 6,68 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -10,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "gross-schacksdorf-simmersdorf",
+  "name": "Groß Schacksdorf-Simmersdorf",
+  "land": "Brandenburg",
+  "ags": "12071153",
+  "einwohner": 725,
+  "kauf": 1940,
+  "miete": 6.35,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.940, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 6,35.",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": -17.6,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Döbern-Land (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Döbern-Land: 10133 (2023) auf 8347 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "03149",
+   "landkreis": "Spree-Neiße",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Gross-Schacksdorf-Simmersdorf/Gross-Schacksdorf-Simmersdorf/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Gross-Schacksdorf-Simmersdorf/Gross-Schacksdorf-Simmersdorf/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Groß Schacksdorf-Simmersdorf hat 725 Einwohner und liegt bei 1.940 €/m² Kauf und 6,35 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -17,6 %, keine Mietpreisbremse (Kappung 20 %). Ampel rot mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "cumlosen",
+  "name": "Cumlosen",
+  "land": "Brandenburg",
+  "ags": "12070060",
+  "einwohner": 718,
+  "kauf": 2168,
+  "miete": 7.46,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): homeday 2.100, miete-aktuell 2.235, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 7,46, ohne-makler.net 7,47 (Ersatz). homeday 5,2 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -6.0,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Lenzen-Elbtalaue (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Lenzen-Elbtalaue: 3880 (2023) auf 3648 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "19322",
+   "landkreis": "Prignitz",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/cumlosen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/cumlosen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Cumlosen/Cumlosen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Cumlosen/Cumlosen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/cumlosen/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/cumlosen/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Cumlosen hat 718 Einwohner und liegt bei 2.168 €/m² Kauf und 7,46 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -6,0 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "berge",
+  "name": "Berge",
+  "land": "Brandenburg",
+  "ags": "12070028",
+  "einwohner": 715,
+  "kauf": 1717,
+  "miete": 6.86,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): ohne-makler.net 1.717 (Ersatz), Gutachterausschuss keine Angabe. Ort/PLZ geprüft: ohne-makler.net.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miet-check 6,48, ohne-makler.net 7,23 (Ersatz).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -8.7,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Putlitz-Berge (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Putlitz-Berge: 4668 (2023) auf 4261 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "19348",
+   "landkreis": "Prignitz",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/berge_bei_perleberg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/berge/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/berge/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Berge hat 715 Einwohner und liegt bei 1.717 €/m² Kauf und 6,86 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -8,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb mit Prognose-Deckel.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "kroppen",
+  "name": "Kroppen",
+  "land": "Brandenburg",
+  "ags": "12066168",
+  "einwohner": 706,
+  "kauf": 1970,
+  "miete": 5.95,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.800, ohne-makler.net 2.139 (Ersatz), Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 5,13, ohne-makler.net 6,76 (Ersatz).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -7.1,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Ortrand (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Ortrand: 6001 (2023) auf 5576 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "01945",
+   "landkreis": "Oberspreewald-Lausitz",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Kroppen/Kroppen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Kroppen/Kroppen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/kroppen/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/kroppen/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Kroppen hat 706 Einwohner und liegt bei 1.970 €/m² Kauf und 5,95 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -7,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ },
+ {
+  "id": "frauendorf",
+  "name": "Frauendorf",
+  "land": "Brandenburg",
+  "ags": "12066064",
+  "einwohner": 705,
+  "kauf": 1967,
+  "miete": 5.97,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 1.796, ohne-makler.net 2.139 (Ersatz), Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell, ohne-makler.net.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 5,19, ohne-makler.net 6,76 (Ersatz).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": -7.1,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Amt Ortrand (Gemeinde gehört zum Amt, kein Gemeindewert veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Ortrand: 6001 (2023) auf 5576 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: nicht gelistet",
+  "ortspruefung": {
+   "plz": "01945",
+   "landkreis": "Oberspreewald-Lausitz",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Frauendorf/Frauendorf/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Frauendorf/Frauendorf/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "ohne-makler.net Miete",
+     "pfad": "https://www.ohne-makler.net/mietspiegel/brandenburg/frauendorf/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    },
+    {
+     "quelle": "ohne-makler.net Kauf",
+     "pfad": "https://www.ohne-makler.net/immobilienpreise/brandenburg/frauendorf/",
+     "ergebnis": "bestätigt",
+     "methode": "Landkreis auf der Seite genannt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Frauendorf hat 705 Einwohner und liegt bei 1.967 €/m² Kauf und 5,97 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Landesamt-Prognose 2023 bis 2040 liegt bei -7,1 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Miete: Ersatzquelle ohne-makler.net genutzt, Auftragsquellen erschöpft",
+   "Ort nicht über PLZ oder Nachbarorte bestätigt: ohne-makler.net",
+   "Gutachterausschuss: kein Marktbericht ausgewertet (kein einheitlicher freier Wohnungswert je Gemeinde für dieses Land in der Pipeline)",
+   "amtlicher Mietspiegel, Pendler, Hochwasser, Leerstand nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt"
+  ]
+ }
+]
