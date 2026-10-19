@@ -1,0 +1,637 @@
+[
+ {
+  "id": "offenbach-am-main",
+  "name": "Offenbach am Main",
+  "land": "Hessen",
+  "ags": "06413000",
+  "einwohner": 132746,
+  "kauf": 3922,
+  "miete": 14.42,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.947, homeday 4.050, miete-aktuell 3.769, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 14,14, miete-aktuell 14,12, miet-check 15,00. homeday 11,8 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 4.7,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Offenbach am Main, kreisfreie Stadt: 130890 (2020) auf 137090 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+offenbach-am-main+2020-2040+tabelle)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Hessische Mieterschutzverordnung vom 18.11.2020 (GVBl. S. 802), geändert am 12.11.2025 (GVBl. 2025 Nr. 74), § 1, 49 Gemeinden für Mietpreisbremse und Kappungsgrenze 15 %, gültig bis 25.11.2026 (geplante Neufassung mit 71 Gemeinden noch nicht in Kraft): gelistet",
+  "ortspruefung": {
+   "plz": "63065",
+   "landkreis": "Offenbach am Main, Stadt",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/offenbach-am-main",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 5 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/offenbach-am-main",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 5 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/offenbach+am+main",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 7 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/offenbach+am+main?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis, 7 Treffer) (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Offenbach-am-Main/Offenbach-am-Main/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Offenbach-am-Main/Offenbach-am-Main/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland)"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/offenbach/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ exakt (strenge Prüfung, Ortsname mehrfach in Deutschland); Seite nennt Hessen / Offenbach am Main und die PLZ 63065 bis 63075, Pfad ohne Zusatz am Main"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": [
+   {
+    "name": "GKN Driveline",
+    "beschaeftigte": "knapp 2.000",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Offenbach am Main, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Offenbach am Main hat 132.746 Einwohner und liegt bei 3.922 €/m² Kauf und 14,42 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +4,7 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel 2026 (Vorgänger 2024)",
+    "art": "herausgegeben von der Stadt Offenbach mit Mieterverein und Eigentümerverbänden, mit Mietspiegelrechner",
+    "link": "https://www.offenbach.de/leben-in-of/planen-bauen-wohnen/wohnen/wohnhilfen/mietspiegel.php"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3500,
+    "bericht": "Immobilienmarktbericht des Landes Hessen 2025 (Zentrale Geschäftsstelle der Gutachterausschüsse, Kauffälle des Jahres 2024), Tab. 6.2.2 Mittleres Preisniveau Wohnungseigentum Wiederverkauf, Spalte Oberzentren (Modellwohnung 20 Jahre alt, 80 m² Wohnfläche, mittlere Lage)",
+    "jahr": 2024,
+    "kauffaelle": null,
+    "kauffaelle_hinweis": "im Landesbericht nicht je Stadt ausgewiesen",
+    "link": "https://www.buck-vermessung.de/wp-content/uploads/2026/01/immobilienmarktbericht-hessen-2025.pdf",
+    "link_hinweis": "frei abrufbare Kopie des Berichts; Herausgeber ist die ZGGH (gds.hessen.de)",
+    "ergaenzend": "Der örtliche Gutachterausschuss Offenbach meldet im vorläufigen Marktbericht 2025 für 2024 einen Modellwert von 2.921 €/m² aus 98 Wiederverkäufen (Pressemeldung, Bericht selbst nicht abgerufen)"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "keine Satzung; Antrag auf Ferienwohnungssatzung (DS-I(A)0819) am 29.01.2025 und Antrag auf Leerstandssatzung (DS-I(A)1012) am 12.02.2026 in der Stadtverordnetenversammlung abgelehnt. Hessen kennt kein allgemeines Zweckentfremdungsgesetz; möglich ist nur eine Ferienwohnungssatzung nach § 12a Hessisches Wohnungsaufsichtsgesetz (Ministerium nennt Frankfurt und Maintal) sowie seit 21.11.2025 eine Leerstandssatzung nach dem Hessischen Leerstandsgesetz (laut Landesregierung bis September 2026 von keiner Kommune erlassen)",
+    "link": "https://pio.offenbach.de/index.php?aktiv=doc&docid=2025-00020911&year=2025&av_dokument_id=20911"
+   },
+   "leerstand": {
+    "quote_prozent": 3.7,
+    "leerstehende_wohnungen": 2416,
+    "wohnungen": 65700,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 4.7,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Offenbach am Main, kreisfreie Stadt: 130890 (2020) auf 137090 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+offenbach-am-main+2020-2040+tabelle)"
+   },
+   "vergleich": {
+    "kauf_portale": 3922,
+    "gutachter": 3500,
+    "abweichung_prozent": 12.1,
+    "text": "Portalmittel 3.922 €/m² liegt 12,1 % über dem Gutachterwert 3.500 €/m² (2024); Angebotspreise gegen Kaufpreise, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "hanau",
+  "name": "Hanau",
+  "land": "Hessen",
+  "ags": "06435014",
+  "einwohner": 97956,
+  "kauf": 3071,
+  "miete": 12.76,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.021, homeday 3.200, miete-aktuell 2.992, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 12,47, miete-aktuell 12,58, miet-check 13,22. homeday 10,5 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 10.2,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Hanau (im Main-Kinzig-Kreis): 97140 (2020) auf 107040 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+hanau+2020-2040+tabelle)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Hessische Mieterschutzverordnung vom 18.11.2020 (GVBl. S. 802), geändert am 12.11.2025 (GVBl. 2025 Nr. 74), § 1, 49 Gemeinden für Mietpreisbremse und Kappungsgrenze 15 %, gültig bis 25.11.2026 (geplante Neufassung mit 71 Gemeinden noch nicht in Kraft): nicht gelistet",
+  "ortspruefung": {
+   "plz": "63450",
+   "landkreis": "Main-Kinzig-Kreis",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/hanau",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/hanau",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/hanau",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/hanau?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Hanau/Hanau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Hanau/Hanau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/hanau/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Hanau hat 97.956 Einwohner und liegt bei 3.071 €/m² Kauf und 12,76 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +10,2 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Mietspiegel 2024 für Hanau und Umlandgemeinden, gültig bis 30.04.2026; Nachfolgeausgabe nicht gefunden",
+    "art": "von Mieterbund und Haus & Grund erstellt, vom Magistrat anerkannt (nicht als qualifiziert ausgewiesen)",
+    "link": "https://www.hanau.de/mam/formulare/merkblaetter/mietspiegel_hanau_2024.pdf"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3450,
+    "bericht": "Immobilienmarktbericht des Landes Hessen 2025 (Zentrale Geschäftsstelle der Gutachterausschüsse, Kauffälle des Jahres 2024), Tab. 6.2.2 Mittleres Preisniveau Wohnungseigentum Wiederverkauf, Spalte Oberzentren (Modellwohnung 20 Jahre alt, 80 m² Wohnfläche, mittlere Lage)",
+    "jahr": 2024,
+    "kauffaelle": null,
+    "kauffaelle_hinweis": "im Landesbericht nicht je Stadt ausgewiesen",
+    "link": "https://www.buck-vermessung.de/wp-content/uploads/2026/01/immobilienmarktbericht-hessen-2025.pdf",
+    "link_hinweis": "frei abrufbare Kopie des Berichts; Herausgeber ist die ZGGH (gds.hessen.de)"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "keine Satzung gefunden. Hessen kennt kein allgemeines Zweckentfremdungsgesetz; möglich ist nur eine Ferienwohnungssatzung nach § 12a Hessisches Wohnungsaufsichtsgesetz (Ministerium nennt Frankfurt und Maintal) sowie seit 21.11.2025 eine Leerstandssatzung nach dem Hessischen Leerstandsgesetz (laut Landesregierung bis September 2026 von keiner Kommune erlassen)",
+    "link": "https://wirtschaft.hessen.de/wohnen-und-bauen/wohnungsrecht"
+   },
+   "leerstand": {
+    "quote_prozent": 4.3,
+    "leerstehende_wohnungen": 1967,
+    "wohnungen": 45814,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 10.2,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Hanau (im Main-Kinzig-Kreis): 97140 (2020) auf 107040 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+hanau+2020-2040+tabelle)"
+   },
+   "vergleich": {
+    "kauf_portale": 3071,
+    "gutachter": 3450,
+    "abweichung_prozent": -11.0,
+    "text": "Portalmittel 3.071 €/m² liegt 11,0 % unter dem Gutachterwert 3.450 €/m² (2024); Angebotspreise gegen Kaufpreise, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "giessen",
+  "name": "Gießen",
+  "land": "Hessen",
+  "ags": "06531005",
+  "einwohner": 89179,
+  "kauf": 3491,
+  "miete": 12.03,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.529, homeday 3.450, miete-aktuell 3.495, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 12,15, miete-aktuell 11,70, miet-check 12,25. homeday 10,3 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 7.7,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Gießen (im Landkreis Gießen): 90130 (2020) auf 97090 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+giessen-gi+2020-2040+tabelle)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Hessische Mieterschutzverordnung vom 18.11.2020 (GVBl. S. 802), geändert am 12.11.2025 (GVBl. 2025 Nr. 74), § 1, 49 Gemeinden für Mietpreisbremse und Kappungsgrenze 15 %, gültig bis 25.11.2026 (geplante Neufassung mit 71 Gemeinden noch nicht in Kraft): nicht gelistet",
+  "ortspruefung": {
+   "plz": "35390",
+   "landkreis": "Gießen",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/giessen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/giessen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/giessen",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/giessen?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Giessen/Giessen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Giessen/Giessen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/giessen/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Gießen hat 89.179 Einwohner und liegt bei 3.491 €/m² Kauf und 12,03 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +7,7 %, keine Mietpreisbremse (Kappung 20 %). Ampel gelb.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Qualifizierter Mietspiegel 2026 (Fortschreibung des Mietspiegels 2024)",
+    "art": "qualifiziert, mit Online-Rechner",
+    "link": "https://www.giessen.de/Mietspiegel"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3350,
+    "bericht": "Immobilienmarktbericht des Landes Hessen 2025 (Zentrale Geschäftsstelle der Gutachterausschüsse, Kauffälle des Jahres 2024), Tab. 6.2.2 Mittleres Preisniveau Wohnungseigentum Wiederverkauf, Spalte Oberzentren (Modellwohnung 20 Jahre alt, 80 m² Wohnfläche, mittlere Lage)",
+    "jahr": 2024,
+    "kauffaelle": null,
+    "kauffaelle_hinweis": "im Landesbericht nicht je Stadt ausgewiesen",
+    "link": "https://www.buck-vermessung.de/wp-content/uploads/2026/01/immobilienmarktbericht-hessen-2025.pdf",
+    "link_hinweis": "frei abrufbare Kopie des Berichts; Herausgeber ist die ZGGH (gds.hessen.de)"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "keine Satzung gefunden. Hessen kennt kein allgemeines Zweckentfremdungsgesetz; möglich ist nur eine Ferienwohnungssatzung nach § 12a Hessisches Wohnungsaufsichtsgesetz (Ministerium nennt Frankfurt und Maintal) sowie seit 21.11.2025 eine Leerstandssatzung nach dem Hessischen Leerstandsgesetz (laut Landesregierung bis September 2026 von keiner Kommune erlassen)",
+    "link": "https://wirtschaft.hessen.de/wohnen-und-bauen/wohnungsrecht"
+   },
+   "leerstand": {
+    "quote_prozent": 3.5,
+    "leerstehende_wohnungen": 1572,
+    "wohnungen": 45543,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 7.7,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Gießen (im Landkreis Gießen): 90130 (2020) auf 97090 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+giessen-gi+2020-2040+tabelle)"
+   },
+   "vergleich": {
+    "kauf_portale": 3491,
+    "gutachter": 3350,
+    "abweichung_prozent": 4.2,
+    "text": "Portalmittel 3.491 €/m² liegt 4,2 % über dem Gutachterwert 3.350 €/m² (2024); Angebotspreise gegen Kaufpreise, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "marburg",
+  "name": "Marburg",
+  "land": "Hessen",
+  "ags": "06534014",
+  "einwohner": 73544,
+  "kauf": 3481,
+  "miete": 12.57,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.429, homeday 3.600, miete-aktuell 3.414, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 12,70, miete-aktuell 12,55, miet-check 12,46. homeday 10,4 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": 1.4,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Marburg (im Landkreis Marburg-Biedenkopf): 76400 (2020) auf 77470 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+marburg+2020-2040+tabelle)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Hessische Mieterschutzverordnung vom 18.11.2020 (GVBl. S. 802), geändert am 12.11.2025 (GVBl. 2025 Nr. 74), § 1, 49 Gemeinden für Mietpreisbremse und Kappungsgrenze 15 %, gültig bis 25.11.2026 (geplante Neufassung mit 71 Gemeinden noch nicht in Kraft): gelistet",
+  "ortspruefung": {
+   "plz": "35037",
+   "landkreis": "Marburg-Biedenkopf",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/marburg",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/marburg",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/marburg",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/marburg?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Landkreis)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Marburg/Marburg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Marburg/Marburg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/marburg/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": [
+   {
+    "name": "Philipps-Universität Marburg",
+    "beschaeftigte": "über 3.900",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Marburg, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   },
+   {
+    "name": "Universitätsklinikum Gießen und Marburg, Standort Marburg",
+    "beschaeftigte": "über 4.200",
+    "stand": "Jahr im Artikel nicht genannt",
+    "quelle": "de.wikipedia.org, Artikel Marburg, Abschnitt Wirtschaft, abgerufen 19.10.2026"
+   }
+  ],
+  "fazit": "Marburg hat 73.544 Einwohner und liegt bei 3.481 €/m² Kauf und 12,57 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei +1,4 %, Mietpreisbremse gilt (Kappung 15 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Qualifizierter Mietspiegel 2026 (erster qualifizierter Mietspiegel 2024)",
+    "art": "qualifiziert, mit Online-Berechnungstool",
+    "link": "https://www.marburg.de/medien/dokumente/mietspiegelbroschuere_marburg_2026.pdf"
+   },
+   "gutachter": {
+    "wert_eur_m2": 3500,
+    "bericht": "Immobilienmarktbericht des Landes Hessen 2025 (Zentrale Geschäftsstelle der Gutachterausschüsse, Kauffälle des Jahres 2024), Tab. 6.2.2 Mittleres Preisniveau Wohnungseigentum Wiederverkauf, Spalte Oberzentren (Modellwohnung 20 Jahre alt, 80 m² Wohnfläche, mittlere Lage)",
+    "jahr": 2024,
+    "kauffaelle": null,
+    "kauffaelle_hinweis": "im Landesbericht nicht je Stadt ausgewiesen",
+    "link": "https://www.buck-vermessung.de/wp-content/uploads/2026/01/immobilienmarktbericht-hessen-2025.pdf",
+    "link_hinweis": "frei abrufbare Kopie des Berichts; Herausgeber ist die ZGGH (gds.hessen.de)"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "keine Satzung gefunden. Hessen kennt kein allgemeines Zweckentfremdungsgesetz; möglich ist nur eine Ferienwohnungssatzung nach § 12a Hessisches Wohnungsaufsichtsgesetz (Ministerium nennt Frankfurt und Maintal) sowie seit 21.11.2025 eine Leerstandssatzung nach dem Hessischen Leerstandsgesetz (laut Landesregierung bis September 2026 von keiner Kommune erlassen)",
+    "link": "https://wirtschaft.hessen.de/wohnen-und-bauen/wohnungsrecht"
+   },
+   "leerstand": {
+    "quote_prozent": 2.8,
+    "leerstehende_wohnungen": 1095,
+    "wohnungen": 38866,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": 1.4,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Marburg (im Landkreis Marburg-Biedenkopf): 76400 (2020) auf 77470 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+marburg+2020-2040+tabelle)"
+   },
+   "vergleich": {
+    "kauf_portale": 3481,
+    "gutachter": 3500,
+    "abweichung_prozent": -0.5,
+    "text": "Portalmittel 3.481 €/m² liegt 0,5 % unter dem Gutachterwert 3.500 €/m² (2024); Angebotspreise gegen Kaufpreise, deshalb nur zur Einordnung"
+   }
+  }
+ },
+ {
+  "id": "koblenz",
+  "name": "Koblenz",
+  "land": "Rheinland-Pfalz",
+  "ags": "07111000",
+  "einwohner": 113378,
+  "kauf": 3091,
+  "miete": 11.1,
+  "kaufQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 3.051, homeday 3.450, miete-aktuell 2.771, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: homeday, immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 10,65, miete-aktuell 10,96, miet-check 11,68. homeday 9,0 (nur daneben).",
+  "score": "gruen",
+  "prognose": {
+   "wert_pct": -2.8,
+   "basisjahr": 2020,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde",
+   "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Koblenz, kreisfreie Stadt: 113390 (2020) auf 110210 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+koblenz+2020-2040+tabelle)"
+  },
+  "mpb": false,
+  "kappung": 20,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Rheinland-Pfalz vom 16.9.2025 (Landau, Ludwigshafen, Mainz, Speyer, Worms, Landkreise Alzey-Worms und Rhein-Pfalz-Kreis) und Kappungsgrenzenverordnung vom 13.9.2024: nicht gelistet",
+  "ortspruefung": {
+   "plz": "56068",
+   "landkreis": "Koblenz, kreisfreie Stadt",
+   "gesamt": "bestätigt",
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/koblenz",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/koblenz",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/koblenz",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/koblenz?marketing_type=rent&property_type=apartment",
+     "ergebnis": "Nachbarorte passen",
+     "methode": "Nachbarorte passen (Bundesland)"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Koblenz/Koblenz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Koblenz/Koblenz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    },
+    {
+     "quelle": "miet-check Miete",
+     "pfad": "https://www.miet-check.de/mietspiegel/koblenz/",
+     "ergebnis": "bestätigt",
+     "methode": "PLZ passt"
+    }
+   ],
+   "grundlage": "PLZ und Landkreis aus dem Destatis-Gemeindeverzeichnis (Gebietsstand 31.12.2025), Seiten am 19.10.2026 abgerufen"
+  },
+  "arbeitgeber": null,
+  "fazit": "Koblenz hat 113.378 Einwohner und liegt bei 3.091 €/m² Kauf und 11,10 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose der Bertelsmann Stiftung 2020 bis 2040 liegt bei -2,8 %, keine Mietpreisbremse (Kappung 20 %). Ampel grün.",
+  "offen": [
+   "Pendler, Hochwasser nicht erhoben; Arbeitgeber im Wikipedia-Artikel nicht mit Name und Beschäftigtenzahl am Ort belegt",
+   "Stufe 2: Mietspiegel, Gutachterwert, Zweckentfremdung und Leerstand stehen in stufe2; sie fließen nicht in Kauf, Miete oder Ampel ein"
+  ],
+  "stufe2": {
+   "mietspiegel": {
+    "vorhanden": true,
+    "ausgabe": "Qualifizierter Mietspiegel 2025/2026, gültig vom 01.01.2025 bis 31.12.2026 (Stichtag der Erhebung 30.06.2024)",
+    "art": "qualifiziert, Stadtverwaltung Koblenz, Kommunalstatistik und Stadtforschung",
+    "link": "https://www.koblenz.de/downloads/aemter-und-eigenbetriebe/statistikstelle/bauen-und-wohnen/mietspiegel/mietspiegel-koblenz-2025-2026.pdf"
+   },
+   "gutachter": {
+    "wert_eur_m2": 2770,
+    "bericht": "Gutachterausschuss für Grundstückswerte für den Bereich der Stadt Koblenz, Übersicht über den Grundstücksmarkt des Jahres 2025 (Ausgabe März 2026), Abschnitt 5.3 Wohnungseigentum Weiterverkauf, alle Baujahre, Durchschnitt",
+    "jahr": 2025,
+    "kauffaelle": 302,
+    "kauffaelle_hinweis": "302 geeignete Kauffälle (373 Weiterverkäufe insgesamt), Spanne 1.240 bis 7.190 €/m², mittlere Wohnfläche 75 m²",
+    "link": "https://www.koblenz.de/umwelt-und-planung/grundstuecke-und-geodaten/gutachterausschuss/grundstuecksmarktbericht/infoblaetter/infoblatt-grundstuecksmarkt-koblenz-2025.pdf?cid=3o00"
+   },
+   "zweckentfremdung": {
+    "satzung": false,
+    "stand": "19.10.2026",
+    "text": "keine Satzung; das Landesgesetz über das Verbot der Zweckentfremdung von Wohnraum Rheinland-Pfalz vom 11.02.2020 erlaubt Satzungen (Beispiele Mainz, Trier), der Stadtrat Koblenz hat bisher keine beschlossen (Stand Pressebericht 03.07.2026)",
+    "link": "https://merkurist.de/koblenz/tourismus-vs-wohnen-warum-in-koblenz-immer-mehr-wohnraum-in-ferienwohnungen-umgewandelt-wird_e41I"
+   },
+   "leerstand": {
+    "quote_prozent": 4.2,
+    "leerstehende_wohnungen": 2565,
+    "wohnungen": 61330,
+    "stichtag": "15.05.2022",
+    "definition": "Zensus 2022, Anteil leerstehender an allen bewohnten und leerstehenden Wohnungen in Wohngebäuden ohne Wohnheime",
+    "quelle": "Zensus 2022 Datenbank, Tabellen 4000W-0001 und 4000W-3002",
+    "link": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-0001"
+   },
+   "prognose_gemeinde": {
+    "wert_pct": -2.8,
+    "basisjahr": 2020,
+    "zieljahr": 2040,
+    "ebene": "Gemeinde",
+    "quelle": "Bertelsmann Stiftung, Wegweiser Kommune, Bevölkerungsvorausberechnung 2020 bis 2040 (Basis Statistische Ämter der Länder), Koblenz, kreisfreie Stadt: 113390 (2020) auf 110210 (2040) Einwohner (https://www.wegweiser-kommune.de/daten/bevoelkerung-prognose+koblenz+2020-2040+tabelle)"
+   },
+   "vergleich": {
+    "kauf_portale": 3091,
+    "gutachter": 2770,
+    "abweichung_prozent": 11.6,
+    "text": "Portalmittel 3.091 €/m² liegt 11,6 % über dem Gutachterwert 2.770 €/m² (2025); Angebotspreise gegen Kaufpreise, deshalb nur zur Einordnung"
+   }
+  }
+ }
+]
