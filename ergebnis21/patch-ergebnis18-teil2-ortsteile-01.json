@@ -1,0 +1,3298 @@
+[
+ {
+  "id": "potsdam-am-stern",
+  "name": "Am Stern (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Am Stern",
+  "einwohner": 17254,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"71 Stern\"; die Stadtstatistik fuehrt den Stadtteil unter dem Namen \"Stern\" (Nr. 71), entspricht Am Stern, Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.38342,
+   "lon": 13.13866,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577666 (\"Stern\", boundary=administrative), https://www.openstreetmap.org/relation/6577666, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 4208,
+  "miete": 13.12,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.297, miete-aktuell 4.119, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 13,98, miete-aktuell 12,26.",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14480"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/am-stern",
+     "wert": 4297.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/am-stern",
+     "wert": 13.98,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": null,
+     "ergebnis": "kein Wert",
+     "grund": "Weiterleitung auf https://www.homeday.de/de/preisatlas/potsdam/stern"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": null,
+     "ergebnis": "kein Wert",
+     "grund": "Weiterleitung auf https://www.homeday.de/de/preisatlas/potsdam/stern"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Am-Stern/",
+     "wert": 4118.91,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14480) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Am-Stern/",
+     "wert": 12.26,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14480) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Am Stern (Potsdam) hat 17.254 Einwohner und liegt bei 4.208 €/m² Kauf und 13,12 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": {
+    "kauf": 4297,
+    "miete": 13.98,
+    "score": "gelb"
+   },
+   "neu_angelegt": false,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Am-Stern/",
+     "wert": 4118.91,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14480) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Am-Stern/",
+     "wert": 12.26,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14480) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-babelsberg-nord",
+  "name": "Babelsberg Nord (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Babelsberg Nord",
+  "einwohner": 11188,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"52 Babelsberg Nord\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.39971,
+   "lon": 13.10061,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577653 (\"Babelsberg Nord\", boundary=administrative), https://www.openstreetmap.org/relation/6577653, Overpass API Datenstand 2026-10-20T08:43:01Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 5007,
+  "miete": 13.41,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 5.007, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 13,41. homeday 12,4 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14482"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/babelsberg-nord",
+     "wert": 5017.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/babelsberg-nord",
+     "wert": 13.68,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/babelsberg+nord",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/babelsberg+nord?marketing_type=rent&property_type=apartment",
+     "wert": 12.4,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Babelsberg-Nord/",
+     "wert": 5006.62,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14482) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Babelsberg-Nord/",
+     "wert": 13.41,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14482) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Babelsberg Nord (Potsdam) hat 11.188 Einwohner und liegt bei 5.007 €/m² Kauf und 13,41 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": null,
+   "neu_angelegt": true,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Babelsberg-Nord/",
+     "wert": 5006.62,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14482) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Babelsberg-Nord/",
+     "wert": 13.41,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14482) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-babelsberg-sued",
+  "name": "Babelsberg Süd (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Babelsberg Süd",
+  "einwohner": 13935,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"53 Babelsberg Süd\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.38539,
+   "lon": 13.10837,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577654 (\"Babelsberg Süd\", boundary=administrative), https://www.openstreetmap.org/relation/6577654, Overpass API Datenstand 2026-10-20T08:43:01Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 4557,
+  "miete": 13.76,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 4.557, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 13,76. homeday 12,4 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14482"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/babelsberg-sued",
+     "wert": 5017.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/babelsberg-sued",
+     "wert": 13.68,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/babelsberg+s%C3%BCd",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/babelsberg+s%C3%BCd?marketing_type=rent&property_type=apartment",
+     "wert": 12.4,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Babelsberg-Sued/",
+     "wert": 4556.55,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14482) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Babelsberg-Sued/",
+     "wert": 13.76,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14482) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Babelsberg Süd (Potsdam) hat 13.935 Einwohner und liegt bei 4.557 €/m² Kauf und 13,76 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": null,
+   "neu_angelegt": true,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Babelsberg-Sued/",
+     "wert": 4556.55,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14482) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Babelsberg-Sued/",
+     "wert": 13.76,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14482) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-berliner-vorstadt",
+  "name": "Berliner Vorstadt (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Berliner Vorstadt",
+  "einwohner": 2810,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"23 Berliner Vorstadt\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.40997,
+   "lon": 13.07909,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577655 (\"Berliner Vorstadt\", boundary=administrative), https://www.openstreetmap.org/relation/6577655, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 2298,
+  "miete": 14.73,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 2.298, Gutachterausschuss keine Angabe. immoportal 5.683 (nicht gewertet: mehr als 50 % über der nächsten Portalquelle). Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 15,49, miete-aktuell 13,96.",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14467"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/berliner-vorstadt",
+     "wert": 5683.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/berliner-vorstadt",
+     "wert": 15.49,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": null,
+     "ergebnis": "kein Wert",
+     "grund": "Weiterleitung auf https://www.homeday.de/de/preisatlas/potsdam/nauener+vorstadt"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": null,
+     "ergebnis": "kein Wert",
+     "grund": "Weiterleitung auf https://www.homeday.de/de/preisatlas/potsdam/nauener+vorstadt"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Berliner-Vorstadt/",
+     "wert": 2297.5,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14467) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Berliner-Vorstadt/",
+     "wert": 13.96,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14467) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Berliner Vorstadt (Potsdam) hat 2.810 Einwohner und liegt bei 2.298 €/m² Kauf und 14,73 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb, wegen dünner oder ungeprüfter Datenbasis nicht grün.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf immoportal 5.683 nicht gewertet: mehr als 50 % über der nächsten Portalquelle",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": {
+    "kauf": 5683,
+    "miete": 15.49,
+    "score": "rot"
+   },
+   "neu_angelegt": false,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Berliner-Vorstadt/",
+     "wert": 2297.5,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14467) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Berliner-Vorstadt/",
+     "wert": 13.96,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14467) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-bornim",
+  "name": "Bornim (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Bornim",
+  "einwohner": 3561,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"11 Bornim\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.43108,
+   "lon": 13.00054,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 4251866 (\"Bornim\", boundary=administrative), https://www.openstreetmap.org/relation/4251866, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 5463,
+  "miete": 13.96,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.322, miete-aktuell 5.604, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 12,92, miete-aktuell 14,99. homeday 12,6 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14469"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/bornim",
+     "wert": 5322.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/bornim",
+     "wert": 12.92,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/bornim",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/bornim?marketing_type=rent&property_type=apartment",
+     "wert": 12.6,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Bornim/",
+     "wert": 5603.96,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Bornim/",
+     "wert": 14.99,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Bornim (Potsdam) hat 3.561 Einwohner und liegt bei 5.463 €/m² Kauf und 13,96 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": {
+    "kauf": 5322,
+    "miete": 12.92,
+    "score": "rot"
+   },
+   "neu_angelegt": false,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Bornim/",
+     "wert": 5603.96,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Bornim/",
+     "wert": 14.99,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-bornstedt",
+  "name": "Bornstedt (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Bornstedt",
+  "einwohner": 16317,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"13 Bornstedt\"; Stadtteil Bornstedt schliesst das Bornstedter Feld ein, Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.41783,
+   "lon": 13.03774,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 4251867 (\"Bornstedt\", boundary=administrative), https://www.openstreetmap.org/relation/4251867, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 6178,
+  "miete": 15.51,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 6.665, miete-aktuell 5.691, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 16,75, miete-aktuell 14,27. homeday 12,6 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14469"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/bornstedt",
+     "wert": 6665.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/bornstedt",
+     "wert": 16.75,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/bornstedt+14469",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/bornstedt+14469?marketing_type=rent&property_type=apartment",
+     "wert": 12.6,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Bornstedt/",
+     "wert": 5690.86,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Bornstedt/",
+     "wert": 14.27,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Bornstedt (Potsdam) hat 16.317 Einwohner und liegt bei 6.178 €/m² Kauf und 15,51 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": {
+    "kauf": 6665,
+    "miete": 16.75,
+    "score": "rot"
+   },
+   "neu_angelegt": false,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Bornstedt/",
+     "wert": 5690.86,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Bornstedt/",
+     "wert": 14.27,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-brandenburger-vorstadt",
+  "name": "Brandenburger Vorstadt (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Brandenburger Vorstadt",
+  "einwohner": 11454,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"31 Brandenburger Vorstadt\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.39937,
+   "lon": 13.02725,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577656 (\"Brandenburger Vorstadt\", boundary=administrative), https://www.openstreetmap.org/relation/6577656, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 5618,
+  "miete": 12.7,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.766, miete-aktuell 5.470, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 12,76, miete-aktuell 12,63. homeday 12,6 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14471",
+    "14469",
+    "14467"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/brandenburger-vorstadt",
+     "wert": 5766.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/brandenburger-vorstadt",
+     "wert": 12.76,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/brandenburger+vorstadt",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/brandenburger+vorstadt?marketing_type=rent&property_type=apartment",
+     "wert": 12.6,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Brandenburger-Vorstadt/",
+     "wert": 5469.99,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469, 14471) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Brandenburger-Vorstadt/",
+     "wert": 12.63,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469, 14471) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Brandenburger Vorstadt (Potsdam) hat 11.454 Einwohner und liegt bei 5.618 €/m² Kauf und 12,70 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": {
+    "kauf": 5766,
+    "miete": 12.76,
+    "score": "rot"
+   },
+   "neu_angelegt": false,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Brandenburger-Vorstadt/",
+     "wert": 5469.99,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469, 14471) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Brandenburger-Vorstadt/",
+     "wert": 12.63,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469, 14471) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-drewitz",
+  "name": "Drewitz (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Drewitz",
+  "einwohner": 7655,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"72 Drewitz\"; Kirchsteigfeld wird separat gefuehrt (Nr. 73), Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.36411,
+   "lon": 13.12924,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577657 (\"Drewitz\", boundary=administrative), https://www.openstreetmap.org/relation/6577657, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 4316,
+  "miete": 12.3,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.583, miete-aktuell 4.050, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 12,30. homeday 10,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14480"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/drewitz",
+     "wert": 4583.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/drewitz",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/drewitz",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/drewitz?marketing_type=rent&property_type=apartment",
+     "wert": 10.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Drewitz/",
+     "wert": 4049.53,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14480) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Drewitz/",
+     "wert": 12.3,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14480) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Drewitz (Potsdam) hat 7.655 Einwohner und liegt bei 4.316 €/m² Kauf und 12,30 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": {
+    "kauf": 4583,
+    "miete": null,
+    "score": "unbewertet"
+   },
+   "neu_angelegt": false,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Drewitz/",
+     "wert": 4049.53,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14480) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Drewitz/",
+     "wert": 12.3,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14480) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-eiche",
+  "name": "Eiche (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Eiche",
+  "einwohner": 5061,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"15 Eiche\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.40493,
+   "lon": 12.99418,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 4251869 (\"Eiche\", boundary=administrative), https://www.openstreetmap.org/relation/4251869, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 4988,
+  "miete": 13.63,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.847, miete-aktuell 5.129, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 13,42, miete-aktuell 13,85. homeday 12,6 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14469"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/eiche",
+     "wert": 4847.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/eiche",
+     "wert": 13.42,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/eiche",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/eiche?marketing_type=rent&property_type=apartment",
+     "wert": 12.6,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Eiche/",
+     "wert": 5128.74,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Eiche/",
+     "wert": 13.85,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Eiche (Potsdam) hat 5.061 Einwohner und liegt bei 4.988 €/m² Kauf und 13,63 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": {
+    "kauf": 4847,
+    "miete": 13.42,
+    "score": "rot"
+   },
+   "neu_angelegt": false,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Eiche/",
+     "wert": 5128.74,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Eiche/",
+     "wert": 13.85,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-fahrland",
+  "name": "Fahrland (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Fahrland",
+  "einwohner": 5329,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"84 Fahrland\"; Neu Fahrland wird separat gefuehrt (Nr. 85), Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.47469,
+   "lon": 13.01643,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 4251870 (\"Fahrland\", boundary=administrative), https://www.openstreetmap.org/relation/4251870, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 4338,
+  "miete": 13.68,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.552, miete-aktuell 4.124, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 13,77, miete-aktuell 13,58. homeday 11,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14476"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/fahrland",
+     "wert": 4552.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/fahrland",
+     "wert": 13.77,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/fahrland",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/fahrland?marketing_type=rent&property_type=apartment",
+     "wert": 11.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Fahrland/",
+     "wert": 4124.33,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Fahrland/",
+     "wert": 13.58,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Fahrland (Potsdam) hat 5.329 Einwohner und liegt bei 4.338 €/m² Kauf und 13,68 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": {
+    "kauf": 4552,
+    "miete": 13.77,
+    "score": "gelb"
+   },
+   "neu_angelegt": false,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Fahrland/",
+     "wert": 4124.33,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Fahrland/",
+     "wert": 13.58,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-jaegervorstadt",
+  "name": "Jägervorstadt (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Jägervorstadt",
+  "einwohner": 3059,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"22 Jägervorstadt\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.40786,
+   "lon": 13.04429,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577660 (\"Jägervorstadt\", boundary=administrative), https://www.openstreetmap.org/relation/6577660, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 5127,
+  "miete": 15.39,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.001, miete-aktuell 5.253, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 16,60, miete-aktuell 14,18. homeday 12,6 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14469"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/jaegervorstadt",
+     "wert": 5001.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/jaegervorstadt",
+     "wert": 16.6,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/jaegervorstadt+14469",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/jaegervorstadt+14469?marketing_type=rent&property_type=apartment",
+     "wert": 12.6,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Jaegervorstadt/",
+     "wert": 5253.09,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Jaegervorstadt/",
+     "wert": 14.18,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Jägervorstadt (Potsdam) hat 3.059 Einwohner und liegt bei 5.127 €/m² Kauf und 15,39 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": {
+    "kauf": 5001,
+    "miete": 16.6,
+    "score": "gelb"
+   },
+   "neu_angelegt": false,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Jaegervorstadt/",
+     "wert": 5253.09,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Jaegervorstadt/",
+     "wert": 14.18,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-kirchsteigfeld",
+  "name": "Kirchsteigfeld (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Kirchsteigfeld",
+  "einwohner": 5209,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"73 Kirchsteigfeld\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.36171,
+   "lon": 13.13524,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577661 (\"Kirchsteigfeld\", boundary=administrative), https://www.openstreetmap.org/relation/6577661, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 4214,
+  "miete": 12.36,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 4.388, miete-aktuell 4.040, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 12,41, miete-aktuell 12,31. homeday 10,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14480"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/kirchsteigfeld",
+     "wert": 4388.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/kirchsteigfeld",
+     "wert": 12.41,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/kirchsteigfeld",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/kirchsteigfeld?marketing_type=rent&property_type=apartment",
+     "wert": 10.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Kirchsteigfeld/",
+     "wert": 4039.7,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14480) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Kirchsteigfeld/",
+     "wert": 12.31,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14480) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Kirchsteigfeld (Potsdam) hat 5.209 Einwohner und liegt bei 4.214 €/m² Kauf und 12,36 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": {
+    "kauf": 4388,
+    "miete": 12.41,
+    "score": "gelb"
+   },
+   "neu_angelegt": false,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Kirchsteigfeld/",
+     "wert": 4039.7,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14480) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Kirchsteigfeld/",
+     "wert": 12.31,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14480) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-nauener-vorstadt",
+  "name": "Nauener Vorstadt (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Nauener Vorstadt",
+  "einwohner": 5650,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"21 Nauener Vorstadt\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.42024,
+   "lon": 13.06479,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577663 (\"Nauener Vorstadt\", boundary=administrative), https://www.openstreetmap.org/relation/6577663, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 5436,
+  "miete": 14.71,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.378, miete-aktuell 5.493, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 14,79, miete-aktuell 14,63. homeday 12,6 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14469"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/nauener-vorstadt",
+     "wert": 5378.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/nauener-vorstadt",
+     "wert": 14.79,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/nauener+vorstadt",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/nauener+vorstadt?marketing_type=rent&property_type=apartment",
+     "wert": 12.6,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Nauener-Vorstadt/",
+     "wert": 5493.39,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Nauener-Vorstadt/",
+     "wert": 14.63,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Nauener Vorstadt (Potsdam) hat 5.650 Einwohner und liegt bei 5.436 €/m² Kauf und 14,71 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": {
+    "kauf": 5378,
+    "miete": 14.79,
+    "score": "rot"
+   },
+   "neu_angelegt": false,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Nauener-Vorstadt/",
+     "wert": 5493.39,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Nauener-Vorstadt/",
+     "wert": 14.63,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-potsdam-west",
+  "name": "Potsdam West (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Potsdam West",
+  "einwohner": 8430,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"32 Potsdam West\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.38013,
+   "lon": 13.0027,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577665 (\"Potsdam West\", boundary=administrative), https://www.openstreetmap.org/relation/6577665, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 5760,
+  "miete": 12.68,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 6.165, miete-aktuell 5.355, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 12,62, miete-aktuell 12,74. homeday 11,6 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14471"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/potsdam-west",
+     "wert": 6165.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/potsdam-west",
+     "wert": 12.62,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/potsdam+west",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/potsdam+west?marketing_type=rent&property_type=apartment",
+     "wert": 11.6,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Potsdam-West/",
+     "wert": 5354.9,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14471) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Potsdam-West/",
+     "wert": 12.74,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14471) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Potsdam West (Potsdam) hat 8.430 Einwohner und liegt bei 5.760 €/m² Kauf und 12,68 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": {
+    "kauf": 6165,
+    "miete": 12.62,
+    "score": "rot"
+   },
+   "neu_angelegt": false,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Potsdam-West/",
+     "wert": 5354.9,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14471) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Potsdam-West/",
+     "wert": 12.74,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14471) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-teltower-vorstadt",
+  "name": "Teltower Vorstadt (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Teltower Vorstadt",
+  "einwohner": 5267,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"62 Teltower Vorstadt\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.38109,
+   "lon": 13.07561,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577668 (\"Teltower Vorstadt\", boundary=administrative), https://www.openstreetmap.org/relation/6577668, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 4619,
+  "miete": 13.29,
+  "kaufQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.122, miete-aktuell 4.117, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal, miete-aktuell.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 12,71, miete-aktuell 13,87. homeday 12,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14473",
+    "14478"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/teltower-vorstadt",
+     "wert": 5122.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/teltower-vorstadt",
+     "wert": 12.71,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/teltower+vorstadt",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/teltower+vorstadt?marketing_type=rent&property_type=apartment",
+     "wert": 12.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Teltower-Vorstadt/",
+     "wert": 4116.52,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14473, 14478) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Teltower-Vorstadt/",
+     "wert": 13.87,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14473, 14478) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Teltower Vorstadt (Potsdam) hat 5.267 Einwohner und liegt bei 4.619 €/m² Kauf und 13,29 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": {
+    "kauf": 5122,
+    "miete": 12.71,
+    "score": "rot"
+   },
+   "neu_angelegt": false,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Teltower-Vorstadt/",
+     "wert": 4116.52,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14473, 14478) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Teltower-Vorstadt/",
+     "wert": 13.87,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14473, 14478) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-waldstadt-i",
+  "name": "Waldstadt I (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Waldstadt I",
+  "einwohner": 6387,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"64 Waldstadt I und Industriegelände (seit 2019)\"; die Stadt weist Waldstadt I nur zusammen mit dem Industriegelaende aus (seit 31.12.2019 zusammengelegt, ehemals Stadtteil 66 Industriegelaende), kein getrennter Wert fuer Waldstadt I allein, Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.36494,
+   "lon": 13.10453,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577670 (\"Waldstadt I und Industriegelände\", boundary=administrative), https://www.openstreetmap.org/relation/6577670, Overpass API Datenstand 2026-10-20T08:43:01Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 3581,
+  "miete": 11.07,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.581, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 11,07. homeday 8,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14478"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/waldstadt-i",
+     "wert": 3957.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Waldstadt II, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/waldstadt-i",
+     "wert": 12.51,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Waldstadt II, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/waldstadt+i",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/waldstadt+i?marketing_type=rent&property_type=apartment",
+     "wert": 8.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Waldstadt-I/",
+     "wert": 3580.71,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14478) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Waldstadt-I/",
+     "wert": 11.07,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14478) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Waldstadt I (Potsdam) hat 6.387 Einwohner und liegt bei 3.581 €/m² Kauf und 11,07 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": null,
+   "neu_angelegt": true,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Waldstadt-I/",
+     "wert": 3580.71,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14478) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Waldstadt-I/",
+     "wert": 11.07,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14478) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-waldstadt-ii",
+  "name": "Waldstadt II (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Waldstadt II",
+  "einwohner": 10363,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"65 Waldstadt II\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.36251,
+   "lon": 13.09076,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577671 (\"Waldstadt II\", boundary=administrative), https://www.openstreetmap.org/relation/6577671, Overpass API Datenstand 2026-10-20T08:43:01Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 3657,
+  "miete": 11.13,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.657, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 11,13. homeday 8,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14478"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/waldstadt-ii",
+     "wert": 3957.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Waldstadt I, Ortsbezug unklar"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/waldstadt-ii",
+     "wert": 12.51,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit Waldstadt I, Ortsbezug unklar"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/waldstadt+ii",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/waldstadt+ii?marketing_type=rent&property_type=apartment",
+     "wert": 8.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Waldstadt-II/",
+     "wert": 3657.24,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14478) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Waldstadt-II/",
+     "wert": 11.13,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14478) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Waldstadt II (Potsdam) hat 10.363 Einwohner und liegt bei 3.657 €/m² Kauf und 11,13 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": null,
+   "neu_angelegt": true,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Waldstadt-II/",
+     "wert": 3657.24,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14478) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Waldstadt-II/",
+     "wert": 11.13,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14478) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-golm",
+  "name": "Golm (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Golm",
+  "einwohner": 4412,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"17 Golm\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.40669,
+   "lon": 12.96201,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 4251871 (\"Golm\", boundary=administrative), https://www.openstreetmap.org/relation/4251871, Overpass API Datenstand 2026-10-20T08:43:01Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 5442,
+  "miete": 13.73,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 5.442, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 13,73. homeday 11,0 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14476"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/golm",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/golm",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/golm",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/golm?marketing_type=rent&property_type=apartment",
+     "wert": 11.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Golm/",
+     "wert": 5441.9,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Golm/",
+     "wert": 13.73,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Golm (Potsdam) hat 4.412 Einwohner und liegt bei 5.442 €/m² Kauf und 13,73 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": null,
+   "neu_angelegt": true,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Golm/",
+     "wert": 5441.9,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Golm/",
+     "wert": 13.73,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-gross-glienicke",
+  "name": "Groß Glienicke (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Groß Glienicke",
+  "einwohner": 4808,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"86 Groß Glienicke\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.47775,
+   "lon": 13.11227,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 4251872 (\"Groß Glienicke\", boundary=administrative), https://www.openstreetmap.org/relation/4251872, Overpass API Datenstand 2026-10-20T08:43:01Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 3768,
+  "miete": 13.2,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.768, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 13,20. homeday 11,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14476"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/gross-glienicke",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/gross-glienicke",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/gro%C3%9F+glienicke",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/gro%C3%9F+glienicke?marketing_type=rent&property_type=apartment",
+     "wert": 11.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Gross-Glienicke/",
+     "wert": 3768.33,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Gross-Glienicke/",
+     "wert": 13.2,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Groß Glienicke (Potsdam) hat 4.808 Einwohner und liegt bei 3.768 €/m² Kauf und 13,20 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": null,
+   "neu_angelegt": true,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Gross-Glienicke/",
+     "wert": 3768.33,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Gross-Glienicke/",
+     "wert": 13.2,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-marquardt",
+  "name": "Marquardt (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Marquardt",
+  "einwohner": 1177,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"82 Marquardt\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.46382,
+   "lon": 12.96651,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 4251874 (\"Marquardt\", boundary=administrative), https://www.openstreetmap.org/relation/4251874, Overpass API Datenstand 2026-10-20T08:43:01Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 3848,
+  "miete": 13.29,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.848, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 13,29. homeday 11,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14476"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/marquardt",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/marquardt",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/marquardt+14476",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/marquardt+14476?marketing_type=rent&property_type=apartment",
+     "wert": 11.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Marquardt/",
+     "wert": 3847.69,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Marquardt/",
+     "wert": 13.29,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Marquardt (Potsdam) hat 1.177 Einwohner und liegt bei 3.848 €/m² Kauf und 13,29 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": null,
+   "neu_angelegt": true,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Marquardt/",
+     "wert": 3847.69,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Marquardt/",
+     "wert": 13.29,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-neu-fahrland",
+  "name": "Neu Fahrland (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Neu Fahrland",
+  "einwohner": 1647,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"85 Neu Fahrland\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.44684,
+   "lon": 13.04406,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 4251877 (\"Neu Fahrland\", boundary=administrative), https://www.openstreetmap.org/relation/4251877, Overpass API Datenstand 2026-10-20T08:43:01Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 3821,
+  "miete": 12.87,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.821, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 12,87. homeday 11,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14476"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/neu-fahrland",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/neu-fahrland",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/neu+fahrland",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/neu+fahrland?marketing_type=rent&property_type=apartment",
+     "wert": 11.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Neu-Fahrland/",
+     "wert": 3821.33,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Neu-Fahrland/",
+     "wert": 12.87,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Neu Fahrland (Potsdam) hat 1.647 Einwohner und liegt bei 3.821 €/m² Kauf und 12,87 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": null,
+   "neu_angelegt": true,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Neu-Fahrland/",
+     "wert": 3821.33,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Neu-Fahrland/",
+     "wert": 12.87,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-satzkorn",
+  "name": "Satzkorn (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Satzkorn",
+  "einwohner": 479,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"83 Satzkorn\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.48045,
+   "lon": 12.97482,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 4251880 (\"Satzkorn\", boundary=administrative), https://www.openstreetmap.org/relation/4251880, Overpass API Datenstand 2026-10-20T08:43:01Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 3918,
+  "miete": 12.81,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.918, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 12,81. homeday 11,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14476"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/satzkorn",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/satzkorn",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/satzkorn+14476",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/satzkorn+14476?marketing_type=rent&property_type=apartment",
+     "wert": 11.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Satzkorn/",
+     "wert": 3917.71,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Satzkorn/",
+     "wert": 12.81,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Satzkorn (Potsdam) hat 479 Einwohner und liegt bei 3.918 €/m² Kauf und 12,81 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": null,
+   "neu_angelegt": true,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Satzkorn/",
+     "wert": 3917.71,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Satzkorn/",
+     "wert": 12.81,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14476) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-sacrow",
+  "name": "Sacrow (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Sacrow",
+  "einwohner": 127,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"14 Sacrow\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.43697,
+   "lon": 13.08966,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 4251879 (\"Sacrow\", boundary=administrative), https://www.openstreetmap.org/relation/4251879, Overpass API Datenstand 2026-10-20T08:43:01Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 5381,
+  "miete": 14.71,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 5.381, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 14,71. homeday 12,6 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14469"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/sacrow",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/sacrow",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/sacrow",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/sacrow?marketing_type=rent&property_type=apartment",
+     "wert": 12.6,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Sacrow/",
+     "wert": 5381.21,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Sacrow/",
+     "wert": 14.71,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Sacrow (Potsdam) hat 127 Einwohner und liegt bei 5.381 €/m² Kauf und 14,71 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": null,
+   "neu_angelegt": true,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Sacrow/",
+     "wert": 5381.21,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Sacrow/",
+     "wert": 14.71,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-nedlitz",
+  "name": "Nedlitz (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Nedlitz",
+  "einwohner": 205,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"12 Nedlitz\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.43464,
+   "lon": 13.04079,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 4251876 (\"Nedlitz\", boundary=administrative), https://www.openstreetmap.org/relation/4251876, Overpass API Datenstand 2026-10-20T08:43:01Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 5371,
+  "miete": 14.81,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 5.371, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 14,81. homeday 12,6 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14469"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/nedlitz",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/nedlitz",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/nedlitz",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/nedlitz?marketing_type=rent&property_type=apartment",
+     "wert": 12.6,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Nedlitz/",
+     "wert": 5370.54,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Nedlitz/",
+     "wert": 14.81,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Nedlitz (Potsdam) hat 205 Einwohner und liegt bei 5.371 €/m² Kauf und 14,81 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": null,
+   "neu_angelegt": true,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Nedlitz/",
+     "wert": 5370.54,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Nedlitz/",
+     "wert": 14.81,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-grube",
+  "name": "Grube (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Grube",
+  "einwohner": 432,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"16 Grube\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.43389,
+   "lon": 12.95552,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 4251873 (\"Grube\", boundary=administrative), https://www.openstreetmap.org/relation/4251873, Overpass API Datenstand 2026-10-20T08:43:01Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 5101,
+  "miete": 14.58,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 5.101, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 14,58. homeday 12,6 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14469"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/grube",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/grube",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/grube",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/grube?marketing_type=rent&property_type=apartment",
+     "wert": 12.6,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Grube/",
+     "wert": 5100.96,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Grube/",
+     "wert": 14.58,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Grube (Potsdam) hat 432 Einwohner und liegt bei 5.101 €/m² Kauf und 14,58 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": null,
+   "neu_angelegt": true,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Grube/",
+     "wert": 5100.96,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Grube/",
+     "wert": 14.58,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14469) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-klein-glienicke",
+  "name": "Klein Glienicke (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Klein Glienicke",
+  "einwohner": 557,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"51 Klein Glienicke\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.41064,
+   "lon": 13.10399,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577662 (\"Klein Glienicke\", boundary=administrative), https://www.openstreetmap.org/relation/6577662, Overpass API Datenstand 2026-10-20T08:43:01Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 5068,
+  "miete": 13.27,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 5.068, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 13,27. homeday 12,4 (nur daneben).",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14482"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/klein-glienicke",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/klein-glienicke",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/klein+glienicke",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/klein+glienicke?marketing_type=rent&property_type=apartment",
+     "wert": 12.4,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Klein-Glienicke/",
+     "wert": 5068.45,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14482) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Klein-Glienicke/",
+     "wert": 13.27,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14482) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Klein Glienicke (Potsdam) hat 557 Einwohner und liegt bei 5.068 €/m² Kauf und 13,27 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": null,
+   "neu_angelegt": true,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Klein-Glienicke/",
+     "wert": 5068.45,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14482) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Klein-Glienicke/",
+     "wert": 13.27,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14482) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-templiner-vorstadt",
+  "name": "Templiner Vorstadt (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Templiner Vorstadt",
+  "einwohner": 1667,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"61 Templiner Vorstadt\"; seit 31.12.2019 einschliesslich des ehemaligen Stadtteils 67 Forst Potsdam Sued, Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.36554,
+   "lon": 13.04702,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577669 (\"Templiner Vorstadt\", boundary=administrative), https://www.openstreetmap.org/relation/6577669, Overpass API Datenstand 2026-10-20T08:43:01Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 5403,
+  "miete": 15.58,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 5.403, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 15,58. homeday 12,0 (nur daneben).",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14473",
+    "14478"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/templiner-vorstadt",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/templiner-vorstadt",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/templiner+vorstadt",
+     "wert": 5050.0,
+     "ergebnis": "nicht gewertet",
+     "grund": "identisch mit dem Stadtwert, kein ortsteilgenauer Wert"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": "https://www.homeday.de/de/preisatlas/potsdam/templiner+vorstadt?marketing_type=rent&property_type=apartment",
+     "wert": 12.0,
+     "ergebnis": "bestätigt",
+     "methode": "homeday-Ortsteilseite der Gemeinde ohne Umleitung, Wert verschieden vom Stadtwert"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Templiner-Vorstadt/",
+     "wert": 5402.81,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14473) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Templiner-Vorstadt/",
+     "wert": 15.58,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14473) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Templiner Vorstadt (Potsdam) hat 1.667 Einwohner und liegt bei 5.403 €/m² Kauf und 15,58 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": null,
+   "neu_angelegt": true,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Templiner-Vorstadt/",
+     "wert": 5402.81,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14473) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Templiner-Vorstadt/",
+     "wert": 15.58,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14473) passen zum Ortsteil"
+    }
+   ]
+  }
+ },
+ {
+  "id": "potsdam-schlaatz",
+  "name": "Schlaatz (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Schlaatz",
+  "einwohner": 9652,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"63 Schlaatz\"; die Stadtstatistik verwendet den Namen \"Schlaatz\" (nicht \"Am Schlaatz\"), Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.37701,
+   "lon": 13.09467,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577652 (\"Schlaatz\", boundary=administrative), https://www.openstreetmap.org/relation/6577652, Overpass API Datenstand 2026-10-20T08:43:01Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 3471,
+  "miete": 11.46,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): miete-aktuell 3.471, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: miete-aktuell.",
+  "mieteQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 11,46.",
+  "score": "gelb",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14478"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/schlaatz",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/schlaatz",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite (HTTP 404)"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": null,
+     "ergebnis": "kein Wert",
+     "grund": "Weiterleitung auf https://www.homeday.de/de/preisatlas/potsdam/am+schlaatz"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": null,
+     "ergebnis": "kein Wert",
+     "grund": "Weiterleitung auf https://www.homeday.de/de/preisatlas/potsdam/am+schlaatz"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Schlaatz/",
+     "wert": 3470.84,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14478) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Schlaatz/",
+     "wert": 11.46,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14478) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Schlaatz (Potsdam) hat 9.652 Einwohner und liegt bei 3.471 €/m² Kauf und 11,46 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel gelb.",
+  "offen": [
+   "Kauf ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne immoportal (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag21": {
+   "vorher": null,
+   "neu_angelegt": true,
+   "neue_quellen": [
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Schlaatz/",
+     "wert": 3470.84,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14478) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Schlaatz/",
+     "wert": 11.46,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14478) passen zum Ortsteil"
+    }
+   ]
+  }
+ }
+]
