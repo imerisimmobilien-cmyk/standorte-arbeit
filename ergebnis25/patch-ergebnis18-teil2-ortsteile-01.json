@@ -1,0 +1,110 @@
+[
+ {
+  "id": "potsdam-berliner-vorstadt",
+  "name": "Berliner Vorstadt (Potsdam)",
+  "land": "Brandenburg",
+  "ags": "12054000",
+  "gemeinde": "Potsdam",
+  "ortsteil": "Berliner Vorstadt",
+  "einwohner": 2810,
+  "einwohnerQuelle": "Landeshauptstadt Potsdam, Bereich Statistik und Wahlen: Bevoelkerung: Einwohner nach Stadtteilen (Datenquelle Bereich Buergerservice, Einwohner mit Hauptwohnung, Zeitbezug 31.12.2025), https://www.potsdam.de/de/bevoelkerung-einwohner-nach-stadtteilen-der-landeshauptstadt-potsdam; Stadtteil \"23 Berliner Vorstadt\", Stand 2025-12-31",
+  "koordinate": {
+   "lat": 52.40997,
+   "lon": 13.07909,
+   "art": "Schwerpunkt der amtlichen/OSM-Grenze",
+   "quelle": "OpenStreetMap relation 6577655 (\"Berliner Vorstadt\", boundary=administrative), https://www.openstreetmap.org/relation/6577655, Overpass API Datenstand 2026-10-19T21:52:49Z, Flaechenschwerpunkt in EPSG:25833 berechnet"
+  },
+  "kauf": 5683,
+  "miete": 14.73,
+  "kaufQuellen": "Mittel aus 1 Quelle 10/2026 (Angebotspreise, abgerufen 18.10.2026): immoportal 5.683, Gutachterausschuss keine Angabe. Ort/PLZ geprüft: immoportal.",
+  "mieteQuellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): immoportal 15,49, miete-aktuell 13,96.",
+  "score": "rot",
+  "prognose": {
+   "wert_pct": 8.2,
+   "basisjahr": 2023,
+   "zieljahr": 2040,
+   "ebene": "Gemeinde Potsdam (keine Ortsteilprognose veröffentlicht)",
+   "quelle": "Landesamt für Bauen und Verkehr Brandenburg und Amt für Statistik Berlin-Brandenburg, Bevölkerungsvorausschätzung 2024 bis 2040, Tabellenanhang, mittlere Variante, Potsdam (kreisfrei): 184290 (2023) auf 199331 (2040) Einwohner (https://lbv.brandenburg.de/sixcms/media.php/9/31-Tabellenanhang_Bevoelkerungsvoraussch.xlsx)"
+  },
+  "mpb": true,
+  "kappung": 15,
+  "mpbQuelle": "Mietpreisbegrenzungsverordnung Brandenburg vom 3.12.2025 (GVBl. II 2025 Nr. 95), § 1, 36 Gemeinden, gültig 1.1.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 3.12.2025 (GVBl. II 2025 Nr. 94), gleiche Gemeinden: gelistet",
+  "ortspruefung": {
+   "plz": [
+    "14467"
+   ],
+   "quellen": [
+    {
+     "quelle": "immoportal Kauf",
+     "pfad": "https://www.immoportal.com/immobilienpreise/potsdam/berliner-vorstadt",
+     "wert": 5683.0,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "immoportal Miete",
+     "pfad": "https://www.immoportal.com/mietspiegel/potsdam/berliner-vorstadt",
+     "wert": 15.49,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite unter dem Pfad der Gemeinde, Seitentitel nennt den Ortsteil"
+    },
+    {
+     "quelle": "homeday Kauf",
+     "pfad": null,
+     "ergebnis": "kein Wert",
+     "grund": "Weiterleitung auf https://www.homeday.de/de/preisatlas/potsdam/nauener+vorstadt"
+    },
+    {
+     "quelle": "homeday Miete",
+     "pfad": null,
+     "ergebnis": "kein Wert",
+     "grund": "Weiterleitung auf https://www.homeday.de/de/preisatlas/potsdam/nauener+vorstadt"
+    },
+    {
+     "quelle": "miete-aktuell Kauf",
+     "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Berliner-Vorstadt/",
+     "wert": 2297.5,
+     "ergebnis": "nicht gewertet",
+     "grund": "Portalfehler: Sprung über 50 % gegenüber 2025"
+    },
+    {
+     "quelle": "miete-aktuell Miete",
+     "pfad": "https://www.miete-aktuell.de/mietspiegel/Potsdam/Potsdam/Berliner-Vorstadt/",
+     "wert": 13.96,
+     "ergebnis": "bestätigt",
+     "methode": "Ortsteilseite der Gemeinde, Seitentitel nennt Gemeinde und Ortsteil, PLZ der Seite (14467) passen zum Ortsteil"
+    },
+    {
+     "quelle": "miet-check",
+     "ergebnis": "kein Wert",
+     "grund": "keine Ortsteilseite"
+    }
+   ],
+   "grundlage": "nur Ortsteile mit eigener, ortsgenauer Portalseite; Werte gleich dem Stadtwert oder (immoportal) gleich einem anderen Ortsteil gelten als nicht ortsgenau"
+  },
+  "arbeitgeber": null,
+  "fazit": "Berliner Vorstadt (Potsdam) hat 2.810 Einwohner und liegt bei 5.683 €/m² Kauf und 14,73 €/m² Miete, das ergibt eine Bruttorendite von {R} % und einen Faktor von {F}. Die Prognose für die Gemeinde 2023 bis 2040 liegt bei +8,2 %, Mietpreisbremse gilt (Kappung 15 %). Ampel rot.",
+  "offen": [
+   "Kauf ohne homeday (Seite fehlt oder Ort nicht bestätigt)",
+   "Kauf ohne miete-aktuell (Seite fehlt oder Ort nicht bestätigt)",
+   "Miete ohne miet-check (Seite fehlt oder Ort nicht bestätigt)",
+   "Gutachterausschuss: kein Ortsteilwert ausgewertet",
+   "Datenbasis dünn (weniger als zwei Quellen bei Kauf oder Miete)",
+   "Prognose ist Gemeindewert, kein Ortsteilwert",
+   "amtlicher Mietspiegel, Arbeitgeber, Pendler, Hochwasser, Leerstand für den Ortsteil nicht erhoben"
+  ],
+  "nachtrag25": {
+   "vorher": {
+    "kauf": 2298,
+    "miete": 14.73,
+    "score": "gelb"
+   },
+   "korrektur": {
+    "quelle": "miete-aktuell Kauf",
+    "pfad": "https://www.miete-aktuell.de/immobilienpreise-quadratmeterpreise/Potsdam/Potsdam/Berliner-Vorstadt/",
+    "wert": 2297.5,
+    "grund": "Portalfehler: Wert 2026 2.297,50 gegenüber 2025 5.757,38 (-60 %), Sprung über 50 %, nicht gewertet; Kauf wieder aus immoportal"
+   }
+  }
+ }
+]
