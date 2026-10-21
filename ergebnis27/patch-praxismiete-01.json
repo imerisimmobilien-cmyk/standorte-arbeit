@@ -1,0 +1,2154 @@
+[
+ {
+  "ags": "11000000",
+  "id": "berlin",
+  "name": "Berlin",
+  "einwohner": 3685265,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2026, in Kraft seit 28.05.2026",
+   "durchschnitt_nettokalt": 7.71,
+   "kennwert": "Median",
+   "herkunft": "Stadt",
+   "quelle": "https://www.berlin.de/sen/sbw/presse/pressemeldungen/pressemitteilung.1674998.php",
+   "hinweis": "Senat nennt den Wert als Median aller erhobenen Nettokaltmieten (2024: 7,21). Einstufung 'qualifiziert' stammt nicht aus dem Suchtext, sondern aus meinem Vorwissen."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 15.98,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 16.69
+    },
+    {
+     "quelle": "miet-check alle Größen (keine Größenklasse veröffentlicht)",
+     "wert": 15.27
+    }
+   ],
+   "portale_mit_groessenklasse": 1,
+   "miete_aktuell_klassen": {
+    "30": 21.75,
+    "40": 17.42,
+    "50": 15.42,
+    "60": 14.69
+   },
+   "immoportal_61_90": null,
+   "mittel_alle_groessen": 15.55,
+   "mittel_alle_groessen_quellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 15,83, miet-check 15,27.",
+   "homeday_nur_daneben": null,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 107.3,
+  "aufschlag_hinweis": "Mietspiegelwert ist Median",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Berlin: Mietenbegrenzungsverordnung vom 11.11.2025 (GVBl. S. 577), ganzes Stadtgebiet, gültig 01.01.2026 bis 31.12.2029; Kappungsgrenzenverordnung vom 14.03.2023 (GVBl. S. 122), 15 %, gültig 11.05.2023 bis 10.05.2028 (https://www.berlin.de/sen/stadt/service/rechtsvorschriften/bereich-wohnen/)",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 107 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "02000000",
+  "id": "hamburg",
+  "name": "Hamburg",
+  "einwohner": 1862565,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietenspiegel 2025, Stichtag 01.04.2025",
+   "durchschnitt_nettokalt": 9.94,
+   "kennwert": "Median",
+   "herkunft": "Stadt",
+   "quelle": "https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/aktuelles/pressemeldungen/mietenspiegel-2025-kaum-veraenderung-der-durchschnittsmiete-1126100",
+   "hinweis": "Stadt wechselte vom arithmetischen Mittel zum Median. Gültigkeitsende nicht belegt. Mietenstudie (Wohnungswirtschaft, nicht amtlich): 9,11."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 16.11,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 16.89
+    },
+    {
+     "quelle": "miet-check alle Größen (keine Größenklasse veröffentlicht)",
+     "wert": 15.33
+    }
+   ],
+   "portale_mit_groessenklasse": 1,
+   "miete_aktuell_klassen": {
+    "30": 22.01,
+    "40": 17.63,
+    "50": 15.6,
+    "60": 14.87
+   },
+   "immoportal_61_90": null,
+   "mittel_alle_groessen": 15.68,
+   "mittel_alle_groessen_quellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 16,02, miet-check 15,33.",
+   "homeday_nur_daneben": null,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 62.1,
+  "aufschlag_hinweis": "Mietspiegelwert ist Median",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Hamburgische Mietpreisbegrenzungsverordnung, neu erlassen vom Senat, gilt ab 01.01.2026 bis 31.12.2029 im ganzen Stadtgebiet (https://www.beck-aktuell.de/heute-im-recht/rechtspolitik-gesetzgebung/hamburg-mietpreisbremse-2029-verlaengerung-2025-11-25)",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 62 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "09162000",
+  "id": "muenchen",
+  "name": "München",
+  "einwohner": 1505005,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025",
+   "durchschnitt_nettokalt": 15.38,
+   "kennwert": "unklar",
+   "herkunft": "Stadt",
+   "quelle": "https://stadt.muenchen.de/infos/mietspiegel.html",
+   "hinweis": "Durchschnittliche Nettokaltmiete laut Stadt, Kennwert nicht ausdrücklich genannt (2023: 14,58). Gültigkeitsende nicht belegt. Einstufung 'qualifiziert' aus Vorwissen."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 24.01,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 24.75
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 23.26
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 32.26,
+    "40": 25.85,
+    "50": 22.87,
+    "60": 21.79
+   },
+   "immoportal_61_90": 21.59,
+   "mittel_alle_groessen": 21.89,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 22,93, miete-aktuell 23,48, miet-check 19,26. homeday 20,3 (nur daneben).",
+   "homeday_nur_daneben": 20.3,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 56.1,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 56 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "05315000",
+  "id": "koeln",
+  "name": "Köln",
+  "einwohner": 1024621,
+  "mietspiegel": {
+   "art": "einfach",
+   "stand": "Kölner Mietspiegel, Stand 01.04.2025",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "unklar",
+   "herkunft": "Stadt",
+   "quelle": "https://www.rheinische-immobilienboerse.de/upload/Koeln_2025_1621.pdf",
+   "hinweis": "Einfacher Mietspiegel nach § 558c, nur Tabellenfelder (5,90 bis 16,70 €/m²). Kein Durchschnitt von Stadt, Mieterverein oder Presse gefunden."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 14.95,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 15.63
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 14.26
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 20.38,
+    "40": 16.32,
+    "50": 14.44,
+    "60": 13.76
+   },
+   "immoportal_61_90": 14.12,
+   "mittel_alle_groessen": 14.91,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 14,77, miete-aktuell 14,83, miet-check 15,14. homeday 12,8 (nur daneben).",
+   "homeday_nur_daneben": 12.8,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Mieterschutzverordnung Nordrhein-Westfalen vom 28.1.2025 (MietSchVO NRW), Anlage zu § 1, 57 Gemeinden für Mietpreisbremse (verlängert bis 31.12.2029) und Kappungsgrenze 15 % (bis 28.2.2030): gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "06412000",
+  "id": "frankfurt-am-main",
+  "name": "Frankfurt am Main",
+  "einwohner": 756021,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2026; Magistrat hat anerkannt, Beschluss der Stadtverordneten für Juni 2026 angestrebt",
+   "durchschnitt_nettokalt": 12.28,
+   "kennwert": "Mittelwert",
+   "herkunft": "Stadt",
+   "quelle": "https://frankfurt.de/de-de/aktuelle-meldung/meldungen/frankfurter-mietspiegel-2026/",
+   "hinweis": "Stichprobenmittel, +6,8 % ggü. 2024 (11,50). Vollzug der Verabschiedung nur über einen Maklerblog bestätigt, nicht über die Stadt."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 17.92,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 18.98
+    },
+    {
+     "quelle": "miet-check alle Größen (keine Größenklasse veröffentlicht)",
+     "wert": 16.86
+    }
+   ],
+   "portale_mit_groessenklasse": 1,
+   "miete_aktuell_klassen": {
+    "30": 24.73,
+    "40": 19.81,
+    "50": 17.53,
+    "60": 16.71
+   },
+   "immoportal_61_90": null,
+   "mittel_alle_groessen": 17.43,
+   "mittel_alle_groessen_quellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 18,00, miet-check 16,86.",
+   "homeday_nur_daneben": null,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 45.9,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Hessische Mieterschutzverordnung vom 18.11.2020 (GVBl. S. 802), geändert am 12.11.2025 (GVBl. 2025 Nr. 74), § 1, 49 Gemeinden für Mietpreisbremse und Kappungsgrenze 15 %, gültig bis 25.11.2026 (geplante Neufassung mit 71 Gemeinden noch nicht in Kraft): gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 46 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "05111000",
+  "id": "duesseldorf",
+  "name": "Düsseldorf",
+  "einwohner": 618685,
+  "mietspiegel": {
+   "art": "unklar",
+   "stand": "Mietspiegeltabelle von Haus & Grund und Mieterverein, 2024 gültig ab 01.04.2024; Berichte nennen auch Fassung 01.08.2026",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "unklar",
+   "herkunft": "Presse",
+   "quelle": "https://www.ddorf-aktuell.de/?p=108690",
+   "hinweis": "Verbändetabelle, Einstufung nicht belegt, 2026er Fassung unbestätigt. Die genannten 10,18 €/m² gelten nur für eine Musterwohnung (75 m², mittlere Lage), kein Stadtdurchschnitt."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 14.88,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 15.69
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 14.08
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 20.45,
+    "40": 16.38,
+    "50": 14.49,
+    "60": 13.81
+   },
+   "immoportal_61_90": 14.14,
+   "mittel_alle_groessen": 15.02,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 14,74, miete-aktuell 14,88, miet-check 15,43. homeday 12,4 (nur daneben).",
+   "homeday_nur_daneben": 12.4,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Mieterschutzverordnung Nordrhein-Westfalen vom 28.1.2025 (MietSchVO NRW), Anlage zu § 1, 57 Gemeinden für Mietpreisbremse (verlängert bis 31.12.2029) und Kappungsgrenze 15 % (bis 28.2.2030): gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "08111000",
+  "id": "stuttgart",
+  "name": "Stuttgart",
+  "einwohner": 612663,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025/2026, Januar 2025 bis Dezember 2026",
+   "durchschnitt_nettokalt": 11.15,
+   "kennwert": "Mittelwert",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://www.stuttgart.de/medien/ibs/methodenbericht_mietspiegel_2025-2026.pdf",
+   "hinweis": "Methodenbericht nennt Mittelwert 11,15 und Median 10,68 (Vorgänger 11,04)."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 18.09,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 19.16
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 17.03
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 24.97,
+    "40": 20.0,
+    "50": 17.7,
+    "60": 16.86
+   },
+   "immoportal_61_90": 15.82,
+   "mittel_alle_groessen": 17.08,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 16,77, miete-aktuell 18,17, miet-check 16,29. homeday 15,9 (nur daneben).",
+   "homeday_nur_daneben": 15.9,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 62.2,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 62 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "14713000",
+  "id": "leipzig",
+  "name": "Leipzig",
+  "einwohner": 611850,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025 bis 2027, gültig 01.07.2025 bis 30.06.2027",
+   "durchschnitt_nettokalt": 6.56,
+   "kennwert": "unklar",
+   "herkunft": "Mieterverein",
+   "quelle": "https://www.mieterverein-leipzig.de/mietspiegel-leipzig/",
+   "hinweis": "Wert vom Mieterverein (+2,15 % seit Vorgänger), Kennwert nicht genannt. Portalwerte um 10 €/m² sind Angebotsmieten."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 10.21,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 10.79
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 9.63
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 14.06,
+    "40": 11.26,
+    "50": 9.96,
+    "60": 9.5
+   },
+   "immoportal_61_90": 9.52,
+   "mittel_alle_groessen": 10.47,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 9,96, miete-aktuell 10,23, miet-check 11,22. homeday 8,0 (nur daneben).",
+   "homeday_nur_daneben": 8.0,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 55.6,
+  "aufschlag_hinweis": "Mietspiegeldurchschnitt laut Mieterverein",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Sächsische Mietpreisbegrenzungsverordnung (in Kraft seit 1.1.2026, bis 30.6.2027) und Sächsische Kappungsgrenzen-Verordnung vom 10.6.2025 (bis 30.6.2027): nur Dresden und Leipzig, gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 56 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "05913000",
+  "id": "dortmund",
+  "name": "Dortmund",
+  "einwohner": 603462,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025/26, ab Januar 2025",
+   "durchschnitt_nettokalt": 7.1,
+   "kennwert": "Mittelwert",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://www.mieterverein-dortmund.de/fileadmin/dateien/Mietspiegel/Mietspiegel_Dortmund_2025_2026.pdf",
+   "hinweis": "Amtsblatt nennt Mittelwert 7,10 (Spanne 6,04 bis 8,22), Stadt meldet +5 %: https://www.dortmund.de/newsroom/nachrichten-dortmund.de/neuer-mietspiegel-fuer-dortmund-2025-26-mieten-steigen-um-5-prozent.html. Konkretes Gültigkeitsende nicht belegt."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 10.03,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 10.64
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 9.42
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 13.86,
+    "40": 11.11,
+    "50": 9.83,
+    "60": 9.37
+   },
+   "immoportal_61_90": 9.17,
+   "mittel_alle_groessen": 9.96,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 9,54, miete-aktuell 10,09, miet-check 10,25. homeday 8,0 (nur daneben).",
+   "homeday_nur_daneben": 8.0,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 41.3,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Mieterschutzverordnung Nordrhein-Westfalen vom 28.1.2025 (MietSchVO NRW), Anlage zu § 1, 57 Gemeinden für Mietpreisbremse (verlängert bis 31.12.2029) und Kappungsgrenze 15 % (bis 28.2.2030): gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 41 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "04011000",
+  "id": "bremen",
+  "name": "Bremen",
+  "einwohner": 586271,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Bremer Mietspiegel, erste Fassung 01.01.2024, aktualisiert (genaues Datum der Aktualisierung nicht belegt)",
+   "durchschnitt_nettokalt": 7.69,
+   "kennwert": "Median",
+   "herkunft": "Presse",
+   "quelle": "https://www.butenunbinnen.de/nachrichten/bremen-mietspiegel-bilanz-104.html",
+   "hinweis": "buten un binnen: 7,69 aktuell, +ca. 0,30 ggü. 2024. Erstfassung 2024: Median 7,37 (Senatspressestelle). Portalwert 11,62 ist nicht amtlich."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 12.2,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 11.94
+    },
+    {
+     "quelle": "miet-check alle Größen (keine Größenklasse veröffentlicht)",
+     "wert": 12.45
+    }
+   ],
+   "portale_mit_groessenklasse": 1,
+   "miete_aktuell_klassen": {
+    "30": 15.57,
+    "40": 12.47,
+    "50": 11.03,
+    "60": 10.52
+   },
+   "immoportal_61_90": null,
+   "mittel_alle_groessen": 11.89,
+   "mittel_alle_groessen_quellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 11,33, miet-check 12,45. homeday 9,6 (nur daneben).",
+   "homeday_nur_daneben": 9.6,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 58.6,
+  "aufschlag_hinweis": "Mietspiegelwert ist Median; Mietspiegeldurchschnitt laut Presse",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Bremer Mietenbegrenzungsverordnung, Senatsbeschluss 18.11.2025, gilt seit 01.12.2025 bis 31.12.2029 für die Stadtgemeinde Bremen (https://bau.bremen.de/sixcms/media.php/13/20251118_Senatsvorlage_Mietenbegrenzungsverordnung.pdf)",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 59 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "05113000",
+  "id": "essen",
+  "name": "Essen",
+  "einwohner": 574682,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2024, laut Drittquelle gültig bis 31.07.2026; Nachfolger nicht gefunden",
+   "durchschnitt_nettokalt": 7.41,
+   "kennwert": "unklar",
+   "herkunft": "Stadt",
+   "quelle": "https://www.essen.de/meldungen/pressemeldung_1541262.de.html",
+   "hinweis": "2020: 6,59. Ob 2026 eine Fortschreibung vorliegt, ist ungeklärt."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 10.57,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 10.46
+    },
+    {
+     "quelle": "miet-check alle Größen (keine Größenklasse veröffentlicht)",
+     "wert": 10.68
+    }
+   ],
+   "portale_mit_groessenklasse": 1,
+   "miete_aktuell_klassen": {
+    "30": 13.63,
+    "40": 10.92,
+    "50": 9.66,
+    "60": 9.21
+   },
+   "immoportal_61_90": null,
+   "mittel_alle_groessen": 10.3,
+   "mittel_alle_groessen_quellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 9,92, miet-check 10,68.",
+   "homeday_nur_daneben": null,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 42.6,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": false,
+   "quelle": "Mieterschutzverordnung Nordrhein-Westfalen vom 28.1.2025 (MietSchVO NRW), Anlage zu § 1, 57 Gemeinden für Mietpreisbremse (verlängert bis 31.12.2029) und Kappungsgrenze 15 % (bis 28.2.2030): nicht gelistet",
+   "obergrenze": "keine Mietpreisbremse, nur Wuchergrenzen (§ 5 WiStG, § 291 StGB)"
+  },
+  "praxis": "Ohne Mietpreisbremse werden für 35 bis 70 m² Angebotsmieten von rund 10,57 €/m² aufgerufen, rund 43 % über dem Mietspiegeldurchschnitt; ob sie bei Neuvermietung tatsächlich erzielt werden, ist nicht belegt (Angebots-, keine Abschlussmieten)."
+ },
+ {
+  "ags": "14612000",
+  "id": "dresden",
+  "name": "Dresden",
+  "einwohner": 564904,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025, gültig 01.01.2025 bis 31.12.2026",
+   "durchschnitt_nettokalt": 7.33,
+   "kennwert": "unklar",
+   "herkunft": "Presse",
+   "quelle": "https://www.sachsen-fernsehen.de/amp/dresdner-mietspiegel-2025-mieten-steigen-um-38-1890613/",
+   "hinweis": "Per dpa/Sachsen Fernsehen, Erhebung April 2024, +3,8 %. Die Einstufung 'qualifiziert' ist nicht ausdrücklich belegt (aus Vorwissen)."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 10.16,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 10.85
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 9.48
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 14.14,
+    "40": 11.33,
+    "50": 10.02,
+    "60": 9.55
+   },
+   "immoportal_61_90": 9.52,
+   "mittel_alle_groessen": 10.48,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 9,93, miete-aktuell 10,29, miet-check 11,23. homeday 8,5 (nur daneben).",
+   "homeday_nur_daneben": 8.5,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 38.6,
+  "aufschlag_hinweis": "Mietspiegeldurchschnitt laut Presse",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Sächsische Mietpreisbegrenzungsverordnung (in Kraft seit 1.1.2026, bis 30.6.2027) und Sächsische Kappungsgrenzen-Verordnung vom 10.6.2025 (bis 30.6.2027): nur Dresden und Leipzig, gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 39 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "09564000",
+  "id": "nuernberg",
+  "name": "Nürnberg",
+  "einwohner": 529508,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietenspiegel 2026 (Vorgänger 2024)",
+   "durchschnitt_nettokalt": 10.33,
+   "kennwert": "Mittelwert",
+   "herkunft": "Stadt",
+   "quelle": "https://www.nuernberg.de/presse/mitteilungen/pm_27691.html",
+   "hinweis": "Durchschnitt der in die Berechnung eingeflossenen Mieten (2024: 9,65), +5,4 %. Einstufung und Gültigkeitsende nicht belegt."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 13.44,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 14.16
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 12.71
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 18.45,
+    "40": 14.78,
+    "50": 13.08,
+    "60": 12.47
+   },
+   "immoportal_61_90": 12.43,
+   "mittel_alle_groessen": 13.53,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 13,01, miete-aktuell 13,43, miet-check 14,14. homeday 11,1 (nur daneben).",
+   "homeday_nur_daneben": 11.1,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 30.1,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 30 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "03241001",
+  "id": "hannover",
+  "name": "Hannover",
+  "einwohner": 522131,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025, Stichtag 01.04.2025, gültig laut Portal seit 18.12.2025",
+   "durchschnitt_nettokalt": 8.73,
+   "kennwert": "unklar",
+   "herkunft": "Stadt",
+   "quelle": "https://e-government.hannover-stadt.de/lhhsimwebre.nsf/DS/2399-2025",
+   "hinweis": "Ratsdrucksache 2399/2025: durchschnittliche ortsübliche Vergleichsmiete 8,73 (+11,3 % ggü. 2021). Radio Hannover nennt ca. 8,70. Einstufung aus Vorwissen."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 11.93,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 12.4
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 11.45
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 16.16,
+    "40": 12.94,
+    "50": 11.45,
+    "60": 10.92
+   },
+   "immoportal_61_90": 11.29,
+   "mittel_alle_groessen": 12.0,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 11,64, miete-aktuell 11,76, miet-check 12,61. homeday 9,9 (nur daneben).",
+   "homeday_nur_daneben": 9.9,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 36.7,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Niedersächsische Mieterschutzverordnung vom 20.12.2024 (Nds. GVBl. 2024 Nr. 122), § 1 Mietpreisbremse (verlängert bis 31.12.2029 durch Änderungsverordnung, in Kraft seit 4.12.2025) und § 2 Kappungsgrenze, 57 Kommunen einschließlich der Samtgemeinden Bardowick, Gellersen, Hanstedt, Ilmenau, Ostheide und Tostedt: gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 37 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "05112000",
+  "id": "duisburg",
+  "name": "Duisburg",
+  "einwohner": 502270,
+  "mietspiegel": {
+   "art": "unklar",
+   "stand": "unklar",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "unklar",
+   "herkunft": "Presse",
+   "quelle": "https://www.radioduisburg.de/artikel/neuer-mietspiegel-fuer-duisburg-mieten-steigen-um-455-prozent-2565102",
+   "hinweis": "Radio Duisburg: Basismiete von 6,26 auf 6,54 €/m² (+4,55 %), Datum und Art des Mietspiegels nicht belegt, daher kein Durchschnitt übernommen. Amtlichen Mietspiegel nicht gefunden."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 8.56,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 8.96
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 8.16
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 11.68,
+    "40": 9.36,
+    "50": 8.28,
+    "60": 7.89
+   },
+   "immoportal_61_90": 7.97,
+   "mittel_alle_groessen": 8.51,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 8,16, miete-aktuell 8,50, miet-check 8,86. homeday 6,9 (nur daneben).",
+   "homeday_nur_daneben": 6.9,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": false,
+   "quelle": "Mieterschutzverordnung Nordrhein-Westfalen vom 28.1.2025 (MietSchVO NRW), Anlage zu § 1, 57 Gemeinden für Mietpreisbremse (verlängert bis 31.12.2029) und Kappungsgrenze 15 % (bis 28.2.2030): nicht gelistet",
+   "obergrenze": "keine Mietpreisbremse, nur Wuchergrenzen (§ 5 WiStG, § 291 StGB)"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "05911000",
+  "id": "bochum",
+  "name": "Bochum",
+  "einwohner": 358676,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025, Pressemeldung 04/2025",
+   "durchschnitt_nettokalt": 6.9,
+   "kennwert": "unklar",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://www.bochum.de/Pressemeldungen/1-April-2025/Neuer-Bochumer-Mietspiegel-veroeffentlicht",
+   "hinweis": "Dokumentation: 'beobachtete mittlere Miete' 6,90 (Fortschreibung 2023: 6,65, +3,8 %). Gültigkeitsende nicht belegt."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 9.77,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 10.11
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 9.44
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 13.18,
+    "40": 10.56,
+    "50": 9.34,
+    "60": 8.9
+   },
+   "immoportal_61_90": 9.2,
+   "mittel_alle_groessen": 9.85,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 9,48, miete-aktuell 9,59, miet-check 10,49. homeday 7,7 (nur daneben).",
+   "homeday_nur_daneben": 7.7,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 41.6,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": false,
+   "quelle": "Mieterschutzverordnung Nordrhein-Westfalen vom 28.1.2025 (MietSchVO NRW), Anlage zu § 1, 57 Gemeinden für Mietpreisbremse (verlängert bis 31.12.2029) und Kappungsgrenze 15 % (bis 28.2.2030): nicht gelistet",
+   "obergrenze": "keine Mietpreisbremse, nur Wuchergrenzen (§ 5 WiStG, § 291 StGB)"
+  },
+  "praxis": "Ohne Mietpreisbremse werden für 35 bis 70 m² Angebotsmieten von rund 9,77 €/m² aufgerufen, rund 42 % über dem Mietspiegeldurchschnitt; ob sie bei Neuvermietung tatsächlich erzielt werden, ist nicht belegt (Angebots-, keine Abschlussmieten)."
+ },
+ {
+  "ags": "05124000",
+  "id": "wuppertal",
+  "name": "Wuppertal",
+  "einwohner": 358193,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2024, Stichtag 01.12.2024",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "unklar",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://www.wuppertal.de/vv/produkte/105/102370100000364921.php.media/535422/Mietspiegel.pdf",
+   "hinweis": "Nur Tabellenfelder (5,19 bis 11,67 €/m²), kein Stadtdurchschnitt gefunden. Ob ein neuerer Mietspiegel existiert, nicht geprüft."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 9.1,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 9.49
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 8.71
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 12.37,
+    "40": 9.91,
+    "50": 8.76,
+    "60": 8.35
+   },
+   "immoportal_61_90": 8.65,
+   "mittel_alle_groessen": 9.18,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 8,81, miete-aktuell 9,00, miet-check 9,73. homeday 7,3 (nur daneben).",
+   "homeday_nur_daneben": 7.3,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": false,
+   "quelle": "Mieterschutzverordnung Nordrhein-Westfalen vom 28.1.2025 (MietSchVO NRW), Anlage zu § 1, 57 Gemeinden für Mietpreisbremse (verlängert bis 31.12.2029) und Kappungsgrenze 15 % (bis 28.2.2030): nicht gelistet",
+   "obergrenze": "keine Mietpreisbremse, nur Wuchergrenzen (§ 5 WiStG, § 291 StGB)"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "05711000",
+  "id": "bielefeld",
+  "name": "Bielefeld",
+  "einwohner": 331605,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2024 (Methodenbericht); ein Portal nennt Fassung Stand 01.07.2026",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "unklar",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://www.bielefeld.de/sites/default/files/datei/2024/Methodenbericht-2024.pdf",
+   "hinweis": "Kein Stadtdurchschnitt gefunden, Stand 2026 nur über Portal. Prüfung auf bielefeld.de empfohlen."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 10.18,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 10.44
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 9.91
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 13.6,
+    "40": 10.9,
+    "50": 9.64,
+    "60": 9.19
+   },
+   "immoportal_61_90": 9.42,
+   "mittel_alle_groessen": 10.03,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 9,85, miete-aktuell 9,90, miet-check 10,35. homeday 7,9 (nur daneben).",
+   "homeday_nur_daneben": 7.9,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Mieterschutzverordnung Nordrhein-Westfalen vom 28.1.2025 (MietSchVO NRW), Anlage zu § 1, 57 Gemeinden für Mietpreisbremse (verlängert bis 31.12.2029) und Kappungsgrenze 15 % (bis 28.2.2030): gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "05314000",
+  "id": "bonn",
+  "name": "Bonn",
+  "einwohner": 323336,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Fortschreibung des Mietspiegels 2024 zum 01.07.2026",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "unklar",
+   "herkunft": "Mieterverein",
+   "quelle": "https://www.hausundgrund.de/verein/bonn-rhein-sieg/leistungen/mietspiegel-der-region/mietspiegel-bonn",
+   "hinweis": "Haus & Grund nennt für die Basis 2024 einen Durchschnitt von 9,94 (Eigentümerverband, nicht Mieterverein). Für die Fortschreibung 2026 ist kein Durchschnitt belegt, daher null. Mietspiegel 2022: 8,87."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 13.8,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 14.31
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 13.29
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 18.65,
+    "40": 14.94,
+    "50": 13.22,
+    "60": 12.6
+   },
+   "immoportal_61_90": 12.97,
+   "mittel_alle_groessen": 13.69,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 13,48, miete-aktuell 13,57, miet-check 14,02. homeday 11,0 (nur daneben).",
+   "homeday_nur_daneben": 11.0,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Mieterschutzverordnung Nordrhein-Westfalen vom 28.1.2025 (MietSchVO NRW), Anlage zu § 1, 57 Gemeinden für Mietpreisbremse (verlängert bis 31.12.2029) und Kappungsgrenze 15 % (bis 28.2.2030): gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "08222000",
+  "id": "mannheim",
+  "name": "Mannheim",
+  "einwohner": 318035,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025/2026, gültig ab 16.12.2024 für zwei Jahre",
+   "durchschnitt_nettokalt": 9.19,
+   "kennwert": "Mittelwert",
+   "herkunft": "Stadt",
+   "quelle": "https://www.mannheim.de/de/nachrichten/neuer-mannheimer-mietspiegel-20252026",
+   "hinweis": "Arithmetisches Mittel, +8,4 % ggü. 2022 (8,48), Stichtag 01.07.2024."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 13.43,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 13.71
+    },
+    {
+     "quelle": "miet-check alle Größen (keine Größenklasse veröffentlicht)",
+     "wert": 13.15
+    }
+   ],
+   "portale_mit_groessenklasse": 1,
+   "miete_aktuell_klassen": {
+    "30": 17.86,
+    "40": 14.31,
+    "50": 12.66,
+    "60": 12.07
+   },
+   "immoportal_61_90": null,
+   "mittel_alle_groessen": 13.06,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 13,04, miete-aktuell 13,00, miet-check 13,15. homeday 10,9 (nur daneben).",
+   "homeday_nur_daneben": 10.9,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 46.1,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": false,
+   "quelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: nicht gelistet",
+   "obergrenze": "keine Mietpreisbremse, nur Wuchergrenzen (§ 5 WiStG, § 291 StGB)"
+  },
+  "praxis": "Ohne Mietpreisbremse werden für 35 bis 70 m² Angebotsmieten von rund 13,43 €/m² aufgerufen, rund 46 % über dem Mietspiegeldurchschnitt; ob sie bei Neuvermietung tatsächlich erzielt werden, ist nicht belegt (Angebots-, keine Abschlussmieten)."
+ },
+ {
+  "ags": "08212000",
+  "id": "karlsruhe",
+  "name": "Karlsruhe",
+  "einwohner": 309050,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025, in Kraft ab 01.01.2025",
+   "durchschnitt_nettokalt": 9.63,
+   "kennwert": "unklar",
+   "herkunft": "Stadt",
+   "quelle": "https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00664080.pdf",
+   "hinweis": "Gemeinderatsvorlage belegt Anerkennung als qualifiziert. Der Wert 9,63 steht laut Suchergebnis auf städtischen Seiten, wurde aber nicht direkt geprüft. Ein Portal nennt 9,50."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 14.11,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 14.52
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 13.69
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 18.92,
+    "40": 15.16,
+    "50": 13.41,
+    "60": 12.78
+   },
+   "immoportal_61_90": 12.71,
+   "mittel_alle_groessen": 13.7,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 13,47, miete-aktuell 13,77, miet-check 13,86. homeday 11,3 (nur daneben).",
+   "homeday_nur_daneben": 11.3,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 46.5,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 46 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "05515000",
+  "id": "muenster",
+  "name": "Münster",
+  "einwohner": 308258,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025, gültig 01.04.2025 bis 31.03.2027",
+   "durchschnitt_nettokalt": 9.85,
+   "kennwert": "Mittelwert",
+   "herkunft": "Presse",
+   "quelle": "https://ms-aktuell.de/muenster/mieten-in-muenster-anstieg-um-51-prozent-in-zwei-jahren/",
+   "hinweis": "Durchschnittliche ortsübliche Vergleichsmiete für frei finanzierten Wohnraum, +5,1 % ggü. 2023 (9,37). Kennwert 'Mittelwert' angenommen, nicht ausdrücklich genannt."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 13.81,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 14.04
+    },
+    {
+     "quelle": "miet-check alle Größen (keine Größenklasse veröffentlicht)",
+     "wert": 13.58
+    }
+   ],
+   "portale_mit_groessenklasse": 1,
+   "miete_aktuell_klassen": {
+    "30": 18.3,
+    "40": 14.66,
+    "50": 12.97,
+    "60": 12.36
+   },
+   "immoportal_61_90": null,
+   "mittel_alle_groessen": 13.45,
+   "mittel_alle_groessen_quellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 13,32, miet-check 13,58.",
+   "homeday_nur_daneben": null,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 40.2,
+  "aufschlag_hinweis": "Mietspiegeldurchschnitt laut Presse",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Mieterschutzverordnung Nordrhein-Westfalen vom 28.1.2025 (MietSchVO NRW), Anlage zu § 1, 57 Gemeinden für Mietpreisbremse (verlängert bis 31.12.2029) und Kappungsgrenze 15 % (bis 28.2.2030): gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 40 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "09761000",
+  "id": "augsburg",
+  "name": "Augsburg",
+  "einwohner": 301105,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025, gilt laut Stadt zwei Jahre",
+   "durchschnitt_nettokalt": 9.8,
+   "kennwert": "Mittelwert",
+   "herkunft": "Stadt",
+   "quelle": "https://www.augsburg.de/aktuelles-aus-der-stadt/detail/stadt-veroeffentlicht-neuen-mietspiegel",
+   "hinweis": "Mittelwert Nettomiete 720,62 € bei 73,63 m² Durchschnittsfläche, +5,3 % ggü. 2023 (9,28)."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 15.01,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 15.58
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 14.44
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 20.31,
+    "40": 16.27,
+    "50": 14.39,
+    "60": 13.72
+   },
+   "immoportal_61_90": 13.93,
+   "mittel_alle_groessen": 14.72,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 14,53, miete-aktuell 14,78, miet-check 14,84. homeday 11,9 (nur daneben).",
+   "homeday_nur_daneben": 11.9,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 53.2,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 53 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "06414000",
+  "id": "wiesbaden",
+  "name": "Wiesbaden",
+  "einwohner": 288850,
+  "mietspiegel": {
+   "art": "einfach",
+   "stand": "14. Fortschreibung, Stichtag 01.01.2025",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "unklar",
+   "herkunft": "Stadt",
+   "quelle": "https://www.wiesbaden.de/en/leben-wohnen/wohnen-bauen/wohnen/mietspiegel",
+   "hinweis": "Status widersprüchlich: eine Quelle nennt einfachen Mietspiegel (§ 558c), Portale 'qualifiziert'. Kein amtlicher Durchschnitt gefunden, nur Lagewerte (einfach 11,35, mittel 13,18, gut 15,88)."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 14.14,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 14.7
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 13.58
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 19.15,
+    "40": 15.34,
+    "50": 13.58,
+    "60": 12.94
+   },
+   "immoportal_61_90": 13.11,
+   "mittel_alle_groessen": 14.06,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 13,71, miete-aktuell 13,94, miet-check 14,53. homeday 12,5 (nur daneben).",
+   "homeday_nur_daneben": 12.5,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Hessische Mieterschutzverordnung vom 18.11.2020 (GVBl. S. 802), geändert am 12.11.2025 (GVBl. 2025 Nr. 74), § 1, 49 Gemeinden für Mietpreisbremse und Kappungsgrenze 15 %, gültig bis 25.11.2026 (geplante Neufassung mit 71 Gemeinden noch nicht in Kraft): gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "05513000",
+  "id": "gelsenkirchen",
+  "name": "Gelsenkirchen",
+  "einwohner": 267930,
+  "mietspiegel": {
+   "art": "einfach",
+   "stand": "Mietspiegel 2026 des Gutachterausschusses",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "unklar",
+   "herkunft": "Stadt",
+   "quelle": "https://mietspiegeltabelle.de/mietspiegel-gelsenkirchen/",
+   "hinweis": "Einstufung als einfach nur über Drittquelle (Portal), amtliche Stadtquelle nicht gefunden. Kein Durchschnitt, nur Tabellenfelder."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 7.55,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 7.78
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 7.33
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 10.14,
+    "40": 8.12,
+    "50": 7.19,
+    "60": 6.85
+   },
+   "immoportal_61_90": 7.07,
+   "mittel_alle_groessen": 7.5,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 7,26, miete-aktuell 7,38, miet-check 7,87. homeday 6,4 (nur daneben).",
+   "homeday_nur_daneben": 6.4,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": false,
+   "quelle": "Mieterschutzverordnung Nordrhein-Westfalen vom 28.1.2025 (MietSchVO NRW), Anlage zu § 1, 57 Gemeinden für Mietpreisbremse (verlängert bis 31.12.2029) und Kappungsgrenze 15 % (bis 28.2.2030): nicht gelistet",
+   "obergrenze": "keine Mietpreisbremse, nur Wuchergrenzen (§ 5 WiStG, § 291 StGB)"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "05116000",
+  "id": "moenchengladbach",
+  "name": "Mönchengladbach",
+  "einwohner": 267213,
+  "mietspiegel": {
+   "art": "einfach",
+   "stand": "Mietspiegel 2026 des Gutachterausschusses",
+   "durchschnitt_nettokalt": 7.01,
+   "kennwert": "unklar",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://mieterverband-niederrhein.de/wp-content/uploads/Mietspiegel_2026_Download.pdf",
+   "hinweis": "7,01 ist der Standardmietwert des einfachen Mietspiegels (wird mit Faktoren multipliziert), kein Durchschnitt; kein Aufschlag berechnet Kein qualifizierter Mietspiegel. 7,01 ist der citywide 'Standardmietwert', der mit Faktoren multipliziert wird, kein reiner Durchschnitt."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 10.12,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 10.5
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 9.74
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 13.69,
+    "40": 10.96,
+    "50": 9.7,
+    "60": 9.24
+   },
+   "immoportal_61_90": 9.53,
+   "mittel_alle_groessen": 10.09,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 9,78, miete-aktuell 9,96, miet-check 10,53. homeday 7,6 (nur daneben).",
+   "homeday_nur_daneben": 7.6,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "7,01 ist der Standardmietwert des einfachen Mietspiegels (wird mit Faktoren multipliziert), kein Durchschnitt; kein Aufschlag berechnet",
+  "mietpreisbremse": {
+   "gilt": false,
+   "quelle": "Mieterschutzverordnung Nordrhein-Westfalen vom 28.1.2025 (MietSchVO NRW), Anlage zu § 1, 57 Gemeinden für Mietpreisbremse (verlängert bis 31.12.2029) und Kappungsgrenze 15 % (bis 28.2.2030): nicht gelistet",
+   "obergrenze": "keine Mietpreisbremse, nur Wuchergrenzen (§ 5 WiStG, § 291 StGB)"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "05334002",
+  "id": "aachen",
+  "name": "Aachen",
+  "einwohner": 262670,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2024 (Stichtag 01.06.2023); Serviceportal verweist auf Ausgabe 2026, Inhalt nicht geprüft",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "unklar",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://serviceportal.aachen.de/suche/-/vr-bis-detail/dienstleistung/3218/show",
+   "hinweis": "Nur Werte je Wohnflächenklasse (z. B. 12,85 bei 15 m² bis 7,28 bei ca. 75 m²), kein Gesamtdurchschnitt."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 12.11,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 12.47
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 11.75
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 16.26,
+    "40": 13.02,
+    "50": 11.52,
+    "60": 10.98
+   },
+   "immoportal_61_90": 10.95,
+   "mittel_alle_groessen": 12.01,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 11,83, miete-aktuell 11,83, miet-check 12,37. homeday 9,9 (nur daneben).",
+   "homeday_nur_daneben": 9.9,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Mieterschutzverordnung Nordrhein-Westfalen vom 28.1.2025 (MietSchVO NRW), Anlage zu § 1, 57 Gemeinden für Mietpreisbremse (verlängert bis 31.12.2029) und Kappungsgrenze 15 % (bis 28.2.2030): gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "03101000",
+  "id": "braunschweig",
+  "name": "Braunschweig",
+  "einwohner": 252962,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025, im Amtsblatt April 2025",
+   "durchschnitt_nettokalt": 7.6,
+   "kennwert": "unklar",
+   "herkunft": "Stadt",
+   "quelle": "https://www.braunschweig.de/mietspiegel",
+   "hinweis": "Laut städtischer Beschlussvorlage 7,60 (+7 % ggü. 2022: 7,08). Gültigkeitsende nicht belegt. Haus & Grund stimmte nicht zu."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 10.23,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 10.63
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 9.84
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 13.85,
+    "40": 11.1,
+    "50": 9.82,
+    "60": 9.36
+   },
+   "immoportal_61_90": 9.56,
+   "mittel_alle_groessen": 10.31,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 9,98, miete-aktuell 10,08, miet-check 10,88. homeday 8,9 (nur daneben).",
+   "homeday_nur_daneben": 8.9,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 34.6,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Niedersächsische Mieterschutzverordnung vom 20.12.2024 (Nds. GVBl. 2024 Nr. 122), § 1 Mietpreisbremse (verlängert bis 31.12.2029 durch Änderungsverordnung, in Kraft seit 4.12.2025) und § 2 Kappungsgrenze, 57 Kommunen einschließlich der Samtgemeinden Bardowick, Gellersen, Hanstedt, Ilmenau, Ostheide und Tostedt: gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 35 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "01002000",
+  "id": "kiel",
+  "name": "Kiel",
+  "einwohner": 252668,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025, gültig ab 01.04.2025, Stichtag 01.10.2024",
+   "durchschnitt_nettokalt": 8.41,
+   "kennwert": "Mittelwert",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://www.kiel.de/de/kiel_zukunft/wohnen/_dokumente_mietspiegel/kieler_mietspiegel_2025_dokumentation.pdf",
+   "hinweis": "Aus Bestandsmieten, ohne Neuvertragsmieten. Mieterverein früher: Bestand 7,29 / Neuvertrag 9,37."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 11.23,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 11.96
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 10.51
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 15.6,
+    "40": 12.49,
+    "50": 11.05,
+    "60": 10.53
+   },
+   "immoportal_61_90": 10.64,
+   "mittel_alle_groessen": 11.35,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 10,77, miete-aktuell 11,35, miet-check 11,93. homeday 9,2 (nur daneben).",
+   "homeday_nur_daneben": 9.2,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 33.5,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": false,
+   "quelle": "Schleswig-Holstein hat keine Mietpreisbremse-Verordnung (die frühere Verordnung lief 2019 aus). Kappungsgrenzenverordnung Schleswig-Holstein, in Kraft seit 1.5.2024 für fünf Jahre, 62 Gemeinden (Liste laut Begründung des Innenministeriums): Kappung 15 % (gelistet)",
+   "obergrenze": "keine Mietpreisbremse, nur Wuchergrenzen (§ 5 WiStG, § 291 StGB)"
+  },
+  "praxis": "Ohne Mietpreisbremse werden für 35 bis 70 m² Angebotsmieten von rund 11,23 €/m² aufgerufen, rund 34 % über dem Mietspiegeldurchschnitt; ob sie bei Neuvermietung tatsächlich erzielt werden, ist nicht belegt (Angebots-, keine Abschlussmieten)."
+ },
+ {
+  "ags": "14511000",
+  "id": "chemnitz",
+  "name": "Chemnitz",
+  "einwohner": 245618,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel, gültig ab 01.07.2025",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "unklar",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://d2vw8mc5mcb3gm.cloudfront.net/fileadmin/chemnitz/media/aktuell/publikationen/2025-06-30_Mietspiegel.pdf",
+   "hinweis": "Nur Basismieten (5,11 bis 11,19 €/m²), kein Durchschnitt. Portalwerte um 6 €/m² sind Angebotsmieten."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 6.22,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 6.51
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 5.94
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 8.48,
+    "40": 6.79,
+    "50": 6.01,
+    "60": 5.73
+   },
+   "immoportal_61_90": 5.9,
+   "mittel_alle_groessen": 6.25,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 5,99, miete-aktuell 6,17, miet-check 6,58. homeday 5,7 (nur daneben).",
+   "homeday_nur_daneben": 5.7,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": false,
+   "quelle": "Sächsische Mietpreisbegrenzungsverordnung (in Kraft seit 1.1.2026, bis 30.6.2027) und Sächsische Kappungsgrenzen-Verordnung vom 10.6.2025 (bis 30.6.2027): nur Dresden und Leipzig, nicht gelistet",
+   "obergrenze": "keine Mietpreisbremse, nur Wuchergrenzen (§ 5 WiStG, § 291 StGB)"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "15003000",
+  "id": "magdeburg",
+  "name": "Magdeburg",
+  "einwohner": 244329,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2024, anerkannt 18.01.2024, laut Drittquelle um 4,549 % zum 31.01.2026 fortgeschrieben",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "unklar",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://www.magdeburg.de/B%C3%BCrger-Stadt/Verwaltung-Service/B%C3%BCrgerService/Online-Services/Mietspiegel-einsehen.php?ModID=10&FID=37.1149.1",
+   "hinweis": "Nur Basiswerte nach Wohnungsgröße, Stadt veröffentlicht laut Drittquelle keinen Gesamtdurchschnitt. Ein Portal nennt 6,75 für 2024, nicht belegt."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 7.72,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 8.19
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 7.26
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 10.68,
+    "40": 8.55,
+    "50": 7.57,
+    "60": 7.21
+   },
+   "immoportal_61_90": 7.38,
+   "mittel_alle_groessen": 7.89,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 7,45, miete-aktuell 7,77, miet-check 8,46. homeday 6,7 (nur daneben).",
+   "homeday_nur_daneben": 6.7,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": false,
+   "quelle": "Sachsen-Anhalt hat keine Mietpreisbremse erlassen (https://www.haufe.de/immobilien/verwaltung/mietpreisbremse-in-diesen-staedten-gilt-sie/mietpreisbremse-in-berlin-brandenburg-sachsen-sachsen-anhalt_258_334652.html)",
+   "obergrenze": "keine Mietpreisbremse, nur Wuchergrenzen (§ 5 WiStG, § 291 StGB)"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "08311000",
+  "id": "freiburg-im-breisgau",
+  "name": "Freiburg im Breisgau",
+  "einwohner": 237460,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025/2026, gültig 01.01.2025 bis 31.12.2026",
+   "durchschnitt_nettokalt": 10.81,
+   "kennwert": "Mittelwert",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://www.freiburg.de/servicebw/Freiburg_2025_Dokumentation_V9_final_inkl_Fragebogen.pdf",
+   "hinweis": "Durchschnitt aller 3.087 Mietverhältnisse, +10,4 % seit 2020. Kennwert 'Mittelwert' angenommen (Durchschnitt)."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 15.12,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 15.12
+    }
+   ],
+   "portale_mit_groessenklasse": 1,
+   "miete_aktuell_klassen": {
+    "30": 19.7,
+    "40": 15.78,
+    "50": 13.97,
+    "60": 13.31
+   },
+   "immoportal_61_90": null,
+   "mittel_alle_groessen": 14.34,
+   "mittel_alle_groessen_quellen": "Mittel aus 1 Quelle 10/2026 (Angebotsmieten): miete-aktuell 14,34.",
+   "homeday_nur_daneben": null,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 39.9,
+  "aufschlag_hinweis": "nur ein Portal ortsgeprüft",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 40 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "05114000",
+  "id": "krefeld",
+  "name": "Krefeld",
+  "einwohner": 231406,
+  "mietspiegel": {
+   "art": "einfach",
+   "stand": "Mietspiegel 2025",
+   "durchschnitt_nettokalt": 9.29,
+   "kennwert": "unklar",
+   "herkunft": "Mieterverein",
+   "quelle": "https://mieterverband-niederrhein.de/mietspiegel/",
+   "hinweis": "Stadtdokumentation 2025 nennt einen einfachen Mietspiegel nach § 558c: https://www.krefeld.de/system/files/2025-08/Dokumentation%20Mietspiegel%20Krefeld%202025.pdf. Durchschnitt 9,29 'Kaltmiete' laut Mieterverband Niederrhein, nicht geprüft."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 10.24,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 10.61
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 9.87
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 13.82,
+    "40": 11.07,
+    "50": 9.8,
+    "60": 9.34
+   },
+   "immoportal_61_90": 9.52,
+   "mittel_alle_groessen": 10.15,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 9,87, miete-aktuell 10,06, miet-check 10,51. homeday 8,0 (nur daneben).",
+   "homeday_nur_daneben": 8.0,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 10.2,
+  "aufschlag_hinweis": "Mietspiegeldurchschnitt laut Mieterverein",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Mieterschutzverordnung Nordrhein-Westfalen vom 28.1.2025 (MietSchVO NRW), Anlage zu § 1, 57 Gemeinden für Mietpreisbremse (verlängert bis 31.12.2029) und Kappungsgrenze 15 % (bis 28.2.2030): gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 10 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "15002000",
+  "id": "halle-saale",
+  "name": "Halle (Saale)",
+  "einwohner": 226767,
+  "mietspiegel": {
+   "art": "unklar",
+   "stand": "Mietspiegel 2026 bis 2027",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "unklar",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://halle.de/fileadmin/Binaries/Publikationen/Stadtentwicklung/Mietspiegel/Mietspiegel_2026_2027_Broschuere_Korrektur.pdf",
+   "hinweis": "Nur Basiswerte nach Wohnfläche, kein Durchschnitt. Art (qualifiziert oder einfach) nicht belegt."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 8.57,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 8.45
+    },
+    {
+     "quelle": "miet-check alle Größen (keine Größenklasse veröffentlicht)",
+     "wert": 8.69
+    }
+   ],
+   "portale_mit_groessenklasse": 1,
+   "miete_aktuell_klassen": {
+    "30": 11.02,
+    "40": 8.83,
+    "50": 7.81,
+    "60": 7.44
+   },
+   "immoportal_61_90": null,
+   "mittel_alle_groessen": 8.36,
+   "mittel_alle_groessen_quellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,02, miet-check 8,69.",
+   "homeday_nur_daneben": null,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": false,
+   "quelle": "Sachsen-Anhalt hat keine Mietpreisbremse erlassen (https://www.haufe.de/immobilien/verwaltung/mietpreisbremse-in-diesen-staedten-gilt-sie/mietpreisbremse-in-berlin-brandenburg-sachsen-sachsen-anhalt_258_334652.html)",
+   "obergrenze": "keine Mietpreisbremse, nur Wuchergrenzen (§ 5 WiStG, § 291 StGB)"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "07315000",
+  "id": "mainz",
+  "name": "Mainz",
+  "einwohner": 224684,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025, Fortschreibung des Mietspiegels 2023 (+5,9 %), in Kraft seit 09.04.2025, Stichtag 01.11.2024",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "Median",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://www.mainz.de/vv/medien/internet/Mietspiegel-2025_Methodenbericht.pdf",
+   "hinweis": "Nur Mediane je Wohnungssegment (z. B. 9,27 für 60 bis 80 m², Baujahr 1961 bis 1977), kein Stadtdurchschnitt gefunden. Portalwerte 14 bis 16 sind Angebotsmieten."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 15.49,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 15.96
+    },
+    {
+     "quelle": "miet-check alle Größen (keine Größenklasse veröffentlicht)",
+     "wert": 15.02
+    }
+   ],
+   "portale_mit_groessenklasse": 1,
+   "miete_aktuell_klassen": {
+    "30": 20.8,
+    "40": 16.67,
+    "50": 14.74,
+    "60": 14.05
+   },
+   "immoportal_61_90": null,
+   "mittel_alle_groessen": 15.12,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 15,20, miete-aktuell 15,14, miet-check 15,02. homeday 12,4 (nur daneben).",
+   "homeday_nur_daneben": 12.4,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Mietpreisbegrenzungsverordnung Rheinland-Pfalz vom 16.9.2025 (Landau, Ludwigshafen, Mainz, Speyer, Worms, Landkreise Alzey-Worms und Rhein-Pfalz-Kreis) und Kappungsgrenzenverordnung vom 13.9.2024: gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "16051000",
+  "id": "erfurt",
+  "name": "Erfurt",
+  "einwohner": 218793,
+  "mietspiegel": {
+   "art": "unklar",
+   "stand": "Mietspiegel Fassung 01.07.2025",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "unklar",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://www.anwaltonline.com/mietrecht/mietspiegel/148/erfurt",
+   "hinweis": "Nur Tabellenwerte nach Baujahr und Größe. Art nicht belegt, kein Durchschnitt, städtische Quelle nicht gefunden. Ein Bundesreport nennt 7,27 für den Index 2024, nicht geprüft."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 10.43,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 10.93
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 9.94
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 14.25,
+    "40": 11.41,
+    "50": 10.1,
+    "60": 9.63
+   },
+   "immoportal_61_90": 10.14,
+   "mittel_alle_groessen": 10.63,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 10,32, miete-aktuell 10,37, miet-check 11,19. homeday 8,3 (nur daneben).",
+   "homeday_nur_daneben": 8.3,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Thüringer Mietpreisbegrenzungsverordnung (zuletzt verlängert am 09.12.2025, gültig bis 31.12.2027) und Thüringer Kappungsgrenzenverordnung: nur Erfurt und Jena, gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "01003000",
+  "id": "luebeck",
+  "name": "Lübeck",
+  "einwohner": 216889,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025, gültig seit 01.02.2026, Stichtag 01.05.2025",
+   "durchschnitt_nettokalt": 8.69,
+   "kennwert": "Mittelwert",
+   "herkunft": "Stadt",
+   "quelle": "https://www.luebeck.de/de/presse/pressemeldungen/view/142852",
+   "hinweis": "Gewichtete rechnerische Nettokaltmiete (+0,23 ggü. 2023). Einige Medien nennen 8,46, Widerspruch nicht aufgelöst."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 12.32,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 12.87
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 11.77
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 16.78,
+    "40": 13.44,
+    "50": 11.89,
+    "60": 11.33
+   },
+   "immoportal_61_90": 12.18,
+   "mittel_alle_groessen": 12.4,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 12,25, miete-aktuell 12,21, miet-check 12,74. homeday 9,5 (nur daneben).",
+   "homeday_nur_daneben": 9.5,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 41.8,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": false,
+   "quelle": "Schleswig-Holstein hat keine Mietpreisbremse-Verordnung (die frühere Verordnung lief 2019 aus). Kappungsgrenzenverordnung Schleswig-Holstein, in Kraft seit 1.5.2024 für fünf Jahre, 62 Gemeinden (Liste laut Begründung des Innenministeriums): Kappung 15 % (gelistet)",
+   "obergrenze": "keine Mietpreisbremse, nur Wuchergrenzen (§ 5 WiStG, § 291 StGB)"
+  },
+  "praxis": "Ohne Mietpreisbremse werden für 35 bis 70 m² Angebotsmieten von rund 12,32 €/m² aufgerufen, rund 42 % über dem Mietspiegeldurchschnitt; ob sie bei Neuvermietung tatsächlich erzielt werden, ist nicht belegt (Angebots-, keine Abschlussmieten)."
+ },
+ {
+  "ags": "05119000",
+  "id": "oberhausen",
+  "name": "Oberhausen",
+  "einwohner": 213646,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025, Amtsblatt 16.06.2025, Stichtag 01.03.2025",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "unklar",
+   "herkunft": "Stadt",
+   "quelle": "https://www.oberhausen.de/de/index/rathaus/news/2025/06_juni/neuer_qualifizierter_mietspiegel_2025_veroeffentlicht.php",
+   "hinweis": "Kein Durchschnitt in den Suchergebnissen. Datenbasis 4.971 Mietverhältnisse."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 9.29,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 9.19
+    },
+    {
+     "quelle": "miet-check alle Größen (keine Größenklasse veröffentlicht)",
+     "wert": 9.38
+    }
+   ],
+   "portale_mit_groessenklasse": 1,
+   "miete_aktuell_klassen": {
+    "30": 11.98,
+    "40": 9.6,
+    "50": 8.49,
+    "60": 8.09
+   },
+   "immoportal_61_90": null,
+   "mittel_alle_groessen": 9.05,
+   "mittel_alle_groessen_quellen": "Mittel aus 2 Quellen 10/2026 (Angebotsmieten): miete-aktuell 8,72, miet-check 9,38.",
+   "homeday_nur_daneben": null,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": false,
+   "quelle": "Mieterschutzverordnung Nordrhein-Westfalen vom 28.1.2025 (MietSchVO NRW), Anlage zu § 1, 57 Gemeinden für Mietpreisbremse (verlängert bis 31.12.2029) und Kappungsgrenze 15 % (bis 28.2.2030): nicht gelistet",
+   "obergrenze": "keine Mietpreisbremse, nur Wuchergrenzen (§ 5 WiStG, § 291 StGB)"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "13003000",
+  "id": "rostock",
+  "name": "Rostock",
+  "einwohner": 205307,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2026, gültig 01.05.2026 bis 30.04.2028",
+   "durchschnitt_nettokalt": 7.72,
+   "kennwert": "Mittelwert",
+   "herkunft": "Stadt",
+   "quelle": "https://rathaus.rostock.de/de/wirtschaft_verkehr/wohnen/mietspiegel/249767",
+   "hinweis": "Durchschnittliche Nettokaltmiete aus Stichprobe, +8,27 % ggü. 2024. Dieselbe Stadtseite nennt an anderer Stelle 5,89 (vermutlich veraltet oder Fehler), daher 7,72 gewählt."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 10.98,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 11.46
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 10.49
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 14.94,
+    "40": 11.97,
+    "50": 10.59,
+    "60": 10.09
+   },
+   "immoportal_61_90": 10.92,
+   "mittel_alle_groessen": 11.4,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 11,08, miete-aktuell 10,87, miet-check 12,25. homeday 8,7 (nur daneben).",
+   "homeday_nur_daneben": 8.7,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 42.2,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Landesverordnung Mecklenburg-Vorpommern, Verlängerung für Rostock und Greifswald bis 30.09.2028, Kabinettsbeschluss 11/2025, Inkrafttreten laut Landtagsdrucksache vom 20.05.2026 erfolgt, Verordnungstext nicht selbst geprüft (https://www.regierung-mv.de/Landesregierung/im/Aktuell?id=215677)",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 42 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "06611000",
+  "id": "kassel",
+  "name": "Kassel",
+  "einwohner": 197230,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2024 (bis 31.12.2025), Fortschreibung 2026 liegt als Broschüre vor",
+   "durchschnitt_nettokalt": null,
+   "kennwert": "unklar",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://www1.kassel.de/bauen-und-wohnen/Mietspiegel_Broschuere_2026.pdf",
+   "hinweis": "Kein amtlicher Stadtdurchschnitt gefunden (nur Musterfall 9,01 für mittlere Lage im Mietspiegel 2024)."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 9.77,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 10.37
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 9.18
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 13.52,
+    "40": 10.83,
+    "50": 9.58,
+    "60": 9.13
+   },
+   "immoportal_61_90": 8.95,
+   "mittel_alle_groessen": 9.94,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 9,25, miete-aktuell 9,84, miet-check 10,73. homeday 8,7 (nur daneben).",
+   "homeday_nur_daneben": 8.7,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": null,
+  "aufschlag_hinweis": "kein Mietspiegeldurchschnitt belegt",
+  "mietpreisbremse": {
+   "gilt": false,
+   "quelle": "Hessische Mieterschutzverordnung vom 18.11.2020 (GVBl. S. 802), geändert am 12.11.2025 (GVBl. 2025 Nr. 74), § 1, 49 Gemeinden für Mietpreisbremse und Kappungsgrenze 15 %, gültig bis 25.11.2026 (geplante Neufassung mit 71 Gemeinden noch nicht in Kraft): nicht gelistet",
+   "obergrenze": "keine Mietpreisbremse, nur Wuchergrenzen (§ 5 WiStG, § 291 StGB)"
+  },
+  "praxis": null
+ },
+ {
+  "ags": "08221000",
+  "id": "heidelberg",
+  "name": "Heidelberg",
+  "einwohner": 155756,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2025, gültig 01.10.2025 bis 30.09.2027",
+   "durchschnitt_nettokalt": 11.14,
+   "kennwert": "Mittelwert",
+   "herkunft": "Stadt",
+   "quelle": "https://www.heidelberg.de/HD/Presse/08_09_2025+neuer+mietspiegel+gilt+ab+1_+oktober.html",
+   "hinweis": "Durchschnittliche rechnerische Mietspiegelmiete, 2023: 10,67 (+4,37 %)."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 15.83,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 16.69
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 14.96
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 21.75,
+    "40": 17.42,
+    "50": 15.42,
+    "60": 14.69
+   },
+   "immoportal_61_90": 14.68,
+   "mittel_alle_groessen": 15.58,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 15,63, miete-aktuell 15,83, miet-check 15,27. homeday 13,1 (nur daneben).",
+   "homeday_nur_daneben": 13.1,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 42.1,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 42 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "08421000",
+  "id": "ulm",
+  "name": "Ulm",
+  "einwohner": 129882,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Gemeinsamer Mietspiegel Ulm und Neu-Ulm 2025, gültig 12.11.2025 bis 11.11.2027",
+   "durchschnitt_nettokalt": 9.82,
+   "kennwert": "Mittelwert",
+   "herkunft": "Stadt",
+   "quelle": "https://www.ulm.de/aktuelle-meldungen/z%C3%B6a/november-2025/mietspiegel-2025_11",
+   "hinweis": "Durchschnittliche Nettomiete unabhängig von Wohnwertmerkmalen (laut Stadt Neu-Ulm, 2023: 9,32, +4,55 %). Kennwert 'Mittelwert' angenommen."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 13.98,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 14.3
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 13.67
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 18.63,
+    "40": 14.93,
+    "50": 13.21,
+    "60": 12.59
+   },
+   "immoportal_61_90": 13.27,
+   "mittel_alle_groessen": 13.7,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 13,50, miete-aktuell 13,56, miet-check 14,04. homeday 11,4 (nur daneben).",
+   "homeday_nur_daneben": 11.4,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 42.4,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "MietBegrenzVO BW vom 16.12.2025, GBl. 2025 Nr. 144, § 1 (130 Gemeinden), Abgleich über Gemeindeschlüssel: gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 42 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "09362000",
+  "id": "regensburg",
+  "name": "Regensburg",
+  "einwohner": 151389,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Mietspiegel 2026, in Kraft seit 01.03.2026",
+   "durchschnitt_nettokalt": 10.92,
+   "kennwert": "unklar",
+   "herkunft": "Stadt",
+   "quelle": "https://www.regensburg.de/regensburg-507/nah-dran/der-neue-mietspiegel-2026-ist-da",
+   "hinweis": "Durchschnittliche Nettomiete unabhängig von Wohnwertmerkmalen, +11,3 % ggü. 2022. Gültigkeitsende nicht belegt."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 14.85,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 15.3
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 14.39
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 19.94,
+    "40": 15.97,
+    "50": 14.13,
+    "60": 13.47
+   },
+   "immoportal_61_90": 13.63,
+   "mittel_alle_groessen": 14.45,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 14,51, miete-aktuell 14,51, miet-check 14,34. homeday 12,0 (nur daneben).",
+   "homeday_nur_daneben": 12.0,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 36.0,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 36 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ },
+ {
+  "ags": "09663000",
+  "id": "wuerzburg",
+  "name": "Würzburg",
+  "einwohner": 133258,
+  "mietspiegel": {
+   "art": "qualifiziert",
+   "stand": "Qualifizierter Mietspiegel, Fortschreibung 2025",
+   "durchschnitt_nettokalt": 9.89,
+   "kennwert": "Mittelwert",
+   "herkunft": "Mietspiegel selbst",
+   "quelle": "https://www.wuerzburg.de/media/www.wuerzburg.de/org/med_516999/594383_wuerzburg_2025_dokumentation_v1_clean.pdf",
+   "hinweis": "Arithmetisches Mittel über 1.257 Datensätze (2023: 9,40). Eine ältere Stadtseite behauptet, es gebe keinen Mietspiegel, vermutlich veraltet. Gültigkeitsende nicht belegt."
+  },
+  "angebot": {
+   "stand": "10/2026 (Portalseiten aus dem Prüflauf ergebnis24)",
+   "mittel_35_70": 13.75,
+   "bestandteile": [
+    {
+     "quelle": "miete-aktuell 35 bis 69 m² (Klassen 30 bis 39 halb, 40 bis 69 voll gewichtet)",
+     "wert": 14.21
+    },
+    {
+     "quelle": "immoportal 41 bis 60 m²",
+     "wert": 13.29
+    }
+   ],
+   "portale_mit_groessenklasse": 2,
+   "miete_aktuell_klassen": {
+    "30": 18.52,
+    "40": 14.84,
+    "50": 13.13,
+    "60": 12.51
+   },
+   "immoportal_61_90": 12.74,
+   "mittel_alle_groessen": 13.45,
+   "mittel_alle_groessen_quellen": "Mittel aus 3 Quellen 10/2026 (Angebotsmieten): immoportal 13,35, miete-aktuell 13,48, miet-check 13,51. homeday 11,5 (nur daneben).",
+   "homeday_nur_daneben": 11.5,
+   "ortspruefung": "nur Portale, deren Stadtwert im Prüflauf ergebnis24 über PLZ, Landkreis oder Nachbarorte bestätigt wurde"
+  },
+  "aufschlag_prozent": 39.0,
+  "aufschlag_hinweis": null,
+  "mietpreisbremse": {
+   "gilt": true,
+   "quelle": "Mieterschutzverordnung Bayern, Anlage (Begründung BayMBl. 2025 Nr. 558, 285 Gemeinden, Reut seit 16.06.2026 gestrichen), Abgleich über Gemeindeschlüssel: gelistet",
+   "obergrenze": "bei Wiedervermietung ortsübliche Vergleichsmiete der Wohnung plus 10 %"
+  },
+  "praxis": "Angebotsmieten für 35 bis 70 m² liegen rund 39 % über dem Mietspiegeldurchschnitt. Da die Mietpreisbremse gilt, ist bei Wiedervermietung einer Bestandswohnung höchstens die ortsübliche Vergleichsmiete der konkreten Wohnung plus 10 % zulässig (Ausnahmen: Erstvermietung nach 01.10.2014 gebauter Wohnungen, Erstvermietung nach umfassender Modernisierung, höhere Vormiete); höhere Angebotsmieten sind daher vor allem bei diesen Ausnahmen erzielbar. Abschlussmieten sind nicht belegt."
+ }
+]
