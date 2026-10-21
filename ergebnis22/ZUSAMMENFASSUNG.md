@@ -155,7 +155,7 @@ Alle durch die zusätzlich gewertete miet-check-Miete: gelb zu grün 32, rot zu 
 
 - Ich habe GENESIS-Online BW am 21.10.2026 erneut versucht. Die Gebietsauswahl funktioniert wieder, Bad Urach wird gefunden.
 - Der Abruf der Werte für die 20 Gemeinden ohne Prognose ist beim ersten Versuch (Bad Bellingen) wieder gescheitert.
-- Ein Hintergrundlauf versucht die übrigen Gemeinden weiter. Gelingt er, liefere ich die Werte als kleinen Nachtrag in diesem Ordner nach.
+- Ein Hintergrundlauf hat bis 09:04 Uhr alle 20 Gemeinden versucht und keinen Wert erhalten ("Tabelle nicht lesbar" bzw. "kein Treffer"). Damit ist die Prognose für diese Gemeinden weiter offen.
 - **Stand jetzt bleiben die Lücken:**
   - ergebnis19 Teil 1: Bad Bellingen, Stegen, Rheinhausen, Freiamt, Meißenheim, Riegel, Biberach, Sasbach am Kaiserstuhl, Malterdingen, Gottenheim, Eisenbach, Hofstetten, Wittnau, Malsburg-Marzell, Wutach, Häg-Ehrsberg, Utzenfeld und Wembach.
   - ergebnis16: Ebringen und Pfaffenweiler.
